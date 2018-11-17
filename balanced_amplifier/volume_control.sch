@@ -446,10 +446,16 @@ U 1 1 5BFF839B
 P 3000 1800
 F 0 "C22" V 3252 1800 50  0000 C CNN
 F 1 "10u" V 3161 1800 50  0000 C CNN
-F 2 "" H 3000 1800 50  0001 C CNN
-F 3 "~" H 3000 1800 50  0001 C CNN
-F 4 "Electrolytic" V 3000 1800 50  0001 C CNN "Dielectric"
-F 5 "35V" V 3000 1800 50  0001 C CNN "Voltage Rating"
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3000 1800 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 3000 1800 50  0001 C CNN
+F 4 "Nichicon" H 3000 1800 50  0001 C CNN "Manufacturer"
+F 5 "UVR1V100MDD" H 3000 1800 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3000 1800 50  0001 C CNN "Distributor"
+F 7 "493-1077-ND" H 3000 1800 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V100MDD/493-1077-ND/588818" H 3000 1800 50  0001 C CNN "URL"
+F 9 "0.27" H 3000 1800 50  0001 C CNN "Unit Price"
+F 10 "Electrolytic" V 3000 1800 50  0001 C CNN "Dielectric"
+F 11 "35V" V 3000 1800 50  0001 C CNN "Voltage Rating"
 	1    3000 1800
 	0    -1   -1   0   
 $EndComp
@@ -584,7 +590,7 @@ AR Path="/5BF8808C/5BFFBAC3" Ref="C23"  Part="1"
 F 0 "C23" V 5050 1250 50  0000 L CNN
 F 1 "100p" V 5150 1200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5338 1150 50  0001 C CNN
-F 3 "~" H 5300 1300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 5300 1300 50  0001 C CNN
 F 4 "Yageo" H 5300 1300 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 5300 1300 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 5300 1300 50  0001 C CNN "Distributor"
@@ -605,7 +611,7 @@ AR Path="/5BF8808C/5BFFCBBD" Ref="C24"  Part="1"
 F 0 "C24" V 5050 2650 50  0000 L CNN
 F 1 "100p" V 5150 2600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5338 2550 50  0001 C CNN
-F 3 "~" H 5300 2700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 5300 2700 50  0001 C CNN
 F 4 "Yageo" H 5300 2700 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 5300 2700 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 5300 2700 50  0001 C CNN "Distributor"
@@ -626,7 +632,7 @@ AR Path="/5BF8808C/5BFFCD72" Ref="C25"  Part="1"
 F 0 "C25" V 7450 1450 50  0000 L CNN
 F 1 "100p" V 7550 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7738 1350 50  0001 C CNN
-F 3 "~" H 7700 1500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 7700 1500 50  0001 C CNN
 F 4 "Yageo" H 7700 1500 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 7700 1500 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 7700 1500 50  0001 C CNN "Distributor"
@@ -990,7 +996,7 @@ AR Path="/5BF8808C/5C098773" Ref="C30"  Part="1"
 F 0 "C30" V 5050 4550 50  0000 L CNN
 F 1 "100p" V 5150 4500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5338 4450 50  0001 C CNN
-F 3 "~" H 5300 4600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 5300 4600 50  0001 C CNN
 F 4 "Yageo" H 5300 4600 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 5300 4600 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 5300 4600 50  0001 C CNN "Distributor"
@@ -1018,7 +1024,7 @@ AR Path="/5BF8808C/5C0A5C4E" Ref="C31"  Part="1"
 F 0 "C31" V 5050 5950 50  0000 L CNN
 F 1 "100p" V 5150 5900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5338 5850 50  0001 C CNN
-F 3 "~" H 5300 6000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 5300 6000 50  0001 C CNN
 F 4 "Yageo" H 5300 6000 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 5300 6000 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 5300 6000 50  0001 C CNN "Distributor"
@@ -1257,7 +1263,7 @@ AR Path="/5BF8808C/5C144FDB" Ref="C32"  Part="1"
 F 0 "C32" V 7450 4750 50  0000 L CNN
 F 1 "100p" V 7550 4700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7738 4650 50  0001 C CNN
-F 3 "~" H 7700 4800 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 7700 4800 50  0001 C CNN
 F 4 "Yageo" H 7700 4800 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 7700 4800 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 7700 4800 50  0001 C CNN "Distributor"
@@ -1511,19 +1517,6 @@ Wire Wire Line
 Connection ~ 5750 6500
 Wire Wire Line
 	5750 6500 5750 6900
-$Comp
-L Device:CP1 C29
-U 1 1 5C4F35F1
-P 3000 5100
-F 0 "C29" V 3252 5100 50  0000 C CNN
-F 1 "10u" V 3161 5100 50  0000 C CNN
-F 2 "" H 3000 5100 50  0001 C CNN
-F 3 "~" H 3000 5100 50  0001 C CNN
-F 4 "Electrolytic" V 3000 5100 50  0001 C CNN "Dielectric"
-F 5 "35V" V 3000 5100 50  0001 C CNN "Voltage Rating"
-	1    3000 5100
-	0    -1   -1   0   
-$EndComp
 Text Notes 7100 750  0    50   ~ 0
 nonpolarized output couping caps?
 $Comp
@@ -1613,5 +1606,24 @@ F 10 "Nonpolarized Electrolytic" V 8600 5700 50  0001 C CNN "Dielectric"
 F 11 "35V" V 8600 5700 50  0001 C CNN "Voltage Rating"
 	1    8600 5700
 	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C29
+U 1 1 5C505568
+P 3000 5100
+F 0 "C29" V 3252 5100 50  0000 C CNN
+F 1 "10u" V 3161 5100 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3000 5100 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 3000 5100 50  0001 C CNN
+F 4 "Nichicon" H 3000 5100 50  0001 C CNN "Manufacturer"
+F 5 "UVR1V100MDD" H 3000 5100 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3000 5100 50  0001 C CNN "Distributor"
+F 7 "493-1077-ND" H 3000 5100 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V100MDD/493-1077-ND/588818" H 3000 5100 50  0001 C CNN "URL"
+F 9 "0.27" H 3000 5100 50  0001 C CNN "Unit Price"
+F 10 "Electrolytic" V 3000 5100 50  0001 C CNN "Dielectric"
+F 11 "35V" V 3000 5100 50  0001 C CNN "Voltage Rating"
+	1    3000 5100
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

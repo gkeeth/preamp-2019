@@ -42,7 +42,7 @@ AR Path="/5BE4EEC1/5BE4F90A" Ref="C1"  Part="1"
 F 0 "C1" H 1915 1796 50  0000 L CNN
 F 1 "100p" H 1915 1705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1838 1600 50  0001 C CNN
-F 3 "~" H 1800 1750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 1800 1750 50  0001 C CNN
 F 4 "Yageo" H 1800 1750 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 1800 1750 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 1800 1750 50  0001 C CNN "Distributor"
@@ -1205,7 +1205,7 @@ AR Path="/5BE4EEC1/5C05397C" Ref="C3"  Part="1"
 F 0 "C3" H 1915 3196 50  0000 L CNN
 F 1 "100p" H 1915 3105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1838 3000 50  0001 C CNN
-F 3 "~" H 1800 3150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 1800 3150 50  0001 C CNN
 F 4 "Yageo" H 1800 3150 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 1800 3150 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 1800 3150 50  0001 C CNN "Distributor"
@@ -1225,7 +1225,7 @@ AR Path="/5BE4EEC1/5C053CC6" Ref="C9"  Part="1"
 F 0 "C9" H 1915 4896 50  0000 L CNN
 F 1 "100p" H 1915 4805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1838 4700 50  0001 C CNN
-F 3 "~" H 1800 4850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 1800 4850 50  0001 C CNN
 F 4 "Yageo" H 1800 4850 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 1800 4850 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 1800 4850 50  0001 C CNN "Distributor"
@@ -1245,7 +1245,7 @@ AR Path="/5BE4EEC1/5C053D6C" Ref="C11"  Part="1"
 F 0 "C11" H 1915 6296 50  0000 L CNN
 F 1 "100p" H 1915 6205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1838 6100 50  0001 C CNN
-F 3 "~" H 1800 6250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 1800 6250 50  0001 C CNN
 F 4 "Yageo" H 1800 6250 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 1800 6250 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 1800 6250 50  0001 C CNN "Distributor"
