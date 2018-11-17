@@ -1287,19 +1287,6 @@ Connection ~ 8050 5200
 Wire Wire Line
 	8050 5200 8050 4800
 $Comp
-L Device:CP1 C34
-U 1 1 5C15C581
-P 8600 5700
-F 0 "C34" V 8348 5700 50  0000 C CNN
-F 1 "220u" V 8439 5700 50  0000 C CNN
-F 2 "" H 8600 5700 50  0001 C CNN
-F 3 "~" H 8600 5700 50  0001 C CNN
-F 4 "Electrolytic" V 8600 5700 50  0001 C CNN "Dielectric"
-F 5 "35V" V 8600 5700 50  0001 C CNN "Voltage Rating"
-	1    8600 5700
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R49
 U 1 1 5C15C641
 P 8950 5950
@@ -1537,43 +1524,94 @@ F 5 "35V" V 3000 5100 50  0001 C CNN "Voltage Rating"
 	1    3000 5100
 	0    -1   -1   0   
 $EndComp
+Text Notes 7100 750  0    50   ~ 0
+nonpolarized output couping caps?
 $Comp
-L Device:CP1 C33
-U 1 1 5C4F3941
-P 8700 4200
-F 0 "C33" V 8448 4200 50  0000 C CNN
-F 1 "220u" V 8539 4200 50  0000 C CNN
-F 2 "" H 8700 4200 50  0001 C CNN
-F 3 "~" H 8700 4200 50  0001 C CNN
-F 4 "Electrolytic" V 8700 4200 50  0001 C CNN "Dielectric"
-F 5 "35V" V 8700 4200 50  0001 C CNN "Voltage Rating"
-	1    8700 4200
+L Device:C C?
+U 1 1 5C4F8306
+P 8700 900
+AR Path="/5C4F8306" Ref="C?"  Part="1" 
+AR Path="/5BE4EEC1/5C4F8306" Ref="C?"  Part="1" 
+AR Path="/5BF8808C/5C4F8306" Ref="C26"  Part="1" 
+F 0 "C26" V 8448 900 50  0000 C CNN
+F 1 "220u" V 8539 900 50  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 8738 750 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 8700 900 50  0001 C CNN
+F 4 "Nichicon" H 8700 900 50  0001 C CNN "Manufacturer"
+F 5 "UVP1V221MHD" H 8700 900 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8700 900 50  0001 C CNN "Distributor"
+F 7 "493-16138-ND" H 8700 900 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVP1V221MHD/493-16138-ND/2539596" H 8700 900 50  0001 C CNN "URL"
+F 9 "0.87" H 8700 900 50  0001 C CNN "Unit Price"
+F 10 "Nonpolarized Electrolytic" V 8700 900 50  0001 C CNN "Dielectric"
+F 11 "35V" V 8700 900 50  0001 C CNN "Voltage Rating"
+	1    8700 900 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP1 C27
-U 1 1 5C4F39DA
+L Device:C C?
+U 1 1 5C503D82
 P 8600 2400
+AR Path="/5C503D82" Ref="C?"  Part="1" 
+AR Path="/5BE4EEC1/5C503D82" Ref="C?"  Part="1" 
+AR Path="/5BF8808C/5C503D82" Ref="C27"  Part="1" 
 F 0 "C27" V 8348 2400 50  0000 C CNN
 F 1 "220u" V 8439 2400 50  0000 C CNN
-F 2 "" H 8600 2400 50  0001 C CNN
-F 3 "~" H 8600 2400 50  0001 C CNN
-F 4 "Electrolytic" V 8600 2400 50  0001 C CNN "Dielectric"
-F 5 "35V" V 8600 2400 50  0001 C CNN "Voltage Rating"
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 8638 2250 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 8600 2400 50  0001 C CNN
+F 4 "Nichicon" H 8600 2400 50  0001 C CNN "Manufacturer"
+F 5 "UVP1V221MHD" H 8600 2400 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8600 2400 50  0001 C CNN "Distributor"
+F 7 "493-16138-ND" H 8600 2400 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVP1V221MHD/493-16138-ND/2539596" H 8600 2400 50  0001 C CNN "URL"
+F 9 "0.87" H 8600 2400 50  0001 C CNN "Unit Price"
+F 10 "Nonpolarized Electrolytic" V 8600 2400 50  0001 C CNN "Dielectric"
+F 11 "35V" V 8600 2400 50  0001 C CNN "Voltage Rating"
 	1    8600 2400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP1 C26
-U 1 1 5C4F3A7A
-P 8700 900
-F 0 "C26" V 8448 900 50  0000 C CNN
-F 1 "220u" V 8539 900 50  0000 C CNN
-F 2 "" H 8700 900 50  0001 C CNN
-F 3 "~" H 8700 900 50  0001 C CNN
-F 4 "Electrolytic" V 8700 900 50  0001 C CNN "Dielectric"
-F 5 "35V" V 8700 900 50  0001 C CNN "Voltage Rating"
-	1    8700 900 
+L Device:C C?
+U 1 1 5C503F94
+P 8700 4200
+AR Path="/5C503F94" Ref="C?"  Part="1" 
+AR Path="/5BE4EEC1/5C503F94" Ref="C?"  Part="1" 
+AR Path="/5BF8808C/5C503F94" Ref="C33"  Part="1" 
+F 0 "C33" V 8448 4200 50  0000 C CNN
+F 1 "220u" V 8539 4200 50  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 8738 4050 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 8700 4200 50  0001 C CNN
+F 4 "Nichicon" H 8700 4200 50  0001 C CNN "Manufacturer"
+F 5 "UVP1V221MHD" H 8700 4200 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8700 4200 50  0001 C CNN "Distributor"
+F 7 "493-16138-ND" H 8700 4200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVP1V221MHD/493-16138-ND/2539596" H 8700 4200 50  0001 C CNN "URL"
+F 9 "0.87" H 8700 4200 50  0001 C CNN "Unit Price"
+F 10 "Nonpolarized Electrolytic" V 8700 4200 50  0001 C CNN "Dielectric"
+F 11 "35V" V 8700 4200 50  0001 C CNN "Voltage Rating"
+	1    8700 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C50403E
+P 8600 5700
+AR Path="/5C50403E" Ref="C?"  Part="1" 
+AR Path="/5BE4EEC1/5C50403E" Ref="C?"  Part="1" 
+AR Path="/5BF8808C/5C50403E" Ref="C34"  Part="1" 
+F 0 "C34" V 8348 5700 50  0000 C CNN
+F 1 "220u" V 8439 5700 50  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 8638 5550 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 8600 5700 50  0001 C CNN
+F 4 "Nichicon" H 8600 5700 50  0001 C CNN "Manufacturer"
+F 5 "UVP1V221MHD" H 8600 5700 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8600 5700 50  0001 C CNN "Distributor"
+F 7 "493-16138-ND" H 8600 5700 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVP1V221MHD/493-16138-ND/2539596" H 8600 5700 50  0001 C CNN "URL"
+F 9 "0.87" H 8600 5700 50  0001 C CNN "Unit Price"
+F 10 "Nonpolarized Electrolytic" V 8600 5700 50  0001 C CNN "Dielectric"
+F 11 "35V" V 8600 5700 50  0001 C CNN "Voltage Rating"
+	1    8600 5700
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
