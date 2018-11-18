@@ -83,7 +83,13 @@ AR Path="/5BE4EEC1/5BE4F926" Ref="R1"  Part="1"
 F 0 "R1" V 1243 1500 50  0000 C CNN
 F 1 "100" V 1334 1500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 1500 50  0001 C CNN
-F 3 "~" H 1450 1500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 1450 1500 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "YAG2320CT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE07100RL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE07100RL/YAG2320CT-ND/5252434" H 0   0   50  0001 C CNN "URL"
+F 9 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    1450 1500
 	0    1    1    0   
 $EndComp
@@ -96,7 +102,13 @@ AR Path="/5BE4EEC1/5BE4F92D" Ref="R4"  Part="1"
 F 0 "R4" V 1243 2900 50  0000 C CNN
 F 1 "100" V 1334 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 2900 50  0001 C CNN
-F 3 "~" H 1450 2900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 1450 2900 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "YAG2320CT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE07100RL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE07100RL/YAG2320CT-ND/5252434" H 0   0   50  0001 C CNN "URL"
+F 9 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    1450 2900
 	0    1    1    0   
 $EndComp
@@ -109,7 +121,13 @@ AR Path="/5BE4EEC1/5BE4F934" Ref="R2"  Part="1"
 F 0 "R2" H 2130 1704 50  0000 R CNN
 F 1 "100k" H 2130 1795 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2130 1750 50  0001 C CNN
-F 3 "~" H 2200 1750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 2200 1750 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    2200 1750
 	-1   0    0    1   
 $EndComp
@@ -122,7 +140,13 @@ AR Path="/5BE4EEC1/5BE4F93B" Ref="R6"  Part="1"
 F 0 "R6" H 3030 3104 50  0000 R CNN
 F 1 "100k" H 3030 3195 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 3150 50  0001 C CNN
-F 3 "~" H 3100 3150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 3100 3150 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    3100 3150
 	-1   0    0    1   
 $EndComp
@@ -135,7 +159,13 @@ AR Path="/5BE4EEC1/5BE4F942" Ref="R3"  Part="1"
 F 0 "R3" H 3170 1796 50  0000 L CNN
 F 1 "100k" H 3170 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 1750 50  0001 C CNN
-F 3 "~" H 3100 1750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 3100 1750 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    3100 1750
 	1    0    0    -1  
 $EndComp
@@ -148,7 +178,13 @@ AR Path="/5BE4EEC1/5BE4F949" Ref="R5"  Part="1"
 F 0 "R5" H 2270 3196 50  0000 L CNN
 F 1 "100k" H 2270 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2130 3150 50  0001 C CNN
-F 3 "~" H 2200 3150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 2200 3150 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    2200 3150
 	1    0    0    -1  
 $EndComp
@@ -293,7 +329,13 @@ P 4750 1400
 F 0 "R7" V 4543 1400 50  0000 C CNN
 F 1 "820" V 4634 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 1400 50  0001 C CNN
-F 3 "~" H 4750 1400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 1400 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    4750 1400
 	0    1    1    0   
 $EndComp
@@ -307,7 +349,13 @@ P 4750 2800
 F 0 "R10" V 4543 2800 50  0000 C CNN
 F 1 "820" V 4634 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 2800 50  0001 C CNN
-F 3 "~" H 4750 2800 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 2800 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    4750 2800
 	0    1    1    0   
 $EndComp
@@ -321,7 +369,13 @@ P 6450 1100
 F 0 "R8" V 6243 1100 50  0000 C CNN
 F 1 "820" V 6334 1100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6380 1100 50  0001 C CNN
-F 3 "~" H 6450 1100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6450 1100 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    6450 1100
 	0    1    1    0   
 $EndComp
@@ -332,7 +386,13 @@ P 5200 3150
 F 0 "R11" H 5130 3104 50  0000 R CNN
 F 1 "820" H 5130 3195 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5130 3150 50  0001 C CNN
-F 3 "~" H 5200 3150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5200 3150 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    5200 3150
 	-1   0    0    1   
 $EndComp
@@ -343,7 +403,13 @@ P 5600 3150
 F 0 "R12" H 5530 3104 50  0000 R CNN
 F 1 "1k6" H 5530 3195 50  0000 R CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5530 3150 50  0001 C CNN
-F 3 "~" H 5600 3150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5600 3150 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P1.6KBCCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-8AEB162V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-8AEB162V/P1.6KBCCT-ND/3069605" H 0   0   50  0001 C CNN "URL"
+F 9 "0.66" H 0   0   50  0001 C CNN "Unit Price"
 	1    5600 3150
 	-1   0    0    1   
 $EndComp
@@ -354,7 +420,13 @@ P 6450 2100
 F 0 "R9" V 6657 2100 50  0000 C CNN
 F 1 "1k6" V 6566 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6380 2100 50  0001 C CNN
-F 3 "~" H 6450 2100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6450 2100 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P1.6KBCCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-8AEB162V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-8AEB162V/P1.6KBCCT-ND/3069605" H 0   0   50  0001 C CNN "URL"
+F 9 "0.66" H 0   0   50  0001 C CNN "Unit Price"
 	1    6450 2100
 	0    -1   -1   0   
 $EndComp
@@ -517,7 +589,13 @@ AR Path="/5BE4EEC1/5BE9CE26" Ref="R13"  Part="1"
 F 0 "R13" V 1243 4600 50  0000 C CNN
 F 1 "100" V 1334 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 4600 50  0001 C CNN
-F 3 "~" H 1450 4600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 1450 4600 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "YAG2320CT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE07100RL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE07100RL/YAG2320CT-ND/5252434" H 0   0   50  0001 C CNN "URL"
+F 9 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    1450 4600
 	0    1    1    0   
 $EndComp
@@ -530,7 +608,13 @@ AR Path="/5BE4EEC1/5BE9CE2D" Ref="R16"  Part="1"
 F 0 "R16" V 1243 6000 50  0000 C CNN
 F 1 "100" V 1334 6000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 6000 50  0001 C CNN
-F 3 "~" H 1450 6000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 1450 6000 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "YAG2320CT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE07100RL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE07100RL/YAG2320CT-ND/5252434" H 0   0   50  0001 C CNN "URL"
+F 9 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    1450 6000
 	0    1    1    0   
 $EndComp
@@ -543,7 +627,13 @@ AR Path="/5BE4EEC1/5BE9CE34" Ref="R14"  Part="1"
 F 0 "R14" H 2130 4804 50  0000 R CNN
 F 1 "100k" H 2130 4895 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2130 4850 50  0001 C CNN
-F 3 "~" H 2200 4850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 2200 4850 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    2200 4850
 	-1   0    0    1   
 $EndComp
@@ -556,7 +646,13 @@ AR Path="/5BE4EEC1/5BE9CE3B" Ref="R18"  Part="1"
 F 0 "R18" H 3030 6204 50  0000 R CNN
 F 1 "100k" H 3030 6295 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 6250 50  0001 C CNN
-F 3 "~" H 3100 6250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 3100 6250 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    3100 6250
 	-1   0    0    1   
 $EndComp
@@ -569,7 +665,13 @@ AR Path="/5BE4EEC1/5BE9CE42" Ref="R15"  Part="1"
 F 0 "R15" H 3170 4896 50  0000 L CNN
 F 1 "100k" H 3170 4805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 4850 50  0001 C CNN
-F 3 "~" H 3100 4850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 3100 4850 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    3100 4850
 	1    0    0    -1  
 $EndComp
@@ -582,7 +684,13 @@ AR Path="/5BE4EEC1/5BE9CE49" Ref="R17"  Part="1"
 F 0 "R17" H 2270 6296 50  0000 L CNN
 F 1 "100k" H 2270 6205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2130 6250 50  0001 C CNN
-F 3 "~" H 2200 6250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 2200 6250 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    2200 6250
 	1    0    0    -1  
 $EndComp
@@ -727,7 +835,13 @@ P 4750 4500
 F 0 "R19" V 4543 4500 50  0000 C CNN
 F 1 "820" V 4634 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 4500 50  0001 C CNN
-F 3 "~" H 4750 4500 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 4500 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    4750 4500
 	0    1    1    0   
 $EndComp
@@ -741,7 +855,13 @@ P 4750 5900
 F 0 "R22" V 4543 5900 50  0000 C CNN
 F 1 "820" V 4634 5900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 5900 50  0001 C CNN
-F 3 "~" H 4750 5900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 5900 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    4750 5900
 	0    1    1    0   
 $EndComp
@@ -755,7 +875,13 @@ P 6450 4200
 F 0 "R20" V 6243 4200 50  0000 C CNN
 F 1 "820" V 6334 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6380 4200 50  0001 C CNN
-F 3 "~" H 6450 4200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6450 4200 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    6450 4200
 	0    1    1    0   
 $EndComp
@@ -766,7 +892,13 @@ P 5200 6250
 F 0 "R23" H 5130 6204 50  0000 R CNN
 F 1 "820" H 5130 6295 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5130 6250 50  0001 C CNN
-F 3 "~" H 5200 6250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5200 6250 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    5200 6250
 	-1   0    0    1   
 $EndComp
@@ -777,7 +909,13 @@ P 5600 6250
 F 0 "R24" H 5530 6204 50  0000 R CNN
 F 1 "1k6" H 5530 6295 50  0000 R CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5530 6250 50  0001 C CNN
-F 3 "~" H 5600 6250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5600 6250 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P1.6KBCCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-8AEB162V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-8AEB162V/P1.6KBCCT-ND/3069605" H 0   0   50  0001 C CNN "URL"
+F 9 "0.66" H 0   0   50  0001 C CNN "Unit Price"
 	1    5600 6250
 	-1   0    0    1   
 $EndComp
@@ -788,7 +926,13 @@ P 6450 5200
 F 0 "R21" V 6657 5200 50  0000 C CNN
 F 1 "1k6" V 6566 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6380 5200 50  0001 C CNN
-F 3 "~" H 6450 5200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6450 5200 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P1.6KBCCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-8AEB162V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-8AEB162V/P1.6KBCCT-ND/3069605" H 0   0   50  0001 C CNN "URL"
+F 9 "0.66" H 0   0   50  0001 C CNN "Unit Price"
 	1    6450 5200
 	0    -1   -1   0   
 $EndComp

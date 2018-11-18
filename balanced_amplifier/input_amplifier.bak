@@ -42,7 +42,7 @@ AR Path="/5BE4EEC1/5BE4F90A" Ref="C1"  Part="1"
 F 0 "C1" H 1915 1796 50  0000 L CNN
 F 1 "100p" H 1915 1705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1838 1600 50  0001 C CNN
-F 3 "~" H 1800 1750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 1800 1750 50  0001 C CNN
 F 4 "Yageo" H 1800 1750 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 1800 1750 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 1800 1750 50  0001 C CNN "Distributor"
@@ -293,7 +293,13 @@ P 4750 1400
 F 0 "R7" V 4543 1400 50  0000 C CNN
 F 1 "820" V 4634 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 1400 50  0001 C CNN
-F 3 "~" H 4750 1400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 1400 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    4750 1400
 	0    1    1    0   
 $EndComp
@@ -307,7 +313,13 @@ P 4750 2800
 F 0 "R10" V 4543 2800 50  0000 C CNN
 F 1 "820" V 4634 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 2800 50  0001 C CNN
-F 3 "~" H 4750 2800 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 2800 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    4750 2800
 	0    1    1    0   
 $EndComp
@@ -321,7 +333,13 @@ P 6450 1100
 F 0 "R8" V 6243 1100 50  0000 C CNN
 F 1 "820" V 6334 1100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6380 1100 50  0001 C CNN
-F 3 "~" H 6450 1100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6450 1100 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    6450 1100
 	0    1    1    0   
 $EndComp
@@ -332,7 +350,13 @@ P 5200 3150
 F 0 "R11" H 5130 3104 50  0000 R CNN
 F 1 "820" H 5130 3195 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5130 3150 50  0001 C CNN
-F 3 "~" H 5200 3150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5200 3150 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    5200 3150
 	-1   0    0    1   
 $EndComp
@@ -343,7 +367,13 @@ P 5600 3150
 F 0 "R12" H 5530 3104 50  0000 R CNN
 F 1 "1k6" H 5530 3195 50  0000 R CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5530 3150 50  0001 C CNN
-F 3 "~" H 5600 3150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5600 3150 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P1.6KBCCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-8AEB162V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-8AEB162V/P1.6KBCCT-ND/3069605" H 0   0   50  0001 C CNN "URL"
+F 9 "0.66" H 0   0   50  0001 C CNN "Unit Price"
 	1    5600 3150
 	-1   0    0    1   
 $EndComp
@@ -354,7 +384,13 @@ P 6450 2100
 F 0 "R9" V 6657 2100 50  0000 C CNN
 F 1 "1k6" V 6566 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6380 2100 50  0001 C CNN
-F 3 "~" H 6450 2100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6450 2100 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P1.6KBCCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-8AEB162V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-8AEB162V/P1.6KBCCT-ND/3069605" H 0   0   50  0001 C CNN "URL"
+F 9 "0.66" H 0   0   50  0001 C CNN "Unit Price"
 	1    6450 2100
 	0    -1   -1   0   
 $EndComp
@@ -727,7 +763,13 @@ P 4750 4500
 F 0 "R19" V 4543 4500 50  0000 C CNN
 F 1 "820" V 4634 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 4500 50  0001 C CNN
-F 3 "~" H 4750 4500 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 4500 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    4750 4500
 	0    1    1    0   
 $EndComp
@@ -741,7 +783,13 @@ P 4750 5900
 F 0 "R22" V 4543 5900 50  0000 C CNN
 F 1 "820" V 4634 5900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 5900 50  0001 C CNN
-F 3 "~" H 4750 5900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 5900 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    4750 5900
 	0    1    1    0   
 $EndComp
@@ -755,7 +803,13 @@ P 6450 4200
 F 0 "R20" V 6243 4200 50  0000 C CNN
 F 1 "820" V 6334 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6380 4200 50  0001 C CNN
-F 3 "~" H 6450 4200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6450 4200 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    6450 4200
 	0    1    1    0   
 $EndComp
@@ -766,7 +820,13 @@ P 5200 6250
 F 0 "R23" H 5130 6204 50  0000 R CNN
 F 1 "820" H 5130 6295 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5130 6250 50  0001 C CNN
-F 3 "~" H 5200 6250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5200 6250 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P820DBCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-3AEB821V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB821V/P820DBCT-ND/1466050" H 0   0   50  0001 C CNN "URL"
+F 9 "0.35" H 0   0   50  0001 C CNN "Unit Price"
 	1    5200 6250
 	-1   0    0    1   
 $EndComp
@@ -777,7 +837,13 @@ P 5600 6250
 F 0 "R24" H 5530 6204 50  0000 R CNN
 F 1 "1k6" H 5530 6295 50  0000 R CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5530 6250 50  0001 C CNN
-F 3 "~" H 5600 6250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5600 6250 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P1.6KBCCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-8AEB162V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-8AEB162V/P1.6KBCCT-ND/3069605" H 0   0   50  0001 C CNN "URL"
+F 9 "0.66" H 0   0   50  0001 C CNN "Unit Price"
 	1    5600 6250
 	-1   0    0    1   
 $EndComp
@@ -788,7 +854,13 @@ P 6450 5200
 F 0 "R21" V 6657 5200 50  0000 C CNN
 F 1 "1k6" V 6566 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6380 5200 50  0001 C CNN
-F 3 "~" H 6450 5200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6450 5200 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "P1.6KBCCT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERA-8AEB162V" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-8AEB162V/P1.6KBCCT-ND/3069605" H 0   0   50  0001 C CNN "URL"
+F 9 "0.66" H 0   0   50  0001 C CNN "Unit Price"
 	1    6450 5200
 	0    -1   -1   0   
 $EndComp
@@ -1205,7 +1277,7 @@ AR Path="/5BE4EEC1/5C05397C" Ref="C3"  Part="1"
 F 0 "C3" H 1915 3196 50  0000 L CNN
 F 1 "100p" H 1915 3105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1838 3000 50  0001 C CNN
-F 3 "~" H 1800 3150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 1800 3150 50  0001 C CNN
 F 4 "Yageo" H 1800 3150 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 1800 3150 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 1800 3150 50  0001 C CNN "Distributor"
@@ -1225,7 +1297,7 @@ AR Path="/5BE4EEC1/5C053CC6" Ref="C9"  Part="1"
 F 0 "C9" H 1915 4896 50  0000 L CNN
 F 1 "100p" H 1915 4805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1838 4700 50  0001 C CNN
-F 3 "~" H 1800 4850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 1800 4850 50  0001 C CNN
 F 4 "Yageo" H 1800 4850 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 1800 4850 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 1800 4850 50  0001 C CNN "Distributor"
@@ -1245,7 +1317,7 @@ AR Path="/5BE4EEC1/5C053D6C" Ref="C11"  Part="1"
 F 0 "C11" H 1915 6296 50  0000 L CNN
 F 1 "100p" H 1915 6205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1838 6100 50  0001 C CNN
-F 3 "~" H 1800 6250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf" H 1800 6250 50  0001 C CNN
 F 4 "Yageo" H 1800 6250 50  0001 C CNN "Manufacturer"
 F 5 "CC0603JRNPO9BN101" H 1800 6250 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 1800 6250 50  0001 C CNN "Distributor"
