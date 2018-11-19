@@ -83,7 +83,13 @@ AR Path="/5BE4EEC1/5BE4F926" Ref="R1"  Part="1"
 F 0 "R1" V 1243 1500 50  0000 C CNN
 F 1 "100" V 1334 1500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 1500 50  0001 C CNN
-F 3 "~" H 1450 1500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 1450 1500 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "YAG2320CT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE07100RL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE07100RL/YAG2320CT-ND/5252434" H 0   0   50  0001 C CNN "URL"
+F 9 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    1450 1500
 	0    1    1    0   
 $EndComp
@@ -96,7 +102,13 @@ AR Path="/5BE4EEC1/5BE4F92D" Ref="R4"  Part="1"
 F 0 "R4" V 1243 2900 50  0000 C CNN
 F 1 "100" V 1334 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 2900 50  0001 C CNN
-F 3 "~" H 1450 2900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 1450 2900 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "YAG2320CT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE07100RL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE07100RL/YAG2320CT-ND/5252434" H 0   0   50  0001 C CNN "URL"
+F 9 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    1450 2900
 	0    1    1    0   
 $EndComp
@@ -109,7 +121,13 @@ AR Path="/5BE4EEC1/5BE4F934" Ref="R2"  Part="1"
 F 0 "R2" H 2130 1704 50  0000 R CNN
 F 1 "100k" H 2130 1795 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2130 1750 50  0001 C CNN
-F 3 "~" H 2200 1750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 2200 1750 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    2200 1750
 	-1   0    0    1   
 $EndComp
@@ -122,7 +140,13 @@ AR Path="/5BE4EEC1/5BE4F93B" Ref="R6"  Part="1"
 F 0 "R6" H 3030 3104 50  0000 R CNN
 F 1 "100k" H 3030 3195 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 3150 50  0001 C CNN
-F 3 "~" H 3100 3150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 3100 3150 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    3100 3150
 	-1   0    0    1   
 $EndComp
@@ -135,7 +159,13 @@ AR Path="/5BE4EEC1/5BE4F942" Ref="R3"  Part="1"
 F 0 "R3" H 3170 1796 50  0000 L CNN
 F 1 "100k" H 3170 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 1750 50  0001 C CNN
-F 3 "~" H 3100 1750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 3100 1750 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    3100 1750
 	1    0    0    -1  
 $EndComp
@@ -148,7 +178,13 @@ AR Path="/5BE4EEC1/5BE4F949" Ref="R5"  Part="1"
 F 0 "R5" H 2270 3196 50  0000 L CNN
 F 1 "100k" H 2270 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2130 3150 50  0001 C CNN
-F 3 "~" H 2200 3150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 2200 3150 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    2200 3150
 	1    0    0    -1  
 $EndComp
@@ -553,7 +589,13 @@ AR Path="/5BE4EEC1/5BE9CE26" Ref="R13"  Part="1"
 F 0 "R13" V 1243 4600 50  0000 C CNN
 F 1 "100" V 1334 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 4600 50  0001 C CNN
-F 3 "~" H 1450 4600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 1450 4600 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "YAG2320CT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE07100RL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE07100RL/YAG2320CT-ND/5252434" H 0   0   50  0001 C CNN "URL"
+F 9 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    1450 4600
 	0    1    1    0   
 $EndComp
@@ -566,7 +608,13 @@ AR Path="/5BE4EEC1/5BE9CE2D" Ref="R16"  Part="1"
 F 0 "R16" V 1243 6000 50  0000 C CNN
 F 1 "100" V 1334 6000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1380 6000 50  0001 C CNN
-F 3 "~" H 1450 6000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 1450 6000 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "YAG2320CT-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE07100RL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE07100RL/YAG2320CT-ND/5252434" H 0   0   50  0001 C CNN "URL"
+F 9 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    1450 6000
 	0    1    1    0   
 $EndComp
@@ -579,7 +627,13 @@ AR Path="/5BE4EEC1/5BE9CE34" Ref="R14"  Part="1"
 F 0 "R14" H 2130 4804 50  0000 R CNN
 F 1 "100k" H 2130 4895 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2130 4850 50  0001 C CNN
-F 3 "~" H 2200 4850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 2200 4850 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    2200 4850
 	-1   0    0    1   
 $EndComp
@@ -592,7 +646,13 @@ AR Path="/5BE4EEC1/5BE9CE3B" Ref="R18"  Part="1"
 F 0 "R18" H 3030 6204 50  0000 R CNN
 F 1 "100k" H 3030 6295 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 6250 50  0001 C CNN
-F 3 "~" H 3100 6250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 3100 6250 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    3100 6250
 	-1   0    0    1   
 $EndComp
@@ -605,7 +665,13 @@ AR Path="/5BE4EEC1/5BE9CE42" Ref="R15"  Part="1"
 F 0 "R15" H 3170 4896 50  0000 L CNN
 F 1 "100k" H 3170 4805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3030 4850 50  0001 C CNN
-F 3 "~" H 3100 4850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 3100 4850 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    3100 4850
 	1    0    0    -1  
 $EndComp
@@ -618,7 +684,13 @@ AR Path="/5BE4EEC1/5BE9CE49" Ref="R17"  Part="1"
 F 0 "R17" H 2270 6296 50  0000 L CNN
 F 1 "100k" H 2270 6205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2130 6250 50  0001 C CNN
-F 3 "~" H 2200 6250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-AT_51_RoHS_L_5.pdf" H 2200 6250 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Distributor"
+F 5 "311-2103-1-ND" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "AT0603DRD07100KL" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/AT0603DRD07100KL/311-2103-1-ND/6128522" H 0   0   50  0001 C CNN "URL"
+F 9 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    2200 6250
 	1    0    0    -1  
 $EndComp
@@ -968,7 +1040,7 @@ U 1 1 5BED5B03
 P 8500 1200
 F 0 "RV1" H 8430 1246 50  0000 R CNN
 F 1 "5k" H 8430 1155 50  0000 R CNN
-F 2 "" H 8500 1200 50  0001 C CNN
+F 2 "Potentiometer_THT_custom:Potentiometer_Bourns_91_Dual_Horizontal" H 8500 1200 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/91_95.pdf" H 8500 1200 50  0001 C CNN
 F 4 "Bourns" H 8500 1200 50  0001 C CNN "Manufacturer"
 F 5 "91A2A-B28-B13/B13L" H 8500 1200 50  0001 C CNN "Manufacturer PN"
@@ -985,7 +1057,7 @@ U 2 1 5BED620D
 P 8500 4300
 F 0 "RV1" H 8431 4254 50  0000 R CNN
 F 1 "5k" H 8431 4345 50  0000 R CNN
-F 2 "" H 8500 4300 50  0001 C CNN
+F 2 "Potentiometer_THT_custom:Potentiometer_Bourns_91_Dual_Horizontal" H 8500 4300 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/91_95.pdf" H 8500 4300 50  0001 C CNN
 F 4 "Bourns" H 8500 4300 50  0001 C CNN "Manufacturer"
 F 5 "91A2A-B28-B13/B13L" H 8500 4300 50  0001 C CNN "Manufacturer PN"
