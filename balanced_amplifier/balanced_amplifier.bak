@@ -127,11 +127,11 @@ S 2500 2500 2950 1200
 U 5BE4EEC1
 F0 "input_amplifier" 50
 F1 "input_amplifier.sch" 50
-F2 "right_in_hot" I L 2500 2600 50 
-F3 "right_in_cold" I L 2500 2800 50 
+F2 "right_in_hot" I L 2500 2800 50 
+F3 "right_in_cold" I L 2500 2600 50 
 F4 "right_out" I R 5450 2700 50 
-F5 "left_in_hot" I L 2500 3250 50 
-F6 "left_in_cold" I L 2500 3450 50 
+F5 "left_in_hot" I L 2500 3450 50 
+F6 "left_in_cold" I L 2500 3250 50 
 F7 "left_out" I R 5450 3100 50 
 F8 "right_in_ground" I L 2500 2700 50 
 F9 "left_in_ground" I L 2500 3350 50 
@@ -314,4 +314,20 @@ Wire Wire Line
 	9300 3550 9300 3450
 Wire Wire Line
 	9300 3450 9200 3450
+Text Notes 1000 900  0    50   ~ 0
+TODO:\ncheck footprints for connectors\nadd knobs for pots\nswap hot & cold inputs
+Text Label 1450 2600 0    50   ~ 0
+right_in_hot
+Text Label 1450 2700 0    50   ~ 0
+right_in_ground
+Text Label 1450 2800 0    50   ~ 0
+right_in_cold
+Text Label 1450 3250 0    50   ~ 0
+left_in_hot
+Text Label 1450 3350 0    50   ~ 0
+left_in_ground
+Text Label 1450 3450 0    50   ~ 0
+left_in_cold
+Text Notes 800  4100 0    50   ~ 0
+hot/cold inputs swapped to maintain overall phase\n(volume control inverts)
 $EndSCHEMATC
