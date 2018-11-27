@@ -146,20 +146,15 @@ U 1 1 5C512DA9
 P 950 2700
 F 0 "J1" H 1056 2978 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 1056 2887 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 950 2700 50  0001 C CNN
-F 3 "~" H 950 2700 50  0001 C CNN
+F 2 "" H 950 2700 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 950 2700 50  0001 C CNN
+F 4 "Molex" H 950 2700 50  0001 C CNN "Manufacturer"
+F 5 "0705430003" H 950 2700 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 950 2700 50  0001 C CNN "Distributor"
+F 7 "WM4802-ND" H 950 2700 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 950 2700 50  0001 C CNN "URL"
+F 9 "0.99" H 950 2700 50  0001 C CNN "Unit Price"
 	1    950  2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J2
-U 1 1 5C512DEC
-P 950 3350
-F 0 "J2" H 1056 3628 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 1056 3537 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 950 3350 50  0001 C CNN
-F 3 "~" H 950 3350 50  0001 C CNN
-	1    950  3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -315,7 +310,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 3450 9200 3450
 Text Notes 1000 900  0    50   ~ 0
-TODO:\ncheck footprints for connectors\nadd knobs for pots\nswap hot & cold inputs
+TODO:\ncheck footprints for connectors\nadd knobs for pots\nadd testpoints
 Text Label 1450 2600 0    50   ~ 0
 right_in_hot
 Text Label 1450 2700 0    50   ~ 0
@@ -330,4 +325,21 @@ Text Label 1450 3450 0    50   ~ 0
 left_in_cold
 Text Notes 800  4100 0    50   ~ 0
 hot/cold inputs swapped to maintain overall phase\n(volume control inverts)
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5BFBF6D8
+P 950 3350
+F 0 "J2" H 1056 3628 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1056 3537 50  0000 C CNN
+F 2 "" H 950 3350 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 950 3350 50  0001 C CNN
+F 4 "Molex" H 950 3350 50  0001 C CNN "Manufacturer"
+F 5 "0705430003" H 950 3350 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 950 3350 50  0001 C CNN "Distributor"
+F 7 "WM4802-ND" H 950 3350 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 950 3350 50  0001 C CNN "URL"
+F 9 "0.99" H 950 3350 50  0001 C CNN "Unit Price"
+	1    950  3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
