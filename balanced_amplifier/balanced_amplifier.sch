@@ -146,7 +146,7 @@ U 1 1 5C512DA9
 P 950 2700
 F 0 "J1" H 1056 2978 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 1056 2887 50  0000 C CNN
-F 2 "" H 950 2700 50  0001 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 950 2700 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 950 2700 50  0001 C CNN
 F 4 "Molex" H 950 2700 50  0001 C CNN "Manufacturer"
 F 5 "0705430003" H 950 2700 50  0001 C CNN "Manufacturer PN"
@@ -156,28 +156,6 @@ F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 950 2700 50  000
 F 9 "0.99" H 950 2700 50  0001 C CNN "Unit Price"
 	1    950  2700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J4
-U 1 1 5C512E1C
-P 9750 2750
-F 0 "J4" H 9723 2723 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 9723 2632 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9750 2750 50  0001 C CNN
-F 3 "~" H 9750 2750 50  0001 C CNN
-	1    9750 2750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J5
-U 1 1 5C512E61
-P 9750 3350
-F 0 "J5" H 9723 3323 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 9723 3232 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9750 3350 50  0001 C CNN
-F 3 "~" H 9750 3350 50  0001 C CNN
-	1    9750 3350
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x03 J3
@@ -331,7 +309,7 @@ U 1 1 5BFBF6D8
 P 950 3350
 F 0 "J2" H 1056 3628 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 1056 3537 50  0000 C CNN
-F 2 "" H 950 3350 50  0001 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 950 3350 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 950 3350 50  0001 C CNN
 F 4 "Molex" H 950 3350 50  0001 C CNN "Manufacturer"
 F 5 "0705430003" H 950 3350 50  0001 C CNN "Manufacturer PN"
@@ -341,5 +319,39 @@ F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 950 3350 50  000
 F 9 "0.99" H 950 3350 50  0001 C CNN "Unit Price"
 	1    950  3350
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5C0E92CC
+P 9750 2850
+F 0 "J4" H 9856 3128 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 9856 3037 50  0000 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 9750 2850 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 9750 2850 50  0001 C CNN
+F 4 "Molex" H 9750 2850 50  0001 C CNN "Manufacturer"
+F 5 "0705430003" H 9750 2850 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 9750 2850 50  0001 C CNN "Distributor"
+F 7 "WM4802-ND" H 9750 2850 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 9750 2850 50  0001 C CNN "URL"
+F 9 "0.99" H 9750 2850 50  0001 C CNN "Unit Price"
+	1    9750 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J5
+U 1 1 5C0E93AE
+P 9750 3450
+F 0 "J5" H 9856 3728 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 9856 3637 50  0000 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 9750 3450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 9750 3450 50  0001 C CNN
+F 4 "Molex" H 9750 3450 50  0001 C CNN "Manufacturer"
+F 5 "0705430003" H 9750 3450 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 9750 3450 50  0001 C CNN "Distributor"
+F 7 "WM4802-ND" H 9750 3450 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 9750 3450 50  0001 C CNN "URL"
+F 9 "0.99" H 9750 3450 50  0001 C CNN "Unit Price"
+	1    9750 3450
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
