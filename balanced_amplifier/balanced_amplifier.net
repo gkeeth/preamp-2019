@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/graham/Projects/preamp-2019/balanced_amplifier/balanced_amplifier.sch)
-    (date "Sat 15 Dec 2018 05:04:23 PM EST")
+    (date "Sat 15 Dec 2018 05:15:04 PM EST")
     (tool "Eeschema 5.0.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
