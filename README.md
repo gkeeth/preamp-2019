@@ -1,6 +1,8 @@
 # preamp-2019
 
-Balanced input & output preamplifier with volume and balance controls. 
+Balanced input & output preamplifier with volume and balance controls.
+
+Based on preamps designed by Doug Self (see Small Signal Audio Design by Douglas Self)
 
 The preamp is split over several PCBs, with a kicad project for each:
 1. balanced_amplifier: volume/balance controls
