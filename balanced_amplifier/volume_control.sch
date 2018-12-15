@@ -962,7 +962,7 @@ Wire Wire Line
 	2350 900  2550 900 
 Connection ~ 8050 2400
 Wire Wire Line
-	2850 900  6450 900 
+	2850 900  3900 900 
 Wire Wire Line
 	6450 2200 6450 3600
 Wire Wire Line
@@ -996,7 +996,7 @@ right_out_gnd
 Text HLabel 9700 6000 2    50   Input ~ 0
 left_out_gnd
 Wire Wire Line
-	9450 2400 9750 2400
+	9450 2400 9600 2400
 $Comp
 L power:GNDA #PWR?
 U 1 1 5C073E57
@@ -1469,9 +1469,9 @@ Wire Wire Line
 	9150 5700 8950 5700
 Connection ~ 8950 5700
 Wire Wire Line
-	9450 5700 9750 5700
+	9450 5700 9600 5700
 Wire Wire Line
-	2850 4200 6450 4200
+	2850 4200 3900 4200
 $Comp
 L Device:R R47
 U 1 1 5C1A037A
@@ -1645,9 +1645,7 @@ Wire Wire Line
 	4000 7600 3500 7600
 Connection ~ 3500 7600
 Wire Wire Line
-	9750 900  9550 900 
-Wire Wire Line
-	9750 4200 9550 4200
+	9750 900  9600 900 
 Wire Wire Line
 	6450 4200 6450 5200
 Wire Wire Line
@@ -1782,4 +1780,198 @@ F 11 "35V" V 3000 5100 50  0001 C CNN "Voltage Rating"
 	1    3000 5100
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C1B8A51
+P 3900 800
+AR Path="/5BE4EEC1/5C1B8A51" Ref="TP?"  Part="1" 
+AR Path="/5BF8808C/5C1B8A51" Ref="TP7"  Part="1" 
+F 0 "TP7" H 3958 920 50  0000 L CNN
+F 1 "TestPoint" H 3958 829 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 4100 800 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 4100 800 50  0001 C CNN
+F 4 "Keystone" H 3900 800 50  0001 C CNN "Manufacturer"
+F 5 "5002" H 3900 800 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3900 800 50  0001 C CNN "Distributor"
+F 7 "36-5002-ND" H 3900 800 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=36-5002-ND" H 3900 800 50  0001 C CNN "URL"
+F 9 "0.37" H 3900 800 50  0001 C CNN "Unit Price"
+	1    3900 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C1C3BE1
+P 3900 4100
+AR Path="/5BE4EEC1/5C1C3BE1" Ref="TP?"  Part="1" 
+AR Path="/5BF8808C/5C1C3BE1" Ref="TP11"  Part="1" 
+F 0 "TP11" H 3958 4220 50  0000 L CNN
+F 1 "TestPoint" H 3958 4129 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 4100 4100 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 4100 4100 50  0001 C CNN
+F 4 "Keystone" H 3900 4100 50  0001 C CNN "Manufacturer"
+F 5 "5002" H 3900 4100 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3900 4100 50  0001 C CNN "Distributor"
+F 7 "36-5002-ND" H 3900 4100 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=36-5002-ND" H 3900 4100 50  0001 C CNN "URL"
+F 9 "0.37" H 3900 4100 50  0001 C CNN "Unit Price"
+	1    3900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 800  3900 900 
+Connection ~ 3900 900 
+Wire Wire Line
+	3900 900  6450 900 
+Wire Wire Line
+	3900 4100 3900 4200
+Connection ~ 3900 4200
+Wire Wire Line
+	3900 4200 6450 4200
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C1DA76F
+P 3800 6300
+AR Path="/5BE4EEC1/5C1DA76F" Ref="TP?"  Part="1" 
+AR Path="/5BF8808C/5C1DA76F" Ref="TP12"  Part="1" 
+F 0 "TP12" H 3858 6420 50  0000 L CNN
+F 1 "TestPoint" H 3858 6329 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 4000 6300 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 4000 6300 50  0001 C CNN
+F 4 "Keystone" H 3800 6300 50  0001 C CNN "Manufacturer"
+F 5 "5002" H 3800 6300 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3800 6300 50  0001 C CNN "Distributor"
+F 7 "36-5002-ND" H 3800 6300 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=36-5002-ND" H 3800 6300 50  0001 C CNN "URL"
+F 9 "0.37" H 3800 6300 50  0001 C CNN "Unit Price"
+	1    3800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C1DA86F
+P 3800 3000
+AR Path="/5BE4EEC1/5C1DA86F" Ref="TP?"  Part="1" 
+AR Path="/5BF8808C/5C1DA86F" Ref="TP8"  Part="1" 
+F 0 "TP8" H 3858 3120 50  0000 L CNN
+F 1 "TestPoint" H 3858 3029 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 4000 3000 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 4000 3000 50  0001 C CNN
+F 4 "Keystone" H 3800 3000 50  0001 C CNN "Manufacturer"
+F 5 "5002" H 3800 3000 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3800 3000 50  0001 C CNN "Distributor"
+F 7 "36-5002-ND" H 3800 3000 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=36-5002-ND" H 3800 3000 50  0001 C CNN "URL"
+F 9 "0.37" H 3800 3000 50  0001 C CNN "Unit Price"
+	1    3800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3000 3800 3100
+Wire Wire Line
+	3800 3100 4350 3100
+Connection ~ 4350 3100
+Wire Wire Line
+	3800 6300 3800 6400
+Wire Wire Line
+	3800 6400 4350 6400
+Connection ~ 4350 6400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C1F2A51
+P 9600 1100
+AR Path="/5BE4EEC1/5C1F2A51" Ref="TP?"  Part="1" 
+AR Path="/5BF8808C/5C1F2A51" Ref="TP9"  Part="1" 
+F 0 "TP9" H 9542 1127 50  0000 R CNN
+F 1 "TestPoint" H 9542 1218 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9800 1100 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 9800 1100 50  0001 C CNN
+F 4 "Keystone" H 9600 1100 50  0001 C CNN "Manufacturer"
+F 5 "5002" H 9600 1100 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 9600 1100 50  0001 C CNN "Distributor"
+F 7 "36-5002-ND" H 9600 1100 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=36-5002-ND" H 9600 1100 50  0001 C CNN "URL"
+F 9 "0.37" H 9600 1100 50  0001 C CNN "Unit Price"
+	1    9600 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C1F2BD1
+P 9600 2200
+AR Path="/5BE4EEC1/5C1F2BD1" Ref="TP?"  Part="1" 
+AR Path="/5BF8808C/5C1F2BD1" Ref="TP10"  Part="1" 
+F 0 "TP10" H 9658 2320 50  0000 L CNN
+F 1 "TestPoint" H 9658 2229 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9800 2200 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 9800 2200 50  0001 C CNN
+F 4 "Keystone" H 9600 2200 50  0001 C CNN "Manufacturer"
+F 5 "5002" H 9600 2200 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 9600 2200 50  0001 C CNN "Distributor"
+F 7 "36-5002-ND" H 9600 2200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=36-5002-ND" H 9600 2200 50  0001 C CNN "URL"
+F 9 "0.37" H 9600 2200 50  0001 C CNN "Unit Price"
+	1    9600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1100 9600 900 
+Connection ~ 9600 900 
+Wire Wire Line
+	9600 900  9550 900 
+Wire Wire Line
+	9600 2200 9600 2400
+Connection ~ 9600 2400
+Wire Wire Line
+	9600 2400 9750 2400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C20B57F
+P 9600 5500
+AR Path="/5BE4EEC1/5C20B57F" Ref="TP?"  Part="1" 
+AR Path="/5BF8808C/5C20B57F" Ref="TP14"  Part="1" 
+F 0 "TP14" H 9658 5620 50  0000 L CNN
+F 1 "TestPoint" H 9658 5529 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9800 5500 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 9800 5500 50  0001 C CNN
+F 4 "Keystone" H 9600 5500 50  0001 C CNN "Manufacturer"
+F 5 "5002" H 9600 5500 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 9600 5500 50  0001 C CNN "Distributor"
+F 7 "36-5002-ND" H 9600 5500 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=36-5002-ND" H 9600 5500 50  0001 C CNN "URL"
+F 9 "0.37" H 9600 5500 50  0001 C CNN "Unit Price"
+	1    9600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5C20B862
+P 9600 4400
+AR Path="/5BE4EEC1/5C20B862" Ref="TP?"  Part="1" 
+AR Path="/5BF8808C/5C20B862" Ref="TP13"  Part="1" 
+F 0 "TP13" H 9542 4427 50  0000 R CNN
+F 1 "TestPoint" H 9542 4518 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9800 4400 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1311" H 9800 4400 50  0001 C CNN
+F 4 "Keystone" H 9600 4400 50  0001 C CNN "Manufacturer"
+F 5 "5002" H 9600 4400 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 9600 4400 50  0001 C CNN "Distributor"
+F 7 "36-5002-ND" H 9600 4400 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=36-5002-ND" H 9600 4400 50  0001 C CNN "URL"
+F 9 "0.37" H 9600 4400 50  0001 C CNN "Unit Price"
+	1    9600 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9600 4400 9600 4200
+Wire Wire Line
+	9550 4200 9600 4200
+Connection ~ 9600 4200
+Wire Wire Line
+	9600 4200 9750 4200
+Wire Wire Line
+	9600 5500 9600 5700
+Connection ~ 9600 5700
+Wire Wire Line
+	9600 5700 9750 5700
 $EndSCHEMATC
