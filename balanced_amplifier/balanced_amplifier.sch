@@ -163,8 +163,14 @@ U 1 1 5C512EBE
 P 1400 5300
 F 0 "J3" H 1320 5617 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 1320 5526 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 1400 5300 50  0001 C CNN
-F 3 "~" H 1400 5300 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal" H 1400 5300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935174.pdf" H 1400 5300 50  0001 C CNN
+F 4 "Phoenix" H 1400 5300 50  0001 C CNN "Manufacturer"
+F 5 "1935174" H 1400 5300 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 1400 5300 50  0001 C CNN "Distributor"
+F 7 "277-1578-ND" H 1400 5300 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/phoenix-contact/1935174/277-1578-ND/568615" H 1400 5300 50  0001 C CNN "URL"
+F 9 "0.60" H 1400 5300 50  0001 C CNN "Unit Price"
 	1    1400 5300
 	-1   0    0    -1  
 $EndComp
