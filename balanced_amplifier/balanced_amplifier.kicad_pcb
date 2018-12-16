@@ -229,7 +229,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C341EC3)
-    (at 66.04 7.62 180)
+    (at 59.69 80.01 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5BE4F90A)
@@ -265,7 +265,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C341ED4)
-    (at 66.04 22.86 180)
+    (at 59.69 95.25 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5C05397C)
@@ -301,7 +301,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C341EE5)
-    (at 144.78 11.43 180)
+    (at 109.22 110.49 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5BE5D314)
@@ -337,7 +337,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3459D9)
-    (at 138.43 11.43)
+    (at 102.87 110.49)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5BE5D1F4)
@@ -373,7 +373,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5C341F8A)
-    (at 153.67 20.32)
+    (at 118.11 119.38)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /5BE4EEC1/5BE70F83)
@@ -539,7 +539,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C341F9B)
-    (at 66.04 43.18 180)
+    (at 59.69 115.57 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5C053CC6)
@@ -575,7 +575,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C341FAC)
-    (at 66.04 62.23 180)
+    (at 59.69 134.62 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5C053D6C)
@@ -611,7 +611,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C341FBD)
-    (at 137.555 36.83 180)
+    (at 101.995 135.89 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5BE9ED58)
@@ -647,7 +647,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C341FCE)
-    (at 131.205 36.83 180)
+    (at 95.645 135.89 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5BF00CE3)
@@ -683,7 +683,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5C342062)
-    (at 153.67 31.75)
+    (at 118.11 130.81)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /5BE4EEC1/5BF04417)
@@ -849,7 +849,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5C342073)
-    (at 92.71 17.78 90)
+    (at 86.36 90.17 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5C051FD2)
@@ -885,7 +885,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5C342084)
-    (at 147.32 24.13 90)
+    (at 111.76 123.19 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5BF02179)
@@ -920,8 +920,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5C342095)
-    (at 186.69 19.05 270)
+  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5C3523B6)
+    (at 119.38 87.63 270)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5BF02317)
@@ -957,7 +957,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5C3420A6)
-    (at 92.71 52.07 90)
+    (at 86.36 124.46 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BE4EEC1/5BF023BD)
@@ -992,8 +992,8 @@
     )
   )
 
-  (module Capacitor_THT:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5C34212A)
-    (at 177.8 38.1 180)
+  (module Capacitor_THT:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5C3524DD)
+    (at 146.05 71.12 180)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (path /5BF8808C/5BFF7B81)
@@ -1142,8 +1142,8 @@
     )
   )
 
-  (module Capacitor_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5C3421AD)
-    (at 180.34 49.53)
+  (module Capacitor_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5C352665)
+    (at 148.59 82.55)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5BF8808C/5BFF839B)
@@ -1291,8 +1291,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C34FEE4)
-    (at 215.505 35.165 180)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C352356)
+    (at 183.755 68.185 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BF8808C/5BFFBAC3)
@@ -1327,8 +1327,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3421CF)
-    (at 196.85 57.15 180)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3527FD)
+    (at 165.1 90.17 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BF8808C/5BFFCBBD)
@@ -1363,8 +1363,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3421E0)
-    (at 213.36 58.42 180)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C35213A)
+    (at 181.61 91.44 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BF8808C/5BFFCD72)
@@ -1400,7 +1400,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5C342264)
-    (at 170.18 80.01)
+    (at 138.43 113.03)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
     (path /5BF8808C/5BFF7FC6)
@@ -1550,7 +1550,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D5.0mm_P2.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5C3422E7)
-    (at 175.26 91.44)
+    (at 143.51 124.46)
     (descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
     (path /5BF8808C/5C505568)
@@ -1699,7 +1699,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C3422F8)
-    (at 214.63 83.82 180)
+    (at 182.88 116.84 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BF8808C/5C098773)
@@ -1735,7 +1735,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C342309)
-    (at 194.31 104.14 180)
+    (at 162.56 137.16 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BF8808C/5C0A5C4E)
@@ -1771,7 +1771,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBE) (tstamp 5C346599)
-    (at 213.36 104.14 180)
+    (at 181.61 137.16 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BF8808C/5C144FDB)
@@ -1806,8 +1806,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5C346569)
-    (at 203.2 46.745 90)
+  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5C35243A)
+    (at 171.45 79.765 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BF8808C/5BFF4C57)
@@ -1842,8 +1842,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5C34233C)
-    (at 208.28 46.99 90)
+  (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5C352779)
+    (at 176.53 80.01 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BF8808C/5BFF4CE2)
@@ -1879,7 +1879,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5C34234D)
-    (at 200.66 92.71 90)
+    (at 168.91 125.73 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BF8808C/5BFF6023)
@@ -1915,7 +1915,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5C34235E)
-    (at 205.74 92.71 90)
+    (at 173.99 125.73 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5BF8808C/5BFF6056)
@@ -1951,7 +1951,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5C3423F2)
-    (at 19.05 43.18)
+    (at 59.69 175.26)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /5BFE2C28)
@@ -2117,7 +2117,7 @@
   )
 
   (module Capacitor_THT:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5C342486)
-    (at 26.67 43.18)
+    (at 67.31 175.26)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (path /5BFE2C37)
@@ -2283,7 +2283,7 @@
   )
 
   (module Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C0FBB3E) (tstamp 5C3424BA)
-    (at 46.99 8.89 270)
+    (at 50.8 86.36 270)
     (descr "Molex SL Modular Connectors, old/engineering part number: A-70543-0003 example for new part number: 70543-0003, 4 Pins (https://www.molex.com/pdm_docs/sd/705430003_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex SL side entry")
     (path /5C512DA9)
@@ -2355,7 +2355,7 @@
   )
 
   (module Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C0FBB3E) (tstamp 5C3424EE)
-    (at 48.26 44.45 270)
+    (at 50.8 121.92 270)
     (descr "Molex SL Modular Connectors, old/engineering part number: A-70543-0003 example for new part number: 70543-0003, 4 Pins (https://www.molex.com/pdm_docs/sd/705430003_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex SL side entry")
     (path /5BFBF6D8)
@@ -2427,7 +2427,7 @@
   )
 
   (module TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal (layer F.Cu) (tedit 5B294F69) (tstamp 5C3442B0)
-    (at 20.32 54.61)
+    (at 60.96 186.69)
     (descr "Terminal Block Phoenix PT-1,5-3-5.0-H, 3 pins, pitch 5mm, size 15x9mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.mouser.com/ds/2/324/ItemDetail_1935161-922578.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
     (tags "THT Terminal Block Phoenix PT-1,5-3-5.0-H pitch 5mm size 15x9mm^2 drill 1.3mm pad 2.6mm")
     (path /5C512EBE)
@@ -2497,7 +2497,7 @@
   )
 
   (module Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C0FBB3E) (tstamp 5C342555)
-    (at 275.59 63.5 90)
+    (at 241.3 91.44 90)
     (descr "Molex SL Modular Connectors, old/engineering part number: A-70543-0003 example for new part number: 70543-0003, 4 Pins (https://www.molex.com/pdm_docs/sd/705430003_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex SL side entry")
     (path /5C0E92CC)
@@ -2569,7 +2569,7 @@
   )
 
   (module Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5C0FBB3E) (tstamp 5C342589)
-    (at 278.13 109.22 90)
+    (at 243.84 137.16 90)
     (descr "Molex SL Modular Connectors, old/engineering part number: A-70543-0003 example for new part number: 70543-0003, 4 Pins (https://www.molex.com/pdm_docs/sd/705430003_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex SL side entry")
     (path /5C0E93AE)
@@ -2641,7 +2641,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C34259A)
-    (at 66.04 3.81 180)
+    (at 59.69 76.2 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE4F926)
@@ -2677,7 +2677,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3425AB)
-    (at 66.04 11.43)
+    (at 59.69 83.82)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE4F934)
@@ -2713,7 +2713,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3425BC)
-    (at 66.04 15.24 180)
+    (at 59.69 87.63 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE4F942)
@@ -2749,7 +2749,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C34C695)
-    (at 66.04 19.05 180)
+    (at 59.69 91.44 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE4F92D)
@@ -2785,7 +2785,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3425DE)
-    (at 66.04 26.67 180)
+    (at 59.69 99.06 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE4F949)
@@ -2821,7 +2821,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3425EF)
-    (at 66.04 30.48)
+    (at 59.69 102.87)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE4F93B)
@@ -2857,7 +2857,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342600)
-    (at 85.09 7.62)
+    (at 78.74 80.01)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE5A1DB)
@@ -2893,7 +2893,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342611)
-    (at 144.385 6.35 180)
+    (at 108.825 105.41 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE5CFFA)
@@ -2929,7 +2929,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342622)
-    (at 144.78 16.51)
+    (at 109.22 115.57)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE5D15C)
@@ -2965,7 +2965,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C34CE89)
-    (at 87.63 25.4 180)
+    (at 81.28 97.79 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE5A930)
@@ -3001,7 +3001,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342644)
-    (at 139.305 6.35 180)
+    (at 103.745 105.41 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE5D042)
@@ -3037,7 +3037,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342655)
-    (at 138.2125 16.51 180)
+    (at 102.6525 115.57 180)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE5D0D6)
@@ -3073,7 +3073,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342666)
-    (at 66.04 38.1 180)
+    (at 59.69 110.49 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CE26)
@@ -3109,7 +3109,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342677)
-    (at 66.04 46.99)
+    (at 59.69 119.38)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CE34)
@@ -3145,7 +3145,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342688)
-    (at 66.04 52.07 180)
+    (at 59.69 124.46 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CE42)
@@ -3181,7 +3181,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342699)
-    (at 66.04 57.15 180)
+    (at 59.69 129.54 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CE2D)
@@ -3217,7 +3217,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C345CFC)
-    (at 66.04 67.31 180)
+    (at 59.69 139.7 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CE49)
@@ -3253,7 +3253,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3426BB)
-    (at 66.04 72.39)
+    (at 59.69 144.78)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CE3B)
@@ -3289,7 +3289,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3426CC)
-    (at 83.82 45.72)
+    (at 77.47 118.11)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CEA2)
@@ -3325,7 +3325,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3426DD)
-    (at 137.555 40.64 180)
+    (at 101.995 139.7 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CEBD)
@@ -3361,7 +3361,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3426EE)
-    (at 138.2125 33.02)
+    (at 102.6525 132.08)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CED2)
@@ -3397,7 +3397,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3426FF)
-    (at 85.09 62.23)
+    (at 78.74 134.62)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CEB2)
@@ -3433,7 +3433,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342710)
-    (at 131.205 40.64)
+    (at 95.645 139.7)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CEC4)
@@ -3469,7 +3469,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342721)
-    (at 130.81 33.02)
+    (at 95.25 132.08)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BE4EEC1/5BE9CECB)
@@ -3504,8 +3504,8 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342732)
-    (at 187.96 50.8 270)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C35282D)
+    (at 156.21 83.82 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5BFF84FF)
@@ -3540,8 +3540,8 @@
     )
   )
 
-  (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342743)
-    (at 205.9575 38.1 180)
+  (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3522D2)
+    (at 174.2075 71.12 180)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5BFF85A4)
@@ -3576,8 +3576,8 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342754)
-    (at 215.505 39.37 180)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C35224E)
+    (at 183.755 72.39 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5BFF8EF5)
@@ -3612,8 +3612,8 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342765)
-    (at 220.98 45.72 90)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3523E6)
+    (at 189.23 78.74 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5BFF91D2)
@@ -3648,8 +3648,8 @@
     )
   )
 
-  (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342776)
-    (at 198.12 60.96)
+  (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C35216A)
+    (at 166.37 93.98)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5BFF8658)
@@ -3684,8 +3684,8 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342787)
-    (at 196.85 53.34 180)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C35219A)
+    (at 165.1 86.36 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5BFF8F73)
@@ -3720,8 +3720,8 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342798)
-    (at 204.47 57.15 180)
+  (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C35227E)
+    (at 172.72 90.17 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5BFF922E)
@@ -3756,8 +3756,8 @@
     )
   )
 
-  (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3427A9)
-    (at 208.0625 62.23 180)
+  (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3521CA)
+    (at 176.3125 95.25 180)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5BFF9288)
@@ -3792,8 +3792,8 @@
     )
   )
 
-  (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3427BA)
-    (at 213.5775 54.61 180)
+  (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C352386)
+    (at 181.8275 87.63 180)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5BFF92DE)
@@ -3829,7 +3829,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3427CB)
-    (at 255.27 50.8 90)
+    (at 220.98 78.74 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5BFF9851)
@@ -3865,7 +3865,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3427DC)
-    (at 259.08 50.8 90)
+    (at 224.79 78.74 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5BFF97DD)
@@ -3901,7 +3901,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3427ED)
-    (at 255.27 69.85 270)
+    (at 220.98 97.79 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C03813A)
@@ -3937,7 +3937,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C350EBD)
-    (at 259.08 69.85 270)
+    (at 224.79 97.79 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C038133)
@@ -3973,7 +3973,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C34280F)
-    (at 182.88 92.71 270)
+    (at 151.13 125.73 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C100115)
@@ -4009,7 +4009,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342820)
-    (at 204.47 83.82 180)
+    (at 172.72 116.84 180)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C08C65C)
@@ -4045,7 +4045,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342831)
-    (at 214.63 86.36 180)
+    (at 182.88 119.38 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C0945F7)
@@ -4081,7 +4081,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342842)
-    (at 222.25 91.44 90)
+    (at 190.5 124.46 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C10CE07)
@@ -4117,7 +4117,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342853)
-    (at 197.0675 110.49)
+    (at 165.3175 143.51)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C0AAAC1)
@@ -4153,7 +4153,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342864)
-    (at 194.31 99.06 180)
+    (at 162.56 132.08 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C0A5CDF)
@@ -4189,7 +4189,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342875)
-    (at 200.66 102.87 180)
+    (at 168.91 135.89 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C10CE9F)
@@ -4225,7 +4225,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C344DDC)
-    (at 210.6025 109.22 180)
+    (at 178.8525 142.24 180)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C10CF2F)
@@ -4261,7 +4261,7 @@
   )
 
   (module Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C342897)
-    (at 213.36 100.33 180)
+    (at 181.61 133.35 180)
     (descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C13D899)
@@ -4297,7 +4297,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3428A8)
-    (at 255.27 93.98 90)
+    (at 220.98 121.92 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C1A037A)
@@ -4333,7 +4333,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3428B9)
-    (at 260.35 93.98 90)
+    (at 226.06 121.92 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C1A91F4)
@@ -4369,7 +4369,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3428CA)
-    (at 255.27 111.76 270)
+    (at 220.98 139.7 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C15C641)
@@ -4405,7 +4405,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5B301BBD) (tstamp 5C3428DB)
-    (at 259.08 111.76 270)
+    (at 224.79 139.7 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5BF8808C/5C16CBAD)
@@ -4563,7 +4563,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C342936)
-    (at 81.28 0)
+    (at 74.93 72.39)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BE4EEC1/5C17EF5C)
@@ -4593,7 +4593,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C342943)
-    (at 83.82 33.02)
+    (at 77.47 105.41)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BE4EEC1/5C17F304)
@@ -4623,7 +4623,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C342950)
-    (at 152.4 3.81)
+    (at 116.84 102.87)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BE4EEC1/5C15E7ED)
@@ -4653,7 +4653,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C34295D)
-    (at 82.55 40.64)
+    (at 76.2 113.03)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BE4EEC1/5C17F1EE)
@@ -4683,7 +4683,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C34296A)
-    (at 82.55 67.31)
+    (at 76.2 139.7)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BE4EEC1/5C17F5A2)
@@ -4713,7 +4713,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C342977)
-    (at 157.48 45.72)
+    (at 121.92 144.78)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BE4EEC1/5C16979A)
@@ -4742,8 +4742,8 @@
     )
   )
 
-  (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C342984)
-    (at 214.63 69.85)
+  (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C352412)
+    (at 182.88 102.87)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BF8808C/5C1B8A51)
@@ -4772,8 +4772,8 @@
     )
   )
 
-  (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C342991)
-    (at 199.39 64.77)
+  (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C3522AA)
+    (at 167.64 97.79)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BF8808C/5C1DA86F)
@@ -4803,7 +4803,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C34299E)
-    (at 256.54 59.69)
+    (at 222.25 87.63)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BF8808C/5C1F2A51)
@@ -4833,7 +4833,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C3429AB)
-    (at 256.54 64.77)
+    (at 222.25 92.71)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BF8808C/5C1F2BD1)
@@ -4863,7 +4863,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C3429B8)
-    (at 220.98 107.95)
+    (at 189.23 140.97)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BF8808C/5C1C3BE1)
@@ -4893,7 +4893,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C3429C5)
-    (at 201.93 118.11)
+    (at 170.18 151.13)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BF8808C/5C1DA76F)
@@ -4923,7 +4923,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C3429D2)
-    (at 256.54 100.33)
+    (at 222.25 128.27)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BF8808C/5C20B862)
@@ -4953,7 +4953,7 @@
   )
 
   (module TestPoint:TestPoint_Keystone_5000-5004_Miniature (layer F.Cu) (tedit 5A0F774F) (tstamp 5C3429DF)
-    (at 256.54 106.68)
+    (at 222.25 134.62)
     (descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
     (tags "Through Hole Mount Test Points")
     (path /5BF8808C/5C20B57F)
@@ -4983,7 +4983,7 @@
   )
 
   (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C3429FC)
-    (at 85.09 17.78 270)
+    (at 78.74 90.17 270)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5BE4EEC1/5BE4F8E7)
@@ -5037,7 +5037,7 @@
   )
 
   (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C342A19)
-    (at 138.43 24.13 270)
+    (at 102.87 123.19 270)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5BE4EEC1/5BF1D670)
@@ -5090,8 +5090,8 @@
     )
   )
 
-  (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C342A36)
-    (at 179.07 20.32 90)
+  (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C3527B5)
+    (at 111.76 88.9 90)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5BE4EEC1/5BE5D3C4)
@@ -5145,7 +5145,7 @@
   )
 
   (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C342A53)
-    (at 85.09 53.34 270)
+    (at 78.74 125.73 270)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5BE4EEC1/5BF1D139)
@@ -5198,8 +5198,8 @@
     )
   )
 
-  (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C342A70)
-    (at 196.85 46.99 270)
+  (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C35230E)
+    (at 165.1 80.01 270)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5BF8808C/5BFF4306)
@@ -5252,8 +5252,8 @@
     )
   )
 
-  (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C342A8D)
-    (at 213.36 46.99 270)
+  (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C352206)
+    (at 181.61 80.01 270)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5BF8808C/5BFF434B)
@@ -5307,7 +5307,7 @@
   )
 
   (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C342AAA)
-    (at 194.31 92.71 270)
+    (at 162.56 125.73 270)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5BF8808C/5BFF5AE1)
@@ -5361,7 +5361,7 @@
   )
 
   (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C344933)
-    (at 213.36 92.71 270)
+    (at 181.61 125.73 270)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5BF8808C/5BFF5AEE)
@@ -5415,7 +5415,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 5C34C5E5)
-    (at 76.2 8.89 180)
+    (at 69.85 81.28 180)
     (descr "C, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=11.5mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 3.50mm diameter 8mm height 11.5mm Non-Polar Electrolytic Capacitor")
     (path /5BE4EEC1/5BE4F91F)
@@ -5443,7 +5443,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 5C34BFBC)
-    (at 74.93 25.4 180)
+    (at 68.58 97.79 180)
     (descr "C, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=11.5mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 3.50mm diameter 8mm height 11.5mm Non-Polar Electrolytic Capacitor")
     (path /5BE4EEC1/5C0603D8)
@@ -5471,7 +5471,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 5C34BFC6)
-    (at 73.66 43.18 180)
+    (at 67.31 115.57 180)
     (descr "C, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=11.5mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 3.50mm diameter 8mm height 11.5mm Non-Polar Electrolytic Capacitor")
     (path /5BE4EEC1/5C06047E)
@@ -5499,7 +5499,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 5C34BFD0)
-    (at 74.93 62.23 180)
+    (at 68.58 134.62 180)
     (descr "C, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=11.5mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 3.50mm diameter 8mm height 11.5mm Non-Polar Electrolytic Capacitor")
     (path /5BE4EEC1/5C060525)
@@ -5527,7 +5527,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 5C34BFDA)
-    (at 246.38 49.53 180)
+    (at 212.09 77.47 180)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor")
     (path /5BF8808C/5C4F8306)
@@ -5555,7 +5555,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 5C34BFE4)
-    (at 246.38 71.12 180)
+    (at 212.09 99.06 180)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor")
     (path /5BF8808C/5C503D82)
@@ -5583,7 +5583,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 5C34BFEE)
-    (at 246.38 92.71 180)
+    (at 212.09 120.65 180)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor")
     (path /5BF8808C/5C503F94)
@@ -5611,7 +5611,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 5C34BFF8)
-    (at 247.65 113.03 180)
+    (at 213.36 140.97 180)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor")
     (path /5BF8808C/5C50403E)
