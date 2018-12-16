@@ -9,7 +9,12 @@
     (nets 62)
   )
 
-  (page A4)
+  (page USLetter)
+  (title_block
+    (title "preamp-2019: Balanced Amplifier board")
+    (date 2018-12-15)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
