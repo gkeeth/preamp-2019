@@ -294,7 +294,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 3450 9200 3450
 Text Notes 1000 900  0    50   ~ 0
-TODO:\nadd knobs for pots\nadd mounting holes
+TODO:\nadd knobs for pots
 Text Label 1450 2600 0    50   ~ 0
 right_in_hot
 Text Label 1450 2700 0    50   ~ 0
@@ -416,10 +416,10 @@ F 9 "~" H 1400 6700 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR0137
 U 1 1 5C1B223A
 P 1400 6800
-F 0 "#PWR?" H 1400 6550 50  0001 C CNN
+F 0 "#PWR0137" H 1400 6550 50  0001 C CNN
 F 1 "GNDA" H 1405 6627 50  0000 C CNN
 F 2 "" H 1400 6800 50  0001 C CNN
 F 3 "" H 1400 6800 50  0001 C CNN
@@ -444,10 +444,10 @@ F 9 "~" H 1400 7150 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR0138
 U 1 1 5C1B245A
 P 1400 7250
-F 0 "#PWR?" H 1400 7000 50  0001 C CNN
+F 0 "#PWR0138" H 1400 7000 50  0001 C CNN
 F 1 "GNDA" H 1405 7077 50  0000 C CNN
 F 2 "" H 1400 7250 50  0001 C CNN
 F 3 "" H 1400 7250 50  0001 C CNN
@@ -472,10 +472,10 @@ F 9 "~" H 1400 7600 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR0139
 U 1 1 5C1B2D8F
 P 1400 7700
-F 0 "#PWR?" H 1400 7450 50  0001 C CNN
+F 0 "#PWR0139" H 1400 7450 50  0001 C CNN
 F 1 "GNDA" H 1405 7527 50  0000 C CNN
 F 2 "" H 1400 7700 50  0001 C CNN
 F 3 "" H 1400 7700 50  0001 C CNN
@@ -500,10 +500,10 @@ F 9 "~" H 1400 6250 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR0140
 U 1 1 5C1B36DE
 P 1400 6350
-F 0 "#PWR?" H 1400 6100 50  0001 C CNN
+F 0 "#PWR0140" H 1400 6100 50  0001 C CNN
 F 1 "GNDA" H 1405 6177 50  0000 C CNN
 F 2 "" H 1400 6350 50  0001 C CNN
 F 3 "" H 1400 6350 50  0001 C CNN
