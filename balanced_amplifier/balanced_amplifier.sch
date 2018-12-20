@@ -398,4 +398,116 @@ $EndComp
 Connection ~ 2200 5500
 Wire Wire Line
 	2200 5500 2200 5400
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5C1B203E
+P 1400 6700
+F 0 "H2" H 1500 6751 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1500 6660 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1400 6700 50  0001 C CNN
+F 3 "~" H 1400 6700 50  0001 C CNN
+F 4 "~" H 1400 6700 50  0001 C CNN "Manufacturer"
+F 5 "~" H 1400 6700 50  0001 C CNN "Manufacturer PN"
+F 6 "~" H 1400 6700 50  0001 C CNN "Distributor"
+F 7 "~" H 1400 6700 50  0001 C CNN "Distributor PN"
+F 8 "~" H 1400 6700 50  0001 C CNN "URL"
+F 9 "~" H 1400 6700 50  0001 C CNN "Unit Price"
+	1    1400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5C1B223A
+P 1400 6800
+F 0 "#PWR?" H 1400 6550 50  0001 C CNN
+F 1 "GNDA" H 1405 6627 50  0000 C CNN
+F 2 "" H 1400 6800 50  0001 C CNN
+F 3 "" H 1400 6800 50  0001 C CNN
+	1    1400 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5C1B2453
+P 1400 7150
+F 0 "H3" H 1500 7201 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1500 7110 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1400 7150 50  0001 C CNN
+F 3 "~" H 1400 7150 50  0001 C CNN
+F 4 "~" H 1400 7150 50  0001 C CNN "Manufacturer"
+F 5 "~" H 1400 7150 50  0001 C CNN "Manufacturer PN"
+F 6 "~" H 1400 7150 50  0001 C CNN "Distributor"
+F 7 "~" H 1400 7150 50  0001 C CNN "Distributor PN"
+F 8 "~" H 1400 7150 50  0001 C CNN "URL"
+F 9 "~" H 1400 7150 50  0001 C CNN "Unit Price"
+	1    1400 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5C1B245A
+P 1400 7250
+F 0 "#PWR?" H 1400 7000 50  0001 C CNN
+F 1 "GNDA" H 1405 7077 50  0000 C CNN
+F 2 "" H 1400 7250 50  0001 C CNN
+F 3 "" H 1400 7250 50  0001 C CNN
+	1    1400 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5C1B2D88
+P 1400 7600
+F 0 "H4" H 1500 7651 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1500 7560 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1400 7600 50  0001 C CNN
+F 3 "~" H 1400 7600 50  0001 C CNN
+F 4 "~" H 1400 7600 50  0001 C CNN "Manufacturer"
+F 5 "~" H 1400 7600 50  0001 C CNN "Manufacturer PN"
+F 6 "~" H 1400 7600 50  0001 C CNN "Distributor"
+F 7 "~" H 1400 7600 50  0001 C CNN "Distributor PN"
+F 8 "~" H 1400 7600 50  0001 C CNN "URL"
+F 9 "~" H 1400 7600 50  0001 C CNN "Unit Price"
+	1    1400 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5C1B2D8F
+P 1400 7700
+F 0 "#PWR?" H 1400 7450 50  0001 C CNN
+F 1 "GNDA" H 1405 7527 50  0000 C CNN
+F 2 "" H 1400 7700 50  0001 C CNN
+F 3 "" H 1400 7700 50  0001 C CNN
+	1    1400 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5C1B36D7
+P 1400 6250
+F 0 "H1" H 1500 6301 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1500 6210 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1400 6250 50  0001 C CNN
+F 3 "~" H 1400 6250 50  0001 C CNN
+F 4 "~" H 1400 6250 50  0001 C CNN "Manufacturer"
+F 5 "~" H 1400 6250 50  0001 C CNN "Manufacturer PN"
+F 6 "~" H 1400 6250 50  0001 C CNN "Distributor"
+F 7 "~" H 1400 6250 50  0001 C CNN "Distributor PN"
+F 8 "~" H 1400 6250 50  0001 C CNN "URL"
+F 9 "~" H 1400 6250 50  0001 C CNN "Unit Price"
+	1    1400 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5C1B36DE
+P 1400 6350
+F 0 "#PWR?" H 1400 6100 50  0001 C CNN
+F 1 "GNDA" H 1405 6177 50  0000 C CNN
+F 2 "" H 1400 6350 50  0001 C CNN
+F 3 "" H 1400 6350 50  0001 C CNN
+	1    1400 6350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
