@@ -2567,10 +2567,10 @@
       (net 2 GNDA))
     (pad 3 thru_hole circle (at 10 0 180) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 15 VCC))
-    (model ${KISYS3DMOD}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model 3dmodels/pxc_1935174_03_PT-1-5-3-5-0-H_3D.stp
+      (offset (xyz -25 -44.5 -39))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 -90))
     )
   )
 
