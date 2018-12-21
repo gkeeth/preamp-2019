@@ -2425,10 +2425,10 @@
       (net 2 GNDA))
     (pad 1 thru_hole roundrect (at 0 0 180) (size 1.74 2.2) (drill 1.2) (layers *.Cu *.Mask) (roundrect_rratio 0.143678)
       (net 35 /right_in_hot))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model 3dmodels/705430003.stp
+      (offset (xyz 3.8 0 8))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -2497,10 +2497,10 @@
       (net 2 GNDA))
     (pad 4 thru_hole oval (at 7.62 0 180) (size 1.74 2.2) (drill 1.2) (layers *.Cu *.Mask)
       (net 37 /left_in_cold))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model 3dmodels/705430003.stp
+      (offset (xyz 3.8 0 8))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -2639,10 +2639,10 @@
       (net 2 GNDA))
     (pad 1 thru_hole roundrect (at 0 0 180) (size 1.74 2.2) (drill 1.2) (layers *.Cu *.Mask) (roundrect_rratio 0.143678)
       (net 39 /volume_control/right_out_cold))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model 3dmodels/705430003.stp
+      (offset (xyz 3.8 0 8))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -2711,10 +2711,10 @@
       (net 2 GNDA))
     (pad 4 thru_hole oval (at 7.62 0 180) (size 1.74 2.2) (drill 1.2) (layers *.Cu *.Mask)
       (net 41 /volume_control/left_out_hot))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model 3dmodels/705430003.stp
+      (offset (xyz 3.8 0 8))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
