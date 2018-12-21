@@ -4602,10 +4602,10 @@
     (fp_circle (center 0 0) (end 1.4 0) (layer F.SilkS) (width 0.15))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 5 "Net-(C5-Pad2)"))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4632,10 +4632,10 @@
     (fp_circle (center 0 0) (end 1.4 0) (layer F.SilkS) (width 0.15))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 6 "Net-(C6-Pad1)"))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4662,10 +4662,10 @@
     (fp_circle (center 0 0) (end 1.4 0) (layer F.SilkS) (width 0.15))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 4 /volume_control/right_in))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4692,10 +4692,10 @@
     )
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 10 "Net-(C13-Pad2)"))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4722,10 +4722,10 @@
     )
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 12 "Net-(C14-Pad1)"))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4752,10 +4752,10 @@
     )
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 11 /volume_control/left_in))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4782,10 +4782,10 @@
     )
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 53 "Net-(C26-Pad2)"))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4812,10 +4812,10 @@
     )
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 52 "Net-(R26-Pad2)"))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4842,10 +4842,10 @@
     (fp_circle (center 0 0) (end 1.4 0) (layer F.SilkS) (width 0.15))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 38 /volume_control/right_out_hot))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4872,10 +4872,10 @@
     )
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 39 /volume_control/right_out_cold))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4902,10 +4902,10 @@
     (fp_circle (center 0 0) (end 1.4 0) (layer F.SilkS) (width 0.15))
     (pad 1 thru_hole circle (at 0 0 270) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 57 "Net-(C33-Pad2)"))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4932,10 +4932,10 @@
     (fp_circle (center 0 0) (end 1.4 0) (layer F.SilkS) (width 0.15))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 56 "Net-(R39-Pad2)"))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4962,10 +4962,10 @@
     )
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 41 /volume_control/left_out_hot))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -4992,10 +4992,10 @@
     (fp_circle (center 0 0) (end 1.4 0) (layer F.SilkS) (width 0.15))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 40 /volume_control/left_out_cold))
-    (model ${KISYS3DMOD}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.wrl
+    (model 3dmodels/keystone-PN5002.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
