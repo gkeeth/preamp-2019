@@ -6,7 +6,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 3
 Title "Balanced Input Amplifier"
-Date "2018-11-11"
+Date "2018-12-31"
 Rev ""
 Comp "G. Keeth"
 Comment1 ""
