@@ -217,7 +217,7 @@ F 7 "91A2A-B28-B13/B13L-ND" H 2700 900 50  0001 C CNN "Distributor PN"
 F 8 "https://www.digikey.com/product-detail/en/bourns-inc/91A2A-B28-B13-B13L/91A2A-B28-B13-B13L-ND/3780949" H 2700 900 50  0001 C CNN "URL"
 F 9 "9.97" H 2700 900 50  0001 C CNN "Unit Price"
 	1    2700 900 
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Amplifier_Operational:LM4562 U?
@@ -316,7 +316,7 @@ F 7 "91A2A-B28-B13/B13L-ND" H 2700 4200 50  0001 C CNN "Distributor PN"
 F 8 "https://www.digikey.com/product-detail/en/bourns-inc/91A2A-B28-B13-B13L/91A2A-B28-B13-B13L-ND/3780949" H 2700 4200 50  0001 C CNN "URL"
 F 9 "9.97" H 2700 4200 50  0001 C CNN "Unit Price"
 	2    2700 4200
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Amplifier_Operational:LM4562 U?
@@ -1972,4 +1972,6 @@ Wire Wire Line
 Connection ~ 9600 5700
 Wire Wire Line
 	9600 5700 9750 5700
+Text Notes 1200 1550 0    50   ~ 0
+CCW: wiper towards pin 1\nWiper at input: maximum gain (3.3)\nWiper at TP7: minimum gain (0)
 $EndSCHEMATC
