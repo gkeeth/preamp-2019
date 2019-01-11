@@ -1671,8 +1671,6 @@ Wire Wire Line
 Connection ~ 5750 6500
 Wire Wire Line
 	5750 6500 5750 6900
-Text Notes 7100 750  0    50   ~ 0
-nonpolarized output couping caps?
 $Comp
 L Device:C C?
 U 1 1 5C4F8306
