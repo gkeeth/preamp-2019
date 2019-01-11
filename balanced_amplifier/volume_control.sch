@@ -406,7 +406,7 @@ AR Path="/5BE4EEC1/5BFF7B81" Ref="C?"  Part="1"
 AR Path="/5BF8808C/5BFF7B81" Ref="C21"  Part="1" 
 F 0 "C21" V 1948 900 50  0000 C CNN
 F 1 "470u" V 2039 900 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2200 900 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 2200 900 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 2200 900 50  0001 C CNN
 F 4 "Nichicon" H 2200 900 50  0001 C CNN "Manufacturer"
 F 5 "UVR1V471MPD" H 2200 900 50  0001 C CNN "Manufacturer PN"
@@ -427,7 +427,7 @@ AR Path="/5BE4EEC1/5BFF7FC6" Ref="C?"  Part="1"
 AR Path="/5BF8808C/5BFF7FC6" Ref="C28"  Part="1" 
 F 0 "C28" V 1948 4200 50  0000 C CNN
 F 1 "470u" V 2039 4200 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2200 4200 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 2200 4200 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 2200 4200 50  0001 C CNN
 F 4 "Nichicon" H 2200 4200 50  0001 C CNN "Manufacturer"
 F 5 "UVR1V471MPD" H 2200 4200 50  0001 C CNN "Manufacturer PN"
