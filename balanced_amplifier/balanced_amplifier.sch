@@ -294,7 +294,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 3450 9200 3450
 Text Notes 1000 900  0    50   ~ 0
-TODO:\nadd knobs for pots
+TODO:\nadd knobs for pots\nswap +/- for either input or output connectors (make consistent)\nchange power connector to 1x3 Molex SL
 Text Label 1450 2600 0    50   ~ 0
 right_in_hot
 Text Label 1450 2700 0    50   ~ 0
