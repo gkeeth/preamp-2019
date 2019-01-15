@@ -5,9 +5,9 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 3 3
-Title "Balanced Input Amplifier"
-Date "2018-12-31"
-Rev ""
+Title "Balanced Input Amplifier / Balance Control for Preamp 2019"
+Date "2019-01-14"
+Rev "1"
 Comp "G. Keeth"
 Comment1 ""
 Comment2 ""

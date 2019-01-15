@@ -5,10 +5,10 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 2 3
-Title ""
-Date "2018-12-31"
-Rev ""
-Comp ""
+Title "Volume Control / Balanced Output Amplifier for Preamp 2019"
+Date "2019-01-14"
+Rev "1"
+Comp "G. Keeth"
 Comment1 ""
 Comment2 ""
 Comment3 ""
