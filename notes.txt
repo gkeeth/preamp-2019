@@ -1,0 +1,12 @@
+enclosure: consider Hammond 1441-16BK3CWW
+dimensions: 10" W x 6" D x 2" H
+necessary parts:
+ - enclosure (1441-16BK3CWW) - $65.03
+ - bottom plate (1431-16BK3) - $8.90
+ - screws (1421J6BK) - $5.87 (mouser)
+ - feet (1421T6CL) - $7.13
+
+transformer: consider Triad VPT30-1670
+dimensions: 83mm D x 36mm H (1.42" height)
+15VAC parallel / 30VAC series, 50VA max
+$32.47
