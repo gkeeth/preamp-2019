@@ -10,3 +10,12 @@ transformer: consider Triad VPT30-1670
 dimensions: 83mm D x 36mm H (1.42" height)
 15VAC parallel / 30VAC series, 50VA max
 $32.47
+
+power switch: consider E-switch RC1083BBLKBLKFF0
+4.7mm faston/0.187"
+
+power filter/inlet: consider Schaffner FN9260-6-06
+faston 6.3mm/0.25"
+
+
+
