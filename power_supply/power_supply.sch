@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:power_supply-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -449,8 +449,8 @@ F 3 "~" H 4600 2750 50  0001 C CNN
 $EndComp
 Text Notes 1900 7350 0    50   ~ 0
 Maybe use 9V or 15V?
-Text Notes 800  950  0    50   ~ 0
-TODO\nsecondary fuses necessary?\nfuse/line filter/power entry module\nswitch\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\ncapacitor type for regulators
+Text Notes 950  4250 0    50   ~ 0
+TODO\nsecondary fuses necessary? yes\nfuse/line filter/power entry module\nswitch\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\ncapacitor type for regulators\nadd current measurement jumpers
 $Comp
 L Device:R R?
 U 1 1 5C4110E7
