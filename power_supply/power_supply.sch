@@ -59,25 +59,14 @@ F 3 "~" H 1650 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:C C?
 U 1 1 5C3F0B83
 P 5700 2250
 F 0 "C?" H 5815 2296 50  0000 L CNN
-F 1 "CP1" H 5815 2205 50  0000 L CNN
+F 1 "330n" H 5725 2150 50  0000 L CNN
 F 2 "" H 5700 2250 50  0001 C CNN
 F 3 "~" H 5700 2250 50  0001 C CNN
 	1    5700 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5C3F0BDF
-P 5600 2750
-F 0 "C?" H 5715 2796 50  0000 L CNN
-F 1 "CP1" H 5715 2705 50  0000 L CNN
-F 2 "" H 5600 2750 50  0001 C CNN
-F 3 "~" H 5600 2750 50  0001 C CNN
-	1    5600 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -146,28 +135,6 @@ F 3 "~" H 7900 2750 50  0001 C CNN
 	1    7900 2750
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5C3F1B3C
-P 8800 2250
-F 0 "C?" H 8915 2296 50  0000 L CNN
-F 1 "CP1" H 8915 2205 50  0000 L CNN
-F 2 "" H 8800 2250 50  0001 C CNN
-F 3 "~" H 8800 2250 50  0001 C CNN
-	1    8800 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5C3F1B9E
-P 8700 2750
-F 0 "C?" H 8815 2796 50  0000 L CNN
-F 1 "CP1" H 8815 2705 50  0000 L CNN
-F 2 "" H 8700 2750 50  0001 C CNN
-F 3 "~" H 8700 2750 50  0001 C CNN
-	1    8700 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 2100 5700 2000
 Wire Wire Line
@@ -175,12 +142,8 @@ Wire Wire Line
 Wire Wire Line
 	6800 2000 6900 2000
 Wire Wire Line
-	8800 2000 8800 2100
-Wire Wire Line
 	8000 2100 8000 2000
 Connection ~ 8000 2000
-Wire Wire Line
-	8000 2000 8800 2000
 Wire Wire Line
 	7300 2100 7300 2000
 Connection ~ 7300 2000
@@ -193,8 +156,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 2500 8000 2400
 Connection ~ 7300 2500
-Wire Wire Line
-	8800 2500 8800 2400
 Connection ~ 8000 2500
 Wire Wire Line
 	6300 1500 6100 1500
@@ -230,13 +191,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 3000 7900 2900
 Connection ~ 7200 3000
-Wire Wire Line
-	7900 3000 8700 3000
-Wire Wire Line
-	8700 3000 8700 2900
 Connection ~ 7900 3000
-Wire Wire Line
-	8700 2600 8700 2500
 Wire Wire Line
 	7900 2500 7900 2600
 Wire Wire Line
@@ -263,9 +218,6 @@ Wire Wire Line
 Connection ~ 7900 2500
 Wire Wire Line
 	7900 2500 8000 2500
-Connection ~ 8700 2500
-Wire Wire Line
-	8700 2500 8800 2500
 Wire Wire Line
 	6500 2500 7200 2500
 Wire Wire Line
@@ -275,11 +227,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 2500 5700 2500
 Connection ~ 5700 2500
-Wire Wire Line
-	8000 2500 8700 2500
-Wire Wire Line
-	8800 2500 9300 2500
-Connection ~ 8800 2500
 Wire Wire Line
 	6200 3600 6000 3600
 Wire Wire Line
@@ -319,13 +266,7 @@ $EndComp
 Wire Wire Line
 	9300 2000 9300 1900
 Wire Wire Line
-	8800 2000 9300 2000
-Connection ~ 8800 2000
-Wire Wire Line
 	9300 3100 9300 3000
-Wire Wire Line
-	9300 3000 8700 3000
-Connection ~ 8700 3000
 $Comp
 L Device:D_ALT D?
 U 1 1 5C408E82
@@ -372,24 +313,13 @@ F 3 "~" H 3800 1600 50  0001 C CNN
 $EndComp
 $Comp
 L Device:LED_ALT D?
-U 1 1 5C40C2DB
-P 5800 3600
-F 0 "D?" H 5791 3816 50  0000 C CNN
-F 1 "LED_ALT" H 5791 3725 50  0000 C CNN
-F 2 "" H 5800 3600 50  0001 C CNN
-F 3 "~" H 5800 3600 50  0001 C CNN
-	1    5800 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_ALT D?
 U 1 1 5C40C321
-P 9950 1900
-F 0 "D?" V 9988 1782 50  0000 R CNN
-F 1 "LED_ALT" V 9897 1782 50  0000 R CNN
-F 2 "" H 9950 1900 50  0001 C CNN
-F 3 "~" H 9950 1900 50  0001 C CNN
-	1    9950 1900
+P 8500 4750
+F 0 "D?" V 8538 4632 50  0000 R CNN
+F 1 "LED_ALT" V 8447 4632 50  0000 R CNN
+F 2 "" H 8500 4750 50  0001 C CNN
+F 3 "~" H 8500 4750 50  0001 C CNN
+	1    8500 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -406,23 +336,23 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5C40FDCD
-P 2200 1700
-F 0 "C?" H 2315 1746 50  0000 L CNN
-F 1 "0.1u-1u" H 2315 1655 50  0000 L CNN
-F 2 "" H 2238 1550 50  0001 C CNN
-F 3 "~" H 2200 1700 50  0001 C CNN
-	1    2200 1700
+P 2500 1700
+F 0 "C?" H 2615 1746 50  0000 L CNN
+F 1 "0.1u-1u" H 2615 1655 50  0000 L CNN
+F 2 "" H 2538 1550 50  0001 C CNN
+F 3 "~" H 2500 1700 50  0001 C CNN
+	1    2500 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5C40FEB0
-P 2200 2200
-F 0 "R?" H 2270 2246 50  0000 L CNN
-F 1 "10-100" H 2270 2155 50  0000 L CNN
-F 2 "" V 2130 2200 50  0001 C CNN
-F 3 "~" H 2200 2200 50  0001 C CNN
-	1    2200 2200
+P 2500 2200
+F 0 "R?" H 2570 2246 50  0000 L CNN
+F 1 "10-100" H 2570 2155 50  0000 L CNN
+F 2 "" V 2430 2200 50  0001 C CNN
+F 3 "~" H 2500 2200 50  0001 C CNN
+	1    2500 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -430,7 +360,7 @@ L Device:CP1 C?
 U 1 1 5C410200
 P 4600 2150
 F 0 "C?" H 4715 2196 50  0000 L CNN
-F 1 "4700u?" H 4715 2105 50  0000 L CNN
+F 1 "1000u" H 4715 2105 50  0000 L CNN
 F 2 "" H 4600 2150 50  0001 C CNN
 F 3 "~" H 4600 2150 50  0001 C CNN
 	1    4600 2150
@@ -441,7 +371,7 @@ L Device:CP1 C?
 U 1 1 5C41027A
 P 4600 2750
 F 0 "C?" H 4715 2796 50  0000 L CNN
-F 1 "4700u?" H 4715 2705 50  0000 L CNN
+F 1 "1000u" H 4715 2705 50  0000 L CNN
 F 2 "" H 4600 2750 50  0001 C CNN
 F 3 "~" H 4600 2750 50  0001 C CNN
 	1    4600 2750
@@ -450,16 +380,16 @@ $EndComp
 Text Notes 1900 7350 0    50   ~ 0
 Maybe use 9V or 15V?
 Text Notes 950  4250 0    50   ~ 0
-TODO\nsecondary fuses necessary? yes\nfuse/line filter/power entry module\nswitch\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\ncapacitor type for regulators\nadd current measurement jumpers
+TODO\nsecondary fuses necessary? yes\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\ncapacitor type for regulators\nsee if 10k resistors will work for LEDs
 $Comp
 L Device:R R?
 U 1 1 5C4110E7
-P 9950 1500
-F 0 "R?" H 10020 1546 50  0000 L CNN
-F 1 "1k" H 10020 1455 50  0000 L CNN
-F 2 "" V 9880 1500 50  0001 C CNN
-F 3 "~" H 9950 1500 50  0001 C CNN
-	1    9950 1500
+P 8500 4250
+F 0 "R?" H 8570 4296 50  0000 L CNN
+F 1 "1k" H 8570 4205 50  0000 L CNN
+F 2 "" V 8430 4250 50  0001 C CNN
+F 3 "~" H 8500 4250 50  0001 C CNN
+	1    8500 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -476,9 +406,7 @@ $EndComp
 Wire Wire Line
 	3400 1750 3400 2000
 Wire Wire Line
-	3800 2150 3800 1900
-Wire Wire Line
-	2200 1850 2200 2050
+	2500 1850 2500 2050
 Wire Wire Line
 	3400 2450 3400 2550
 Wire Wire Line
@@ -488,16 +416,16 @@ Wire Wire Line
 Wire Wire Line
 	3600 2550 3600 2650
 Wire Wire Line
-	3600 2650 2200 2650
+	3600 2650 2500 2650
 Wire Wire Line
-	2200 2650 2200 2350
+	2500 2650 2500 2350
 Connection ~ 3600 2550
 Wire Wire Line
 	3600 2550 3800 2550
 Wire Wire Line
-	2200 1550 2200 1250
+	2500 1550 2500 1250
 Wire Wire Line
-	2200 1250 3600 1250
+	2500 1250 3600 1250
 Wire Wire Line
 	3600 1250 3600 1350
 Wire Wire Line
@@ -512,36 +440,29 @@ Connection ~ 3600 1350
 $Comp
 L Device:LED_ALT D?
 U 1 1 5C5B0DB5
-P 10000 3200
-F 0 "D?" V 10038 3082 50  0000 R CNN
-F 1 "LED_ALT" V 9947 3082 50  0000 R CNN
-F 2 "" H 10000 3200 50  0001 C CNN
-F 3 "~" H 10000 3200 50  0001 C CNN
-	1    10000 3200
-	0    -1   -1   0   
+P 9500 4250
+F 0 "D?" V 9538 4132 50  0000 R CNN
+F 1 "LED_ALT" V 9447 4132 50  0000 R CNN
+F 2 "" H 9500 4250 50  0001 C CNN
+F 3 "~" H 9500 4250 50  0001 C CNN
+	1    9500 4250
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5C5B0DBB
-P 10000 2750
-F 0 "R?" H 10070 2796 50  0000 L CNN
-F 1 "1k" H 10070 2705 50  0000 L CNN
-F 2 "" V 9930 2750 50  0001 C CNN
-F 3 "~" H 10000 2750 50  0001 C CNN
-	1    10000 2750
+P 9500 4750
+F 0 "R?" H 9570 4796 50  0000 L CNN
+F 1 "1k" H 9570 4705 50  0000 L CNN
+F 2 "" V 9430 4750 50  0001 C CNN
+F 3 "~" H 9500 4750 50  0001 C CNN
+	1    9500 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 1900 4600 1900
-Wire Wire Line
 	4600 1900 4600 2000
-Connection ~ 3800 1900
-Wire Wire Line
-	3800 1900 3800 1750
 Wire Wire Line
 	4600 2900 4600 3000
-Wire Wire Line
-	4600 3000 3000 3000
 Wire Wire Line
 	3000 3000 3000 2000
 Wire Wire Line
@@ -561,8 +482,6 @@ Wire Wire Line
 	4600 2400 4300 2400
 Wire Wire Line
 	4300 2400 4300 2800
-Wire Wire Line
-	4300 2800 1900 2800
 Connection ~ 4600 2400
 Wire Wire Line
 	4600 2400 4600 2500
@@ -602,12 +521,6 @@ $EndComp
 Text Label 1150 1900 0    50   ~ 0
 transformer_center
 Wire Wire Line
-	1100 1250 2200 1250
-Connection ~ 2200 1250
-Wire Wire Line
-	2200 2650 1100 2650
-Connection ~ 2200 2650
-Wire Wire Line
 	1100 1900 1900 1900
 Wire Wire Line
 	1900 1900 1900 2800
@@ -617,12 +530,169 @@ Text Label 1150 1250 0    50   ~ 0
 transformer_top
 Wire Wire Line
 	4600 3000 5600 3000
-Connection ~ 4600 3000
 Connection ~ 5600 3000
 Wire Wire Line
 	4600 1900 5700 1900
 Wire Wire Line
 	5700 1900 5700 2000
-Connection ~ 4600 1900
 Connection ~ 5700 2000
+$Comp
+L Device:C C?
+U 1 1 5C99DC5A
+P 5600 2750
+F 0 "C?" H 5715 2796 50  0000 L CNN
+F 1 "330n" H 5625 2650 50  0000 L CNN
+F 2 "" H 5600 2750 50  0001 C CNN
+F 3 "~" H 5600 2750 50  0001 C CNN
+	1    5600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2000 9300 2000
+Wire Wire Line
+	8000 2500 9300 2500
+Wire Wire Line
+	7900 3000 9300 3000
+Text Notes 4400 1400 0    50   ~ 0
+RESERVOIR CAPACITORS\n\nVpp = I * dt / C\n\nI = 100mA (measured 76mA)\ndt = 6ms (SSAD p710, adjusted for 60Hz mains)\nC = ?\n\nVpp = 1V -> C = 600uF\nVpp = 2V -> 300uF
+$Comp
+L Device:Jumper_NC_Small JP3
+U 1 1 5C99F53D
+P 4100 1900
+F 0 "JP3" H 4100 2021 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 4100 2021 50  0001 C CNN
+F 2 "" H 4100 1900 50  0001 C CNN
+F 3 "~" H 4100 1900 50  0001 C CNN
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP5
+U 1 1 5C99FD92
+P 4100 3000
+F 0 "JP5" H 4100 3121 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 4100 3121 50  0001 C CNN
+F 2 "" H 4100 3000 50  0001 C CNN
+F 3 "~" H 4100 3000 50  0001 C CNN
+	1    4100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP2
+U 1 1 5C9A02C0
+P 2150 2650
+F 0 "JP2" H 2150 2771 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 2150 2771 50  0001 C CNN
+F 2 "" H 2150 2650 50  0001 C CNN
+F 3 "~" H 2150 2650 50  0001 C CNN
+	1    2150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 5C9A0F59
+P 2150 1250
+F 0 "JP1" H 2150 1371 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 2150 1371 50  0001 C CNN
+F 2 "" H 2150 1250 50  0001 C CNN
+F 3 "~" H 2150 1250 50  0001 C CNN
+	1    2150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP4
+U 1 1 5C9A166C
+P 4100 2800
+F 0 "JP4" H 4100 2921 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 4100 2921 50  0001 C CNN
+F 2 "" H 4100 2800 50  0001 C CNN
+F 3 "~" H 4100 2800 50  0001 C CNN
+	1    4100 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 2650 2050 2650
+Wire Wire Line
+	2250 2650 2500 2650
+Connection ~ 2500 2650
+Wire Wire Line
+	2250 1250 2500 1250
+Connection ~ 2500 1250
+Wire Wire Line
+	2050 1250 1100 1250
+Wire Wire Line
+	3800 1750 3800 1900
+Wire Wire Line
+	4000 1900 3800 1900
+Connection ~ 3800 1900
+Wire Wire Line
+	3800 1900 3800 2150
+Wire Wire Line
+	4200 1900 4600 1900
+Connection ~ 4600 1900
+Wire Wire Line
+	4200 2800 4300 2800
+Wire Wire Line
+	4000 2800 1900 2800
+Wire Wire Line
+	4200 3000 4600 3000
+Connection ~ 4600 3000
+Wire Wire Line
+	4000 3000 3000 3000
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5C9CF199
+P 8500 5000
+F 0 "#PWR?" H 8500 4800 50  0001 C CNN
+F 1 "GNDPWR" H 8504 4846 50  0000 C CNN
+F 2 "" H 8500 4950 50  0001 C CNN
+F 3 "" H 8500 4950 50  0001 C CNN
+	1    8500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5C9CF844
+P 9500 5000
+F 0 "#PWR?" H 9500 4800 50  0001 C CNN
+F 1 "GNDPWR" H 9504 4846 50  0000 C CNN
+F 2 "" H 9500 4950 50  0001 C CNN
+F 3 "" H 9500 4950 50  0001 C CNN
+	1    9500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VEE #PWR?
+U 1 1 5C9D0258
+P 9500 4000
+F 0 "#PWR?" H 9500 3850 50  0001 C CNN
+F 1 "VEE" H 9517 4173 50  0000 C CNN
+F 2 "" H 9500 4000 50  0001 C CNN
+F 3 "" H 9500 4000 50  0001 C CNN
+	1    9500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5C9D0B19
+P 8500 4000
+F 0 "#PWR?" H 8500 3850 50  0001 C CNN
+F 1 "VCC" H 8517 4173 50  0000 C CNN
+F 2 "" H 8500 4000 50  0001 C CNN
+F 3 "" H 8500 4000 50  0001 C CNN
+	1    8500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4000 8500 4100
+Wire Wire Line
+	8500 4400 8500 4600
+Wire Wire Line
+	8500 4900 8500 5000
+Wire Wire Line
+	9500 4000 9500 4100
+Wire Wire Line
+	9500 4400 9500 4600
+Wire Wire Line
+	9500 4900 9500 5000
 $EndSCHEMATC
