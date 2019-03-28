@@ -283,7 +283,7 @@ $EndComp
 Text Notes -250 5550 0    50   ~ 0
 Maybe use 9V or 15V?
 Text Notes 950  4250 0    50   ~ 0
-TODO\nsecondary fuses necessary? yes\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\nsee if 10k resistors will work for LEDs\nheatsinks
+TODO\nsecondary fuses necessary? yes\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\nsee if 10k resistors will work for LEDs\nheatsinks\nCHANGE 330n CAP ON 7915 TO 2.2uF ELECTROLYTIC
 $Comp
 L Device:R R2
 U 1 1 5C4110E7
