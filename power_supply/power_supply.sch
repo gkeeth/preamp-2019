@@ -961,4 +961,6 @@ Wire Wire Line
 Connection ~ 1200 1350
 Wire Wire Line
 	1200 1350 1900 1350
+Text Notes 650  1950 0    50   ~ 0
+Input connector is Molex SL\nMax AWG: 22\nVoltage/Current: 250V/3.0A
 $EndSCHEMATC
