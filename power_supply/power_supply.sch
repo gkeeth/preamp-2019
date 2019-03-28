@@ -283,7 +283,7 @@ $EndComp
 Text Notes -250 5550 0    50   ~ 0
 Maybe use 9V or 15V?
 Text Notes 950  4250 0    50   ~ 0
-TODO\nsecondary fuses necessary? yes\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\nsee if 10k resistors will work for LEDs\noutput terminals -- 3x per supply?
+TODO\nsecondary fuses necessary? yes\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\nsee if 10k resistors will work for LEDs\nheatsinks
 $Comp
 L Device:R R2
 U 1 1 5C4110E7
@@ -377,49 +377,16 @@ Wire Wire Line
 Connection ~ 4600 2400
 Wire Wire Line
 	4600 2400 4600 2500
-$Comp
-L Connector:Conn_01x01_Male J1
-U 1 1 5C5CB74D
-P 900 1250
-F 0 "J1" H 1006 1428 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 1006 1337 50  0000 C CNN
-F 2 "" H 900 1250 50  0001 C CNN
-F 3 "~" H 900 1250 50  0001 C CNN
-	1    900  1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J3
-U 1 1 5C5CB807
-P 900 2650
-F 0 "J3" H 1006 2828 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 1006 2737 50  0000 C CNN
-F 2 "" H 900 2650 50  0001 C CNN
-F 3 "~" H 900 2650 50  0001 C CNN
-	1    900  2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J2
-U 1 1 5C5CB865
-P 900 1900
-F 0 "J2" H 1006 2078 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 1006 1987 50  0000 C CNN
-F 2 "" H 900 1900 50  0001 C CNN
-F 3 "~" H 900 1900 50  0001 C CNN
-	1    900  1900
-	1    0    0    -1  
-$EndComp
-Text Label 1150 1900 0    50   ~ 0
+Text Label 1150 1350 0    50   ~ 0
 transformer_center
 Wire Wire Line
-	1100 1900 1900 1900
+	1100 1350 1200 1350
 Wire Wire Line
-	1900 1900 1900 2800
-Text Label 1150 2650 0    50   ~ 0
+	1900 1350 1900 2800
+Text Label 1150 1550 0    50   ~ 0
 transformer_minus
 Text Label 1150 1250 0    50   ~ 0
-transformer_top
+transformer_plus
 Wire Wire Line
 	4600 3000 5600 3000
 Connection ~ 5600 3000
@@ -491,8 +458,6 @@ F 3 "~" H 4100 2800 50  0001 C CNN
 	1    4100 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 2650 2050 2650
 Wire Wire Line
 	2250 2650 2500 2650
 Connection ~ 2500 2650
@@ -805,10 +770,10 @@ F 9 "0.29" H 7900 2750 50  0001 C CNN "Unit Price"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J4
+L Connector:Conn_01x03_Male J2
 U 1 1 5CA83316
 P 4200 4600
-F 0 "J4" H 4172 4624 50  0000 R CNN
+F 0 "J2" H 4172 4624 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 4172 4533 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 4200 4600 50  0001 C CNN
 F 3 "~" H 4200 4600 50  0001 C CNN
@@ -816,10 +781,10 @@ F 3 "~" H 4200 4600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J5
+L Connector:Conn_01x03_Male J3
 U 1 1 5CA83A0D
 P 4200 5600
-F 0 "J5" H 4172 5624 50  0000 R CNN
+F 0 "J3" H 4172 5624 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 4172 5533 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 4200 5600 50  0001 C CNN
 F 3 "~" H 4200 5600 50  0001 C CNN
@@ -827,10 +792,10 @@ F 3 "~" H 4200 5600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J6
+L Connector:Conn_01x03_Male J4
 U 1 1 5CA83D7D
 P 4200 6600
-F 0 "J6" H 4172 6624 50  0000 R CNN
+F 0 "J4" H 4172 6624 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 4172 6533 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 4200 6600 50  0001 C CNN
 F 3 "~" H 4200 6600 50  0001 C CNN
@@ -972,4 +937,28 @@ Wire Wire Line
 	3500 4700 4000 4700
 Wire Wire Line
 	3250 4600 4000 4600
+Wire Wire Line
+	1100 1550 1800 1550
+Wire Wire Line
+	1800 1550 1800 2650
+Wire Wire Line
+	1800 2650 2050 2650
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5CAF6792
+P 900 1350
+F 0 "J1" H 1008 1631 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1008 1540 50  0000 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 900 1350 50  0001 C CNN
+F 3 "~" H 900 1350 50  0001 C CNN
+	1    900  1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1450 1200 1450
+Wire Wire Line
+	1200 1450 1200 1350
+Connection ~ 1200 1350
+Wire Wire Line
+	1200 1350 1900 1350
 $EndSCHEMATC
