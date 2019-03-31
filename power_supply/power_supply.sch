@@ -429,171 +429,75 @@ $EndComp
 $Comp
 L Connector:Conn_01x03_Male J2
 U 1 1 5CA83316
-P 4950 5250
-F 0 "J2" H 4922 5274 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 4922 5183 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 4950 5250 50  0001 C CNN
-F 3 "~" H 4950 5250 50  0001 C CNN
-	1    4950 5250
+P 5150 6950
+F 0 "J2" H 5122 6974 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5122 6883 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 5150 6950 50  0001 C CNN
+F 3 "~" H 5150 6950 50  0001 C CNN
+	1    5150 6950
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x03_Male J3
 U 1 1 5CA83A0D
-P 4950 6250
-F 0 "J3" H 4922 6274 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 4922 6183 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 4950 6250 50  0001 C CNN
-F 3 "~" H 4950 6250 50  0001 C CNN
-	1    4950 6250
+P 5150 7350
+F 0 "J3" H 5122 7374 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5122 7283 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 5150 7350 50  0001 C CNN
+F 3 "~" H 5150 7350 50  0001 C CNN
+	1    5150 7350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x03_Male J4
 U 1 1 5CA83D7D
-P 4950 7250
-F 0 "J4" H 4922 7274 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 4922 7183 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 4950 7250 50  0001 C CNN
-F 3 "~" H 4950 7250 50  0001 C CNN
-	1    4950 7250
+P 5150 7750
+F 0 "J4" H 5122 7774 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5122 7683 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 5150 7750 50  0001 C CNN
+F 3 "~" H 5150 7750 50  0001 C CNN
+	1    5150 7750
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 7150 4750 7150
-Wire Wire Line
-	4250 7350 4750 7350
-$Comp
-L power:VCC #PWR0108
-U 1 1 5CA96434
-P 4250 7050
-F 0 "#PWR0108" H 4250 6900 50  0001 C CNN
-F 1 "VCC" H 4267 7223 50  0000 C CNN
-F 2 "" H 4250 7050 50  0001 C CNN
-F 3 "" H 4250 7050 50  0001 C CNN
-	1    4250 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VEE #PWR0109
-U 1 1 5CA96ADA
-P 4250 7450
-F 0 "#PWR0109" H 4250 7300 50  0001 C CNN
-F 1 "VEE" H 4267 7623 50  0000 C CNN
-F 2 "" H 4250 7450 50  0001 C CNN
-F 3 "" H 4250 7450 50  0001 C CNN
-	1    4250 7450
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	4250 7050 4250 7150
-Wire Wire Line
-	4250 7350 4250 7450
-$Comp
-L power:GNDPWR #PWR0110
-U 1 1 5CA9D8F5
-P 4000 7350
-F 0 "#PWR0110" H 4000 7150 50  0001 C CNN
-F 1 "GNDPWR" H 4004 7196 50  0000 C CNN
-F 2 "" H 4000 7300 50  0001 C CNN
-F 3 "" H 4000 7300 50  0001 C CNN
-	1    4000 7350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 7350 4000 7250
-Wire Wire Line
-	4000 7250 4750 7250
 $Comp
 L power:VCC #PWR0111
 U 1 1 5CAA4ADE
-P 4250 5050
-F 0 "#PWR0111" H 4250 4900 50  0001 C CNN
-F 1 "VCC" H 4267 5223 50  0000 C CNN
-F 2 "" H 4250 5050 50  0001 C CNN
-F 3 "" H 4250 5050 50  0001 C CNN
-	1    4250 5050
+P 4450 6750
+F 0 "#PWR0111" H 4450 6600 50  0001 C CNN
+F 1 "VCC" H 4467 6923 50  0000 C CNN
+F 2 "" H 4450 6750 50  0001 C CNN
+F 3 "" H 4450 6750 50  0001 C CNN
+	1    4450 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VEE #PWR0112
 U 1 1 5CAA4AE4
-P 4250 5450
-F 0 "#PWR0112" H 4250 5300 50  0001 C CNN
-F 1 "VEE" H 4267 5623 50  0000 C CNN
-F 2 "" H 4250 5450 50  0001 C CNN
-F 3 "" H 4250 5450 50  0001 C CNN
-	1    4250 5450
+P 4450 7150
+F 0 "#PWR0112" H 4450 7000 50  0001 C CNN
+F 1 "VEE" H 4467 7323 50  0000 C CNN
+F 2 "" H 4450 7150 50  0001 C CNN
+F 3 "" H 4450 7150 50  0001 C CNN
+	1    4450 7150
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4250 5050 4250 5150
+	4450 6750 4450 6850
 Wire Wire Line
-	4250 5350 4250 5450
+	4450 7050 4450 7150
 $Comp
 L power:GNDPWR #PWR0113
 U 1 1 5CAA4AEC
-P 4000 5350
-F 0 "#PWR0113" H 4000 5150 50  0001 C CNN
-F 1 "GNDPWR" H 4004 5196 50  0000 C CNN
-F 2 "" H 4000 5300 50  0001 C CNN
-F 3 "" H 4000 5300 50  0001 C CNN
-	1    4000 5350
+P 4200 7050
+F 0 "#PWR0113" H 4200 6850 50  0001 C CNN
+F 1 "GNDPWR" H 4204 6896 50  0000 C CNN
+F 2 "" H 4200 7000 50  0001 C CNN
+F 3 "" H 4200 7000 50  0001 C CNN
+	1    4200 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 5350 4000 5250
-Wire Wire Line
-	4250 6150 4750 6150
-Wire Wire Line
-	4250 6350 4750 6350
-$Comp
-L power:VCC #PWR0114
-U 1 1 5CAD22F2
-P 4250 6050
-F 0 "#PWR0114" H 4250 5900 50  0001 C CNN
-F 1 "VCC" H 4267 6223 50  0000 C CNN
-F 2 "" H 4250 6050 50  0001 C CNN
-F 3 "" H 4250 6050 50  0001 C CNN
-	1    4250 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VEE #PWR0115
-U 1 1 5CAD22F8
-P 4250 6450
-F 0 "#PWR0115" H 4250 6300 50  0001 C CNN
-F 1 "VEE" H 4267 6623 50  0000 C CNN
-F 2 "" H 4250 6450 50  0001 C CNN
-F 3 "" H 4250 6450 50  0001 C CNN
-	1    4250 6450
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	4250 6050 4250 6150
-Wire Wire Line
-	4250 6350 4250 6450
-$Comp
-L power:GNDPWR #PWR0116
-U 1 1 5CAD2300
-P 4000 6350
-F 0 "#PWR0116" H 4000 6150 50  0001 C CNN
-F 1 "GNDPWR" H 4004 6196 50  0000 C CNN
-F 2 "" H 4000 6300 50  0001 C CNN
-F 3 "" H 4000 6300 50  0001 C CNN
-	1    4000 6350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 6350 4000 6250
-Wire Wire Line
-	4000 6250 4750 6250
-Wire Wire Line
-	4250 5150 4750 5150
-Wire Wire Line
-	4250 5350 4750 5350
-Wire Wire Line
-	4000 5250 4750 5250
+	4200 7050 4200 6950
 Wire Wire Line
 	1900 1550 1900 2650
 $Comp
@@ -804,7 +708,7 @@ F 9 "0.29" H 6850 2500 50  0001 C CNN "Unit Price"
 	0    -1   -1   0   
 $EndComp
 Text Notes 950  4250 0    50   ~ 0
-TODO\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\nsee if 10k resistors will work for LEDs\nheatsink footprint\nchange protection diodes to shottky? (see AoE chapter 9)\nKK-156 connector for transformer
+TODO\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\nsee if 10k resistors will work for LEDs\nbleeder resistors for reservoir caps? Will LEDs work for that?\nheatsink footprint\nchange protection diodes to shottky? (see AoE chapter 9)\nKK-156 connector for transformer
 $Comp
 L Device:CP1 C8
 U 1 1 5CB200BE
@@ -1132,7 +1036,7 @@ Wire Wire Line
 Connection ~ 7450 3600
 Wire Wire Line
 	7450 3600 7550 3600
-Text Notes 4150 4750 0    50   ~ 10
+Text Notes 4350 6450 0    50   ~ 10
 OUTPUT CONNECTORS
 Text Notes 950  1750 0    50   ~ 10
 INPUT CONNECTOR
@@ -1164,4 +1068,46 @@ Wire Wire Line
 	6450 6000 6450 6100
 Text Notes 6250 5650 0    50   Italic 10
 USE INSULATING PADS FOR HEATSINKS
+Wire Wire Line
+	4450 7050 4650 7050
+Wire Wire Line
+	4200 6950 4750 6950
+Wire Wire Line
+	4450 6850 4850 6850
+Wire Wire Line
+	4950 7250 4850 7250
+Wire Wire Line
+	4850 7250 4850 6850
+Connection ~ 4850 6850
+Wire Wire Line
+	4850 6850 4950 6850
+Wire Wire Line
+	4850 7250 4850 7650
+Wire Wire Line
+	4850 7650 4950 7650
+Connection ~ 4850 7250
+Wire Wire Line
+	4950 7350 4750 7350
+Wire Wire Line
+	4750 7350 4750 6950
+Connection ~ 4750 6950
+Wire Wire Line
+	4750 6950 4950 6950
+Wire Wire Line
+	4750 7350 4750 7750
+Wire Wire Line
+	4750 7750 4950 7750
+Connection ~ 4750 7350
+Wire Wire Line
+	4650 7850 4650 7450
+Connection ~ 4650 7050
+Wire Wire Line
+	4650 7050 4950 7050
+Wire Wire Line
+	4950 7450 4650 7450
+Connection ~ 4650 7450
+Wire Wire Line
+	4650 7450 4650 7050
+Wire Wire Line
+	4650 7850 4950 7850
 $EndSCHEMATC
