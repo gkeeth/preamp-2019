@@ -6,3 +6,5 @@ _autosave*
 *.STEP
 balanced_amplifier/bom/*
 
+.~lock.*.ods#
+
