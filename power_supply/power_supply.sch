@@ -220,12 +220,12 @@ Connection ~ 4600 1350
 $Comp
 L Device:R R3
 U 1 1 5C5B0DBB
-P 9500 4750
-F 0 "R3" H 9570 4796 50  0000 L CNN
-F 1 "10k" H 9570 4705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9430 4750 50  0001 C CNN
-F 3 "~" H 9500 4750 50  0001 C CNN
-	1    9500 4750
+P 6350 4150
+F 0 "R3" H 6420 4196 50  0000 L CNN
+F 1 "10k" H 6420 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 4150 50  0001 C CNN
+F 3 "~" H 6350 4150 50  0001 C CNN
+	1    6350 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -329,70 +329,70 @@ Wire Wire Line
 $Comp
 L power:GNDPWR #PWR0104
 U 1 1 5C9CF199
-P 8500 5000
-F 0 "#PWR0104" H 8500 4800 50  0001 C CNN
-F 1 "GNDPWR" H 8504 4846 50  0000 C CNN
-F 2 "" H 8500 4950 50  0001 C CNN
-F 3 "" H 8500 4950 50  0001 C CNN
-	1    8500 5000
+P 5350 4400
+F 0 "#PWR0104" H 5350 4200 50  0001 C CNN
+F 1 "GNDPWR" H 5354 4246 50  0000 C CNN
+F 2 "" H 5350 4350 50  0001 C CNN
+F 3 "" H 5350 4350 50  0001 C CNN
+	1    5350 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0105
 U 1 1 5C9CF844
-P 9500 5000
-F 0 "#PWR0105" H 9500 4800 50  0001 C CNN
-F 1 "GNDPWR" H 9504 4846 50  0000 C CNN
-F 2 "" H 9500 4950 50  0001 C CNN
-F 3 "" H 9500 4950 50  0001 C CNN
-	1    9500 5000
+P 6350 4400
+F 0 "#PWR0105" H 6350 4200 50  0001 C CNN
+F 1 "GNDPWR" H 6354 4246 50  0000 C CNN
+F 2 "" H 6350 4350 50  0001 C CNN
+F 3 "" H 6350 4350 50  0001 C CNN
+	1    6350 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VEE #PWR0106
 U 1 1 5C9D0258
-P 9500 4000
-F 0 "#PWR0106" H 9500 3850 50  0001 C CNN
-F 1 "VEE" H 9517 4173 50  0000 C CNN
-F 2 "" H 9500 4000 50  0001 C CNN
-F 3 "" H 9500 4000 50  0001 C CNN
-	1    9500 4000
+P 6350 3400
+F 0 "#PWR0106" H 6350 3250 50  0001 C CNN
+F 1 "VEE" H 6367 3573 50  0000 C CNN
+F 2 "" H 6350 3400 50  0001 C CNN
+F 3 "" H 6350 3400 50  0001 C CNN
+	1    6350 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0107
 U 1 1 5C9D0B19
-P 8500 4000
-F 0 "#PWR0107" H 8500 3850 50  0001 C CNN
-F 1 "VCC" H 8517 4173 50  0000 C CNN
-F 2 "" H 8500 4000 50  0001 C CNN
-F 3 "" H 8500 4000 50  0001 C CNN
-	1    8500 4000
+P 5350 3400
+F 0 "#PWR0107" H 5350 3250 50  0001 C CNN
+F 1 "VCC" H 5367 3573 50  0000 C CNN
+F 2 "" H 5350 3400 50  0001 C CNN
+F 3 "" H 5350 3400 50  0001 C CNN
+	1    5350 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 4000 9500 4100
+	6350 3400 6350 3500
 Wire Wire Line
-	9500 4400 9500 4600
+	6350 3800 6350 4000
 Wire Wire Line
-	9500 4900 9500 5000
-Text Notes 8650 5700 0    50   ~ 0
+	6350 4300 6350 4400
+Text Notes 5500 5100 0    50   ~ 0
 Vf = 2V\nwith R = 10k, I = 1.3mA\nwith R = 1k, I = 13mA\ntry R = 10k; if too dim try R = 1k
 $Comp
 L Device:LED_ALT D10
 U 1 1 5CA21F88
-P 9500 4250
-F 0 "D10" V 9538 4132 50  0000 R CNN
-F 1 "LED" V 9447 4132 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 9500 4250 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 9500 4250 50  0001 C CNN
-F 4 "Lite-On" H 9500 4250 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C191KRKT" H 9500 4250 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 9500 4250 50  0001 C CNN "Distributor"
-F 7 "160-1447-1-ND" H 9500 4250 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 9500 4250 50  0001 C CNN "URL"
-F 9 "0.29" H 9500 4250 50  0001 C CNN "Unit Price"
-	1    9500 4250
+P 6350 3650
+F 0 "D10" V 6388 3532 50  0000 R CNN
+F 1 "LED" V 6297 3532 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6350 3650 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 6350 3650 50  0001 C CNN
+F 4 "Lite-On" H 6350 3650 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C191KRKT" H 6350 3650 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6350 3650 50  0001 C CNN "Distributor"
+F 7 "160-1447-1-ND" H 6350 3650 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 6350 3650 50  0001 C CNN "URL"
+F 9 "0.29" H 6350 3650 50  0001 C CNN "Unit Price"
+	1    6350 3650
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -948,37 +948,37 @@ Wire Wire Line
 Wire Wire Line
 	1200 1550 1900 1550
 Wire Wire Line
-	8500 4900 8500 5000
+	5350 4300 5350 4400
 Wire Wire Line
-	8500 4400 8500 4600
+	5350 3800 5350 4000
 Wire Wire Line
-	8500 4000 8500 4100
+	5350 3400 5350 3500
 $Comp
 L Device:R R2
 U 1 1 5C4110E7
-P 8500 4250
-F 0 "R2" H 8570 4296 50  0000 L CNN
-F 1 "10k" H 8570 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8430 4250 50  0001 C CNN
-F 3 "~" H 8500 4250 50  0001 C CNN
-	1    8500 4250
+P 5350 3650
+F 0 "R2" H 5420 3696 50  0000 L CNN
+F 1 "10k" H 5420 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5280 3650 50  0001 C CNN
+F 3 "~" H 5350 3650 50  0001 C CNN
+	1    5350 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED_ALT D9
 U 1 1 5C40C321
-P 8500 4750
-F 0 "D9" V 8538 4632 50  0000 R CNN
-F 1 "LED" V 8447 4632 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 8500 4750 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 8500 4750 50  0001 C CNN
-F 4 "Lite-On" H 8500 4750 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C191KRKT" H 8500 4750 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 8500 4750 50  0001 C CNN "Distributor"
-F 7 "160-1447-1-ND" H 8500 4750 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 8500 4750 50  0001 C CNN "URL"
-F 9 "0.29" H 8500 4750 50  0001 C CNN "Unit Price"
-	1    8500 4750
+P 5350 4150
+F 0 "D9" V 5388 4032 50  0000 R CNN
+F 1 "LED" V 5297 4032 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5350 4150 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 5350 4150 50  0001 C CNN
+F 4 "Lite-On" H 5350 4150 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C191KRKT" H 5350 4150 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 5350 4150 50  0001 C CNN "Distributor"
+F 7 "160-1447-1-ND" H 5350 4150 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 5350 4150 50  0001 C CNN "URL"
+F 9 "0.29" H 5350 4150 50  0001 C CNN "Unit Price"
+	1    5350 4150
 	0    -1   -1   0   
 $EndComp
 Text Notes 950  4250 0    50   ~ 0
@@ -1057,47 +1057,14 @@ F 9 "0.23" H 6500 2750 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H1
+L Mechanical:MountingHole_Pad H2
 U 1 1 5CB49A9B
 P 7000 6050
-F 0 "H1" H 7100 6099 50  0000 L CNN
+F 0 "H2" H 7100 6099 50  0000 L CNN
 F 1 "MountingHole_Pad" H 7100 6008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 7000 6050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 7000 6050 50  0001 C CNN
 F 3 "~" H 7000 6050 50  0001 C CNN
 	1    7000 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5CB4A635
-P 8000 6050
-F 0 "H3" H 8100 6099 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8100 6008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 8000 6050 50  0001 C CNN
-F 3 "~" H 8000 6050 50  0001 C CNN
-	1    8000 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5CB4B51D
-P 8000 6550
-F 0 "H4" H 8100 6599 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8100 6508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 8000 6550 50  0001 C CNN
-F 3 "~" H 8000 6550 50  0001 C CNN
-	1    8000 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5CB4BFA5
-P 7000 6550
-F 0 "H2" H 7100 6599 50  0000 L CNN
-F 1 "MountingHole_Pad" H 7100 6508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 7000 6550 50  0001 C CNN
-F 3 "~" H 7000 6550 50  0001 C CNN
-	1    7000 6550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1122,4 +1089,83 @@ F 3 "~" H 7662 1200 50  0001 C CNN
 	1    7650 1250
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5CB598AE
+P 7000 6150
+F 0 "#PWR?" H 7000 5950 50  0001 C CNN
+F 1 "GNDPWR" H 7004 5996 50  0000 C CNN
+F 2 "" H 7000 6100 50  0001 C CNN
+F 3 "" H 7000 6100 50  0001 C CNN
+	1    7000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5CB5B46E
+P 7000 5550
+F 0 "H1" H 7100 5599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7100 5508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 7000 5550 50  0001 C CNN
+F 3 "~" H 7000 5550 50  0001 C CNN
+	1    7000 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5CB5B474
+P 7000 5650
+F 0 "#PWR?" H 7000 5450 50  0001 C CNN
+F 1 "GNDPWR" H 7004 5496 50  0000 C CNN
+F 2 "" H 7000 5600 50  0001 C CNN
+F 3 "" H 7000 5600 50  0001 C CNN
+	1    7000 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5CB60C90
+P 8000 6050
+F 0 "H4" H 8100 6099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8100 6008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 8000 6050 50  0001 C CNN
+F 3 "~" H 8000 6050 50  0001 C CNN
+	1    8000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5CB60C96
+P 8000 6150
+F 0 "#PWR?" H 8000 5950 50  0001 C CNN
+F 1 "GNDPWR" H 8004 5996 50  0000 C CNN
+F 2 "" H 8000 6100 50  0001 C CNN
+F 3 "" H 8000 6100 50  0001 C CNN
+	1    8000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5CB6616E
+P 8000 5550
+F 0 "H3" H 8100 5599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8100 5508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 8000 5550 50  0001 C CNN
+F 3 "~" H 8000 5550 50  0001 C CNN
+	1    8000 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5CB66174
+P 8000 5650
+F 0 "#PWR?" H 8000 5450 50  0001 C CNN
+F 1 "GNDPWR" H 8004 5496 50  0000 C CNN
+F 2 "" H 8000 5600 50  0001 C CNN
+F 3 "" H 8000 5600 50  0001 C CNN
+	1    8000 5650
+	1    0    0    -1  
+$EndComp
+Text Notes 6950 6550 0    50   ~ 0
+clearance holes for 8-32 standoffs
 $EndSCHEMATC
