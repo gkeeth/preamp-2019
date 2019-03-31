@@ -26,11 +26,11 @@ F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 1150 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L Device:C C7
 U 1 1 5C3F0B83
 P 6600 2250
-F 0 "C5" H 6715 2296 50  0000 L CNN
-F 1 "330n" H 6625 2150 50  0000 L CNN
+F 0 "C7" H 6715 2296 50  0000 L CNN
+F 1 "330n" H 6715 2205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 2250 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B334KBFNNNE.jsp" H 6600 2250 50  0001 C CNN
 F 4 "Samsung" H 6600 2250 50  0001 C CNN "Manufacturer"
@@ -43,10 +43,10 @@ F 9 "0.19" H 6600 2250 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C7
+L Device:CP1 C9
 U 1 1 5C3F189C
 P 8000 2250
-F 0 "C7" H 8115 2296 50  0000 L CNN
+F 0 "C9" H 8115 2296 50  0000 L CNN
 F 1 "100u" H 8115 2205 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8000 2250 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 8000 2250 50  0001 C CNN
@@ -119,23 +119,6 @@ Wire Wire Line
 Wire Wire Line
 	9300 3100 9300 3000
 $Comp
-L Device:LED_ALT D9
-U 1 1 5C40C321
-P 8500 4750
-F 0 "D9" V 8538 4632 50  0000 R CNN
-F 1 "LED" V 8447 4632 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 8500 4750 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 8500 4750 50  0001 C CNN
-F 4 "Lite-On" H 8500 4750 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C191KRKT" H 8500 4750 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 8500 4750 50  0001 C CNN "Distributor"
-F 7 "160-1447-1-ND" H 8500 4750 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 8500 4750 50  0001 C CNN "URL"
-F 9 "0.29" H 8500 4750 50  0001 C CNN "Unit Price"
-	1    8500 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:LED_ALT D99
 U 1 1 5C40C41C
 P 2150 5100
@@ -187,19 +170,6 @@ F 9 "0.86" H 5500 2150 50  0001 C CNN "Unit Price"
 $EndComp
 Text Notes -250 5550 0    50   ~ 0
 Maybe use 9V or 15V?
-Text Notes 950  4250 0    50   ~ 0
-TODO\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\nsee if 10k resistors will work for LEDs\nheatsinks\nCHANGE 330n CAP ON 7915 TO 2.2uF ELECTROLYTIC\nchange protection diodes to shottky? (see AoE chapter 9)\nnew footprint for 1000u caps to support larger caps\nKK-156 connector for transformer\nmove LEDs to before regulator
-$Comp
-L Device:R R2
-U 1 1 5C4110E7
-P 8500 4250
-F 0 "R2" H 8570 4296 50  0000 L CNN
-F 1 "10k" H 8570 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8430 4250 50  0001 C CNN
-F 3 "~" H 8500 4250 50  0001 C CNN
-	1    8500 4250
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R99
 U 1 1 5C411153
@@ -264,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 2300 5500 2400
 Wire Wire Line
-	6500 2500 5500 2500
+	6500 2500 6100 2500
 Connection ~ 6500 2500
 Wire Wire Line
 	5500 2400 5200 2400
@@ -282,9 +252,9 @@ transformer_minus
 Text Label 1200 1250 0    50   ~ 0
 transformer_plus
 Wire Wire Line
-	5500 3000 6500 3000
+	5500 3000 6000 3000
 Wire Wire Line
-	5500 1900 6600 1900
+	5500 1900 6100 1900
 $Comp
 L Device:Jumper_NC_Small JP3
 U 1 1 5C99F53D
@@ -395,34 +365,11 @@ F 3 "" H 8500 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 4000 8500 4100
-Wire Wire Line
-	8500 4400 8500 4600
-Wire Wire Line
-	8500 4900 8500 5000
-Wire Wire Line
 	9500 4000 9500 4100
 Wire Wire Line
 	9500 4400 9500 4600
 Wire Wire Line
 	9500 4900 9500 5000
-$Comp
-L Device:C C6
-U 1 1 5C9EEE95
-P 6500 2750
-F 0 "C6" H 6615 2796 50  0000 L CNN
-F 1 "330n" H 6525 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 2750 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B334KBFNNNE.jsp" H 6500 2750 50  0001 C CNN
-F 4 "Samsung" H 6500 2750 50  0001 C CNN "Manufacturer"
-F 5 "CL21B334KBFNNNE" H 6500 2750 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 6500 2750 50  0001 C CNN "Distributor"
-F 7 "1276-1123-1-ND" H 6500 2750 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B334KBFNNNE/1276-1123-1-ND/3889209" H 6500 2750 50  0001 C CNN "URL"
-F 9 "0.19" H 6500 2750 50  0001 C CNN "Unit Price"
-	1    6500 2750
-	1    0    0    -1  
-$EndComp
 Text Notes 8650 5700 0    50   ~ 0
 Vf = 2V\nwith R = 10k, I = 1.3mA\nwith R = 1k, I = 13mA\ntry R = 10k; if too dim try R = 1k
 $Comp
@@ -798,10 +745,10 @@ Wire Wire Line
 Wire Wire Line
 	8500 3000 9300 3000
 $Comp
-L Device:CP1 C8
+L Device:CP1 C10
 U 1 1 5CA3C45B
 P 7850 2750
-F 0 "C8" H 7965 2796 50  0000 L CNN
+F 0 "C10" H 7965 2796 50  0000 L CNN
 F 1 "100u" H 7965 2705 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7850 2750 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 7850 2750 50  0001 C CNN
@@ -988,4 +935,113 @@ Wire Wire Line
 	1200 1250 2200 1250
 Wire Wire Line
 	1200 1550 1900 1550
+Wire Wire Line
+	8500 4900 8500 5000
+Wire Wire Line
+	8500 4400 8500 4600
+Wire Wire Line
+	8500 4000 8500 4100
+$Comp
+L Device:R R2
+U 1 1 5C4110E7
+P 8500 4250
+F 0 "R2" H 8570 4296 50  0000 L CNN
+F 1 "10k" H 8570 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8430 4250 50  0001 C CNN
+F 3 "~" H 8500 4250 50  0001 C CNN
+	1    8500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_ALT D9
+U 1 1 5C40C321
+P 8500 4750
+F 0 "D9" V 8538 4632 50  0000 R CNN
+F 1 "LED" V 8447 4632 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 8500 4750 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 8500 4750 50  0001 C CNN
+F 4 "Lite-On" H 8500 4750 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C191KRKT" H 8500 4750 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8500 4750 50  0001 C CNN "Distributor"
+F 7 "160-1447-1-ND" H 8500 4750 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 8500 4750 50  0001 C CNN "URL"
+F 9 "0.29" H 8500 4750 50  0001 C CNN "Unit Price"
+	1    8500 4750
+	0    -1   -1   0   
+$EndComp
+Text Notes 950  4250 0    50   ~ 0
+TODO\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\nsee if 10k resistors will work for LEDs\nheatsinks\nchange protection diodes to shottky? (see AoE chapter 9)\nKK-156 connector for transformer
+$Comp
+L Device:CP1 C5
+U 1 1 5CB0609E
+P 6100 2150
+F 0 "C5" H 6215 2241 50  0000 L CNN
+F 1 "1000u" H 6215 2150 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 6100 2150 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 6100 2150 50  0001 C CNN
+F 4 "Nichicon" H 6100 2150 50  0001 C CNN "Manufacturer"
+F 5 "UVR1H102MHD" H 6100 2150 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6100 2150 50  0001 C CNN "Distributor"
+F 7 "493-1111-ND" H 6100 2150 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H102MHD/493-1111-ND/588852" H 6100 2150 50  0001 C CNN "URL"
+F 9 "0.86" H 6100 2150 50  0001 C CNN "Unit Price"
+F 10 "DNP" H 6215 2059 50  0000 L CNN "DNP"
+	1    6100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C6
+U 1 1 5CB06522
+P 6000 2750
+F 0 "C6" H 6115 2841 50  0000 L CNN
+F 1 "1000u" H 6115 2750 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 6000 2750 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 6000 2750 50  0001 C CNN
+F 4 "Nichicon" H 6000 2750 50  0001 C CNN "Manufacturer"
+F 5 "UVR1H102MHD" H 6000 2750 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6000 2750 50  0001 C CNN "Distributor"
+F 7 "493-1111-ND" H 6000 2750 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H102MHD/493-1111-ND/588852" H 6000 2750 50  0001 C CNN "URL"
+F 9 "0.86" H 6000 2750 50  0001 C CNN "Unit Price"
+F 10 "DNP" H 6115 2659 50  0000 L CNN "DNP"
+	1    6000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2500 6000 2600
+Connection ~ 6000 2500
+Wire Wire Line
+	6000 2500 5500 2500
+Wire Wire Line
+	6000 2900 6000 3000
+Connection ~ 6000 3000
+Wire Wire Line
+	6000 3000 6500 3000
+Wire Wire Line
+	6100 2300 6100 2500
+Connection ~ 6100 2500
+Wire Wire Line
+	6100 2500 6000 2500
+Wire Wire Line
+	6100 2000 6100 1900
+Connection ~ 6100 1900
+Wire Wire Line
+	6100 1900 6600 1900
+$Comp
+L Device:CP1 C8
+U 1 1 5CB200BE
+P 6500 2750
+F 0 "C8" H 6615 2796 50  0000 L CNN
+F 1 "22u" H 6615 2705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6500 2750 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 6500 2750 50  0001 C CNN
+F 4 "Nichicon" H 6500 2750 50  0001 C CNN "Manufacturer"
+F 5 "UVR1H220MDD" H 6500 2750 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6500 2750 50  0001 C CNN "Distributor"
+F 7 "493-1104-ND" H 6500 2750 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H220MDD/493-1104-ND/588845" H 6500 2750 50  0001 C CNN "URL"
+F 9 "0.23" H 6500 2750 50  0001 C CNN "Unit Price"
+	1    6500 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
