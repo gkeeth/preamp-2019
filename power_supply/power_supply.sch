@@ -134,9 +134,15 @@ L Device:C C2
 U 1 1 5C40FDCD
 P 3350 1700
 F 0 "C2" H 3465 1746 50  0000 L CNN
-F 1 "0.1u-1u" H 3465 1655 50  0000 L CNN
-F 2 "" H 3388 1550 50  0001 C CNN
-F 3 "~" H 3350 1700 50  0001 C CNN
+F 1 "150n" H 3465 1655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.5mm_W6.5mm_P5.00mm" H 3388 1550 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf" H 3350 1700 50  0001 C CNN
+F 4 "EPCOS" H 3350 1700 50  0001 C CNN "Manufacturer"
+F 5 "B32529C3154K000" H 3350 1700 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3350 1700 50  0001 C CNN "Distributor"
+F 7 "495-2535-ND" H 3350 1700 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/B32529C3154K000/495-2535-ND/1089815/?itemSeq=288794403" H 3350 1700 50  0001 C CNN "URL"
+F 9 "0.63" H 3350 1700 50  0001 C CNN "Unit Price"
 	1    3350 1700
 	1    0    0    -1  
 $EndComp
@@ -146,7 +152,7 @@ U 1 1 5C40FEB0
 P 3350 2200
 F 0 "R1" H 3420 2246 50  0000 L CNN
 F 1 "10-100" H 3420 2155 50  0000 L CNN
-F 2 "" V 3280 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3280 2200 50  0001 C CNN
 F 3 "~" H 3350 2200 50  0001 C CNN
 	1    3350 2200
 	1    0    0    -1  
@@ -907,8 +913,14 @@ U 1 1 5CA0B8FC
 P 3000 1950
 F 0 "C1" H 3115 1996 50  0000 L CNN
 F 1 "10n" H 3115 1905 50  0000 L CNN
-F 2 "" H 3038 1800 50  0001 C CNN
-F 3 "~" H 3000 1950 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 3038 1800 50  0001 C CNN
+F 3 "https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf" H 3000 1950 50  0001 C CNN
+F 4 "EPCOS" H 3000 1950 50  0001 C CNN "Manufacturer"
+F 5 "B32529C3103J000" H 3000 1950 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3000 1950 50  0001 C CNN "Distributor"
+F 7 "495-1180-ND" H 3000 1950 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/B32529C3103J000/495-1180-ND/592757/?itemSeq=288794392" H 3000 1950 50  0001 C CNN "URL"
+F 9 "0.31" H 3000 1950 50  0001 C CNN "Unit Price"
 	1    3000 1950
 	-1   0    0    -1  
 $EndComp
@@ -1042,6 +1054,72 @@ F 7 "493-1104-ND" H 6500 2750 50  0001 C CNN "Distributor PN"
 F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H220MDD/493-1104-ND/588845" H 6500 2750 50  0001 C CNN "URL"
 F 9 "0.23" H 6500 2750 50  0001 C CNN "Unit Price"
 	1    6500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5CB49A9B
+P 7000 6050
+F 0 "H1" H 7100 6099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7100 6008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 7000 6050 50  0001 C CNN
+F 3 "~" H 7000 6050 50  0001 C CNN
+	1    7000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5CB4A635
+P 8000 6050
+F 0 "H3" H 8100 6099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8100 6008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 8000 6050 50  0001 C CNN
+F 3 "~" H 8000 6050 50  0001 C CNN
+	1    8000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5CB4B51D
+P 8000 6550
+F 0 "H4" H 8100 6599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8100 6508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 8000 6550 50  0001 C CNN
+F 3 "~" H 8000 6550 50  0001 C CNN
+	1    8000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5CB4BFA5
+P 7000 6550
+F 0 "H2" H 7100 6599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7100 6508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 7000 6550 50  0001 C CNN
+F 3 "~" H 7000 6550 50  0001 C CNN
+	1    7000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink_Pad HS?
+U 1 1 5CB4FC2E
+P 7200 3950
+F 0 "HS?" H 7341 3989 50  0000 L CNN
+F 1 "Heatsink_Pad" H 7341 3898 50  0000 L CNN
+F 2 "" H 7212 3900 50  0001 C CNN
+F 3 "~" H 7212 3900 50  0001 C CNN
+	1    7200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink_Pad HS?
+U 1 1 5CB5054C
+P 7650 1250
+F 0 "HS?" H 7791 1289 50  0000 L CNN
+F 1 "Heatsink_Pad" H 7791 1198 50  0000 L CNN
+F 2 "" H 7662 1200 50  0001 C CNN
+F 3 "~" H 7662 1200 50  0001 C CNN
+	1    7650 1250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
