@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:LM7805_TO220 U3
-U 1 1 5C3F06B2
-P 1150 5100
-F 0 "U3" H 1150 5342 50  0000 C CNN
-F 1 "LM7805_TO220" H 1150 5251 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1150 5325 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 1150 5050 50  0001 C CNN
-	1    1150 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C7
 U 1 1 5C3F0B83
 P 7400 2300
@@ -94,17 +83,6 @@ Wire Wire Line
 Wire Wire Line
 	9900 3700 9900 3600
 $Comp
-L Device:LED_ALT D99
-U 1 1 5C40C41C
-P 2150 5100
-F 0 "D99" V 2188 4982 50  0000 R CNN
-F 1 "LED_ALT" V 2097 4982 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 5100 50  0001 C CNN
-F 3 "~" H 2150 5100 50  0001 C CNN
-	1    2150 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C2
 U 1 1 5C40FDCD
 P 3350 1700
@@ -147,19 +125,6 @@ F 7 "493-1111-ND" H 5400 2300 50  0001 C CNN "Distributor PN"
 F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H102MHD/493-1111-ND/588852" H 5400 2300 50  0001 C CNN "URL"
 F 9 "0.86" H 5400 2300 50  0001 C CNN "Unit Price"
 	1    5400 2300
-	1    0    0    -1  
-$EndComp
-Text Notes -250 5550 0    50   ~ 0
-Maybe use 9V or 15V?
-$Comp
-L Device:R R99
-U 1 1 5C411153
-P 2150 4650
-F 0 "R99" H 2220 4696 50  0000 L CNN
-F 1 "R" H 2220 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2080 4650 50  0001 C CNN
-F 3 "~" H 2150 4650 50  0001 C CNN
-	1    2150 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -429,94 +394,70 @@ $EndComp
 $Comp
 L Connector:Conn_01x03_Male J2
 U 1 1 5CA83316
-P 5150 6950
-F 0 "J2" H 5122 6974 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 5122 6883 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 5150 6950 50  0001 C CNN
-F 3 "~" H 5150 6950 50  0001 C CNN
-	1    5150 6950
+P 9450 5050
+F 0 "J2" H 9422 5074 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 9422 4983 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9450 5050 50  0001 C CNN
+F 3 "~" H 9450 5050 50  0001 C CNN
+	1    9450 5050
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x03_Male J3
 U 1 1 5CA83A0D
-P 5150 7350
-F 0 "J3" H 5122 7374 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 5122 7283 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 5150 7350 50  0001 C CNN
-F 3 "~" H 5150 7350 50  0001 C CNN
-	1    5150 7350
+P 9450 5450
+F 0 "J3" H 9422 5474 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 9422 5383 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9450 5450 50  0001 C CNN
+F 3 "~" H 9450 5450 50  0001 C CNN
+	1    9450 5450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x03_Male J4
 U 1 1 5CA83D7D
-P 5150 7750
-F 0 "J4" H 5122 7774 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 5122 7683 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 5150 7750 50  0001 C CNN
-F 3 "~" H 5150 7750 50  0001 C CNN
-	1    5150 7750
+P 9450 5850
+F 0 "J4" H 9422 5874 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 9422 5783 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9450 5850 50  0001 C CNN
+F 3 "~" H 9450 5850 50  0001 C CNN
+	1    9450 5850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0111
 U 1 1 5CAA4ADE
-P 4450 6750
-F 0 "#PWR0111" H 4450 6600 50  0001 C CNN
-F 1 "VCC" H 4467 6923 50  0000 C CNN
-F 2 "" H 4450 6750 50  0001 C CNN
-F 3 "" H 4450 6750 50  0001 C CNN
-	1    4450 6750
+P 8750 4850
+F 0 "#PWR0111" H 8750 4700 50  0001 C CNN
+F 1 "VCC" H 8767 5023 50  0000 C CNN
+F 2 "" H 8750 4850 50  0001 C CNN
+F 3 "" H 8750 4850 50  0001 C CNN
+	1    8750 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VEE #PWR0112
 U 1 1 5CAA4AE4
-P 4450 7150
-F 0 "#PWR0112" H 4450 7000 50  0001 C CNN
-F 1 "VEE" H 4467 7323 50  0000 C CNN
-F 2 "" H 4450 7150 50  0001 C CNN
-F 3 "" H 4450 7150 50  0001 C CNN
-	1    4450 7150
+P 8750 5250
+F 0 "#PWR0112" H 8750 5100 50  0001 C CNN
+F 1 "VEE" H 8767 5423 50  0000 C CNN
+F 2 "" H 8750 5250 50  0001 C CNN
+F 3 "" H 8750 5250 50  0001 C CNN
+	1    8750 5250
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4450 6750 4450 6850
+	8750 4850 8750 4950
 Wire Wire Line
-	4450 7050 4450 7150
-$Comp
-L power:GNDPWR #PWR0113
-U 1 1 5CAA4AEC
-P 4200 7050
-F 0 "#PWR0113" H 4200 6850 50  0001 C CNN
-F 1 "GNDPWR" H 4204 6896 50  0000 C CNN
-F 2 "" H 4200 7000 50  0001 C CNN
-F 3 "" H 4200 7000 50  0001 C CNN
-	1    4200 7050
-	1    0    0    -1  
-$EndComp
+	8750 5150 8750 5250
 Wire Wire Line
-	4200 7050 4200 6950
+	8500 5150 8500 5050
 Wire Wire Line
 	1900 1550 1900 2650
-$Comp
-L Connector:Conn_01x04_Male J1
-U 1 1 5CAF6792
-P 1000 1350
-F 0 "J1" H 1108 1631 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 1108 1540 50  0000 C CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 1000 1350 50  0001 C CNN
-F 3 "~" H 1000 1350 50  0001 C CNN
-	1    1000 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 1450 1300 1450
 Wire Wire Line
 	1300 1450 1300 1350
-Text Notes 600  850  0    50   ~ 0
-Input connector is Molex SL\nMax AWG: 22\nVoltage/Current: 250V/3.0A
 Wire Wire Line
 	2500 2650 2600 2650
 Wire Wire Line
@@ -676,8 +617,6 @@ Wire Wire Line
 	1300 1350 2050 1350
 Connection ~ 1300 1350
 Wire Wire Line
-	1200 1250 2200 1250
-Wire Wire Line
 	1200 1550 1900 1550
 $Comp
 L Device:R R2
@@ -708,7 +647,7 @@ F 9 "0.29" H 6850 2500 50  0001 C CNN "Unit Price"
 	0    -1   -1   0   
 $EndComp
 Text Notes 950  4250 0    50   ~ 0
-TODO\nmaybe use 9V/15V for relays?\nsplit power supply startup problems?\nsee if 10k resistors will work for LEDs\nbleeder resistors for reservoir caps? Will LEDs work for that?\nheatsink footprint\nchange protection diodes to shottky? (see AoE chapter 9)\nKK-156 connector for transformer
+TODO\nsplit power supply startup problems?\nbleeder resistors for reservoir caps? Will LEDs work for that?\nheatsink footprint\nchange protection diodes to shottky? (see AoE chapter 9)
 $Comp
 L Device:CP1 C8
 U 1 1 5CB200BE
@@ -729,114 +668,70 @@ $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5CB49A9B
-P 8350 6000
-F 0 "H2" H 8450 6049 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8450 5958 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 8350 6000 50  0001 C CNN
-F 3 "~" H 8350 6000 50  0001 C CNN
-	1    8350 6000
+P 2500 7250
+F 0 "H2" H 2600 7299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2600 7208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 2500 7250 50  0001 C CNN
+F 3 "~" H 2500 7250 50  0001 C CNN
+	1    2500 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Heatsink_Pad HS1
 U 1 1 5CB4FC2E
-P 6450 5900
-F 0 "HS1" H 6591 5939 50  0000 L CNN
-F 1 "Heatsink_Pad" H 6591 5848 50  0000 L CNN
-F 2 "" H 6462 5850 50  0001 C CNN
-F 3 "~" H 6462 5850 50  0001 C CNN
-	1    6450 5900
+P 5500 4900
+F 0 "HS1" H 5641 4939 50  0000 L CNN
+F 1 "Heatsink_Pad" H 5641 4848 50  0000 L CNN
+F 2 "Heatsink:Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35" H 5512 4850 50  0001 C CNN
+F 3 "~" H 5512 4850 50  0001 C CNN
+	1    5500 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Heatsink_Pad HS2
 U 1 1 5CB5054C
-P 7250 5900
-F 0 "HS2" H 7391 5939 50  0000 L CNN
-F 1 "Heatsink_Pad" H 7391 5848 50  0000 L CNN
-F 2 "" H 7262 5850 50  0001 C CNN
-F 3 "~" H 7262 5850 50  0001 C CNN
-	1    7250 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5CB598AE
-P 8350 6100
-F 0 "#PWR?" H 8350 5900 50  0001 C CNN
-F 1 "GNDPWR" H 8354 5946 50  0000 C CNN
-F 2 "" H 8350 6050 50  0001 C CNN
-F 3 "" H 8350 6050 50  0001 C CNN
-	1    8350 6100
+P 6300 4900
+F 0 "HS2" H 6441 4939 50  0000 L CNN
+F 1 "Heatsink_Pad" H 6441 4848 50  0000 L CNN
+F 2 "Heatsink:Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35" H 6312 4850 50  0001 C CNN
+F 3 "~" H 6312 4850 50  0001 C CNN
+	1    6300 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5CB5B46E
-P 8350 5500
-F 0 "H1" H 8450 5549 50  0000 L CNN
-F 1 "MountingHole_Pad" H 8450 5458 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 8350 5500 50  0001 C CNN
-F 3 "~" H 8350 5500 50  0001 C CNN
-	1    8350 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5CB5B474
-P 8350 5600
-F 0 "#PWR?" H 8350 5400 50  0001 C CNN
-F 1 "GNDPWR" H 8354 5446 50  0000 C CNN
-F 2 "" H 8350 5550 50  0001 C CNN
-F 3 "" H 8350 5550 50  0001 C CNN
-	1    8350 5600
+P 1600 7250
+F 0 "H1" H 1700 7299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 7208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1600 7250 50  0001 C CNN
+F 3 "~" H 1600 7250 50  0001 C CNN
+	1    1600 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5CB60C90
-P 9350 6000
-F 0 "H4" H 9450 6049 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9450 5958 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 9350 6000 50  0001 C CNN
-F 3 "~" H 9350 6000 50  0001 C CNN
-	1    9350 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5CB60C96
-P 9350 6100
-F 0 "#PWR?" H 9350 5900 50  0001 C CNN
-F 1 "GNDPWR" H 9354 5946 50  0000 C CNN
-F 2 "" H 9350 6050 50  0001 C CNN
-F 3 "" H 9350 6050 50  0001 C CNN
-	1    9350 6100
+P 4300 7250
+F 0 "H4" H 4400 7299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4400 7208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 4300 7250 50  0001 C CNN
+F 3 "~" H 4300 7250 50  0001 C CNN
+	1    4300 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5CB6616E
-P 9350 5500
-F 0 "H3" H 9450 5549 50  0000 L CNN
-F 1 "MountingHole_Pad" H 9450 5458 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 9350 5500 50  0001 C CNN
-F 3 "~" H 9350 5500 50  0001 C CNN
-	1    9350 5500
+P 3400 7250
+F 0 "H3" H 3500 7299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3500 7208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 3400 7250 50  0001 C CNN
+F 3 "~" H 3400 7250 50  0001 C CNN
+	1    3400 7250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5CB66174
-P 9350 5600
-F 0 "#PWR?" H 9350 5400 50  0001 C CNN
-F 1 "GNDPWR" H 9354 5446 50  0000 C CNN
-F 2 "" H 9350 5550 50  0001 C CNN
-F 3 "" H 9350 5550 50  0001 C CNN
-	1    9350 5600
-	1    0    0    -1  
-$EndComp
-Text Notes 8300 6500 0    50   ~ 0
+Text Notes 2500 7800 0    50   ~ 0
 clearance holes for 8-32 standoffs\nuse insulated standoffs
 Wire Wire Line
 	5400 2450 5400 2750
@@ -882,17 +777,6 @@ Wire Wire Line
 Connection ~ 9100 2750
 Wire Wire Line
 	9250 2750 9900 2750
-$Comp
-L power:GNDPWR #PWR0101
-U 1 1 5C3F73EC
-P 9900 2850
-F 0 "#PWR0101" H 9900 2650 50  0001 C CNN
-F 1 "GNDPWR" H 9904 2696 50  0000 C CNN
-F 2 "" H 9900 2800 50  0001 C CNN
-F 3 "" H 9900 2800 50  0001 C CNN
-	1    9900 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 2750 9100 3150
 Wire Wire Line
@@ -1001,13 +885,13 @@ Wire Wire Line
 	6850 1900 7400 1900
 Connection ~ 6850 1900
 Wire Wire Line
-	6000 2750 6750 2750
+	6000 2750 6500 2750
 Connection ~ 6000 2750
 Wire Wire Line
-	6000 1900 6850 1900
+	6000 1900 6650 1900
 Connection ~ 6000 1900
 Wire Wire Line
-	5900 3600 6750 3600
+	5900 3600 6650 3600
 Connection ~ 5900 3600
 Wire Wire Line
 	5300 2850 5300 2750
@@ -1036,78 +920,494 @@ Wire Wire Line
 Connection ~ 7450 3600
 Wire Wire Line
 	7450 3600 7550 3600
-Text Notes 4350 6450 0    50   ~ 10
+Text Notes 8650 4550 0    50   ~ 10
 OUTPUT CONNECTORS
 Text Notes 950  1750 0    50   ~ 10
 INPUT CONNECTOR
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5CE58097
-P 7250 6100
-F 0 "#PWR?" H 7250 5900 50  0001 C CNN
-F 1 "GNDPWR" H 7254 5946 50  0000 C CNN
-F 2 "" H 7250 6050 50  0001 C CNN
-F 3 "" H 7250 6050 50  0001 C CNN
-	1    7250 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7250 6000 7250 6100
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 5CE5EDC5
-P 6450 6100
-F 0 "#PWR?" H 6450 5900 50  0001 C CNN
-F 1 "GNDPWR" H 6454 5946 50  0000 C CNN
-F 2 "" H 6450 6050 50  0001 C CNN
-F 3 "" H 6450 6050 50  0001 C CNN
-	1    6450 6100
-	1    0    0    -1  
-$EndComp
+	6300 5000 6300 5100
 Wire Wire Line
-	6450 6000 6450 6100
-Text Notes 6250 5650 0    50   Italic 10
+	5500 5000 5500 5100
+Text Notes 5650 4650 0    50   Italic 10
 USE INSULATING PADS FOR HEATSINKS
 Wire Wire Line
-	4450 7050 4650 7050
+	8750 5150 8950 5150
 Wire Wire Line
-	4200 6950 4750 6950
+	8500 5050 9050 5050
 Wire Wire Line
-	4450 6850 4850 6850
+	8750 4950 9150 4950
 Wire Wire Line
-	4950 7250 4850 7250
+	9250 5350 9150 5350
 Wire Wire Line
-	4850 7250 4850 6850
-Connection ~ 4850 6850
+	9150 5350 9150 4950
+Connection ~ 9150 4950
 Wire Wire Line
-	4850 6850 4950 6850
+	9150 4950 9250 4950
 Wire Wire Line
-	4850 7250 4850 7650
+	9150 5350 9150 5750
 Wire Wire Line
-	4850 7650 4950 7650
-Connection ~ 4850 7250
+	9150 5750 9250 5750
+Connection ~ 9150 5350
 Wire Wire Line
-	4950 7350 4750 7350
+	9250 5450 9050 5450
 Wire Wire Line
-	4750 7350 4750 6950
-Connection ~ 4750 6950
+	9050 5450 9050 5050
+Connection ~ 9050 5050
 Wire Wire Line
-	4750 6950 4950 6950
+	9050 5050 9250 5050
 Wire Wire Line
-	4750 7350 4750 7750
+	9050 5450 9050 5850
 Wire Wire Line
-	4750 7750 4950 7750
-Connection ~ 4750 7350
+	9050 5850 9250 5850
+Connection ~ 9050 5450
 Wire Wire Line
-	4650 7850 4650 7450
-Connection ~ 4650 7050
+	8950 5950 8950 5550
+Connection ~ 8950 5150
 Wire Wire Line
-	4650 7050 4950 7050
+	8950 5150 9250 5150
 Wire Wire Line
-	4950 7450 4650 7450
-Connection ~ 4650 7450
+	9250 5550 8950 5550
+Connection ~ 8950 5550
 Wire Wire Line
-	4650 7450 4650 7050
+	8950 5550 8950 5150
 Wire Wire Line
-	4650 7850 4950 7850
+	8950 5950 9250 5950
+$Comp
+L Device:C C11
+U 1 1 5CEE94C0
+P 1500 5900
+F 0 "C11" H 1615 5946 50  0000 L CNN
+F 1 "330n" H 1615 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1500 5900 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B334KBFNNNE.jsp" H 1500 5900 50  0001 C CNN
+F 4 "Samsung" H 1500 5900 50  0001 C CNN "Manufacturer"
+F 5 "CL21B334KBFNNNE" H 1500 5900 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 1500 5900 50  0001 C CNN "Distributor"
+F 7 "1276-1123-1-ND" H 1500 5900 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B334KBFNNNE/1276-1123-1-ND/3889209" H 1500 5900 50  0001 C CNN "URL"
+F 9 "0.19" H 1500 5900 50  0001 C CNN "Unit Price"
+	1    1500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C12
+U 1 1 5CEE94CC
+P 2700 5800
+F 0 "C12" H 2815 5846 50  0000 L CNN
+F 1 "100u" H 2815 5755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2700 5800 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 2700 5800 50  0001 C CNN
+F 4 "Nichicon" H 2700 5800 50  0001 C CNN "Manufacturer"
+F 5 "UVR1V101MED" H 2700 5800 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 2700 5800 50  0001 C CNN "Distributor"
+F 7 "493-1081-ND" H 2700 5800 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 2700 5800 50  0001 C CNN "URL"
+F 9 "0.25" H 2700 5800 50  0001 C CNN "Unit Price"
+	1    2700 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5650 3350 5500
+Wire Wire Line
+	2700 5650 2700 5500
+$Comp
+L Diode:MRA4004T3G D12
+U 1 1 5CEE94DA
+P 3350 5800
+F 0 "D12" V 3304 5721 50  0000 R CNN
+F 1 "MRA4004T3G" V 3395 5721 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA" H 3350 5625 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 3350 5800 50  0001 C CNN
+F 4 "On Semiconductor" H 3350 5800 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 3350 5800 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3350 5800 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 3350 5800 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 3350 5800 50  0001 C CNN "URL"
+F 9 "0.29" H 3350 5800 50  0001 C CNN "Unit Price"
+	1    3350 5800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3350 5500 4000 5500
+Wire Wire Line
+	2700 5500 3350 5500
+$Comp
+L Diode:MRA4004T3G D11
+U 1 1 5CEE94E8
+P 2000 5000
+F 0 "D11" H 2000 4784 50  0000 C CNN
+F 1 "MRA4004T3G" H 2000 4875 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 2000 4825 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 2000 5000 50  0001 C CNN
+F 4 "On Semiconductor" H 2000 5000 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 2000 5000 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 2000 5000 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 2000 5000 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 2000 5000 50  0001 C CNN "URL"
+F 9 "0.29" H 2000 5000 50  0001 C CNN "Unit Price"
+	1    2000 5000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2450 5000 2450 5500
+Wire Wire Line
+	2150 5000 2450 5000
+Wire Wire Line
+	1650 5000 1650 5500
+Wire Wire Line
+	1850 5000 1650 5000
+Wire Wire Line
+	2350 5500 2450 5500
+$Comp
+L Regulator_Linear:LM7815_TO220 U3
+U 1 1 5CEE94F3
+P 2050 5500
+F 0 "U3" H 2050 5742 50  0000 C CNN
+F 1 "LM7815_TO220" H 2050 5651 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2050 5725 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 2050 5450 50  0001 C CNN
+	1    2050 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5500 2700 5500
+Connection ~ 2450 5500
+Wire Wire Line
+	1500 5500 1500 5750
+Wire Wire Line
+	2050 5800 2050 6350
+Wire Wire Line
+	2700 6350 2700 5950
+Wire Wire Line
+	1500 6050 1500 6350
+Connection ~ 3350 5500
+Connection ~ 2700 5500
+Wire Wire Line
+	1650 5500 1750 5500
+Wire Wire Line
+	1500 5500 1650 5500
+Connection ~ 1500 5500
+Connection ~ 1650 5500
+Wire Wire Line
+	950  5500 1500 5500
+Text Label 6200 1900 0    50   ~ 0
++15_unreg
+Text Label 6200 3600 0    50   ~ 0
+-15_unreg
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5CEF15C9
+P 6650 1800
+F 0 "#FLG0101" H 6650 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 6650 1973 50  0000 C CNN
+F 2 "" H 6650 1800 50  0001 C CNN
+F 3 "~" H 6650 1800 50  0001 C CNN
+	1    6650 1800
+	1    0    0    -1  
+$EndComp
+Text Label 950  5500 0    50   Italic 10
++15_unreg
+Wire Wire Line
+	6650 1900 6650 1800
+Wire Wire Line
+	1200 1250 2200 1250
+Connection ~ 6650 1900
+Wire Wire Line
+	6650 1900 6850 1900
+Wire Wire Line
+	6650 3700 6650 3600
+Connection ~ 6650 3600
+Wire Wire Line
+	6650 3600 6750 3600
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5CEF1F46
+P 6650 3700
+F 0 "#FLG0102" H 6650 3775 50  0001 C CNN
+F 1 "PWR_FLAG" H 6650 3873 50  0000 C CNN
+F 2 "" H 6650 3700 50  0001 C CNN
+F 3 "~" H 6650 3700 50  0001 C CNN
+	1    6650 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5CF1D83E
+P 6500 2650
+F 0 "#FLG0103" H 6500 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 6500 2823 50  0000 C CNN
+F 2 "" H 6500 2650 50  0001 C CNN
+F 3 "~" H 6500 2650 50  0001 C CNN
+	1    6500 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2750 6500 2650
+Connection ~ 6500 2750
+Wire Wire Line
+	6500 2750 6750 2750
+$Comp
+L power:GNDD #PWR0110
+U 1 1 5CF26A19
+P 4000 6450
+F 0 "#PWR0110" H 4000 6200 50  0001 C CNN
+F 1 "GNDD" H 4004 6295 50  0000 C CNN
+F 2 "" H 4000 6450 50  0001 C CNN
+F 3 "" H 4000 6450 50  0001 C CNN
+	1    4000 6450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2700 6350
+Wire Wire Line
+	2700 6350 2050 6350
+Wire Wire Line
+	2050 6350 1500 6350
+Connection ~ 2050 6350
+$Comp
+L power:GNDD #PWR0114
+U 1 1 5CF4D871
+P 6600 5950
+F 0 "#PWR0114" H 6600 5700 50  0001 C CNN
+F 1 "GNDD" H 6604 5795 50  0000 C CNN
+F 2 "" H 6600 5950 50  0001 C CNN
+F 3 "" H 6600 5950 50  0001 C CNN
+	1    6600 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5850 6600 5950
+Wire Wire Line
+	6100 5950 6100 5850
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5CF6161F
+P 3000 6250
+F 0 "#FLG0104" H 3000 6325 50  0001 C CNN
+F 1 "PWR_FLAG" H 3000 6423 50  0000 C CNN
+F 2 "" H 3000 6250 50  0001 C CNN
+F 3 "~" H 3000 6250 50  0001 C CNN
+	1    3000 6250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 6350
+Wire Wire Line
+	3000 6350 2700 6350
+Wire Wire Line
+	3000 6250 3000 6350
+Text Notes 5650 6450 0    50   Italic 10
+Tie GNDPWR and GNDD together through\n1k resistor right at reservoir capacitors!
+$Comp
+L Device:R R4
+U 1 1 5CF6C37A
+P 6350 5850
+F 0 "R4" V 6143 5850 50  0000 C CNN
+F 1 "1k" V 6234 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 5850 50  0001 C CNN
+F 3 "~" H 6350 5850 50  0001 C CNN
+	1    6350 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 5850 6600 5850
+Wire Wire Line
+	6100 5850 6200 5850
+$Comp
+L power:GNDA #PWR0101
+U 1 1 5CF81804
+P 9900 2850
+F 0 "#PWR0101" H 9900 2600 50  0001 C CNN
+F 1 "GNDA" H 9905 2677 50  0000 C CNN
+F 2 "" H 9900 2850 50  0001 C CNN
+F 3 "" H 9900 2850 50  0001 C CNN
+	1    9900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0104
+U 1 1 5CF823FE
+P 6100 5950
+F 0 "#PWR0104" H 6100 5700 50  0001 C CNN
+F 1 "GNDA" H 6105 5777 50  0000 C CNN
+F 2 "" H 6100 5950 50  0001 C CNN
+F 3 "" H 6100 5950 50  0001 C CNN
+	1    6100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR0105
+U 1 1 5CF83758
+P 4000 5400
+F 0 "#PWR0105" H 4000 5250 50  0001 C CNN
+F 1 "+15V" H 4015 5573 50  0000 C CNN
+F 2 "" H 4000 5400 50  0001 C CNN
+F 3 "" H 4000 5400 50  0001 C CNN
+	1    4000 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5500 4000 5400
+$Comp
+L power:GNDA #PWR0106
+U 1 1 5CFBDF10
+P 5500 5100
+F 0 "#PWR0106" H 5500 4850 50  0001 C CNN
+F 1 "GNDA" H 5505 4927 50  0000 C CNN
+F 2 "" H 5500 5100 50  0001 C CNN
+F 3 "" H 5500 5100 50  0001 C CNN
+	1    5500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0107
+U 1 1 5CFBE3DC
+P 6300 5100
+F 0 "#PWR0107" H 6300 4850 50  0001 C CNN
+F 1 "GNDA" H 6305 4927 50  0000 C CNN
+F 2 "" H 6300 5100 50  0001 C CNN
+F 3 "" H 6300 5100 50  0001 C CNN
+	1    6300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0108
+U 1 1 5CFBE7FE
+P 1600 7350
+F 0 "#PWR0108" H 1600 7100 50  0001 C CNN
+F 1 "GNDA" H 1605 7177 50  0000 C CNN
+F 2 "" H 1600 7350 50  0001 C CNN
+F 3 "" H 1600 7350 50  0001 C CNN
+	1    1600 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0109
+U 1 1 5CFBEC4D
+P 3400 7350
+F 0 "#PWR0109" H 3400 7100 50  0001 C CNN
+F 1 "GNDA" H 3405 7177 50  0000 C CNN
+F 2 "" H 3400 7350 50  0001 C CNN
+F 3 "" H 3400 7350 50  0001 C CNN
+	1    3400 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0113
+U 1 1 5CFBEEEB
+P 4300 7350
+F 0 "#PWR0113" H 4300 7100 50  0001 C CNN
+F 1 "GNDA" H 4305 7177 50  0000 C CNN
+F 2 "" H 4300 7350 50  0001 C CNN
+F 3 "" H 4300 7350 50  0001 C CNN
+	1    4300 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0115
+U 1 1 5CFBF321
+P 2500 7350
+F 0 "#PWR0115" H 2500 7100 50  0001 C CNN
+F 1 "GNDA" H 2505 7177 50  0000 C CNN
+F 2 "" H 2500 7350 50  0001 C CNN
+F 3 "" H 2500 7350 50  0001 C CNN
+	1    2500 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0116
+U 1 1 5CFBF7AE
+P 8500 5150
+F 0 "#PWR0116" H 8500 4900 50  0001 C CNN
+F 1 "GNDA" H 8505 4977 50  0000 C CNN
+F 2 "" H 8500 5150 50  0001 C CNN
+F 3 "" H 8500 5150 50  0001 C CNN
+	1    8500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink_Pad HS3
+U 1 1 5CFC037A
+P 7100 4900
+F 0 "HS3" H 7241 4939 50  0000 L CNN
+F 1 "Heatsink_Pad" H 7241 4848 50  0000 L CNN
+F 2 "Heatsink:Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35" H 7112 4850 50  0001 C CNN
+F 3 "~" H 7112 4850 50  0001 C CNN
+	1    7100 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5000 7100 5100
+$Comp
+L power:GNDD #PWR0117
+U 1 1 5CFC9AE3
+P 7100 5100
+F 0 "#PWR0117" H 7100 4850 50  0001 C CNN
+F 1 "GNDD" H 7104 4945 50  0000 C CNN
+F 2 "" H 7100 5100 50  0001 C CNN
+F 3 "" H 7100 5100 50  0001 C CNN
+	1    7100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5CFCCBD7
+P 9450 6150
+F 0 "J5" H 9422 6124 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 9422 6033 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 9450 6150 50  0001 C CNN
+F 3 "~" H 9450 6150 50  0001 C CNN
+	1    9450 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR0118
+U 1 1 5CFCF3EC
+P 8750 6050
+F 0 "#PWR0118" H 8750 5900 50  0001 C CNN
+F 1 "+15V" H 8765 6223 50  0000 C CNN
+F 2 "" H 8750 6050 50  0001 C CNN
+F 3 "" H 8750 6050 50  0001 C CNN
+	1    8750 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 6050 8750 6150
+Wire Wire Line
+	8750 6150 9250 6150
+$Comp
+L power:GNDD #PWR0119
+U 1 1 5CFD8CEF
+P 8750 6350
+F 0 "#PWR0119" H 8750 6100 50  0001 C CNN
+F 1 "GNDD" H 8754 6195 50  0000 C CNN
+F 2 "" H 8750 6350 50  0001 C CNN
+F 3 "" H 8750 6350 50  0001 C CNN
+	1    8750 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 6350 8750 6250
+Wire Wire Line
+	8750 6250 9250 6250
+Text Notes 1450 4700 0    50   ~ 10
+AUX SUPPLY FOR RELAYS/FRONT PANEL
+Wire Wire Line
+	4000 6350 3350 6350
+Wire Wire Line
+	4000 6450 4000 6350
+Wire Wire Line
+	3350 5950 3350 6350
+Connection ~ 3350 6350
+Wire Wire Line
+	3350 6350 3000 6350
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5CAF6792
+P 1000 1350
+F 0 "J1" H 1000 1700 50  0000 L CNN
+F 1 "Conn_01x04_Male" H 1000 1600 50  0000 L CNN
+F 2 "Connector_Molex_KK-396:Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical" H 1000 1350 50  0001 C CNN
+F 3 "~" H 1000 1350 50  0001 C CNN
+	1    1000 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
