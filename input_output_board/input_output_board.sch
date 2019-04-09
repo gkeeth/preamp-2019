@@ -437,6 +437,17 @@ Wire Wire Line
 	4000 7600 5150 7600
 Text Label 4250 7600 0    50   ~ 0
 output_shield
-Text Notes 9400 950  0    50   ~ 0
-TODO\ndiodes for relays\ncapacitor\nconnector for relay signals
+Text Notes 8650 1200 0    50   ~ 0
+TODO\ndiodes for relays\ncapacitor\nconnector for relay signals\nadd Molex C-Grid III symbol & footprint
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J8
+U 1 1 5CB676D4
+P 9450 5350
+F 0 "J8" H 9500 5867 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 9500 5776 50  0000 C CNN
+F 2 "" H 9450 5350 50  0001 C CNN
+F 3 "~" H 9450 5350 50  0001 C CNN
+	1    9450 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
