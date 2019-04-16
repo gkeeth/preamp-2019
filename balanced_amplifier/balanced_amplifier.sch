@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:balanced_amplifier-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -294,7 +294,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 3450 9200 3450
 Text Notes 1000 900  0    50   ~ 0
-TODO:\nadd knobs for pots\nswap +/- for either input or output connectors (make consistent)\nchange power connector to 1x3 Molex SL\nUpdate date field\nAdd power LED(s)
+TODO:\nadd knobs for pots\nswap +/- for either input or output connectors (make consistent)\nchange power connector to 1x3 Molex SL\nUpdate date field\nAdd power LED(s)\nchange connectors to support headphone amplifier board
 Text Label 1450 2600 0    50   ~ 0
 right_in_hot
 Text Label 1450 2700 0    50   ~ 0
