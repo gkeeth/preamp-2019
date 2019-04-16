@@ -58,4 +58,6 @@ F 3 "~" H 1600 3400 50  0001 C CNN
 	1    1600 3400
 	1    0    0    -1  
 $EndComp
+Text Notes 8800 1000 0    50   ~ 0
+TODO\nadd rotary switch (symbol + footprint)\nadd switch for headphones/speakers
 $EndSCHEMATC
