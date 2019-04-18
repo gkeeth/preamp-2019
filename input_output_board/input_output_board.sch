@@ -566,4 +566,12 @@ Wire Wire Line
 Connection ~ 5900 5450
 Wire Wire Line
 	5900 5450 5900 3550
+NoConn ~ 4800 1950
+NoConn ~ 4800 1550
+NoConn ~ 4800 3450
+NoConn ~ 4800 3850
+NoConn ~ 4800 5750
+NoConn ~ 4800 5350
+NoConn ~ 4800 7250
+NoConn ~ 4800 7650
 $EndSCHEMATC
