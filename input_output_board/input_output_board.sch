@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:AudioJack3 J8
+L Connector:AudioJack3 J7
 U 1 1 5CAA8F23
 P 9750 4750
-F 0 "J8" H 9470 4775 50  0000 R CNN
+F 0 "J7" H 9470 4775 50  0000 R CNN
 F 1 "AudioJack3" H 9470 4684 50  0000 R CNN
 F 2 "" H 9750 4750 50  0001 C CNN
 F 3 "~" H 9750 4750 50  0001 C CNN
@@ -192,10 +192,10 @@ Wire Wire Line
 Wire Wire Line
 	5750 7750 5400 7750
 $Comp
-L Connector_gkeeth:Molex_SL_01x04_Male J7
+L Connector_gkeeth:Molex_SL_01x04_Male J6
 U 1 1 5CB5BBEB
 P 7250 4650
-F 0 "J7" H 7223 4624 50  0000 R CNN
+F 0 "J6" H 7223 4624 50  0000 R CNN
 F 1 "Molex_SL_01x04_Male" H 7223 4533 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 7250 4650 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7250 4650 50  0001 C CNN
@@ -219,17 +219,17 @@ Wire Wire Line
 	7550 4750 8200 4750
 Text Label 7650 4750 0    50   ~ 0
 output_shield
-Text Notes 8700 1250 0    50   ~ 0
-TODO\ncapacitor(s)\nconnector for relay signals\nadd Molex C-Grid III symbol & footprint\nXLR ground pins\nRCA jacks...?
+Text Notes 8100 1200 0    50   ~ 0
+TODO\ncapacitor(s)\nconnector for relay signals -- smaller? more grounds?\nadd Molex C-Grid III symbol & footprint\nXLR ground pins\nRCA jacks...?
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J6
+L Connector_Generic:Conn_02x08_Odd_Even J8
 U 1 1 5CB676D4
-P 8750 2100
-F 0 "J6" H 8800 2617 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 8800 2526 50  0000 C CNN
-F 2 "" H 8750 2100 50  0001 C CNN
-F 3 "~" H 8750 2100 50  0001 C CNN
-	1    8750 2100
+P 8850 6100
+F 0 "J8" H 8900 6617 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8900 6526 50  0000 C CNN
+F 2 "" H 8850 6100 50  0001 C CNN
+F 3 "~" H 8850 6100 50  0001 C CNN
+	1    8850 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -638,4 +638,186 @@ Wire Wire Line
 	9250 3700 9000 3700
 NoConn ~ 8550 5150
 NoConn ~ 8550 4750
+Wire Wire Line
+	8650 5800 7800 5800
+Wire Wire Line
+	8650 5900 7800 5900
+Wire Wire Line
+	8650 6000 7800 6000
+Wire Wire Line
+	8650 6100 7800 6100
+Text Label 7800 5800 0    50   ~ 0
+input1_select
+Text Label 7800 5900 0    50   ~ 0
+input2_select
+Text Label 7800 6000 0    50   ~ 0
+input3_select
+Text Label 7800 6100 0    50   ~ 0
+input4_select
+Wire Wire Line
+	9150 5800 9250 5800
+Wire Wire Line
+	9250 5800 9250 5900
+Wire Wire Line
+	9250 6100 9150 6100
+Wire Wire Line
+	9150 6000 9250 6000
+Connection ~ 9250 6000
+Wire Wire Line
+	9250 6000 9250 6100
+Wire Wire Line
+	9150 5900 9250 5900
+Connection ~ 9250 5900
+Wire Wire Line
+	9250 5900 9250 6000
+$Comp
+L power:GNDD #PWR0101
+U 1 1 5CCCC269
+P 9500 6250
+F 0 "#PWR0101" H 9500 6000 50  0001 C CNN
+F 1 "GNDD" H 9504 6095 50  0000 C CNN
+F 2 "" H 9500 6250 50  0001 C CNN
+F 3 "" H 9500 6250 50  0001 C CNN
+	1    9500 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 6250 9500 6200
+Wire Wire Line
+	9500 6200 9250 6200
+$Comp
+L power:GNDD #PWR0102
+U 1 1 5CCD0BDE
+P 5600 7050
+F 0 "#PWR0102" H 5600 6800 50  0001 C CNN
+F 1 "GNDD" H 5604 6895 50  0000 C CNN
+F 2 "" H 5600 7050 50  0001 C CNN
+F 3 "" H 5600 7050 50  0001 C CNN
+	1    5600 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0103
+U 1 1 5CCD13C1
+P 5600 5150
+F 0 "#PWR0103" H 5600 4900 50  0001 C CNN
+F 1 "GNDD" H 5604 4995 50  0000 C CNN
+F 2 "" H 5600 5150 50  0001 C CNN
+F 3 "" H 5600 5150 50  0001 C CNN
+	1    5600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0104
+U 1 1 5CCD19F8
+P 5600 3250
+F 0 "#PWR0104" H 5600 3000 50  0001 C CNN
+F 1 "GNDD" H 5604 3095 50  0000 C CNN
+F 2 "" H 5600 3250 50  0001 C CNN
+F 3 "" H 5600 3250 50  0001 C CNN
+	1    5600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0105
+U 1 1 5CCD1DD8
+P 5600 1350
+F 0 "#PWR0105" H 5600 1100 50  0001 C CNN
+F 1 "GNDD" H 5604 1195 50  0000 C CNN
+F 2 "" H 5600 1350 50  0001 C CNN
+F 3 "" H 5600 1350 50  0001 C CNN
+	1    5600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0106
+U 1 1 5CCD2277
+P 9350 4350
+F 0 "#PWR0106" H 9350 4100 50  0001 C CNN
+F 1 "GNDD" H 9354 4195 50  0000 C CNN
+F 2 "" H 9350 4350 50  0001 C CNN
+F 3 "" H 9350 4350 50  0001 C CNN
+	1    9350 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 4350 9350 4250
+Wire Wire Line
+	9350 4250 9250 4250
+Connection ~ 9250 4250
+Wire Wire Line
+	5600 5150 5600 5050
+Wire Wire Line
+	5600 5050 5500 5050
+Connection ~ 5500 5050
+Wire Wire Line
+	5600 7050 5600 6950
+Wire Wire Line
+	5600 6950 5500 6950
+Connection ~ 5500 6950
+Wire Wire Line
+	5600 3250 5600 3150
+Wire Wire Line
+	5600 3150 5500 3150
+Connection ~ 5500 3150
+Wire Wire Line
+	5600 1350 5600 1250
+Wire Wire Line
+	5600 1250 5500 1250
+Connection ~ 5500 1250
+Text Label 4000 1250 0    50   ~ 0
+input1_select
+Text Label 4000 3150 0    50   ~ 0
+input2_select
+Text Label 4000 5050 0    50   ~ 0
+input3_select
+Text Label 4000 6950 0    50   ~ 0
+input4_select
+Text Label 7800 6200 0    50   ~ 0
+output_mute_select
+Wire Wire Line
+	7800 6200 8650 6200
+Wire Wire Line
+	9250 6200 9250 6100
+Connection ~ 9250 6100
+Wire Wire Line
+	9250 6200 9150 6200
+Connection ~ 9250 6200
+Text Label 7500 4250 0    50   ~ 0
+output_mute_select
+Wire Wire Line
+	7500 4250 8450 4250
+Connection ~ 8450 4250
+Wire Wire Line
+	4700 5050 4000 5050
+Connection ~ 4700 5050
+Wire Wire Line
+	4000 3150 4700 3150
+Connection ~ 4700 3150
+Wire Wire Line
+	4000 1250 4700 1250
+Connection ~ 4700 1250
+Wire Wire Line
+	4000 6950 4700 6950
+Connection ~ 4700 6950
+NoConn ~ 8650 6300
+NoConn ~ 8650 6400
+NoConn ~ 8650 6500
+NoConn ~ 9150 6300
+NoConn ~ 9150 6400
+NoConn ~ 9150 6500
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5CD4A6A5
+P 9500 6100
+F 0 "#FLG0101" H 9500 6175 50  0001 C CNN
+F 1 "PWR_FLAG" H 9500 6273 50  0000 C CNN
+F 2 "" H 9500 6100 50  0001 C CNN
+F 3 "~" H 9500 6100 50  0001 C CNN
+	1    9500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 6200 9500 6100
+Connection ~ 9500 6200
 $EndSCHEMATC
