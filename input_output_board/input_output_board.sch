@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L Connector:AudioJack3 J8
 U 1 1 5CAA8F23
-P 9300 6050
-F 0 "J8" H 9020 6075 50  0000 R CNN
-F 1 "AudioJack3" H 9020 5984 50  0000 R CNN
-F 2 "" H 9300 6050 50  0001 C CNN
-F 3 "~" H 9300 6050 50  0001 C CNN
-	1    9300 6050
+P 9750 4750
+F 0 "J8" H 9470 4775 50  0000 R CNN
+F 1 "AudioJack3" H 9470 4684 50  0000 R CNN
+F 2 "" H 9750 4750 50  0001 C CNN
+F 3 "~" H 9750 4750 50  0001 C CNN
+	1    9750 4750
 	-1   0    0    1   
 $EndComp
 Text Notes 9600 2250 0    50   ~ 0
@@ -194,48 +194,42 @@ Wire Wire Line
 $Comp
 L Connector_gkeeth:Molex_SL_01x04_Male J7
 U 1 1 5CB5BBEB
-P 7650 6050
-F 0 "J7" H 7623 6024 50  0000 R CNN
-F 1 "Molex_SL_01x04_Male" H 7623 5933 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 7650 6050 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7650 6050 50  0001 C CNN
-	1    7650 6050
+P 7250 4650
+F 0 "J7" H 7223 4624 50  0000 R CNN
+F 1 "Molex_SL_01x04_Male" H 7223 4533 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 7250 4650 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7250 4650 50  0001 C CNN
+	1    7250 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 5950 9100 5950
-Wire Wire Line
-	9100 6050 8800 6050
-Wire Wire Line
-	8800 6050 8800 6250
-Wire Wire Line
-	8800 6250 7850 6250
-Text Label 8050 5950 0    50   ~ 0
+	8450 4850 7450 4850
+Text Label 7650 4550 0    50   ~ 0
 output_hot
-Text Label 8050 6250 0    50   ~ 0
+Text Label 7650 4850 0    50   ~ 0
 output_cold
 Wire Wire Line
-	7850 6150 7950 6150
+	7450 4750 7550 4750
 Wire Wire Line
-	7850 6050 7950 6050
+	7450 4650 7550 4650
 Wire Wire Line
-	7950 6050 7950 6150
-Connection ~ 7950 6150
+	7550 4650 7550 4750
+Connection ~ 7550 4750
 Wire Wire Line
-	7950 6150 9100 6150
-Text Label 8050 6150 0    50   ~ 0
+	7550 4750 8200 4750
+Text Label 7650 4750 0    50   ~ 0
 output_shield
 Text Notes 8700 1250 0    50   ~ 0
-TODO\ncapacitor(s)\nconnector for relay signals\nadd Molex C-Grid III symbol & footprint\nXLR ground pins\nRCA jacks...?\nadd output relay to support headphone output\nmuting??
+TODO\ncapacitor(s)\nconnector for relay signals\nadd Molex C-Grid III symbol & footprint\nXLR ground pins\nRCA jacks...?
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J6
 U 1 1 5CB676D4
-P 8550 4550
-F 0 "J6" H 8600 5067 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 8600 4976 50  0000 C CNN
-F 2 "" H 8550 4550 50  0001 C CNN
-F 3 "~" H 8550 4550 50  0001 C CNN
-	1    8550 4550
+P 8750 2100
+F 0 "J6" H 8800 2617 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8800 2526 50  0000 C CNN
+F 2 "" H 8750 2100 50  0001 C CNN
+F 3 "~" H 8750 2100 50  0001 C CNN
+	1    8750 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -574,4 +568,74 @@ NoConn ~ 4800 5750
 NoConn ~ 4800 5350
 NoConn ~ 4800 7250
 NoConn ~ 4800 7650
+$Comp
+L Relay:G6S-2 K5
+U 1 1 5CC507E9
+P 8850 4650
+F 0 "K5" V 8083 4650 50  0000 C CNN
+F 1 "G6S-2" V 8174 4650 50  0000 C CNN
+F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 9500 4600 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 8650 4650 50  0001 C CNN
+F 4 "Omron" H 8850 4650 50  0001 C CNN "Manufacturer"
+F 5 "G6S-2F DC12" H 8850 4650 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8850 4650 50  0001 C CNN "Distributor"
+F 7 "Z889-ND" H 8850 4650 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 8850 4650 50  0001 C CNN "URL"
+F 9 "3.64" H 8850 4650 50  0001 C CNN "Unit Price"
+	1    8850 4650
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5CC51A5E
+P 8850 3700
+F 0 "D5" H 8850 3916 50  0000 C CNN
+F 1 "MRA4004T3G" H 8850 3825 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 8850 3700 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 8850 3700 50  0001 C CNN
+F 4 "On Semiconductor" H 8850 3700 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 8850 3700 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8850 3700 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 8850 3700 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 8850 3700 50  0001 C CNN "URL"
+F 9 "0.29" H 8850 3700 50  0001 C CNN "Unit Price"
+	1    8850 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4650 9150 4650
+Wire Wire Line
+	9150 5050 9350 5050
+Wire Wire Line
+	9350 5050 9350 4750
+Wire Wire Line
+	9350 4750 9550 4750
+Wire Wire Line
+	8450 4850 8450 4950
+Wire Wire Line
+	8450 4950 8550 4950
+Wire Wire Line
+	7450 4550 8550 4550
+Wire Wire Line
+	8200 4750 8200 5400
+Wire Wire Line
+	8200 5400 9450 5400
+Wire Wire Line
+	9450 5400 9450 4850
+Wire Wire Line
+	9450 4850 9550 4850
+Wire Wire Line
+	8700 3700 8450 3700
+Wire Wire Line
+	8450 3700 8450 4250
+Wire Wire Line
+	8450 4250 8550 4250
+Wire Wire Line
+	9150 4250 9250 4250
+Wire Wire Line
+	9250 4250 9250 3700
+Wire Wire Line
+	9250 3700 9000 3700
+NoConn ~ 8550 5150
+NoConn ~ 8550 4750
 $EndSCHEMATC
