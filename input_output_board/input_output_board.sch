@@ -6,7 +6,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Input/Output Board for Preamp 2019"
-Date "2019-04-07"
+Date "2019-04-20"
 Rev "0"
 Comp "G. Keeth"
 Comment1 ""
@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L Connector:AudioJack3 J7
 U 1 1 5CAA8F23
-P 9750 4750
-F 0 "J7" H 9470 4775 50  0000 R CNN
-F 1 "AudioJack3" H 9470 4684 50  0000 R CNN
-F 2 "" H 9750 4750 50  0001 C CNN
-F 3 "~" H 9750 4750 50  0001 C CNN
-	1    9750 4750
+P 9600 4150
+F 0 "J7" H 9320 4175 50  0000 R CNN
+F 1 "AudioJack3" H 9320 4084 50  0000 R CNN
+F 2 "" H 9600 4150 50  0001 C CNN
+F 3 "~" H 9600 4150 50  0001 C CNN
+	1    9600 4150
 	-1   0    0    1   
 $EndComp
 Text Notes 9600 2250 0    50   ~ 0
@@ -30,794 +30,862 @@ Tip: hot\nRing: cold\nSleeve: shield\n\n1: shield\n2: hot\n3: cold
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J1
 U 1 1 5CAEAFEE
-P 1500 1250
-F 0 "J1" H 1500 1615 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1500 1524 50  0000 C CNN
-F 2 "" H 1500 1250 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1500 1250 50  0001 C CNN
-F 4 "Neutrik" H 1500 1250 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 1500 1250 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 1500 1250 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 1500 1250 50  0001 C CNN "Distributor PN"
-F 8 "2.10" H 1500 1250 50  0001 C CNN "URL"
-F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1500 1250 50  0001 C CNN "Unit Price"
-	1    1500 1250
+P 2450 1800
+F 0 "J1" H 2450 2165 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 2450 2074 50  0000 C CNN
+F 2 "" H 2450 1800 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 1800 50  0001 C CNN
+F 4 "Neutrik" H 2450 1800 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 2450 1800 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 2450 1800 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 2450 1800 50  0001 C CNN "Distributor PN"
+F 8 "2.10" H 2450 1800 50  0001 C CNN "URL"
+F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 1800 50  0001 C CNN "Unit Price"
+	1    2450 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J2
 U 1 1 5CAED56C
-P 1500 3150
-F 0 "J2" H 1500 3515 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1500 3424 50  0000 C CNN
-F 2 "" H 1500 3150 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1500 3150 50  0001 C CNN
-F 4 "Neutrik" H 1500 3150 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 1500 3150 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 1500 3150 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 1500 3150 50  0001 C CNN "Distributor PN"
-F 8 "2.10" H 1500 3150 50  0001 C CNN "URL"
-F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1500 3150 50  0001 C CNN "Unit Price"
-	1    1500 3150
+P 2450 3700
+F 0 "J2" H 2450 4065 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 2450 3974 50  0000 C CNN
+F 2 "" H 2450 3700 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 3700 50  0001 C CNN
+F 4 "Neutrik" H 2450 3700 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 2450 3700 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 2450 3700 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 2450 3700 50  0001 C CNN "Distributor PN"
+F 8 "2.10" H 2450 3700 50  0001 C CNN "URL"
+F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 3700 50  0001 C CNN "Unit Price"
+	1    2450 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J3
-U 1 1 5CAEE377
-P 1500 5050
-F 0 "J3" H 1500 5415 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1500 5324 50  0000 C CNN
-F 2 "" H 1500 5050 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1500 5050 50  0001 C CNN
-F 4 "Neutrik" H 1500 5050 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 1500 5050 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 1500 5050 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 1500 5050 50  0001 C CNN "Distributor PN"
-F 8 "2.10" H 1500 5050 50  0001 C CNN "URL"
-F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1500 5050 50  0001 C CNN "Unit Price"
-	1    1500 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J4
-U 1 1 5CAEED50
-P 1500 7000
-F 0 "J4" H 1500 7365 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1500 7274 50  0000 C CNN
-F 2 "" H 1500 7000 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1500 7000 50  0001 C CNN
-F 4 "Neutrik" H 1500 7000 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 1500 7000 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 1500 7000 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 1500 7000 50  0001 C CNN "Distributor PN"
-F 8 "2.10" H 1500 7000 50  0001 C CNN "URL"
-F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1500 7000 50  0001 C CNN "Unit Price"
-	1    1500 7000
-	1    0    0    -1  
-$EndComp
-Text Label 650  1250 0    50   ~ 0
-input_shield
-Wire Wire Line
-	650  1250 1200 1250
-Text Label 1500 2050 1    50   ~ 0
+Text Label 2900 2200 0    50   ~ 0
 input1_cold
-Wire Wire Line
-	1500 1550 1500 2050
-Text Label 3900 7800 2    50   ~ 0
-input_shield
-Text Label 3900 7700 2    50   ~ 0
+Text Label 3350 7900 2    50   ~ 0
 input4_cold
-Text Label 3900 7600 2    50   ~ 0
+Text Label 3300 7500 2    50   ~ 0
 input4_hot
-$Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J4
-U 2 1 5CAF133F
-P 3100 7700
-F 0 "J4" H 3082 7333 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 3082 7424 50  0000 C CNN
-F 2 "" H 3100 7700 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 3100 7700 50  0001 C CNN
-	2    3100 7700
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	3300 7800 3900 7800
-Text Label 2250 1250 2    50   ~ 0
+Text Label 2900 1800 0    50   ~ 0
 input1_hot
-Wire Wire Line
-	1800 1250 2250 1250
-Text Label 650  3150 0    50   ~ 0
-input_shield
-Text Label 1500 3950 1    50   ~ 0
+Text Label 2900 4100 0    50   ~ 0
 input2_cold
-Text Label 2250 3150 2    50   ~ 0
-input2_hot
 Wire Wire Line
-	1800 3150 2250 3150
-Wire Wire Line
-	1500 3450 1500 3950
-Wire Wire Line
-	650  3150 1200 3150
-Text Label 650  5050 0    50   ~ 0
+	2450 4000 2450 4100
+Text Label 2000 5600 2    50   ~ 0
 input_shield
-Text Label 1500 5850 1    50   ~ 0
-input3_cold
-Text Label 2250 5050 2    50   ~ 0
+Text Label 2900 5600 0    50   ~ 0
 input3_hot
-Text Label 650  7000 0    50   ~ 0
-input_shield
-Text Label 1500 7800 1    50   ~ 0
-input4_cold
-Text Label 2250 7000 2    50   ~ 0
-input4_hot
 Wire Wire Line
-	2250 7000 1800 7000
-Wire Wire Line
-	1500 7800 1500 7300
-Wire Wire Line
-	650  7000 1200 7000
-Wire Wire Line
-	1500 5850 1500 5350
-Wire Wire Line
-	1200 5050 650  5050
-Wire Wire Line
-	1800 5050 2250 5050
+	2150 5600 2050 5600
 $Comp
 L Relay:G6S-2 K4
 U 1 1 5CADDA03
-P 5100 7350
-F 0 "K4" V 4333 7350 50  0000 C CNN
-F 1 "G6S-2" V 4424 7350 50  0000 C CNN
-F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 5750 7300 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 4900 7350 50  0001 C CNN
-F 4 "Omron" H 5100 7350 50  0001 C CNN "Manufacturer"
-F 5 "G6S-2F DC12" H 5100 7350 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5100 7350 50  0001 C CNN "Distributor"
-F 7 "Z889-ND" H 5100 7350 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 5100 7350 50  0001 C CNN "URL"
-F 9 "3.64" H 5100 7350 50  0001 C CNN "Unit Price"
-	1    5100 7350
+P 4000 7400
+F 0 "K4" V 3233 7400 50  0000 C CNN
+F 1 "G6S-2" V 3324 7400 50  0000 C CNN
+F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 4650 7350 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 3800 7400 50  0001 C CNN
+F 4 "Omron" H 4000 7400 50  0001 C CNN "Manufacturer"
+F 5 "G6S-2F DC12" H 4000 7400 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 4000 7400 50  0001 C CNN "Distributor"
+F 7 "Z889-ND" H 4000 7400 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 4000 7400 50  0001 C CNN "URL"
+F 9 "3.64" H 4000 7400 50  0001 C CNN "Unit Price"
+	1    4000 7400
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4350 7850 4350 7700
+	4800 7400 4300 7400
 Wire Wire Line
-	4800 7850 4350 7850
-Wire Wire Line
-	4350 7600 4350 7450
-Wire Wire Line
-	4350 7450 4800 7450
-Wire Wire Line
-	5900 7350 5400 7350
-Wire Wire Line
-	5750 7750 5400 7750
+	4650 7800 4300 7800
 $Comp
 L Connector_gkeeth:Molex_SL_01x04_Male J6
 U 1 1 5CB5BBEB
-P 7250 4650
-F 0 "J6" H 7223 4624 50  0000 R CNN
-F 1 "Molex_SL_01x04_Male" H 7223 4533 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 7250 4650 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7250 4650 50  0001 C CNN
-	1    7250 4650
+P 7100 4050
+F 0 "J6" H 7073 4024 50  0000 R CNN
+F 1 "Molex_SL_01x04_Male" H 7073 3933 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 7100 4050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7100 4050 50  0001 C CNN
+	1    7100 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 4850 7450 4850
-Text Label 7650 4550 0    50   ~ 0
+	8300 4250 7300 4250
+Text Label 7500 3950 0    50   ~ 0
 output_hot
-Text Label 7650 4850 0    50   ~ 0
+Text Label 7500 4250 0    50   ~ 0
 output_cold
 Wire Wire Line
-	7450 4750 7550 4750
+	7300 4150 7400 4150
 Wire Wire Line
-	7450 4650 7550 4650
+	7300 4050 7400 4050
 Wire Wire Line
-	7550 4650 7550 4750
-Connection ~ 7550 4750
+	7400 4050 7400 4150
+Connection ~ 7400 4150
 Wire Wire Line
-	7550 4750 8200 4750
-Text Label 7650 4750 0    50   ~ 0
+	7400 4150 8050 4150
+Text Label 7500 4150 0    50   ~ 0
 output_shield
-Text Notes 8100 1200 0    50   ~ 0
-TODO\ncapacitor(s)\nconnector for relay signals -- smaller? more grounds?\nadd Molex C-Grid III symbol & footprint\nXLR ground pins\nRCA jacks...?
+Text Notes 7300 1200 0    50   ~ 0
+TODO\ncapacitor(s)\nconnector for relay signals -- smaller? more grounds?\nadd Molex C-Grid III symbol & footprint\nXLR ground pins -- connect shields and ground pins DIRECTLY to chassis\nRCA jacks...?
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J8
 U 1 1 5CB676D4
-P 8850 6100
-F 0 "J8" H 8900 6617 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 8900 6526 50  0000 C CNN
-F 2 "" H 8850 6100 50  0001 C CNN
-F 3 "~" H 8850 6100 50  0001 C CNN
-	1    8850 6100
+P 8700 5500
+F 0 "J8" H 8750 6017 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8750 5926 50  0000 C CNN
+F 2 "" H 8700 5500 50  0001 C CNN
+F 3 "~" H 8700 5500 50  0001 C CNN
+	1    8700 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D4
 U 1 1 5CB915D2
-P 5100 6450
-F 0 "D4" H 5100 6666 50  0000 C CNN
-F 1 "MRA4004T3G" H 5100 6575 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 5100 6450 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 5100 6450 50  0001 C CNN
-F 4 "On Semiconductor" H 5100 6450 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 5100 6450 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5100 6450 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 5100 6450 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 5100 6450 50  0001 C CNN "URL"
-F 9 "0.29" H 5100 6450 50  0001 C CNN "Unit Price"
-	1    5100 6450
+P 4000 6500
+F 0 "D4" H 4000 6716 50  0000 C CNN
+F 1 "MRA4004T3G" H 4000 6625 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 4000 6500 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 4000 6500 50  0001 C CNN
+F 4 "On Semiconductor" H 4000 6500 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 4000 6500 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 4000 6500 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 4000 6500 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 4000 6500 50  0001 C CNN "URL"
+F 9 "0.29" H 4000 6500 50  0001 C CNN "Unit Price"
+	1    4000 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 7600 4350 7600
+	2050 1700 1450 1700
 Wire Wire Line
-	4350 7700 3300 7700
-Wire Wire Line
-	3300 5700 4350 5700
-Wire Wire Line
-	4350 5800 3300 5800
-Wire Wire Line
-	3300 3900 4350 3900
-Wire Wire Line
-	4350 3800 3300 3800
-Wire Wire Line
-	4350 2000 3300 2000
-Wire Wire Line
-	3300 1900 4350 1900
+	1450 1600 2050 1600
 $Comp
 L Device:D D3
 U 1 1 5CB90FB2
-P 5100 4550
-F 0 "D3" H 5100 4766 50  0000 C CNN
-F 1 "MRA4004T3G" H 5100 4675 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 5100 4550 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 5100 4550 50  0001 C CNN
-F 4 "On Semiconductor" H 5100 4550 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 5100 4550 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5100 4550 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 5100 4550 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 5100 4550 50  0001 C CNN "URL"
-F 9 "0.29" H 5100 4550 50  0001 C CNN "Unit Price"
-	1    5100 4550
+P 4000 4600
+F 0 "D3" H 4000 4816 50  0000 C CNN
+F 1 "MRA4004T3G" H 4000 4725 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 4000 4600 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 4000 4600 50  0001 C CNN
+F 4 "On Semiconductor" H 4000 4600 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 4000 4600 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 4000 4600 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 4000 4600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 4000 4600 50  0001 C CNN "URL"
+F 9 "0.29" H 4000 4600 50  0001 C CNN "Unit Price"
+	1    4000 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D2
 U 1 1 5CB903B2
-P 5100 2650
-F 0 "D2" H 5100 2866 50  0000 C CNN
-F 1 "MRA4004T3G" H 5100 2775 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 5100 2650 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 5100 2650 50  0001 C CNN
-F 4 "On Semiconductor" H 5100 2650 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 5100 2650 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5100 2650 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 5100 2650 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 5100 2650 50  0001 C CNN "URL"
-F 9 "0.29" H 5100 2650 50  0001 C CNN "Unit Price"
-	1    5100 2650
+P 4000 2700
+F 0 "D2" H 4000 2916 50  0000 C CNN
+F 1 "MRA4004T3G" H 4000 2825 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 4000 2700 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 4000 2700 50  0001 C CNN
+F 4 "On Semiconductor" H 4000 2700 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 4000 2700 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 4000 2700 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 4000 2700 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 4000 2700 50  0001 C CNN "URL"
+F 9 "0.29" H 4000 2700 50  0001 C CNN "Unit Price"
+	1    4000 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D1
 U 1 1 5CB8CEA8
-P 5100 750
-F 0 "D1" H 5100 966 50  0000 C CNN
-F 1 "MRA4004T3G" H 5100 875 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 5100 750 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 5100 750 50  0001 C CNN
-F 4 "On Semiconductor" H 5100 750 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 5100 750 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5100 750 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 5100 750 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 5100 750 50  0001 C CNN "URL"
-F 9 "0.29" H 5100 750 50  0001 C CNN "Unit Price"
-	1    5100 750 
+P 4000 800
+F 0 "D1" H 4000 1016 50  0000 C CNN
+F 1 "MRA4004T3G" H 4000 925 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 4000 800 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 4000 800 50  0001 C CNN
+F 4 "On Semiconductor" H 4000 800 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 4000 800 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 4000 800 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 4000 800 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 4000 800 50  0001 C CNN "URL"
+F 9 "0.29" H 4000 800 50  0001 C CNN "Unit Price"
+	1    4000 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J2
 U 2 1 5CAEF4BC
-P 3100 3900
-F 0 "J2" H 3082 3533 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 3082 3624 50  0000 C CNN
-F 2 "" H 3100 3900 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 3100 3900 50  0001 C CNN
-	2    3100 3900
+P 1200 3600
+F 0 "J2" H 1182 3233 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 1182 3324 50  0000 C CNN
+F 2 "" H 1200 3600 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 3600 50  0001 C CNN
+	2    1200 3600
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector_gkeeth:Molex_SL_01x04_Male J5
 U 1 1 5CB530B8
-P 7350 2000
-F 0 "J5" H 7322 1974 50  0000 R CNN
-F 1 "Molex_SL_01x04_Male" H 7322 1883 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 7350 2000 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7350 2000 50  0001 C CNN
-	1    7350 2000
+P 6250 2050
+F 0 "J5" H 6222 2024 50  0000 R CNN
+F 1 "Molex_SL_01x04_Male" H 6222 1933 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 6250 2050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 6250 2050 50  0001 C CNN
+	1    6250 2050
 	-1   0    0    -1  
 $EndComp
-Text Label 6300 2000 0    50   ~ 0
+Text Label 5200 2050 0    50   ~ 0
 input_shield
 Wire Wire Line
-	7050 2000 7150 2000
-Connection ~ 7050 2000
+	5950 2050 6050 2050
+Connection ~ 5950 2050
 Wire Wire Line
-	7050 2100 7150 2100
+	5950 2150 6050 2150
 Wire Wire Line
-	7050 2000 7050 2100
+	5950 2050 5950 2150
 Wire Wire Line
-	6300 2000 7050 2000
+	5200 2050 5950 2050
 Wire Wire Line
-	5900 1900 7150 1900
+	4800 1950 6050 1950
 Wire Wire Line
-	5750 2200 7150 2200
-Text Label 6300 2200 0    50   ~ 0
+	4650 2250 6050 2250
+Text Label 5200 2250 0    50   ~ 0
 input_selected_cold
-Text Label 6300 1900 0    50   ~ 0
+Text Label 5200 1950 0    50   ~ 0
 input_selected_hot
 Wire Wire Line
-	5750 5850 5400 5850
+	4650 5900 4300 5900
 Wire Wire Line
-	5750 3950 5400 3950
+	4650 4000 4300 4000
 Wire Wire Line
-	5750 2050 5750 2200
+	4650 2100 4650 2250
 Wire Wire Line
-	5400 2050 5750 2050
+	4300 2100 4650 2100
 Wire Wire Line
-	5900 5450 5400 5450
+	4800 5500 4300 5500
 Wire Wire Line
-	5900 3550 5400 3550
+	4800 3600 4300 3600
 Wire Wire Line
-	5900 1650 5900 1900
+	4800 1700 4800 1950
 Wire Wire Line
-	5400 1650 5900 1650
-Wire Wire Line
-	4350 5950 4350 5800
-Wire Wire Line
-	4800 5950 4350 5950
-Wire Wire Line
-	4350 5550 4800 5550
-Wire Wire Line
-	4350 5700 4350 5550
-Wire Wire Line
-	4350 4050 4350 3900
-Wire Wire Line
-	4800 4050 4350 4050
-Wire Wire Line
-	4350 3650 4800 3650
-Wire Wire Line
-	4350 3800 4350 3650
-Wire Wire Line
-	4350 2150 4800 2150
-Wire Wire Line
-	4350 2000 4350 2150
-Wire Wire Line
-	4350 1750 4800 1750
-Wire Wire Line
-	4350 1900 4350 1750
-Text Label 3900 4000 2    50   ~ 0
+	4300 1700 4800 1700
+Text Label 2000 3700 2    50   ~ 0
 input_shield
-Text Label 3900 3900 2    50   ~ 0
-input2_cold
-Text Label 3900 3800 2    50   ~ 0
+Text Label 2000 3500 2    50   ~ 0
 input2_hot
-Wire Wire Line
-	3900 4000 3300 4000
-Text Label 3900 5900 2    50   ~ 0
-input_shield
-Text Label 3900 5800 2    50   ~ 0
+Text Label 2000 5500 2    50   ~ 0
 input3_cold
-Text Label 3900 5700 2    50   ~ 0
+Text Label 2000 5400 2    50   ~ 0
 input3_hot
-Wire Wire Line
-	3900 5900 3300 5900
-Text Label 3900 2100 2    50   ~ 0
+Text Label 2050 1800 2    50   ~ 0
 input_shield
-Text Label 3900 2000 2    50   ~ 0
+Text Label 2050 1700 2    50   ~ 0
 input1_cold
-Text Label 3900 1900 2    50   ~ 0
+Text Label 2050 1600 2    50   ~ 0
 input1_hot
-Wire Wire Line
-	3900 2100 3300 2100
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J3
 U 2 1 5CAF0368
-P 3100 5800
-F 0 "J3" H 3082 5433 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 3082 5524 50  0000 C CNN
-F 2 "" H 3100 5800 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 3100 5800 50  0001 C CNN
-	2    3100 5800
+P 1200 5500
+F 0 "J3" H 1182 5133 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 1182 5224 50  0000 C CNN
+F 2 "" H 1200 5500 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 5500 50  0001 C CNN
+	2    1200 5500
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J1
 U 2 1 5CAEBF0E
-P 3100 2000
-F 0 "J1" H 3082 1633 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 3082 1724 50  0000 C CNN
-F 2 "" H 3100 2000 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 3100 2000 50  0001 C CNN
-	2    3100 2000
+P 1250 1700
+F 0 "J1" H 1232 1333 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 1232 1424 50  0000 C CNN
+F 2 "" H 1250 1700 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1250 1700 50  0001 C CNN
+	2    1250 1700
 	1    0    0    1   
 $EndComp
 $Comp
 L Relay:G6S-2 K3
 U 1 1 5CADCB43
-P 5100 5450
-F 0 "K3" V 4333 5450 50  0000 C CNN
-F 1 "G6S-2" V 4424 5450 50  0000 C CNN
-F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 5750 5400 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 4900 5450 50  0001 C CNN
-F 4 "Omron" H 5100 5450 50  0001 C CNN "Manufacturer"
-F 5 "G6S-2F DC12" H 5100 5450 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5100 5450 50  0001 C CNN "Distributor"
-F 7 "Z889-ND" H 5100 5450 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 5100 5450 50  0001 C CNN "URL"
-F 9 "3.64" H 5100 5450 50  0001 C CNN "Unit Price"
-	1    5100 5450
+P 4000 5500
+F 0 "K3" V 3233 5500 50  0000 C CNN
+F 1 "G6S-2" V 3324 5500 50  0000 C CNN
+F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 4650 5450 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 3800 5500 50  0001 C CNN
+F 4 "Omron" H 4000 5500 50  0001 C CNN "Manufacturer"
+F 5 "G6S-2F DC12" H 4000 5500 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 4000 5500 50  0001 C CNN "Distributor"
+F 7 "Z889-ND" H 4000 5500 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 4000 5500 50  0001 C CNN "URL"
+F 9 "3.64" H 4000 5500 50  0001 C CNN "Unit Price"
+	1    4000 5500
 	0    -1   1    0   
 $EndComp
 $Comp
 L Relay:G6S-2 K2
 U 1 1 5CADB323
-P 5100 3550
-F 0 "K2" V 4333 3550 50  0000 C CNN
-F 1 "G6S-2" V 4424 3550 50  0000 C CNN
-F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 5750 3500 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 4900 3550 50  0001 C CNN
-F 4 "Omron" H 5100 3550 50  0001 C CNN "Manufacturer"
-F 5 "G6S-2F DC12" H 5100 3550 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5100 3550 50  0001 C CNN "Distributor"
-F 7 "Z889-ND" H 5100 3550 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 5100 3550 50  0001 C CNN "URL"
-F 9 "3.64" H 5100 3550 50  0001 C CNN "Unit Price"
-	1    5100 3550
+P 4000 3600
+F 0 "K2" V 3233 3600 50  0000 C CNN
+F 1 "G6S-2" V 3324 3600 50  0000 C CNN
+F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 4650 3550 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 3800 3600 50  0001 C CNN
+F 4 "Omron" H 4000 3600 50  0001 C CNN "Manufacturer"
+F 5 "G6S-2F DC12" H 4000 3600 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 4000 3600 50  0001 C CNN "Distributor"
+F 7 "Z889-ND" H 4000 3600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 4000 3600 50  0001 C CNN "URL"
+F 9 "3.64" H 4000 3600 50  0001 C CNN "Unit Price"
+	1    4000 3600
 	0    -1   1    0   
 $EndComp
 $Comp
 L Relay:G6S-2 K1
 U 1 1 5CABFDDA
-P 5100 1650
-F 0 "K1" V 4333 1650 50  0000 C CNN
-F 1 "G6S-2" V 4424 1650 50  0000 C CNN
-F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 5750 1600 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 4900 1650 50  0001 C CNN
-F 4 "Omron" H 5100 1650 50  0001 C CNN "Manufacturer"
-F 5 "G6S-2F DC12" H 5100 1650 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5100 1650 50  0001 C CNN "Distributor"
-F 7 "Z889-ND" H 5100 1650 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 5100 1650 50  0001 C CNN "URL"
-F 9 "3.64" H 5100 1650 50  0001 C CNN "Unit Price"
-	1    5100 1650
+P 4000 1700
+F 0 "K1" V 3233 1700 50  0000 C CNN
+F 1 "G6S-2" V 3324 1700 50  0000 C CNN
+F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 4650 1650 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 3800 1700 50  0001 C CNN
+F 4 "Omron" H 4000 1700 50  0001 C CNN "Manufacturer"
+F 5 "G6S-2F DC12" H 4000 1700 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 4000 1700 50  0001 C CNN "Distributor"
+F 7 "Z889-ND" H 4000 1700 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 4000 1700 50  0001 C CNN "URL"
+F 9 "3.64" H 4000 1700 50  0001 C CNN "Unit Price"
+	1    4000 1700
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4950 750  4700 750 
+	3850 800  3600 800 
 Wire Wire Line
-	4700 750  4700 1250
+	3600 800  3600 1300
 Wire Wire Line
-	4700 1250 4800 1250
+	3600 1300 3700 1300
 Wire Wire Line
-	5400 1250 5500 1250
+	4300 1300 4400 1300
 Wire Wire Line
-	5500 1250 5500 750 
+	4400 1300 4400 800 
 Wire Wire Line
-	5500 750  5250 750 
+	4400 800  4150 800 
 Wire Wire Line
-	4950 2650 4700 2650
+	3850 2700 3600 2700
 Wire Wire Line
-	4700 2650 4700 3150
+	3600 2700 3600 3200
 Wire Wire Line
-	4700 3150 4800 3150
+	3600 3200 3700 3200
 Wire Wire Line
-	5400 3150 5500 3150
+	4300 3200 4400 3200
 Wire Wire Line
-	5500 3150 5500 2650
+	4400 3200 4400 2700
 Wire Wire Line
-	5500 2650 5250 2650
+	4400 2700 4150 2700
 Wire Wire Line
-	4950 4550 4700 4550
+	3850 4600 3600 4600
 Wire Wire Line
-	4700 4550 4700 5050
+	3600 4600 3600 5100
 Wire Wire Line
-	4700 5050 4800 5050
+	3600 5100 3700 5100
 Wire Wire Line
-	5400 5050 5500 5050
+	4300 5100 4400 5100
 Wire Wire Line
-	5500 5050 5500 4550
+	4400 5100 4400 4600
 Wire Wire Line
-	5500 4550 5250 4550
+	4400 4600 4150 4600
 Wire Wire Line
-	4950 6450 4700 6450
+	3850 6500 3600 6500
 Wire Wire Line
-	4700 6450 4700 6950
+	3600 6500 3600 7000
 Wire Wire Line
-	4700 6950 4800 6950
+	3600 7000 3700 7000
 Wire Wire Line
-	5400 6950 5500 6950
+	4300 7000 4400 7000
 Wire Wire Line
-	5500 6950 5500 6450
+	4400 7000 4400 6500
 Wire Wire Line
-	5500 6450 5250 6450
+	4400 6500 4150 6500
 Wire Wire Line
-	5750 7750 5750 5850
-Connection ~ 5750 2200
-Connection ~ 5750 3950
+	4650 7800 4650 5900
+Connection ~ 4650 2250
+Connection ~ 4650 4000
 Wire Wire Line
-	5750 3950 5750 2200
-Connection ~ 5750 5850
+	4650 4000 4650 2250
+Connection ~ 4650 5900
 Wire Wire Line
-	5750 5850 5750 3950
+	4650 5900 4650 4000
 Wire Wire Line
-	5900 7350 5900 5450
-Connection ~ 5900 1900
-Connection ~ 5900 3550
+	4800 7400 4800 5500
+Connection ~ 4800 1950
+Connection ~ 4800 3600
 Wire Wire Line
-	5900 3550 5900 1900
-Connection ~ 5900 5450
+	4800 3600 4800 1950
+Connection ~ 4800 5500
 Wire Wire Line
-	5900 5450 5900 3550
-NoConn ~ 4800 1950
-NoConn ~ 4800 1550
-NoConn ~ 4800 3450
-NoConn ~ 4800 3850
-NoConn ~ 4800 5750
-NoConn ~ 4800 5350
-NoConn ~ 4800 7250
-NoConn ~ 4800 7650
+	4800 5500 4800 3600
+NoConn ~ 3700 2000
+NoConn ~ 3700 1600
+NoConn ~ 3700 3500
+NoConn ~ 3700 3900
+NoConn ~ 3700 5800
+NoConn ~ 3700 5400
+NoConn ~ 3700 7300
+NoConn ~ 3700 7700
 $Comp
 L Relay:G6S-2 K5
 U 1 1 5CC507E9
-P 8850 4650
-F 0 "K5" V 8083 4650 50  0000 C CNN
-F 1 "G6S-2" V 8174 4650 50  0000 C CNN
-F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 9500 4600 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 8650 4650 50  0001 C CNN
-F 4 "Omron" H 8850 4650 50  0001 C CNN "Manufacturer"
-F 5 "G6S-2F DC12" H 8850 4650 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 8850 4650 50  0001 C CNN "Distributor"
-F 7 "Z889-ND" H 8850 4650 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 8850 4650 50  0001 C CNN "URL"
-F 9 "3.64" H 8850 4650 50  0001 C CNN "Unit Price"
-	1    8850 4650
+P 8700 4050
+F 0 "K5" V 7933 4050 50  0000 C CNN
+F 1 "G6S-2" V 8024 4050 50  0000 C CNN
+F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 9350 4000 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 8500 4050 50  0001 C CNN
+F 4 "Omron" H 8700 4050 50  0001 C CNN "Manufacturer"
+F 5 "G6S-2F DC12" H 8700 4050 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8700 4050 50  0001 C CNN "Distributor"
+F 7 "Z889-ND" H 8700 4050 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 8700 4050 50  0001 C CNN "URL"
+F 9 "3.64" H 8700 4050 50  0001 C CNN "Unit Price"
+	1    8700 4050
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:D D5
 U 1 1 5CC51A5E
-P 8850 3700
-F 0 "D5" H 8850 3916 50  0000 C CNN
-F 1 "MRA4004T3G" H 8850 3825 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 8850 3700 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 8850 3700 50  0001 C CNN
-F 4 "On Semiconductor" H 8850 3700 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 8850 3700 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 8850 3700 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 8850 3700 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 8850 3700 50  0001 C CNN "URL"
-F 9 "0.29" H 8850 3700 50  0001 C CNN "Unit Price"
-	1    8850 3700
+P 8700 3100
+F 0 "D5" H 8700 3316 50  0000 C CNN
+F 1 "MRA4004T3G" H 8700 3225 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 8700 3100 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 8700 3100 50  0001 C CNN
+F 4 "On Semiconductor" H 8700 3100 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 8700 3100 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8700 3100 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 8700 3100 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 8700 3100 50  0001 C CNN "URL"
+F 9 "0.29" H 8700 3100 50  0001 C CNN "Unit Price"
+	1    8700 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 4650 9150 4650
+	9400 4050 9000 4050
 Wire Wire Line
-	9150 5050 9350 5050
+	9000 4450 9200 4450
 Wire Wire Line
-	9350 5050 9350 4750
+	9200 4450 9200 4150
 Wire Wire Line
-	9350 4750 9550 4750
+	9200 4150 9400 4150
 Wire Wire Line
-	8450 4850 8450 4950
+	8300 4250 8300 4350
 Wire Wire Line
-	8450 4950 8550 4950
+	8300 4350 8400 4350
 Wire Wire Line
-	7450 4550 8550 4550
+	7300 3950 8400 3950
 Wire Wire Line
-	8200 4750 8200 5400
+	8050 4150 8050 4800
 Wire Wire Line
-	8200 5400 9450 5400
+	8050 4800 9300 4800
 Wire Wire Line
-	9450 5400 9450 4850
+	9300 4800 9300 4250
 Wire Wire Line
-	9450 4850 9550 4850
+	9300 4250 9400 4250
 Wire Wire Line
-	8700 3700 8450 3700
+	8550 3100 8300 3100
 Wire Wire Line
-	8450 3700 8450 4250
+	8300 3100 8300 3650
 Wire Wire Line
-	8450 4250 8550 4250
+	8300 3650 8400 3650
 Wire Wire Line
-	9150 4250 9250 4250
+	9000 3650 9100 3650
 Wire Wire Line
-	9250 4250 9250 3700
+	9100 3650 9100 3100
 Wire Wire Line
-	9250 3700 9000 3700
-NoConn ~ 8550 5150
-NoConn ~ 8550 4750
+	9100 3100 8850 3100
+NoConn ~ 8400 4550
+NoConn ~ 8400 4150
 Wire Wire Line
-	8650 5800 7800 5800
+	8500 5200 7650 5200
 Wire Wire Line
-	8650 5900 7800 5900
+	8500 5300 7650 5300
 Wire Wire Line
-	8650 6000 7800 6000
+	8500 5400 7650 5400
 Wire Wire Line
-	8650 6100 7800 6100
-Text Label 7800 5800 0    50   ~ 0
+	8500 5500 7650 5500
+Text Label 7650 5200 0    50   ~ 0
 input1_select
-Text Label 7800 5900 0    50   ~ 0
+Text Label 7650 5300 0    50   ~ 0
 input2_select
-Text Label 7800 6000 0    50   ~ 0
+Text Label 7650 5400 0    50   ~ 0
 input3_select
-Text Label 7800 6100 0    50   ~ 0
+Text Label 7650 5500 0    50   ~ 0
 input4_select
 Wire Wire Line
-	9150 5800 9250 5800
+	9000 5200 9100 5200
 Wire Wire Line
-	9250 5800 9250 5900
+	9100 5200 9100 5300
 Wire Wire Line
-	9250 6100 9150 6100
+	9100 5500 9000 5500
 Wire Wire Line
-	9150 6000 9250 6000
-Connection ~ 9250 6000
+	9000 5400 9100 5400
+Connection ~ 9100 5400
 Wire Wire Line
-	9250 6000 9250 6100
+	9100 5400 9100 5500
 Wire Wire Line
-	9150 5900 9250 5900
-Connection ~ 9250 5900
+	9000 5300 9100 5300
+Connection ~ 9100 5300
 Wire Wire Line
-	9250 5900 9250 6000
+	9100 5300 9100 5400
 $Comp
 L power:GNDD #PWR0101
 U 1 1 5CCCC269
-P 9500 6250
-F 0 "#PWR0101" H 9500 6000 50  0001 C CNN
-F 1 "GNDD" H 9504 6095 50  0000 C CNN
-F 2 "" H 9500 6250 50  0001 C CNN
-F 3 "" H 9500 6250 50  0001 C CNN
-	1    9500 6250
+P 9350 5650
+F 0 "#PWR0101" H 9350 5400 50  0001 C CNN
+F 1 "GNDD" H 9354 5495 50  0000 C CNN
+F 2 "" H 9350 5650 50  0001 C CNN
+F 3 "" H 9350 5650 50  0001 C CNN
+	1    9350 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 6250 9500 6200
+	9350 5650 9350 5600
 Wire Wire Line
-	9500 6200 9250 6200
+	9350 5600 9100 5600
 $Comp
 L power:GNDD #PWR0102
 U 1 1 5CCD0BDE
-P 5600 7050
-F 0 "#PWR0102" H 5600 6800 50  0001 C CNN
-F 1 "GNDD" H 5604 6895 50  0000 C CNN
-F 2 "" H 5600 7050 50  0001 C CNN
-F 3 "" H 5600 7050 50  0001 C CNN
-	1    5600 7050
+P 4500 7100
+F 0 "#PWR0102" H 4500 6850 50  0001 C CNN
+F 1 "GNDD" H 4504 6945 50  0000 C CNN
+F 2 "" H 4500 7100 50  0001 C CNN
+F 3 "" H 4500 7100 50  0001 C CNN
+	1    4500 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR0103
 U 1 1 5CCD13C1
-P 5600 5150
-F 0 "#PWR0103" H 5600 4900 50  0001 C CNN
-F 1 "GNDD" H 5604 4995 50  0000 C CNN
-F 2 "" H 5600 5150 50  0001 C CNN
-F 3 "" H 5600 5150 50  0001 C CNN
-	1    5600 5150
+P 4500 5200
+F 0 "#PWR0103" H 4500 4950 50  0001 C CNN
+F 1 "GNDD" H 4504 5045 50  0000 C CNN
+F 2 "" H 4500 5200 50  0001 C CNN
+F 3 "" H 4500 5200 50  0001 C CNN
+	1    4500 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR0104
 U 1 1 5CCD19F8
-P 5600 3250
-F 0 "#PWR0104" H 5600 3000 50  0001 C CNN
-F 1 "GNDD" H 5604 3095 50  0000 C CNN
-F 2 "" H 5600 3250 50  0001 C CNN
-F 3 "" H 5600 3250 50  0001 C CNN
-	1    5600 3250
+P 4500 3300
+F 0 "#PWR0104" H 4500 3050 50  0001 C CNN
+F 1 "GNDD" H 4504 3145 50  0000 C CNN
+F 2 "" H 4500 3300 50  0001 C CNN
+F 3 "" H 4500 3300 50  0001 C CNN
+	1    4500 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR0105
 U 1 1 5CCD1DD8
-P 5600 1350
-F 0 "#PWR0105" H 5600 1100 50  0001 C CNN
-F 1 "GNDD" H 5604 1195 50  0000 C CNN
-F 2 "" H 5600 1350 50  0001 C CNN
-F 3 "" H 5600 1350 50  0001 C CNN
-	1    5600 1350
+P 4500 1400
+F 0 "#PWR0105" H 4500 1150 50  0001 C CNN
+F 1 "GNDD" H 4504 1245 50  0000 C CNN
+F 2 "" H 4500 1400 50  0001 C CNN
+F 3 "" H 4500 1400 50  0001 C CNN
+	1    4500 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR0106
 U 1 1 5CCD2277
-P 9350 4350
-F 0 "#PWR0106" H 9350 4100 50  0001 C CNN
-F 1 "GNDD" H 9354 4195 50  0000 C CNN
-F 2 "" H 9350 4350 50  0001 C CNN
-F 3 "" H 9350 4350 50  0001 C CNN
-	1    9350 4350
+P 9200 3750
+F 0 "#PWR0106" H 9200 3500 50  0001 C CNN
+F 1 "GNDD" H 9204 3595 50  0000 C CNN
+F 2 "" H 9200 3750 50  0001 C CNN
+F 3 "" H 9200 3750 50  0001 C CNN
+	1    9200 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9350 4350 9350 4250
+	9200 3750 9200 3650
 Wire Wire Line
-	9350 4250 9250 4250
-Connection ~ 9250 4250
+	9200 3650 9100 3650
+Connection ~ 9100 3650
 Wire Wire Line
-	5600 5150 5600 5050
+	4500 5200 4500 5100
 Wire Wire Line
-	5600 5050 5500 5050
-Connection ~ 5500 5050
+	4500 5100 4400 5100
+Connection ~ 4400 5100
 Wire Wire Line
-	5600 7050 5600 6950
+	4500 7100 4500 7000
 Wire Wire Line
-	5600 6950 5500 6950
-Connection ~ 5500 6950
+	4500 7000 4400 7000
+Connection ~ 4400 7000
 Wire Wire Line
-	5600 3250 5600 3150
+	4500 3300 4500 3200
 Wire Wire Line
-	5600 3150 5500 3150
-Connection ~ 5500 3150
+	4500 3200 4400 3200
+Connection ~ 4400 3200
 Wire Wire Line
-	5600 1350 5600 1250
+	4500 1400 4500 1300
 Wire Wire Line
-	5600 1250 5500 1250
-Connection ~ 5500 1250
-Text Label 4000 1250 0    50   ~ 0
+	4500 1300 4400 1300
+Connection ~ 4400 1300
+Text Label 2900 1300 0    50   ~ 0
 input1_select
-Text Label 4000 3150 0    50   ~ 0
+Text Label 2900 3200 0    50   ~ 0
 input2_select
-Text Label 4000 5050 0    50   ~ 0
+Text Label 2900 5100 0    50   ~ 0
 input3_select
-Text Label 4000 6950 0    50   ~ 0
+Text Label 2900 7000 0    50   ~ 0
 input4_select
-Text Label 7800 6200 0    50   ~ 0
+Text Label 7650 5600 0    50   ~ 0
 output_mute_select
 Wire Wire Line
-	7800 6200 8650 6200
+	7650 5600 8500 5600
 Wire Wire Line
-	9250 6200 9250 6100
-Connection ~ 9250 6100
+	9100 5600 9100 5500
+Connection ~ 9100 5500
 Wire Wire Line
-	9250 6200 9150 6200
-Connection ~ 9250 6200
-Text Label 7500 4250 0    50   ~ 0
+	9100 5600 9000 5600
+Connection ~ 9100 5600
+Text Label 7350 3650 0    50   ~ 0
 output_mute_select
 Wire Wire Line
-	7500 4250 8450 4250
-Connection ~ 8450 4250
+	7350 3650 8300 3650
+Connection ~ 8300 3650
 Wire Wire Line
-	4700 5050 4000 5050
-Connection ~ 4700 5050
+	3600 5100 2900 5100
+Connection ~ 3600 5100
 Wire Wire Line
-	4000 3150 4700 3150
-Connection ~ 4700 3150
+	2900 3200 3600 3200
+Connection ~ 3600 3200
 Wire Wire Line
-	4000 1250 4700 1250
-Connection ~ 4700 1250
+	2900 1300 3600 1300
+Connection ~ 3600 1300
 Wire Wire Line
-	4000 6950 4700 6950
-Connection ~ 4700 6950
-NoConn ~ 8650 6300
-NoConn ~ 8650 6400
-NoConn ~ 8650 6500
-NoConn ~ 9150 6300
-NoConn ~ 9150 6400
-NoConn ~ 9150 6500
+	2900 7000 3600 7000
+Connection ~ 3600 7000
+NoConn ~ 8500 5700
+NoConn ~ 8500 5800
+NoConn ~ 8500 5900
+NoConn ~ 9000 5700
+NoConn ~ 9000 5800
+NoConn ~ 9000 5900
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5CD4A6A5
-P 9500 6100
-F 0 "#FLG0101" H 9500 6175 50  0001 C CNN
-F 1 "PWR_FLAG" H 9500 6273 50  0000 C CNN
-F 2 "" H 9500 6100 50  0001 C CNN
-F 3 "~" H 9500 6100 50  0001 C CNN
-	1    9500 6100
+P 9350 5500
+F 0 "#FLG0101" H 9350 5575 50  0001 C CNN
+F 1 "PWR_FLAG" H 9350 5673 50  0000 C CNN
+F 2 "" H 9350 5500 50  0001 C CNN
+F 3 "~" H 9350 5500 50  0001 C CNN
+	1    9350 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 6200 9500 6100
-Connection ~ 9500 6200
+	9350 5600 9350 5500
+Connection ~ 9350 5600
+Text Notes 550  850  0    50   ~ 0
+Bond shield & XLR case ground DIRECTLY to chassis at each connector\nflood input_shield across all inputs and connect to input connector (J5)\nMounting holes are for connecting to chassis (via angle bracket)
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5CD65332
+P 1800 4100
+F 0 "H2" V 1846 4249 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1755 4249 50  0000 L CNN
+F 2 "" H 1800 4100 50  0001 C CNN
+F 3 "~" H 1800 4100 50  0001 C CNN
+	1    1800 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5CD66551
+P 1800 6000
+F 0 "H3" V 1846 6149 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1755 6149 50  0000 L CNN
+F 2 "" H 1800 6000 50  0001 C CNN
+F 3 "~" H 1800 6000 50  0001 C CNN
+	1    1800 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 4800 9400 4800
+Connection ~ 9300 4800
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5CD67130
+P 9500 4800
+F 0 "H5" V 9454 4950 50  0000 L CNN
+F 1 "MountingHole_Pad" V 9545 4950 50  0000 L CNN
+F 2 "" H 9500 4800 50  0001 C CNN
+F 3 "~" H 9500 4800 50  0001 C CNN
+	1    9500 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 2200 2350 2100
+Wire Wire Line
+	2100 1800 2100 2200
+Wire Wire Line
+	2100 1800 2150 1800
+Wire Wire Line
+	2100 2200 2350 2200
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5CD64CD4
+P 1800 2200
+F 0 "H1" V 1846 2349 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1755 2349 50  0000 L CNN
+F 2 "" H 1800 2200 50  0001 C CNN
+F 3 "~" H 1800 2200 50  0001 C CNN
+	1    1800 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 4000 2350 4100
+Wire Wire Line
+	2350 4100 2050 4100
+Wire Wire Line
+	2050 3700 2050 4100
+Wire Wire Line
+	2050 3700 2150 3700
+Connection ~ 2050 4100
+Wire Wire Line
+	1900 4100 2050 4100
+Wire Wire Line
+	1900 6000 2050 6000
+Wire Wire Line
+	2350 6000 2350 5900
+Wire Wire Line
+	2050 5600 2050 6000
+Connection ~ 2050 5600
+Connection ~ 2050 6000
+Wire Wire Line
+	2050 6000 2350 6000
+Wire Wire Line
+	1900 2200 2100 2200
+Connection ~ 2100 2200
+Wire Wire Line
+	2050 7500 2150 7500
+Wire Wire Line
+	2350 7900 2350 7800
+Wire Wire Line
+	2050 7900 2350 7900
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5CD66BD9
+P 1800 7900
+F 0 "H4" V 1846 8049 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1755 8049 50  0000 L CNN
+F 2 "" H 1800 7900 50  0001 C CNN
+F 3 "~" H 1800 7900 50  0001 C CNN
+	1    1800 7900
+	0    -1   -1   0   
+$EndComp
+Text Label 2000 7500 2    50   ~ 0
+input_shield
+$Comp
+L Connector_gkeeth:Neutrik_NCJ6FA-H J4
+U 1 1 5CAEED50
+P 2450 7500
+F 0 "J4" H 2450 7865 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 2450 7774 50  0000 C CNN
+F 2 "" H 2450 7500 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 7500 50  0001 C CNN
+F 4 "Neutrik" H 2450 7500 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 2450 7500 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 2450 7500 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 2450 7500 50  0001 C CNN "Distributor PN"
+F 8 "2.10" H 2450 7500 50  0001 C CNN "URL"
+F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 7500 50  0001 C CNN "Unit Price"
+	1    2450 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 7800 2450 7900
+Wire Wire Line
+	2450 7900 3700 7900
+Wire Wire Line
+	2750 7500 3700 7500
+Wire Wire Line
+	2050 7500 2050 7900
+Connection ~ 2050 7500
+Text Label 2000 7300 2    50   ~ 0
+input4_hot
+Wire Wire Line
+	2000 7300 1400 7300
+Wire Wire Line
+	2050 7500 1400 7500
+$Comp
+L Connector_gkeeth:Neutrik_NCJ6FA-H J4
+U 2 1 5CAF133F
+P 1200 7400
+F 0 "J4" H 1182 7033 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 1182 7124 50  0000 C CNN
+F 2 "" H 1200 7400 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 7400 50  0001 C CNN
+	2    1200 7400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2000 7400 1400 7400
+Text Label 2000 7400 2    50   ~ 0
+input4_cold
+Wire Wire Line
+	1400 5400 2000 5400
+Wire Wire Line
+	2000 5500 1400 5500
+Wire Wire Line
+	2750 5600 3700 5600
+Wire Wire Line
+	2450 5900 2450 6000
+Wire Wire Line
+	2450 6000 3700 6000
+Text Label 2900 6000 0    50   ~ 0
+input3_cold
+Wire Wire Line
+	1400 5600 2050 5600
+Text Label 2000 3600 2    50   ~ 0
+input2_cold
+Text Label 2900 3700 0    50   ~ 0
+input2_hot
+Wire Wire Line
+	2750 3700 3700 3700
+Wire Wire Line
+	2450 4100 3700 4100
+$Comp
+L Connector_gkeeth:Neutrik_NCJ6FA-H J3
+U 1 1 5CAEE377
+P 2450 5600
+F 0 "J3" H 2450 5965 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 2450 5874 50  0000 C CNN
+F 2 "" H 2450 5600 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 5600 50  0001 C CNN
+F 4 "Neutrik" H 2450 5600 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 2450 5600 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 2450 5600 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 2450 5600 50  0001 C CNN "Distributor PN"
+F 8 "2.10" H 2450 5600 50  0001 C CNN "URL"
+F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 5600 50  0001 C CNN "Unit Price"
+	1    2450 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3600 2000 3600
+Wire Wire Line
+	2000 3500 1400 3500
+Wire Wire Line
+	2050 3700 1400 3700
+Connection ~ 2050 3700
+Wire Wire Line
+	2750 1800 3700 1800
+Wire Wire Line
+	2450 2200 2450 2100
+Wire Wire Line
+	2450 2200 3700 2200
+Wire Wire Line
+	1450 1800 2100 1800
+Connection ~ 2100 1800
+Wire Wire Line
+	1900 7900 2050 7900
+Connection ~ 2050 7900
 $EndSCHEMATC
