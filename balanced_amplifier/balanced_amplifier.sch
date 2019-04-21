@@ -293,8 +293,8 @@ Wire Wire Line
 	9300 3550 9300 3450
 Wire Wire Line
 	9300 3450 9200 3450
-Text Notes 1000 900  0    50   ~ 0
-TODO:\nadd knobs for pots\nswap +/- for either input or output connectors (make consistent)\nchange power connector to 1x3 Molex SL\nUpdate date field\nAdd power LED(s)\nchange connectors to support headphone amplifier board
+Text Notes 900  1500 0    50   ~ 0
+TODO:\nadd knobs for pots\nswap +/- for either input or output connectors (make consistent)\nchange power connector to 1x3 Molex SL\nUpdate date field\nAdd power LED(s)\nchange connectors to support headphone amplifier board\nshould mounting holes be tied to GNDA?
 Text Label 1450 2600 0    50   ~ 0
 right_in_hot
 Text Label 1450 2700 0    50   ~ 0
