@@ -12,7 +12,7 @@ Comp "G. Keeth"
 Comment1 "Preamp 2019"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "NOTE: 2 of these boards are needed in total (1 each for L/R)"
 $EndDescr
 $Comp
 L Connector:AudioJack3 J5
@@ -20,7 +20,7 @@ U 1 1 5CAA8F23
 P 9600 5750
 F 0 "J5" H 9320 5775 50  0000 R CNN
 F 1 "AudioJack3" H 9320 5684 50  0000 R CNN
-F 2 "" H 9600 5750 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal" H 9600 5750 50  0001 C CNN
 F 3 "~" H 9600 5750 50  0001 C CNN
 	1    9600 5750
 	-1   0    0    1   
@@ -28,36 +28,19 @@ $EndComp
 Text Notes 7750 1700 0    50   ~ 0
 Tip: hot\nRing: cold\nSleeve: shield\n\n1: shield\n2: hot\n3: cold
 $Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J1
-U 1 1 5CAEAFEE
-P 2450 1700
-F 0 "J1" H 2450 2065 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 2450 1974 50  0000 C CNN
-F 2 "" H 2450 1700 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 1700 50  0001 C CNN
-F 4 "Neutrik" H 2450 1700 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 2450 1700 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 2450 1700 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 2450 1700 50  0001 C CNN "Distributor PN"
-F 8 "2.10" H 2450 1700 50  0001 C CNN "URL"
-F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 1700 50  0001 C CNN "Unit Price"
-	1    2450 1700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J2
-U 1 1 5CAED56C
+U 1 0 5CAED56C
 P 2450 3450
 F 0 "J2" H 2450 3815 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H" H 2450 3724 50  0000 C CNN
-F 2 "" H 2450 3450 50  0001 C CNN
+F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 2450 3450 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 3450 50  0001 C CNN
 F 4 "Neutrik" H 2450 3450 50  0001 C CNN "Manufacturer"
 F 5 "NCJ6FA-H" H 2450 3450 50  0001 C CNN "Manufacturer PN"
 F 6 "Mouser" H 2450 3450 50  0001 C CNN "Distributor"
 F 7 "568-NCJ6FA-H" H 2450 3450 50  0001 C CNN "Distributor PN"
-F 8 "2.10" H 2450 3450 50  0001 C CNN "URL"
-F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 3450 50  0001 C CNN "Unit Price"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 3450 50  0001 C CNN "URL"
+F 9 "2.10" H 2450 3450 50  0001 C CNN "Unit Price"
 	1    2450 3450
 	1    0    0    -1  
 $EndComp
@@ -75,17 +58,6 @@ Text Label 2900 5200 0    50   ~ 0
 input3_hot
 Wire Wire Line
 	2150 5200 2050 5200
-$Comp
-L Connector_gkeeth:Molex_SL_01x04_Male J8
-U 1 1 5CB5BBEB
-P 7100 5650
-F 0 "J8" H 7073 5624 50  0000 R CNN
-F 1 "Molex_SL_01x04_Male" H 7073 5533 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 7100 5650 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7100 5650 50  0001 C CNN
-	1    7100 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8200 5850 7300 5850
 Text Label 7500 5550 0    50   ~ 0
@@ -171,24 +143,36 @@ F 9 "0.29" H 3650 950 50  0001 C CNN "Unit Price"
 $EndComp
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J2
-U 2 1 5CAEF4BC
+U 2 0 5CAEF4BC
 P 1200 3350
 F 0 "J2" H 1182 2983 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H" H 1182 3074 50  0000 C CNN
-F 2 "" H 1200 3350 50  0001 C CNN
+F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 1200 3350 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 3350 50  0001 C CNN
+F 4 "Neutrik" H 1200 3350 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 1200 3350 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 1200 3350 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 1200 3350 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1200 3350 50  0001 C CNN "URL"
+F 9 "2.10" H 1200 3350 50  0001 C CNN "Unit Price"
 	2    1200 3350
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector_gkeeth:Molex_SL_01x04_Male J7
-U 1 1 5CB530B8
+U 0 0 5CB530B8
 P 6500 4250
 F 0 "J7" H 6472 4224 50  0000 R CNN
 F 1 "Molex_SL_01x04_Male" H 6472 4133 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 6500 4250 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 6500 4250 50  0001 C CNN
-	1    6500 4250
+F 4 "Molex" H 6500 4250 50  0001 C CNN "Manufacturer"
+F 5 "0705430003" H 6500 4250 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6500 4250 50  0001 C CNN "Distributor"
+F 7 "WM4802-ND" H 6500 4250 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 6500 4250 50  0001 C CNN "URL"
+F 9 "0.99" H 6500 4250 50  0001 C CNN "Unit Price"
+	0    6500 4250
 	-1   0    0    -1  
 $EndComp
 Text Label 5450 4250 0    50   ~ 0
@@ -218,28 +202,6 @@ Text Label 2050 1600 2    50   ~ 0
 input1_cold
 Text Label 2050 1500 2    50   ~ 0
 input1_hot
-$Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J3
-U 2 1 5CAF0368
-P 1200 5100
-F 0 "J3" H 1182 4733 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1182 4824 50  0000 C CNN
-F 2 "" H 1200 5100 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 5100 50  0001 C CNN
-	2    1200 5100
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J1
-U 2 1 5CAEBF0E
-P 1250 1600
-F 0 "J1" H 1232 1233 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1232 1324 50  0000 C CNN
-F 2 "" H 1250 1600 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1250 1600 50  0001 C CNN
-	2    1250 1600
-	1    0    0    1   
-$EndComp
 $Comp
 L Relay:G6S-2 K3
 U 1 1 5CADCB43
@@ -532,7 +494,7 @@ U 1 1 5CD65332
 P 1800 3850
 F 0 "H2" V 1846 3999 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1755 3999 50  0000 L CNN
-F 2 "" H 1800 3850 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1800 3850 50  0001 C CNN
 F 3 "~" H 1800 3850 50  0001 C CNN
 	1    1800 3850
 	0    -1   -1   0   
@@ -543,7 +505,7 @@ U 1 1 5CD66551
 P 1800 5600
 F 0 "H3" V 1846 5749 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1755 5749 50  0000 L CNN
-F 2 "" H 1800 5600 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1800 5600 50  0001 C CNN
 F 3 "~" H 1800 5600 50  0001 C CNN
 	1    1800 5600
 	0    -1   -1   0   
@@ -557,7 +519,7 @@ U 1 1 5CD67130
 P 9500 6400
 F 0 "H5" V 9454 6550 50  0000 L CNN
 F 1 "MountingHole_Pad" V 9545 6550 50  0000 L CNN
-F 2 "" H 9500 6400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9500 6400 50  0001 C CNN
 F 3 "~" H 9500 6400 50  0001 C CNN
 	1    9500 6400
 	0    1    1    0   
@@ -576,7 +538,7 @@ U 1 1 5CD64CD4
 P 1800 2100
 F 0 "H1" V 1846 2249 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1755 2249 50  0000 L CNN
-F 2 "" H 1800 2100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1800 2100 50  0001 C CNN
 F 3 "~" H 1800 2100 50  0001 C CNN
 	1    1800 2100
 	0    -1   -1   0   
@@ -617,30 +579,13 @@ U 1 1 5CD66BD9
 P 1800 7350
 F 0 "H4" V 1846 7499 50  0000 L CNN
 F 1 "MountingHole_Pad" V 1755 7499 50  0000 L CNN
-F 2 "" H 1800 7350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1800 7350 50  0001 C CNN
 F 3 "~" H 1800 7350 50  0001 C CNN
 	1    1800 7350
 	0    -1   -1   0   
 $EndComp
 Text Label 2000 6950 2    50   ~ 0
 input_shield
-$Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J4
-U 1 1 5CAEED50
-P 2450 6950
-F 0 "J4" H 2450 7315 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 2450 7224 50  0000 C CNN
-F 2 "" H 2450 6950 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 6950 50  0001 C CNN
-F 4 "Neutrik" H 2450 6950 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 2450 6950 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 2450 6950 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 2450 6950 50  0001 C CNN "Distributor PN"
-F 8 "2.10" H 2450 6950 50  0001 C CNN "URL"
-F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 6950 50  0001 C CNN "Unit Price"
-	1    2450 6950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 7250 2450 7350
 Wire Wire Line
@@ -652,17 +597,6 @@ Wire Wire Line
 	2000 6750 1400 6750
 Wire Wire Line
 	2050 6950 1400 6950
-$Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J4
-U 2 1 5CAF133F
-P 1200 6850
-F 0 "J4" H 1182 6483 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1182 6574 50  0000 C CNN
-F 2 "" H 1200 6850 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 6850 50  0001 C CNN
-	2    1200 6850
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	2000 6850 1400 6850
 Text Label 2000 6850 2    50   ~ 0
@@ -689,23 +623,6 @@ Wire Wire Line
 	2750 3450 3700 3450
 Wire Wire Line
 	2450 3850 3700 3850
-$Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J3
-U 1 1 5CAEE377
-P 2450 5200
-F 0 "J3" H 2450 5565 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 2450 5474 50  0000 C CNN
-F 2 "" H 2450 5200 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 5200 50  0001 C CNN
-F 4 "Neutrik" H 2450 5200 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 2450 5200 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 2450 5200 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 2450 5200 50  0001 C CNN "Distributor PN"
-F 8 "2.10" H 2450 5200 50  0001 C CNN "URL"
-F 9 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 5200 50  0001 C CNN "Unit Price"
-	1    2450 5200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 3350 2000 3350
 Wire Wire Line
@@ -726,7 +643,7 @@ Wire Wire Line
 	1900 7350 2050 7350
 Connection ~ 2050 7350
 Text Notes 7750 950  0    50   ~ 0
-TODO\ncapacitor(s)\nconnector for relay signals -- smaller? more grounds?\nadd Molex C-Grid III symbol & footprint
+TODO\ncapacitor(s)\nconnector for relay signals -- smaller? more grounds?\nadd Molex C-Grid III symbol & footprint\nadd output jack part details
 Wire Notes Line
 	7550 4050 10450 4050
 Wire Notes Line
@@ -956,4 +873,123 @@ Wire Wire Line
 Connection ~ 5000 4150
 Wire Wire Line
 	5000 4150 5000 3750
+$Comp
+L Connector_gkeeth:Neutrik_NCJ6FA-H J1
+U 1 0 5CEE6A94
+P 2450 1700
+F 0 "J1" H 2450 2065 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 2450 1974 50  0000 C CNN
+F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 2450 1700 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 1700 50  0001 C CNN
+F 4 "Neutrik" H 2450 1700 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 2450 1700 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 2450 1700 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 2450 1700 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 1700 50  0001 C CNN "URL"
+F 9 "2.10" H 2450 1700 50  0001 C CNN "Unit Price"
+	1    2450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_gkeeth:Neutrik_NCJ6FA-H J1
+U 2 0 5CEE74AE
+P 1250 1600
+F 0 "J1" H 1232 1233 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 1232 1324 50  0000 C CNN
+F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 1250 1600 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1250 1600 50  0001 C CNN
+F 4 "Neutrik" H 1250 1600 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 1250 1600 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 1250 1600 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 1250 1600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1250 1600 50  0001 C CNN "URL"
+F 9 "2.10" H 1250 1600 50  0001 C CNN "Unit Price"
+	2    1250 1600
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_gkeeth:Neutrik_NCJ6FA-H J3
+U 2 0 5CEE9005
+P 1200 5100
+F 0 "J3" H 1182 4733 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 1182 4824 50  0000 C CNN
+F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 1200 5100 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 5100 50  0001 C CNN
+F 4 "Neutrik" H 1200 5100 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 1200 5100 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 1200 5100 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 1200 5100 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1200 5100 50  0001 C CNN "URL"
+F 9 "2.10" H 1200 5100 50  0001 C CNN "Unit Price"
+	2    1200 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_gkeeth:Neutrik_NCJ6FA-H J4
+U 2 0 5CEE9880
+P 1200 6850
+F 0 "J4" H 1182 6483 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 1182 6574 50  0000 C CNN
+F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 1200 6850 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 6850 50  0001 C CNN
+F 4 "Neutrik" H 1200 6850 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 1200 6850 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 1200 6850 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 1200 6850 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1200 6850 50  0001 C CNN "URL"
+F 9 "2.10" H 1200 6850 50  0001 C CNN "Unit Price"
+	2    1200 6850
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_gkeeth:Neutrik_NCJ6FA-H J3
+U 1 0 5CEEA018
+P 2450 5200
+F 0 "J3" H 2450 5565 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 2450 5474 50  0000 C CNN
+F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 2450 5200 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 5200 50  0001 C CNN
+F 4 "Neutrik" H 2450 5200 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 2450 5200 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 2450 5200 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 2450 5200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 5200 50  0001 C CNN "URL"
+F 9 "2.10" H 2450 5200 50  0001 C CNN "Unit Price"
+	1    2450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_gkeeth:Neutrik_NCJ6FA-H J4
+U 1 0 5CEEA75D
+P 2450 6950
+F 0 "J4" H 2450 7315 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 2450 7224 50  0000 C CNN
+F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 2450 6950 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 6950 50  0001 C CNN
+F 4 "Neutrik" H 2450 6950 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 2450 6950 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 2450 6950 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 2450 6950 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 6950 50  0001 C CNN "URL"
+F 9 "2.10" H 2450 6950 50  0001 C CNN "Unit Price"
+	1    2450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_gkeeth:Molex_SL_01x04_Male J8
+U 0 0 5CEEDB20
+P 7100 5650
+F 0 "J8" H 7072 5624 50  0000 R CNN
+F 1 "Molex_SL_01x04_Male" H 7072 5533 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 7100 5650 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7100 5650 50  0001 C CNN
+F 4 "Molex" H 7100 5650 50  0001 C CNN "Manufacturer"
+F 5 "0705430003" H 7100 5650 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 7100 5650 50  0001 C CNN "Distributor"
+F 7 "WM4802-ND" H 7100 5650 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 7100 5650 50  0001 C CNN "URL"
+F 9 "0.99" H 7100 5650 50  0001 C CNN "Unit Price"
+	0    7100 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
