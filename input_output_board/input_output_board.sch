@@ -29,7 +29,7 @@ Text Notes 7750 1700 0    50   ~ 0
 Tip: hot\nRing: cold\nSleeve: shield\n\n1: shield\n2: hot\n3: cold
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J2
-U 1 0 5CAED56C
+U 1 1 5CAED56C
 P 2450 3450
 F 0 "J2" H 2450 3815 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H" H 2450 3724 50  0000 C CNN
@@ -143,7 +143,7 @@ F 9 "0.29" H 3650 950 50  0001 C CNN "Unit Price"
 $EndComp
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J2
-U 2 0 5CAEF4BC
+U 2 1 5CAEF4BC
 P 1200 3350
 F 0 "J2" H 1182 2983 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H" H 1182 3074 50  0000 C CNN
@@ -160,7 +160,7 @@ F 9 "2.10" H 1200 3350 50  0001 C CNN "Unit Price"
 $EndComp
 $Comp
 L Connector_gkeeth:Molex_SL_01x04_Male J7
-U 0 0 5CB530B8
+U 1 1 5CB530B8
 P 6500 4250
 F 0 "J7" H 6472 4224 50  0000 R CNN
 F 1 "Molex_SL_01x04_Male" H 6472 4133 50  0000 R CNN
@@ -172,7 +172,7 @@ F 6 "Digikey" H 6500 4250 50  0001 C CNN "Distributor"
 F 7 "WM4802-ND" H 6500 4250 50  0001 C CNN "Distributor PN"
 F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 6500 4250 50  0001 C CNN "URL"
 F 9 "0.99" H 6500 4250 50  0001 C CNN "Unit Price"
-	0    6500 4250
+	1    6500 4250
 	-1   0    0    -1  
 $EndComp
 Text Label 5450 4250 0    50   ~ 0
@@ -875,7 +875,7 @@ Wire Wire Line
 	5000 4150 5000 3750
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J1
-U 1 0 5CEE6A94
+U 1 1 5CEE6A94
 P 2450 1700
 F 0 "J1" H 2450 2065 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H" H 2450 1974 50  0000 C CNN
@@ -892,7 +892,7 @@ F 9 "2.10" H 2450 1700 50  0001 C CNN "Unit Price"
 $EndComp
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J1
-U 2 0 5CEE74AE
+U 2 1 5CEE74AE
 P 1250 1600
 F 0 "J1" H 1232 1233 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H" H 1232 1324 50  0000 C CNN
@@ -909,7 +909,7 @@ F 9 "2.10" H 1250 1600 50  0001 C CNN "Unit Price"
 $EndComp
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J3
-U 2 0 5CEE9005
+U 2 1 5CEE9005
 P 1200 5100
 F 0 "J3" H 1182 4733 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H" H 1182 4824 50  0000 C CNN
@@ -926,7 +926,7 @@ F 9 "2.10" H 1200 5100 50  0001 C CNN "Unit Price"
 $EndComp
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J4
-U 2 0 5CEE9880
+U 2 1 5CEE9880
 P 1200 6850
 F 0 "J4" H 1182 6483 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H" H 1182 6574 50  0000 C CNN
@@ -943,7 +943,7 @@ F 9 "2.10" H 1200 6850 50  0001 C CNN "Unit Price"
 $EndComp
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J3
-U 1 0 5CEEA018
+U 1 1 5CEEA018
 P 2450 5200
 F 0 "J3" H 2450 5565 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H" H 2450 5474 50  0000 C CNN
@@ -960,7 +960,7 @@ F 9 "2.10" H 2450 5200 50  0001 C CNN "Unit Price"
 $EndComp
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J4
-U 1 0 5CEEA75D
+U 1 1 5CEEA75D
 P 2450 6950
 F 0 "J4" H 2450 7315 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H" H 2450 7224 50  0000 C CNN
@@ -977,7 +977,7 @@ F 9 "2.10" H 2450 6950 50  0001 C CNN "Unit Price"
 $EndComp
 $Comp
 L Connector_gkeeth:Molex_SL_01x04_Male J8
-U 0 0 5CEEDB20
+U 1 1 5CEEDB20
 P 7100 5650
 F 0 "J8" H 7072 5624 50  0000 R CNN
 F 1 "Molex_SL_01x04_Male" H 7072 5533 50  0000 R CNN
@@ -989,7 +989,7 @@ F 6 "Digikey" H 7100 5650 50  0001 C CNN "Distributor"
 F 7 "WM4802-ND" H 7100 5650 50  0001 C CNN "Distributor PN"
 F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 7100 5650 50  0001 C CNN "URL"
 F 9 "0.99" H 7100 5650 50  0001 C CNN "Unit Price"
-	0    7100 5650
+	1    7100 5650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
