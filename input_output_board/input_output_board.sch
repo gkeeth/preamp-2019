@@ -75,17 +75,6 @@ Wire Wire Line
 	7400 5750 8050 5750
 Text Label 7500 5750 0    50   ~ 0
 output_shield
-$Comp
-L Connector_Generic:Conn_02x08_Odd_Even J6
-U 1 1 5CB676D4
-P 9000 2650
-F 0 "J6" H 9050 3167 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 9050 3076 50  0000 C CNN
-F 2 "" H 9000 2650 50  0001 C CNN
-F 3 "~" H 9000 2650 50  0001 C CNN
-	1    9000 2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2050 1600 1450 1600
 Wire Wire Line
@@ -466,12 +455,6 @@ output_mute_select
 Wire Wire Line
 	7350 5250 8300 5250
 Connection ~ 8300 5250
-NoConn ~ 8800 2850
-NoConn ~ 8800 2950
-NoConn ~ 8800 3050
-NoConn ~ 9300 2850
-NoConn ~ 9300 2950
-NoConn ~ 9300 3050
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5CD4A6A5
@@ -643,7 +626,7 @@ Wire Wire Line
 	1900 7350 2050 7350
 Connection ~ 2050 7350
 Text Notes 7750 950  0    50   ~ 0
-TODO\ncapacitor(s)\nconnector for relay signals -- smaller? more grounds?\nadd Molex C-Grid III symbol & footprint\nadd output jack part details
+TODO\ncapacitor(s)\nconnector for relay signals -- smaller? more grounds?\nadd Molex C-Grid III symbol & footprint\nadd output jack part details\nmounting holes in corners?
 Wire Notes Line
 	7550 4050 10450 4050
 Wire Notes Line
@@ -990,6 +973,17 @@ F 7 "WM4802-ND" H 7100 5650 50  0001 C CNN "Distributor PN"
 F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 7100 5650 50  0001 C CNN "URL"
 F 9 "0.99" H 7100 5650 50  0001 C CNN "Unit Price"
 	1    7100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J6
+U 0 0 5CC54E3F
+P 9000 2550
+F 0 "J6" H 9050 2967 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 9050 2876 50  0000 C CNN
+F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 9000 2550 50  0001 C CNN
+F 3 "~" H 9000 2550 50  0001 C CNN
+	0    9000 2550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
