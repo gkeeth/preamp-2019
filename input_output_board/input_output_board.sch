@@ -836,8 +836,6 @@ Wire Wire Line
 	5000 5500 5000 4450
 Connection ~ 5000 4450
 Wire Wire Line
-	5000 4450 5000 4150
-Wire Wire Line
 	5000 3750 5000 2000
 Connection ~ 5000 3750
 Wire Wire Line
@@ -850,12 +848,7 @@ Wire Wire Line
 	5000 7250 5000 5500
 Connection ~ 5000 5500
 Wire Wire Line
-	5150 3350 5150 5100
-Wire Wire Line
-	6300 4150 5000 4150
-Connection ~ 5000 4150
-Wire Wire Line
-	5000 4150 5000 3750
+	5150 3350 5150 4150
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J1
 U 1 1 5CEE6A94
@@ -986,4 +979,11 @@ F 3 "~" H 9000 2550 50  0001 C CNN
 	0    9000 2550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5000 3750 5000 4450
+Wire Wire Line
+	5150 4150 6300 4150
+Connection ~ 5150 4150
+Wire Wire Line
+	5150 4150 5150 5100
 $EndSCHEMATC
