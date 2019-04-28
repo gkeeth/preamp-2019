@@ -616,7 +616,7 @@ Wire Wire Line
 	1900 7350 2050 7350
 Connection ~ 2050 7350
 Text Notes 7750 950  0    50   ~ 0
-TODO\ncapacitor(s)\nconnector for relay signals -- smaller? more grounds?\nadd Molex C-Grid III symbol & footprint\nadd output jack part details\nmounting holes in corners?
+TODO\ncapacitor(s)\nadd output jack part details\nmounting holes in corners?
 Wire Notes Line
 	7550 4050 10450 4050
 Wire Notes Line
