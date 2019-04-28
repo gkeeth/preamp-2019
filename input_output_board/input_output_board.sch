@@ -326,53 +326,45 @@ Wire Wire Line
 	9100 4700 8850 4700
 NoConn ~ 8400 6150
 NoConn ~ 8400 5750
-Wire Wire Line
-	8800 2350 7950 2350
-Wire Wire Line
-	8800 2450 7950 2450
-Wire Wire Line
-	8800 2550 7950 2550
-Wire Wire Line
-	8800 2650 7950 2650
-Text Label 7950 2350 0    50   ~ 0
+Text Label 9900 2250 2    50   ~ 0
 input1_select
-Text Label 7950 2450 0    50   ~ 0
+Text Label 9900 2350 2    50   ~ 0
 input2_select
-Text Label 7950 2550 0    50   ~ 0
+Text Label 9900 2450 2    50   ~ 0
 input3_select
-Text Label 7950 2650 0    50   ~ 0
+Text Label 9900 2550 2    50   ~ 0
 input4_select
 Wire Wire Line
-	9300 2350 9400 2350
+	8550 2250 8450 2250
 Wire Wire Line
-	9400 2350 9400 2450
+	8450 2250 8450 2350
 Wire Wire Line
-	9400 2650 9300 2650
+	8450 2550 8550 2550
 Wire Wire Line
-	9300 2550 9400 2550
-Connection ~ 9400 2550
+	8550 2450 8450 2450
+Connection ~ 8450 2450
 Wire Wire Line
-	9400 2550 9400 2650
+	8450 2450 8450 2550
 Wire Wire Line
-	9300 2450 9400 2450
-Connection ~ 9400 2450
+	8550 2350 8450 2350
+Connection ~ 8450 2350
 Wire Wire Line
-	9400 2450 9400 2550
+	8450 2350 8450 2450
 $Comp
 L power:GNDD #PWR0101
 U 1 1 5CCCC269
-P 9650 2800
-F 0 "#PWR0101" H 9650 2550 50  0001 C CNN
-F 1 "GNDD" H 9654 2645 50  0000 C CNN
-F 2 "" H 9650 2800 50  0001 C CNN
-F 3 "" H 9650 2800 50  0001 C CNN
-	1    9650 2800
-	1    0    0    -1  
+P 8200 2700
+F 0 "#PWR0101" H 8200 2450 50  0001 C CNN
+F 1 "GNDD" H 8204 2545 50  0000 C CNN
+F 2 "" H 8200 2700 50  0001 C CNN
+F 3 "" H 8200 2700 50  0001 C CNN
+	1    8200 2700
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 2800 9650 2750
+	8200 2700 8200 2650
 Wire Wire Line
-	9650 2750 9400 2750
+	8200 2650 8450 2650
 $Comp
 L power:GNDD #PWR0103
 U 1 1 5CCD13C1
@@ -440,16 +432,14 @@ Text Label 2900 2950 0    50   ~ 0
 input2_select
 Text Label 2900 4700 0    50   ~ 0
 input3_select
-Text Label 7950 2750 0    50   ~ 0
+Text Label 9900 2650 2    50   ~ 0
 output_mute_select
 Wire Wire Line
-	7950 2750 8800 2750
+	8450 2650 8450 2550
+Connection ~ 8450 2550
 Wire Wire Line
-	9400 2750 9400 2650
-Connection ~ 9400 2650
-Wire Wire Line
-	9400 2750 9300 2750
-Connection ~ 9400 2750
+	8450 2650 8550 2650
+Connection ~ 8450 2650
 Text Label 7350 5250 0    50   ~ 0
 output_mute_select
 Wire Wire Line
@@ -458,17 +448,17 @@ Connection ~ 8300 5250
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5CD4A6A5
-P 9650 2650
-F 0 "#FLG0101" H 9650 2725 50  0001 C CNN
-F 1 "PWR_FLAG" H 9650 2823 50  0000 C CNN
-F 2 "" H 9650 2650 50  0001 C CNN
-F 3 "~" H 9650 2650 50  0001 C CNN
-	1    9650 2650
-	1    0    0    -1  
+P 8200 2550
+F 0 "#FLG0101" H 8200 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 8200 2723 50  0000 C CNN
+F 2 "" H 8200 2550 50  0001 C CNN
+F 3 "~" H 8200 2550 50  0001 C CNN
+	1    8200 2550
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 2750 9650 2650
-Connection ~ 9650 2750
+	8200 2650 8200 2550
+Connection ~ 8200 2650
 Text Notes 7600 3950 0    50   ~ 0
 Bond shield & XLR case ground DIRECTLY to chassis at each connector\nflood input_shield across all inputs and connect to input connector (J5)\nMounting holes are for connecting to chassis (via angle bracket)
 $Comp
@@ -968,17 +958,6 @@ F 9 "0.99" H 7100 5650 50  0001 C CNN "Unit Price"
 	1    7100 5650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J6
-U 0 0 5CC54E3F
-P 9000 2550
-F 0 "J6" H 9050 2967 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 9050 2876 50  0000 C CNN
-F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 9000 2550 50  0001 C CNN
-F 3 "~" H 9000 2550 50  0001 C CNN
-	0    9000 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5000 3750 5000 4450
 Wire Wire Line
@@ -986,4 +965,25 @@ Wire Wire Line
 Connection ~ 5150 4150
 Wire Wire Line
 	5150 4150 5150 5100
+Wire Wire Line
+	9050 2550 9900 2550
+Wire Wire Line
+	9050 2450 9900 2450
+Wire Wire Line
+	9050 2350 9900 2350
+Wire Wire Line
+	9050 2250 9900 2250
+Wire Wire Line
+	9900 2650 9050 2650
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J6
+U 1 1 5CC54E3F
+P 8750 2450
+F 0 "J6" H 8800 2867 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 8800 2776 50  0000 C CNN
+F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 8750 2450 50  0001 C CNN
+F 3 "~" H 8750 2450 50  0001 C CNN
+	1    8750 2450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
