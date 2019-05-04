@@ -52,12 +52,12 @@ TODO\nadd rotary switch footprint\nsize relay resistors
 $Comp
 L Switch:SW_SPST SW2
 U 1 1 5CD2469D
-P 3900 5200
-F 0 "SW2" H 3900 5435 50  0000 C CNN
-F 1 "SW_SPST" H 3900 5344 50  0000 C CNN
-F 2 "" H 3900 5200 50  0001 C CNN
-F 3 "~" H 3900 5200 50  0001 C CNN
-	1    3900 5200
+P 3900 5500
+F 0 "SW2" H 3900 5735 50  0000 C CNN
+F 1 "SW_SPST" H 3900 5644 50  0000 C CNN
+F 2 "" H 3900 5500 50  0001 C CNN
+F 3 "~" H 3900 5500 50  0001 C CNN
+	1    3900 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -101,17 +101,6 @@ Wire Wire Line
 	1650 4350 2150 4350
 Wire Wire Line
 	2150 4350 2150 4250
-$Comp
-L Switch_gkeeth:SW_Rotary4 SW1
-U 1 1 5CD232DB
-P 4200 4300
-F 0 "SW1" H 4100 5081 50  0000 C CNN
-F 1 "SW_Rotary4" H 4100 4990 50  0000 C CNN
-F 2 "" H 4000 5000 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 4000 5000 50  0001 C CNN
-	1    4200 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4600 3700 5600 3700
 Wire Wire Line
@@ -129,9 +118,7 @@ input3_select
 Text Label 4700 4000 0    50   ~ 0
 input4_select
 Wire Wire Line
-	4100 5200 4700 5200
-Wire Wire Line
-	4700 5200 4700 4100
+	4100 5500 4700 5500
 Wire Wire Line
 	4700 4100 5600 4100
 Text Label 4700 4100 0    50   ~ 0
@@ -167,36 +154,36 @@ Wire Wire Line
 $Comp
 L power_gkeeth:Vrelay #PWR0104
 U 1 1 5CD3104E
-P 3300 4700
-F 0 "#PWR0104" H 3300 4550 50  0001 C CNN
-F 1 "Vrelay" H 3317 4873 50  0000 C CNN
-F 2 "" H 3300 4700 50  0001 C CNN
-F 3 "" H 3300 4700 50  0001 C CNN
-	1    3300 4700
+P 3300 5000
+F 0 "#PWR0104" H 3300 4850 50  0001 C CNN
+F 1 "Vrelay" H 3317 5173 50  0000 C CNN
+F 2 "" H 3300 5000 50  0001 C CNN
+F 3 "" H 3300 5000 50  0001 C CNN
+	1    3300 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5CD315AC
-P 3300 5000
-F 0 "R2" H 3370 5046 50  0000 L CNN
-F 1 "R" H 3370 4955 50  0000 L CNN
-F 2 "" V 3230 5000 50  0001 C CNN
-F 3 "~" H 3300 5000 50  0001 C CNN
-	1    3300 5000
+P 3300 5300
+F 0 "R2" H 3370 5346 50  0000 L CNN
+F 1 "R" H 3370 5255 50  0000 L CNN
+F 2 "" V 3230 5300 50  0001 C CNN
+F 3 "~" H 3300 5300 50  0001 C CNN
+	1    3300 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 5150 3300 5200
+	3300 5450 3300 5500
 Wire Wire Line
-	3300 5200 3700 5200
+	3300 5500 3700 5500
 Wire Wire Line
-	3300 4850 3300 4700
-Text Notes 3550 5650 0    50   ~ 0
+	3300 5150 3300 5000
+Text Notes 3550 6000 0    50   ~ 0
 disables main preamp output\n(headphones unaffected)
-Text Notes 3550 5500 0    50   Italic 10
+Text Notes 3550 5850 0    50   Italic 10
 output mute switch
-Text Notes 3800 3400 0    50   Italic 10
+Text Notes 3800 3200 0    50   Italic 10
 input selection switch
 $Comp
 L power_gkeeth:GNDRELAY #PWR0105
@@ -293,4 +280,27 @@ Connection ~ 2150 4450
 Wire Wire Line
 	2150 4350 2300 4350
 Connection ~ 2150 4350
+$Comp
+L Switch_gkeeth:SW_Rotary12_Letter SW1
+U 1 1 5CD4AABC
+P 4200 4300
+F 0 "SW1" H 4100 5081 50  0000 C CNN
+F 1 "SW_Rotary12_Letter" H 4100 4990 50  0000 C CNN
+F 2 "" H 4000 5000 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 4000 5000 50  0001 C CNN
+	1    4200 4300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4600 4100
+NoConn ~ 4600 4200
+NoConn ~ 4600 4400
+NoConn ~ 4600 4500
+NoConn ~ 4600 4600
+NoConn ~ 4600 4700
+NoConn ~ 4600 4800
+NoConn ~ 4600 4900
+Wire Wire Line
+	4700 4100 4700 5500
+Text Notes 3800 3300 0    50   ~ 0
+use adjustable stops to limit to 4 positions
 $EndSCHEMATC
