@@ -19,5 +19,7 @@ faston 6.3mm/0.25"
 
 
 input selection switch: https://www.digikey.com/product-detail/en/c-k/A10405RNCQ/CKN11161-ND/3751691
+8pos, adjustable stop, 45deg throw: https://www.digikey.com/products/en?keywords=a12505rncq
 
 output jacks: consider neutrik nrj3hf-1 (1/4", unswitched, stereo, chassis connection)
+https://www.mouser.com/ProductDetail/Neutrik/NRJ3HF-1?qs=%2Fha2pyFaduhwbyTFTEXAhJFjmdMGtzEyvOaGAldSrO0%3D
