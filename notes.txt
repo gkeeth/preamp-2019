@@ -20,3 +20,4 @@ faston 6.3mm/0.25"
 
 input selection switch: https://www.digikey.com/product-detail/en/c-k/A10405RNCQ/CKN11161-ND/3751691
 
+output jacks: consider neutrik nrj3hf-1 (1/4", unswitched, stereo, chassis connection)
