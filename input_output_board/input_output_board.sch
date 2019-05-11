@@ -76,9 +76,9 @@ Wire Wire Line
 Text Label 7500 5750 0    50   ~ 0
 output_shield
 Wire Wire Line
-	2050 1600 1450 1600
+	2000 1600 1400 1600
 Wire Wire Line
-	1450 1500 2050 1500
+	1400 1500 2000 1500
 $Comp
 L Device:D D3
 U 1 1 5CB90FB2
@@ -185,11 +185,11 @@ Text Label 2000 5100 2    50   ~ 0
 input3_cold
 Text Label 2000 5000 2    50   ~ 0
 input3_hot
-Text Label 2050 1700 2    50   ~ 0
+Text Label 2000 1700 2    50   ~ 0
 input_shield
-Text Label 2050 1600 2    50   ~ 0
+Text Label 2000 1600 2    50   ~ 0
 input1_cold
-Text Label 2050 1500 2    50   ~ 0
+Text Label 2000 1500 2    50   ~ 0
 input1_hot
 $Comp
 L Relay:G6S-2 K3
@@ -305,11 +305,11 @@ Wire Wire Line
 Wire Wire Line
 	7300 5550 8400 5550
 Wire Wire Line
-	8050 5750 8050 6400
+	8050 5750 8050 6350
 Wire Wire Line
-	8050 6400 9300 6400
+	8050 6350 9300 6350
 Wire Wire Line
-	9300 6400 9300 5850
+	9300 6350 9300 5850
 Wire Wire Line
 	9300 5850 9400 5850
 Wire Wire Line
@@ -459,63 +459,14 @@ $EndComp
 Wire Wire Line
 	8200 2650 8200 2550
 Connection ~ 8200 2650
-Text Notes 7600 3950 0    50   ~ 0
-Bond shield & XLR case ground DIRECTLY to chassis at each connector\nflood input_shield across all inputs and connect to input connector (J5)\nMounting holes are for connecting to chassis (via angle bracket)
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5CD65332
-P 1800 3850
-F 0 "H2" V 1846 3999 50  0000 L CNN
-F 1 "MountingHole_Pad" V 1755 3999 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1800 3850 50  0001 C CNN
-F 3 "~" H 1800 3850 50  0001 C CNN
-	1    1800 3850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5CD66551
-P 1800 5600
-F 0 "H3" V 1846 5749 50  0000 L CNN
-F 1 "MountingHole_Pad" V 1755 5749 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1800 5600 50  0001 C CNN
-F 3 "~" H 1800 5600 50  0001 C CNN
-	1    1800 5600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9300 6400 9400 6400
-Connection ~ 9300 6400
-$Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 5CD67130
-P 9500 6400
-F 0 "H5" V 9454 6550 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9545 6550 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9500 6400 50  0001 C CNN
-F 3 "~" H 9500 6400 50  0001 C CNN
-	1    9500 6400
-	0    1    1    0   
-$EndComp
+Text Notes 7500 3950 0    50   ~ 0
+Shields & XLR case ground bonded DIRECTLY to chassis at each connector:\n - XLR combo connectors via mounting screw holes\n - phono jack via chassis contact\n\nflood input_shield across all inputs and connect to input connector (J7)
 Wire Wire Line
 	2350 2100 2350 2000
 Wire Wire Line
-	2100 1700 2100 2100
+	2050 1700 2050 2100
 Wire Wire Line
-	2100 1700 2150 1700
-Wire Wire Line
-	2100 2100 2350 2100
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 5CD64CD4
-P 1800 2100
-F 0 "H1" V 1846 2249 50  0000 L CNN
-F 1 "MountingHole_Pad" V 1755 2249 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1800 2100 50  0001 C CNN
-F 3 "~" H 1800 2100 50  0001 C CNN
-	1    1800 2100
-	0    -1   -1   0   
-$EndComp
+	2050 2100 2350 2100
 Wire Wire Line
 	2350 3750 2350 3850
 Wire Wire Line
@@ -524,39 +475,19 @@ Wire Wire Line
 	2050 3450 2050 3850
 Wire Wire Line
 	2050 3450 2150 3450
-Connection ~ 2050 3850
-Wire Wire Line
-	1900 3850 2050 3850
-Wire Wire Line
-	1900 5600 2050 5600
 Wire Wire Line
 	2350 5600 2350 5500
 Wire Wire Line
 	2050 5200 2050 5600
 Connection ~ 2050 5200
-Connection ~ 2050 5600
 Wire Wire Line
 	2050 5600 2350 5600
-Wire Wire Line
-	1900 2100 2100 2100
-Connection ~ 2100 2100
 Wire Wire Line
 	2050 6950 2150 6950
 Wire Wire Line
 	2350 7350 2350 7250
 Wire Wire Line
 	2050 7350 2350 7350
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5CD66BD9
-P 1800 7350
-F 0 "H4" V 1846 7499 50  0000 L CNN
-F 1 "MountingHole_Pad" V 1755 7499 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1800 7350 50  0001 C CNN
-F 3 "~" H 1800 7350 50  0001 C CNN
-	1    1800 7350
-	0    -1   -1   0   
-$EndComp
 Text Label 2000 6950 2    50   ~ 0
 input_shield
 Wire Wire Line
@@ -568,8 +499,6 @@ Text Label 2000 6750 2    50   ~ 0
 input4_hot
 Wire Wire Line
 	2000 6750 1400 6750
-Wire Wire Line
-	2050 6950 1400 6950
 Wire Wire Line
 	2000 6850 1400 6850
 Text Label 2000 6850 2    50   ~ 0
@@ -586,8 +515,6 @@ Wire Wire Line
 	2450 5600 3700 5600
 Text Label 2900 5600 0    50   ~ 0
 input3_cold
-Wire Wire Line
-	1400 5200 2050 5200
 Text Label 2000 3350 2    50   ~ 0
 input2_cold
 Text Label 2900 3450 0    50   ~ 0
@@ -600,8 +527,6 @@ Wire Wire Line
 	1400 3350 2000 3350
 Wire Wire Line
 	2000 3250 1400 3250
-Wire Wire Line
-	2050 3450 1400 3450
 Connection ~ 2050 3450
 Wire Wire Line
 	2750 1700 3700 1700
@@ -609,14 +534,8 @@ Wire Wire Line
 	2450 2100 2450 2000
 Wire Wire Line
 	2450 2100 3700 2100
-Wire Wire Line
-	1450 1700 2100 1700
-Connection ~ 2100 1700
-Wire Wire Line
-	1900 7350 2050 7350
-Connection ~ 2050 7350
 Text Notes 7750 950  0    50   ~ 0
-TODO\ncapacitor(s)\nadd output jack part details\nmounting holes in corners?
+TODO\ncapacitor(s)\nadd output jack part details\nmounting holes in corners?\nseparate input shields?
 Wire Notes Line
 	7550 4050 10450 4050
 Wire Notes Line
@@ -859,18 +778,18 @@ $EndComp
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J1
 U 2 1 5CEE74AE
-P 1250 1600
-F 0 "J1" H 1232 1233 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1232 1324 50  0000 C CNN
-F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 1250 1600 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1250 1600 50  0001 C CNN
-F 4 "Neutrik" H 1250 1600 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 1250 1600 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 1250 1600 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 1250 1600 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1250 1600 50  0001 C CNN "URL"
-F 9 "2.10" H 1250 1600 50  0001 C CNN "Unit Price"
-	2    1250 1600
+P 1200 1600
+F 0 "J1" H 1182 1233 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 1182 1324 50  0000 C CNN
+F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 1200 1600 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 1600 50  0001 C CNN
+F 4 "Neutrik" H 1200 1600 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 1200 1600 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 1200 1600 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 1200 1600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1200 1600 50  0001 C CNN "URL"
+F 9 "2.10" H 1200 1600 50  0001 C CNN "Unit Price"
+	2    1200 1600
 	1    0    0    1   
 $EndComp
 $Comp
@@ -986,4 +905,15 @@ F 3 "~" H 8750 2450 50  0001 C CNN
 	1    8750 2450
 	1    0    0    -1  
 $EndComp
+Connection ~ 2050 1700
+Wire Wire Line
+	2050 1700 2150 1700
+Wire Wire Line
+	1400 5200 2050 5200
+Wire Wire Line
+	1400 6950 2050 6950
+Wire Wire Line
+	1400 3450 2050 3450
+Wire Wire Line
+	1400 1700 2050 1700
 $EndSCHEMATC
