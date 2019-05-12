@@ -65,7 +65,7 @@ U 1 1 5CD2469D
 P 5700 5100
 F 0 "SW2" H 5700 5335 50  0000 C CNN
 F 1 "SW_SPST" H 5700 5244 50  0000 C CNN
-F 2 "" H 5700 5100 50  0001 C CNN
+F 2 "Button_Switch_THT_gkeeth:SW_Toggle_SPST_NKK_M2011xxx03" H 5700 5100 50  0001 C CNN
 F 3 "http://www.nkkswitches.com/pdf/MtogglesBushing.pdf" H 5700 5100 50  0001 C CNN
 F 4 "NKK" H 5700 5100 50  0001 C CNN "Manufacturer"
 F 5 "M2011SS1W03" H 5700 5100 50  0001 C CNN "Manufacturer PN"
