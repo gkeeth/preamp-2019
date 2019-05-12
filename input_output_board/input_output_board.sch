@@ -21,7 +21,13 @@ P 9600 5750
 F 0 "J5" H 9320 5775 50  0000 R CNN
 F 1 "AudioJack3" H 9320 5684 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal" H 9600 5750 50  0001 C CNN
-F 3 "~" H 9600 5750 50  0001 C CNN
+F 3 "https://www.neutrik.us/media/8560/download/nrj3hf-1-2.pdf?v=1" H 9600 5750 50  0001 C CNN
+F 4 "Neutrik" H 9600 5750 50  0001 C CNN "Manufacturer"
+F 5 "NRJ3HF-1" H 9600 5750 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 9600 5750 50  0001 C CNN "Distributor"
+F 7 "568-NRJ3HF-1" H 9600 5750 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/568-NRJ3HF-1" H 9600 5750 50  0001 C CNN "URL"
+F 9 "0.63" H 9600 5750 50  0001 C CNN "Unit Price"
 	1    9600 5750
 	-1   0    0    1   
 $EndComp
@@ -535,7 +541,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 2100 3700 2100
 Text Notes 7750 950  0    50   ~ 0
-TODO\ncapacitor(s)\nadd output jack part details\nmounting holes in corners?\nseparate input shields?
+TODO\ncapacitor(s)\ncreate footprint for output jack\nmounting holes in corners?\nseparate input shields?
 Wire Notes Line
 	7550 4050 10450 4050
 Wire Notes Line
