@@ -647,7 +647,7 @@ F 9 "0.29" H 6850 2500 50  0001 C CNN "Unit Price"
 	0    -1   -1   0   
 $EndComp
 Text Notes 5500 6250 0    50   ~ 0
-TODO\nsplit power supply startup problems?\nbleeder resistors for reservoir caps? Will LEDs work for that?\nheatsink footprint\nchange protection diodes to shottky? (see AoE chapter 9)
+TODO\nsplit power supply startup problems?\nbleeder resistors for reservoir caps? Will LEDs work for that?\nchange protection diodes to shottky? (see AoE chapter 9)\neliminate 1k resistor between relay ground and analog ground?
 $Comp
 L Device:CP1 C8
 U 1 1 5CB200BE
@@ -677,23 +677,12 @@ F 3 "~" H 2500 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Heatsink_Pad HS1
-U 1 1 5CB4FC2E
-P 2250 6500
-F 0 "HS1" H 2391 6539 50  0000 L CNN
-F 1 "Heatsink_Pad" H 2391 6448 50  0000 L CNN
-F 2 "Heatsink:Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35" H 2262 6450 50  0001 C CNN
-F 3 "~" H 2262 6450 50  0001 C CNN
-	1    2250 6500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:Heatsink_Pad HS2
 U 1 1 5CB5054C
 P 3050 6500
 F 0 "HS2" H 3191 6539 50  0000 L CNN
-F 1 "Heatsink_Pad" H 3191 6448 50  0000 L CNN
-F 2 "Heatsink:Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35" H 3062 6450 50  0001 C CNN
+F 1 "Wakefield-Vette 287-1AB" H 3191 6448 50  0000 L CNN
+F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 3062 6450 50  0001 C CNN
 F 3 "~" H 3062 6450 50  0001 C CNN
 	1    3050 6500
 	1    0    0    -1  
@@ -926,8 +915,6 @@ Text Notes 950  1750 0    50   ~ 10
 INPUT CONNECTOR
 Wire Wire Line
 	3050 6600 3050 6700
-Wire Wire Line
-	2250 6600 2250 6700
 Text Notes 2400 6250 0    50   Italic 10
 USE INSULATING PADS FOR HEATSINKS
 Wire Wire Line
@@ -1196,17 +1183,6 @@ $EndComp
 Wire Wire Line
 	4000 4150 4000 4050
 $Comp
-L power:GNDA #PWR0106
-U 1 1 5CFBDF10
-P 2250 6700
-F 0 "#PWR0106" H 2250 6450 50  0001 C CNN
-F 1 "GNDA" H 2255 6527 50  0000 C CNN
-F 2 "" H 2250 6700 50  0001 C CNN
-F 3 "" H 2250 6700 50  0001 C CNN
-	1    2250 6700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDA #PWR0107
 U 1 1 5CFBE3DC
 P 3050 6700
@@ -1275,16 +1251,16 @@ $EndComp
 $Comp
 L Mechanical:Heatsink_Pad HS3
 U 1 1 5CFC037A
-P 3850 6500
-F 0 "HS3" H 3991 6539 50  0000 L CNN
-F 1 "Heatsink_Pad" H 3991 6448 50  0000 L CNN
-F 2 "Heatsink:Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35" H 3862 6450 50  0001 C CNN
-F 3 "~" H 3862 6450 50  0001 C CNN
-	1    3850 6500
+P 4350 6500
+F 0 "HS3" H 4491 6539 50  0000 L CNN
+F 1 "Wakefield-Vette 287-1AB" H 4491 6448 50  0000 L CNN
+F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 4362 6450 50  0001 C CNN
+F 3 "~" H 4362 6450 50  0001 C CNN
+	1    4350 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 6600 3850 6700
+	4350 6600 4350 6700
 $Comp
 L Connector:Conn_01x02_Male J5
 U 1 1 5CFCCBD7
@@ -1349,12 +1325,12 @@ $EndComp
 $Comp
 L power_gkeeth:GNDRELAY #PWR0117
 U 1 1 5CCD5AC4
-P 3850 6700
-F 0 "#PWR0117" H 3850 6450 50  0001 C CNN
-F 1 "GNDRELAY" H 3854 6545 50  0000 C CNN
-F 2 "" H 3850 6700 50  0001 C CNN
-F 3 "" H 3850 6700 50  0001 C CNN
-	1    3850 6700
+P 4350 6700
+F 0 "#PWR0117" H 4350 6450 50  0001 C CNN
+F 1 "GNDRELAY" H 4354 6545 50  0000 C CNN
+F 2 "" H 4350 6700 50  0001 C CNN
+F 3 "" H 4350 6700 50  0001 C CNN
+	1    4350 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1398,4 +1374,34 @@ Wire Wire Line
 Connection ~ 1750 5000
 Wire Wire Line
 	1750 5000 1500 5000
+$Comp
+L power:GNDA #PWR0106
+U 1 1 5CFBDF10
+P 1750 6700
+F 0 "#PWR0106" H 1750 6450 50  0001 C CNN
+F 1 "GNDA" H 1755 6527 50  0000 C CNN
+F 2 "" H 1750 6700 50  0001 C CNN
+F 3 "" H 1750 6700 50  0001 C CNN
+	1    1750 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 6600 1750 6700
+$Comp
+L Mechanical:Heatsink_Pad HS1
+U 1 1 5CB4FC2E
+P 1750 6500
+F 0 "HS1" H 1891 6539 50  0000 L CNN
+F 1 "Wakefield-Vette 287-1AB" H 1891 6448 50  0000 L CNN
+F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 1762 6450 50  0001 C CNN
+F 3 "~" H 1762 6450 50  0001 C CNN
+	1    1750 6500
+	1    0    0    -1  
+$EndComp
+Text Notes 1500 6350 0    50   ~ 10
+VCC Heatsink
+Text Notes 2850 6350 0    50   ~ 10
+VEE Heatsink
+Text Notes 4100 6350 0    50   ~ 10
+Vrelay Heatsink
 $EndSCHEMATC
