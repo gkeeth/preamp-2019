@@ -541,7 +541,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 2100 3700 2100
 Text Notes 7750 950  0    50   ~ 0
-TODO\ncapacitor(s)\ncreate footprint for output jack\nmounting holes in corners?\nseparate input shields?
+TODO\ncapacitor(s)\ncreate footprint for output jack\nmounting holes in corners?\nseparate input shields?\nadd jumper to optionally bypass output relay
 Wire Notes Line
 	7550 4050 10450 4050
 Wire Notes Line
