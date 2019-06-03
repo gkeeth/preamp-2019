@@ -647,7 +647,7 @@ F 9 "0.29" H 6850 2500 50  0001 C CNN "Unit Price"
 	0    -1   -1   0   
 $EndComp
 Text Notes 5500 6250 0    50   ~ 0
-TODO\nsplit power supply startup problems?\nbleeder resistors for reservoir caps? Will LEDs work for that?\nchange protection diodes to shottky? (see AoE chapter 9)\neliminate 1k resistor between relay ground and analog ground?
+TODO\nsplit power supply startup problems?\nbleeder resistors for reservoir caps? Will LEDs work for that?\nchange protection diodes to shottky? (see AoE chapter 9)\neliminate 1k resistor between relay ground and analog ground?\nrecalculate reservoir capacitors with final current measurements
 $Comp
 L Device:CP1 C8
 U 1 1 5CB200BE
@@ -1275,11 +1275,11 @@ $EndComp
 Wire Wire Line
 	8750 6050 8750 6150
 Wire Wire Line
-	8750 6150 9250 6150
+	8750 6150 9050 6150
 Wire Wire Line
 	8750 6350 8750 6250
 Wire Wire Line
-	8750 6250 9250 6250
+	8750 6250 9150 6250
 Text Notes 1450 3350 0    50   ~ 10
 AUX SUPPLY FOR RELAYS/FRONT PANEL
 Wire Wire Line
@@ -1404,4 +1404,29 @@ Text Notes 2850 6350 0    50   ~ 10
 VEE Heatsink
 Text Notes 4100 6350 0    50   ~ 10
 Vrelay Heatsink
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5D055D9A
+P 9450 6400
+F 0 "J6" H 9422 6374 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 9422 6283 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 9450 6400 50  0001 C CNN
+F 3 "~" H 9450 6400 50  0001 C CNN
+	1    9450 6400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 6400 9050 6400
+Wire Wire Line
+	9050 6400 9050 6150
+Connection ~ 9050 6150
+Wire Wire Line
+	9050 6150 9250 6150
+Wire Wire Line
+	9150 6250 9150 6500
+Wire Wire Line
+	9150 6500 9250 6500
+Connection ~ 9150 6250
+Wire Wire Line
+	9150 6250 9250 6250
 $EndSCHEMATC
