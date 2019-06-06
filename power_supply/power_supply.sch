@@ -157,17 +157,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 1350 4700 1450
 Connection ~ 4600 1350
-$Comp
-L Device:R R3
-U 1 1 5C5B0DBB
-P 6750 2950
-F 0 "R3" H 6820 2996 50  0000 L CNN
-F 1 "10k" H 6820 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 2950 50  0001 C CNN
-F 3 "~" H 6750 2950 50  0001 C CNN
-	1    6750 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5400 1900 5400 2150
 Wire Wire Line
@@ -250,23 +239,6 @@ Wire Wire Line
 	4800 3600 3850 3600
 Text Notes 5850 4200 0    50   ~ 0
 LED RESISTORS\nVf = 2V\nwith R = 10k, I = 1.3mA\nwith R = 1k, I = 13mA\ntry R = 10k; if too dim try R = 1k
-$Comp
-L Device:LED_ALT D10
-U 1 1 5CA21F88
-P 6750 3350
-F 0 "D10" V 6789 3232 50  0000 R CNN
-F 1 "LED" V 6698 3232 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 6750 3350 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 6750 3350 50  0001 C CNN
-F 4 "Lite-On" H 6750 3350 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C191KRKT" H 6750 3350 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 6750 3350 50  0001 C CNN "Distributor"
-F 7 "160-1447-1-ND" H 6750 3350 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 6750 3350 50  0001 C CNN "URL"
-F 9 "0.29" H 6750 3350 50  0001 C CNN "Unit Price"
-	1    6750 3350
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:Fuse F1
 U 1 1 5CA2AE7B
@@ -394,64 +366,64 @@ $EndComp
 $Comp
 L Connector:Conn_01x03_Male J2
 U 1 1 5CA83316
-P 9450 5050
-F 0 "J2" H 9422 5074 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 9422 4983 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9450 5050 50  0001 C CNN
-F 3 "~" H 9450 5050 50  0001 C CNN
-	1    9450 5050
+P 9400 5050
+F 0 "J2" H 9372 5074 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 9372 4983 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9400 5050 50  0001 C CNN
+F 3 "~" H 9400 5050 50  0001 C CNN
+	1    9400 5050
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x03_Male J3
 U 1 1 5CA83A0D
-P 9450 5450
-F 0 "J3" H 9422 5474 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 9422 5383 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9450 5450 50  0001 C CNN
-F 3 "~" H 9450 5450 50  0001 C CNN
-	1    9450 5450
+P 9400 5450
+F 0 "J3" H 9372 5474 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 9372 5383 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9400 5450 50  0001 C CNN
+F 3 "~" H 9400 5450 50  0001 C CNN
+	1    9400 5450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x03_Male J4
 U 1 1 5CA83D7D
-P 9450 5850
-F 0 "J4" H 9422 5874 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 9422 5783 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9450 5850 50  0001 C CNN
-F 3 "~" H 9450 5850 50  0001 C CNN
-	1    9450 5850
+P 9400 5850
+F 0 "J4" H 9372 5874 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 9372 5783 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9400 5850 50  0001 C CNN
+F 3 "~" H 9400 5850 50  0001 C CNN
+	1    9400 5850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0111
 U 1 1 5CAA4ADE
-P 8750 4850
-F 0 "#PWR0111" H 8750 4700 50  0001 C CNN
-F 1 "VCC" H 8767 5023 50  0000 C CNN
-F 2 "" H 8750 4850 50  0001 C CNN
-F 3 "" H 8750 4850 50  0001 C CNN
-	1    8750 4850
+P 8700 4850
+F 0 "#PWR0111" H 8700 4700 50  0001 C CNN
+F 1 "VCC" H 8717 5023 50  0000 C CNN
+F 2 "" H 8700 4850 50  0001 C CNN
+F 3 "" H 8700 4850 50  0001 C CNN
+	1    8700 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VEE #PWR0112
 U 1 1 5CAA4AE4
-P 8750 5250
-F 0 "#PWR0112" H 8750 5100 50  0001 C CNN
-F 1 "VEE" H 8767 5423 50  0000 C CNN
-F 2 "" H 8750 5250 50  0001 C CNN
-F 3 "" H 8750 5250 50  0001 C CNN
-	1    8750 5250
+P 8700 5250
+F 0 "#PWR0112" H 8700 5100 50  0001 C CNN
+F 1 "VEE" H 8717 5423 50  0000 C CNN
+F 2 "" H 8700 5250 50  0001 C CNN
+F 3 "" H 8700 5250 50  0001 C CNN
+	1    8700 5250
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8750 4850 8750 4950
+	8700 4850 8700 4950
 Wire Wire Line
-	8750 5150 8750 5250
+	8700 5150 8700 5250
 Wire Wire Line
-	8500 5150 8500 5050
+	8450 5150 8450 5050
 Wire Wire Line
 	1900 1550 1900 2650
 Wire Wire Line
@@ -621,33 +593,33 @@ Wire Wire Line
 $Comp
 L Device:R R2
 U 1 1 5C4110E7
-P 6850 2100
-F 0 "R2" H 6920 2146 50  0000 L CNN
-F 1 "10k" H 6920 2055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6780 2100 50  0001 C CNN
-F 3 "~" H 6850 2100 50  0001 C CNN
-	1    6850 2100
+P 6850 2500
+F 0 "R2" H 6920 2546 50  0000 L CNN
+F 1 "10k" H 6920 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6780 2500 50  0001 C CNN
+F 3 "~" H 6850 2500 50  0001 C CNN
+	1    6850 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED_ALT D9
 U 1 1 5C40C321
-P 6850 2500
-F 0 "D9" V 6888 2382 50  0000 R CNN
-F 1 "LED" V 6797 2382 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 6850 2500 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 6850 2500 50  0001 C CNN
-F 4 "Lite-On" H 6850 2500 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C191KRKT" H 6850 2500 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 6850 2500 50  0001 C CNN "Distributor"
-F 7 "160-1447-1-ND" H 6850 2500 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 6850 2500 50  0001 C CNN "URL"
-F 9 "0.29" H 6850 2500 50  0001 C CNN "Unit Price"
-	1    6850 2500
+P 6850 2100
+F 0 "D9" V 6888 1982 50  0000 R CNN
+F 1 "LED" V 6797 1982 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6850 2100 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 6850 2100 50  0001 C CNN
+F 4 "Lite-On" H 6850 2100 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C191KRKT" H 6850 2100 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6850 2100 50  0001 C CNN "Distributor"
+F 7 "160-1447-1-ND" H 6850 2100 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 6850 2100 50  0001 C CNN "URL"
+F 9 "0.29" H 6850 2100 50  0001 C CNN "Unit Price"
+	1    6850 2100
 	0    -1   -1   0   
 $EndComp
 Text Notes 5500 6250 0    50   ~ 0
-TODO\nsplit power supply startup problems?\nbleeder resistors for reservoir caps? Will LEDs work for that?\nchange protection diodes to shottky? (see AoE chapter 9)\neliminate 1k resistor between relay ground and analog ground?\nrecalculate reservoir capacitors with final current measurements
+TODO\nbleeder resistors for reservoir caps? Will LEDs work for that?\nrecalculate reservoir capacitors with final current measurements
 $Comp
 L Device:CP1 C8
 U 1 1 5CB200BE
@@ -668,59 +640,59 @@ $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5CB49A9B
-P 2500 7250
-F 0 "H2" H 2600 7299 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2600 7208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 2500 7250 50  0001 C CNN
-F 3 "~" H 2500 7250 50  0001 C CNN
-	1    2500 7250
+P 1900 7550
+F 0 "H2" H 2000 7599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2000 7508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1900 7550 50  0001 C CNN
+F 3 "~" H 1900 7550 50  0001 C CNN
+	1    1900 7550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Heatsink_Pad HS2
 U 1 1 5CB5054C
-P 3050 6500
-F 0 "HS2" H 3191 6539 50  0000 L CNN
-F 1 "Wakefield-Vette 287-1AB" H 3191 6448 50  0000 L CNN
-F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 3062 6450 50  0001 C CNN
-F 3 "~" H 3062 6450 50  0001 C CNN
-	1    3050 6500
+P 8650 3950
+F 0 "HS2" H 8791 3989 50  0000 L CNN
+F 1 "Wakefield-Vette 287-1AB" H 8791 3898 50  0000 L CNN
+F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 8662 3900 50  0001 C CNN
+F 3 "~" H 8662 3900 50  0001 C CNN
+	1    8650 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5CB5B46E
-P 1600 7250
-F 0 "H1" H 1700 7299 50  0000 L CNN
-F 1 "MountingHole_Pad" H 1700 7208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1600 7250 50  0001 C CNN
-F 3 "~" H 1600 7250 50  0001 C CNN
-	1    1600 7250
+P 1000 7550
+F 0 "H1" H 1100 7599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1100 7508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1000 7550 50  0001 C CNN
+F 3 "~" H 1000 7550 50  0001 C CNN
+	1    1000 7550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5CB60C90
-P 4300 7250
-F 0 "H4" H 4400 7299 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4400 7208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 4300 7250 50  0001 C CNN
-F 3 "~" H 4300 7250 50  0001 C CNN
-	1    4300 7250
+P 3700 7550
+F 0 "H4" H 3800 7599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3800 7508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 3700 7550 50  0001 C CNN
+F 3 "~" H 3700 7550 50  0001 C CNN
+	1    3700 7550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5CB6616E
-P 3400 7250
-F 0 "H3" H 3500 7299 50  0000 L CNN
-F 1 "MountingHole_Pad" H 3500 7208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 3400 7250 50  0001 C CNN
-F 3 "~" H 3400 7250 50  0001 C CNN
-	1    3400 7250
+P 2800 7550
+F 0 "H3" H 2900 7599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2900 7508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad" H 2800 7550 50  0001 C CNN
+F 3 "~" H 2800 7550 50  0001 C CNN
+	1    2800 7550
 	1    0    0    -1  
 $EndComp
-Text Notes 2500 7800 0    50   ~ 0
+Text Notes 900  7350 0    50   ~ 0
 clearance holes for 8-32 standoffs\nuse insulated standoffs
 Wire Wire Line
 	5400 2450 5400 2750
@@ -909,174 +881,174 @@ Wire Wire Line
 Connection ~ 7450 3600
 Wire Wire Line
 	7450 3600 7550 3600
-Text Notes 8650 4550 0    50   ~ 10
+Text Notes 8950 4700 0    79   Italic 16
 OUTPUT CONNECTORS
 Text Notes 950  1750 0    50   ~ 10
 INPUT CONNECTOR
 Wire Wire Line
-	3050 6600 3050 6700
-Text Notes 2400 6250 0    50   Italic 10
-USE INSULATING PADS FOR HEATSINKS
+	8650 4050 8650 4150
+Text Notes 8800 1500 0    50   Italic 10
+USE INSULATING PADS FOR HEATSINK
 Wire Wire Line
-	8750 5150 8950 5150
+	8700 5150 8900 5150
 Wire Wire Line
-	8500 5050 9050 5050
+	8450 5050 9000 5050
 Wire Wire Line
-	8750 4950 9150 4950
+	8700 4950 9100 4950
 Wire Wire Line
-	9250 5350 9150 5350
+	9200 5350 9100 5350
 Wire Wire Line
-	9150 5350 9150 4950
-Connection ~ 9150 4950
+	9100 5350 9100 4950
+Connection ~ 9100 4950
 Wire Wire Line
-	9150 4950 9250 4950
+	9100 4950 9200 4950
 Wire Wire Line
-	9150 5350 9150 5750
+	9100 5350 9100 5750
 Wire Wire Line
-	9150 5750 9250 5750
-Connection ~ 9150 5350
+	9100 5750 9200 5750
+Connection ~ 9100 5350
 Wire Wire Line
-	9250 5450 9050 5450
+	9200 5450 9000 5450
 Wire Wire Line
-	9050 5450 9050 5050
-Connection ~ 9050 5050
+	9000 5450 9000 5050
+Connection ~ 9000 5050
 Wire Wire Line
-	9050 5050 9250 5050
+	9000 5050 9200 5050
 Wire Wire Line
-	9050 5450 9050 5850
+	9000 5450 9000 5850
 Wire Wire Line
-	9050 5850 9250 5850
-Connection ~ 9050 5450
+	9000 5850 9200 5850
+Connection ~ 9000 5450
 Wire Wire Line
-	8950 5950 8950 5550
-Connection ~ 8950 5150
+	8900 5950 8900 5550
+Connection ~ 8900 5150
 Wire Wire Line
-	8950 5150 9250 5150
+	8900 5150 9200 5150
 Wire Wire Line
-	9250 5550 8950 5550
-Connection ~ 8950 5550
+	9200 5550 8900 5550
+Connection ~ 8900 5550
 Wire Wire Line
-	8950 5550 8950 5150
+	8900 5550 8900 5150
 Wire Wire Line
-	8950 5950 9250 5950
+	8900 5950 9200 5950
 $Comp
 L Device:C C11
 U 1 1 5CEE94C0
-P 1500 4550
-F 0 "C11" H 1615 4596 50  0000 L CNN
-F 1 "330n" H 1615 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1500 4550 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B334KBFNNNE.jsp" H 1500 4550 50  0001 C CNN
-F 4 "Samsung" H 1500 4550 50  0001 C CNN "Manufacturer"
-F 5 "CL21B334KBFNNNE" H 1500 4550 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 1500 4550 50  0001 C CNN "Distributor"
-F 7 "1276-1123-1-ND" H 1500 4550 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B334KBFNNNE/1276-1123-1-ND/3889209" H 1500 4550 50  0001 C CNN "URL"
-F 9 "0.19" H 1500 4550 50  0001 C CNN "Unit Price"
-	1    1500 4550
+P 1600 5600
+F 0 "C11" H 1715 5646 50  0000 L CNN
+F 1 "330n" H 1715 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 5600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B334KBFNNNE.jsp" H 1600 5600 50  0001 C CNN
+F 4 "Samsung" H 1600 5600 50  0001 C CNN "Manufacturer"
+F 5 "CL21B334KBFNNNE" H 1600 5600 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 1600 5600 50  0001 C CNN "Distributor"
+F 7 "1276-1123-1-ND" H 1600 5600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B334KBFNNNE/1276-1123-1-ND/3889209" H 1600 5600 50  0001 C CNN "URL"
+F 9 "0.19" H 1600 5600 50  0001 C CNN "Unit Price"
+	1    1600 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP1 C12
 U 1 1 5CEE94CC
-P 2700 4450
-F 0 "C12" H 2815 4496 50  0000 L CNN
-F 1 "100u" H 2815 4405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2700 4450 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 2700 4450 50  0001 C CNN
-F 4 "Nichicon" H 2700 4450 50  0001 C CNN "Manufacturer"
-F 5 "UVR1V101MED" H 2700 4450 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 2700 4450 50  0001 C CNN "Distributor"
-F 7 "493-1081-ND" H 2700 4450 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 2700 4450 50  0001 C CNN "URL"
-F 9 "0.25" H 2700 4450 50  0001 C CNN "Unit Price"
-	1    2700 4450
+P 2800 5500
+F 0 "C12" H 2915 5546 50  0000 L CNN
+F 1 "100u" H 2915 5455 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2800 5500 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 2800 5500 50  0001 C CNN
+F 4 "Nichicon" H 2800 5500 50  0001 C CNN "Manufacturer"
+F 5 "UVR1V101MED" H 2800 5500 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 2800 5500 50  0001 C CNN "Distributor"
+F 7 "493-1081-ND" H 2800 5500 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 2800 5500 50  0001 C CNN "URL"
+F 9 "0.25" H 2800 5500 50  0001 C CNN "Unit Price"
+	1    2800 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 4300 3350 4150
+	3450 5350 3450 5200
 Wire Wire Line
-	2700 4300 2700 4150
+	2800 5350 2800 5200
 $Comp
 L Diode:MRA4004T3G D12
 U 1 1 5CEE94DA
-P 3350 4450
-F 0 "D12" V 3304 4371 50  0000 R CNN
-F 1 "MRA4004T3G" V 3395 4371 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 3350 4275 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 3350 4450 50  0001 C CNN
-F 4 "On Semiconductor" H 3350 4450 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 3350 4450 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 3350 4450 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 3350 4450 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 3350 4450 50  0001 C CNN "URL"
-F 9 "0.29" H 3350 4450 50  0001 C CNN "Unit Price"
-	1    3350 4450
+P 3450 5500
+F 0 "D12" V 3404 5421 50  0000 R CNN
+F 1 "MRA4004T3G" V 3495 5421 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA" H 3450 5325 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 3450 5500 50  0001 C CNN
+F 4 "On Semiconductor" H 3450 5500 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 3450 5500 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3450 5500 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 3450 5500 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 3450 5500 50  0001 C CNN "URL"
+F 9 "0.29" H 3450 5500 50  0001 C CNN "Unit Price"
+	1    3450 5500
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	3350 4150 4000 4150
+	3450 5200 4100 5200
 Wire Wire Line
-	2700 4150 3350 4150
+	2800 5200 3450 5200
 $Comp
 L Diode:MRA4004T3G D11
 U 1 1 5CEE94E8
-P 2000 3650
-F 0 "D11" H 2000 3434 50  0000 C CNN
-F 1 "MRA4004T3G" H 2000 3525 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 2000 3475 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 2000 3650 50  0001 C CNN
-F 4 "On Semiconductor" H 2000 3650 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 2000 3650 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 2000 3650 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 2000 3650 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 2000 3650 50  0001 C CNN "URL"
-F 9 "0.29" H 2000 3650 50  0001 C CNN "Unit Price"
-	1    2000 3650
+P 2100 4700
+F 0 "D11" H 2100 4484 50  0000 C CNN
+F 1 "MRA4004T3G" H 2100 4575 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 2100 4525 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 2100 4700 50  0001 C CNN
+F 4 "On Semiconductor" H 2100 4700 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 2100 4700 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 2100 4700 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 2100 4700 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 2100 4700 50  0001 C CNN "URL"
+F 9 "0.29" H 2100 4700 50  0001 C CNN "Unit Price"
+	1    2100 4700
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	2450 3650 2450 4150
+	2550 4700 2550 5200
 Wire Wire Line
-	2150 3650 2450 3650
+	2250 4700 2550 4700
 Wire Wire Line
-	1650 3650 1650 4150
+	1750 4700 1750 5200
 Wire Wire Line
-	1850 3650 1650 3650
+	1950 4700 1750 4700
 Wire Wire Line
-	2350 4150 2450 4150
+	2450 5200 2550 5200
 $Comp
 L Regulator_Linear:LM7815_TO220 U3
 U 1 1 5CEE94F3
-P 2050 4150
-F 0 "U3" H 2050 4392 50  0000 C CNN
-F 1 "LM7815_TO220" H 2050 4301 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2050 4375 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 2050 4100 50  0001 C CNN
-	1    2050 4150
+P 2150 5200
+F 0 "U3" H 2150 5442 50  0000 C CNN
+F 1 "LM7815_TO220" H 2150 5351 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2150 5425 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 2150 5150 50  0001 C CNN
+	1    2150 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 4150 2700 4150
-Connection ~ 2450 4150
+	2550 5200 2800 5200
+Connection ~ 2550 5200
 Wire Wire Line
-	1500 4150 1500 4400
+	1600 5200 1600 5450
 Wire Wire Line
-	2050 4450 2050 5000
+	2150 5500 2150 6050
 Wire Wire Line
-	2700 5000 2700 4600
+	2800 6050 2800 5650
 Wire Wire Line
-	1500 4700 1500 5000
-Connection ~ 3350 4150
-Connection ~ 2700 4150
+	1600 5750 1600 6050
+Connection ~ 3450 5200
+Connection ~ 2800 5200
 Wire Wire Line
-	1650 4150 1750 4150
+	1750 5200 1850 5200
 Wire Wire Line
-	1500 4150 1650 4150
-Connection ~ 1500 4150
-Connection ~ 1650 4150
+	1600 5200 1750 5200
+Connection ~ 1600 5200
+Connection ~ 1750 5200
 Wire Wire Line
-	950  4150 1500 4150
+	1050 5200 1600 5200
 Text Label 6200 1900 0    50   ~ 0
 +15_unreg
 Text Label 6200 3600 0    50   ~ 0
@@ -1092,7 +1064,7 @@ F 3 "~" H 6650 1800 50  0001 C CNN
 	1    6650 1800
 	1    0    0    -1  
 $EndComp
-Text Label 950  4150 0    50   ~ 0
+Text Label 1050 5200 0    50   ~ 0
 +15_unreg
 Wire Wire Line
 	6650 1900 6650 1800
@@ -1133,31 +1105,31 @@ Wire Wire Line
 Connection ~ 6500 2750
 Wire Wire Line
 	6500 2750 6750 2750
-Connection ~ 2700 5000
+Connection ~ 2800 6050
 Wire Wire Line
-	2700 5000 2050 5000
+	2800 6050 2150 6050
 Wire Wire Line
-	2050 5000 1750 5000
-Connection ~ 2050 5000
+	2150 6050 1850 6050
+Connection ~ 2150 6050
 Wire Wire Line
-	1000 5100 1000 5000
-Text Notes 550  5600 0    50   Italic 10
-Tie GNDA and GNDRELAY together through\n1k resistor right at reservoir capacitors!
+	1000 6250 1000 6050
+Text Notes 1200 6700 0    50   ~ 0
+Tie GNDA and GNDRELAY together through\n1k resistor right at reservoir capacitors!\noptional jumper to directly short GNDA and GNDRELAY
 $Comp
 L Device:R R4
 U 1 1 5CF6C37A
-P 1250 5000
-F 0 "R4" V 1043 5000 50  0000 C CNN
-F 1 "1k" V 1134 5000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1180 5000 50  0001 C CNN
-F 3 "~" H 1250 5000 50  0001 C CNN
-	1    1250 5000
+P 1300 6050
+F 0 "R4" V 1093 6050 50  0000 C CNN
+F 1 "1k" V 1184 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 6050 50  0001 C CNN
+F 3 "~" H 1300 6050 50  0001 C CNN
+	1    1300 6050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1400 5000 1500 5000
+	1450 6050 1500 6050
 Wire Wire Line
-	1000 5000 1100 5000
+	1000 6050 1100 6050
 $Comp
 L power:GNDA #PWR0101
 U 1 1 5CF81804
@@ -1172,123 +1144,123 @@ $EndComp
 $Comp
 L power:GNDA #PWR0104
 U 1 1 5CF823FE
-P 1000 5100
-F 0 "#PWR0104" H 1000 4850 50  0001 C CNN
-F 1 "GNDA" H 1005 4927 50  0000 C CNN
-F 2 "" H 1000 5100 50  0001 C CNN
-F 3 "" H 1000 5100 50  0001 C CNN
-	1    1000 5100
+P 1000 6250
+F 0 "#PWR0104" H 1000 6000 50  0001 C CNN
+F 1 "GNDA" H 1005 6077 50  0000 C CNN
+F 2 "" H 1000 6250 50  0001 C CNN
+F 3 "" H 1000 6250 50  0001 C CNN
+	1    1000 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 4150 4000 4050
+	4100 5200 4100 5100
 $Comp
 L power:GNDA #PWR0107
 U 1 1 5CFBE3DC
-P 3050 6700
-F 0 "#PWR0107" H 3050 6450 50  0001 C CNN
-F 1 "GNDA" H 3055 6527 50  0000 C CNN
-F 2 "" H 3050 6700 50  0001 C CNN
-F 3 "" H 3050 6700 50  0001 C CNN
-	1    3050 6700
+P 8650 4150
+F 0 "#PWR0107" H 8650 3900 50  0001 C CNN
+F 1 "GNDA" H 8655 3977 50  0000 C CNN
+F 2 "" H 8650 4150 50  0001 C CNN
+F 3 "" H 8650 4150 50  0001 C CNN
+	1    8650 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR0108
 U 1 1 5CFBE7FE
-P 1600 7350
-F 0 "#PWR0108" H 1600 7100 50  0001 C CNN
-F 1 "GNDA" H 1605 7177 50  0000 C CNN
-F 2 "" H 1600 7350 50  0001 C CNN
-F 3 "" H 1600 7350 50  0001 C CNN
-	1    1600 7350
+P 1000 7650
+F 0 "#PWR0108" H 1000 7400 50  0001 C CNN
+F 1 "GNDA" H 1005 7477 50  0000 C CNN
+F 2 "" H 1000 7650 50  0001 C CNN
+F 3 "" H 1000 7650 50  0001 C CNN
+	1    1000 7650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR0109
 U 1 1 5CFBEC4D
-P 3400 7350
-F 0 "#PWR0109" H 3400 7100 50  0001 C CNN
-F 1 "GNDA" H 3405 7177 50  0000 C CNN
-F 2 "" H 3400 7350 50  0001 C CNN
-F 3 "" H 3400 7350 50  0001 C CNN
-	1    3400 7350
+P 2800 7650
+F 0 "#PWR0109" H 2800 7400 50  0001 C CNN
+F 1 "GNDA" H 2805 7477 50  0000 C CNN
+F 2 "" H 2800 7650 50  0001 C CNN
+F 3 "" H 2800 7650 50  0001 C CNN
+	1    2800 7650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR0113
 U 1 1 5CFBEEEB
-P 4300 7350
-F 0 "#PWR0113" H 4300 7100 50  0001 C CNN
-F 1 "GNDA" H 4305 7177 50  0000 C CNN
-F 2 "" H 4300 7350 50  0001 C CNN
-F 3 "" H 4300 7350 50  0001 C CNN
-	1    4300 7350
+P 3700 7650
+F 0 "#PWR0113" H 3700 7400 50  0001 C CNN
+F 1 "GNDA" H 3705 7477 50  0000 C CNN
+F 2 "" H 3700 7650 50  0001 C CNN
+F 3 "" H 3700 7650 50  0001 C CNN
+	1    3700 7650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR0115
 U 1 1 5CFBF321
-P 2500 7350
-F 0 "#PWR0115" H 2500 7100 50  0001 C CNN
-F 1 "GNDA" H 2505 7177 50  0000 C CNN
-F 2 "" H 2500 7350 50  0001 C CNN
-F 3 "" H 2500 7350 50  0001 C CNN
-	1    2500 7350
+P 1900 7650
+F 0 "#PWR0115" H 1900 7400 50  0001 C CNN
+F 1 "GNDA" H 1905 7477 50  0000 C CNN
+F 2 "" H 1900 7650 50  0001 C CNN
+F 3 "" H 1900 7650 50  0001 C CNN
+	1    1900 7650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR0116
 U 1 1 5CFBF7AE
-P 8500 5150
-F 0 "#PWR0116" H 8500 4900 50  0001 C CNN
-F 1 "GNDA" H 8505 4977 50  0000 C CNN
-F 2 "" H 8500 5150 50  0001 C CNN
-F 3 "" H 8500 5150 50  0001 C CNN
-	1    8500 5150
+P 8450 5150
+F 0 "#PWR0116" H 8450 4900 50  0001 C CNN
+F 1 "GNDA" H 8455 4977 50  0000 C CNN
+F 2 "" H 8450 5150 50  0001 C CNN
+F 3 "" H 8450 5150 50  0001 C CNN
+	1    8450 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Heatsink_Pad HS3
 U 1 1 5CFC037A
-P 4350 6500
-F 0 "HS3" H 4491 6539 50  0000 L CNN
-F 1 "Wakefield-Vette 287-1AB" H 4491 6448 50  0000 L CNN
-F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 4362 6450 50  0001 C CNN
-F 3 "~" H 4362 6450 50  0001 C CNN
-	1    4350 6500
+P 2800 4600
+F 0 "HS3" H 2941 4639 50  0000 L CNN
+F 1 "Wakefield-Vette 287-1AB" H 2941 4548 50  0000 L CNN
+F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 2812 4550 50  0001 C CNN
+F 3 "~" H 2812 4550 50  0001 C CNN
+	1    2800 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 6600 4350 6700
+	2800 4700 2800 4800
 $Comp
 L Connector:Conn_01x02_Male J5
 U 1 1 5CFCCBD7
-P 9450 6150
-F 0 "J5" H 9422 6124 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 9422 6033 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 9450 6150 50  0001 C CNN
-F 3 "~" H 9450 6150 50  0001 C CNN
-	1    9450 6150
+P 9400 6150
+F 0 "J5" H 9372 6124 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 9372 6033 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 9400 6150 50  0001 C CNN
+F 3 "~" H 9400 6150 50  0001 C CNN
+	1    9400 6150
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 6050 8750 6150
+	8700 6050 8700 6150
 Wire Wire Line
-	8750 6150 9050 6150
+	8700 6150 9000 6150
 Wire Wire Line
-	8750 6350 8750 6250
+	8700 6350 8700 6250
 Wire Wire Line
-	8750 6250 9150 6250
-Text Notes 1450 3350 0    50   ~ 10
+	8700 6250 9100 6250
+Text Notes 1300 4250 0    79   Italic 16
 AUX SUPPLY FOR RELAYS/FRONT PANEL
 Wire Wire Line
-	4000 5000 3350 5000
+	4100 6050 3450 6050
 Wire Wire Line
-	4000 5100 4000 5000
+	4100 6150 4100 6050
 Wire Wire Line
-	3350 4600 3350 5000
-Connection ~ 3350 5000
+	3450 5650 3450 6050
+Connection ~ 3450 6050
 $Comp
 L Connector:Conn_01x04_Male J1
 U 1 1 5CAF6792
@@ -1303,130 +1275,223 @@ $EndComp
 $Comp
 L power_gkeeth:GNDRELAY #PWR0105
 U 1 1 5CCCD4DA
-P 4000 5100
-F 0 "#PWR0105" H 4000 4850 50  0001 C CNN
-F 1 "GNDRELAY" H 4004 4945 50  0000 C CNN
-F 2 "" H 4000 5100 50  0001 C CNN
-F 3 "" H 4000 5100 50  0001 C CNN
-	1    4000 5100
+P 4100 6150
+F 0 "#PWR0105" H 4100 5900 50  0001 C CNN
+F 1 "GNDRELAY" H 4104 5995 50  0000 C CNN
+F 2 "" H 4100 6150 50  0001 C CNN
+F 3 "" H 4100 6150 50  0001 C CNN
+	1    4100 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power_gkeeth:Vrelay #PWR0110
 U 1 1 5CCCDFF2
-P 4000 4050
-F 0 "#PWR0110" H 4000 3900 50  0001 C CNN
-F 1 "Vrelay" H 4017 4223 50  0000 C CNN
-F 2 "" H 4000 4050 50  0001 C CNN
-F 3 "" H 4000 4050 50  0001 C CNN
-	1    4000 4050
+P 4100 5100
+F 0 "#PWR0110" H 4100 4950 50  0001 C CNN
+F 1 "Vrelay" H 4117 5273 50  0000 C CNN
+F 2 "" H 4100 5100 50  0001 C CNN
+F 3 "" H 4100 5100 50  0001 C CNN
+	1    4100 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power_gkeeth:GNDRELAY #PWR0117
 U 1 1 5CCD5AC4
-P 4350 6700
-F 0 "#PWR0117" H 4350 6450 50  0001 C CNN
-F 1 "GNDRELAY" H 4354 6545 50  0000 C CNN
-F 2 "" H 4350 6700 50  0001 C CNN
-F 3 "" H 4350 6700 50  0001 C CNN
-	1    4350 6700
+P 2800 4800
+F 0 "#PWR0117" H 2800 4550 50  0001 C CNN
+F 1 "GNDRELAY" H 2804 4645 50  0000 C CNN
+F 2 "" H 2800 4800 50  0001 C CNN
+F 3 "" H 2800 4800 50  0001 C CNN
+	1    2800 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power_gkeeth:GNDRELAY #PWR0118
 U 1 1 5CCD749D
-P 8750 6350
-F 0 "#PWR0118" H 8750 6100 50  0001 C CNN
-F 1 "GNDRELAY" H 8754 6195 50  0000 C CNN
-F 2 "" H 8750 6350 50  0001 C CNN
-F 3 "" H 8750 6350 50  0001 C CNN
-	1    8750 6350
+P 8700 6350
+F 0 "#PWR0118" H 8700 6100 50  0001 C CNN
+F 1 "GNDRELAY" H 8704 6195 50  0000 C CNN
+F 2 "" H 8700 6350 50  0001 C CNN
+F 3 "" H 8700 6350 50  0001 C CNN
+	1    8700 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power_gkeeth:Vrelay #PWR0119
 U 1 1 5CCD9AC6
-P 8750 6050
-F 0 "#PWR0119" H 8750 5900 50  0001 C CNN
-F 1 "Vrelay" H 8767 6223 50  0000 C CNN
-F 2 "" H 8750 6050 50  0001 C CNN
-F 3 "" H 8750 6050 50  0001 C CNN
-	1    8750 6050
+P 8700 6050
+F 0 "#PWR0119" H 8700 5900 50  0001 C CNN
+F 1 "Vrelay" H 8717 6223 50  0000 C CNN
+F 2 "" H 8700 6050 50  0001 C CNN
+F 3 "" H 8700 6050 50  0001 C CNN
+	1    8700 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 5000 3350 5000
-Connection ~ 1500 5000
+	2800 6050 3450 6050
+Connection ~ 1600 6050
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 5CD4ED27
-P 1750 5100
-F 0 "#FLG0104" H 1750 5175 50  0001 C CNN
-F 1 "PWR_FLAG" H 1750 5273 50  0000 C CNN
-F 2 "" H 1750 5100 50  0001 C CNN
-F 3 "~" H 1750 5100 50  0001 C CNN
-	1    1750 5100
+P 1850 6150
+F 0 "#FLG0104" H 1850 6225 50  0001 C CNN
+F 1 "PWR_FLAG" H 1850 6323 50  0000 C CNN
+F 2 "" H 1850 6150 50  0001 C CNN
+F 3 "~" H 1850 6150 50  0001 C CNN
+	1    1850 6150
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	1750 5100 1750 5000
-Connection ~ 1750 5000
+	1850 6150 1850 6050
+Connection ~ 1850 6050
 Wire Wire Line
-	1750 5000 1500 5000
+	1850 6050 1600 6050
 $Comp
 L power:GNDA #PWR0106
 U 1 1 5CFBDF10
-P 1750 6700
-F 0 "#PWR0106" H 1750 6450 50  0001 C CNN
-F 1 "GNDA" H 1755 6527 50  0000 C CNN
-F 2 "" H 1750 6700 50  0001 C CNN
-F 3 "" H 1750 6700 50  0001 C CNN
-	1    1750 6700
+P 8650 1500
+F 0 "#PWR0106" H 8650 1250 50  0001 C CNN
+F 1 "GNDA" H 8655 1327 50  0000 C CNN
+F 2 "" H 8650 1500 50  0001 C CNN
+F 3 "" H 8650 1500 50  0001 C CNN
+	1    8650 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 6600 1750 6700
+	8650 1400 8650 1500
 $Comp
 L Mechanical:Heatsink_Pad HS1
 U 1 1 5CB4FC2E
-P 1750 6500
-F 0 "HS1" H 1891 6539 50  0000 L CNN
-F 1 "Wakefield-Vette 287-1AB" H 1891 6448 50  0000 L CNN
-F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 1762 6450 50  0001 C CNN
-F 3 "~" H 1762 6450 50  0001 C CNN
-	1    1750 6500
+P 8650 1300
+F 0 "HS1" H 8791 1339 50  0000 L CNN
+F 1 "Wakefield-Vette 287-1AB" H 8791 1248 50  0000 L CNN
+F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 8662 1250 50  0001 C CNN
+F 3 "~" H 8662 1250 50  0001 C CNN
+	1    8650 1300
 	1    0    0    -1  
 $EndComp
-Text Notes 1500 6350 0    50   ~ 10
+Text Notes 8400 1150 0    50   ~ 10
 VCC Heatsink
-Text Notes 2850 6350 0    50   ~ 10
+Text Notes 8450 3800 0    50   ~ 10
 VEE Heatsink
-Text Notes 4100 6350 0    50   ~ 10
+Text Notes 2550 4450 0    50   ~ 10
 Vrelay Heatsink
 $Comp
 L Connector:Conn_01x02_Male J6
 U 1 1 5D055D9A
-P 9450 6400
-F 0 "J6" H 9422 6374 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 9422 6283 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 9450 6400 50  0001 C CNN
-F 3 "~" H 9450 6400 50  0001 C CNN
-	1    9450 6400
+P 9400 6400
+F 0 "J6" H 9372 6374 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 9372 6283 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 9400 6400 50  0001 C CNN
+F 3 "~" H 9400 6400 50  0001 C CNN
+	1    9400 6400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 6400 9050 6400
+	9200 6400 9000 6400
 Wire Wire Line
-	9050 6400 9050 6150
-Connection ~ 9050 6150
+	9000 6400 9000 6150
+Connection ~ 9000 6150
 Wire Wire Line
-	9050 6150 9250 6150
+	9000 6150 9200 6150
 Wire Wire Line
-	9150 6250 9150 6500
+	9100 6250 9100 6500
 Wire Wire Line
-	9150 6500 9250 6500
-Connection ~ 9150 6250
+	9100 6500 9200 6500
+Connection ~ 9100 6250
 Wire Wire Line
-	9150 6250 9250 6250
+	9100 6250 9200 6250
+$Comp
+L Device:Jumper_NC_Small JP6
+U 1 1 5CFEB35A
+P 1300 6200
+F 0 "JP6" H 1300 6107 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 1300 6321 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 6200 50  0001 C CNN
+F 3 "~" H 1300 6200 50  0001 C CNN
+	1    1300 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6200 1100 6200
+Wire Wire Line
+	1100 6200 1100 6050
+Connection ~ 1100 6050
+Wire Wire Line
+	1100 6050 1150 6050
+Wire Wire Line
+	1400 6200 1500 6200
+Wire Wire Line
+	1500 6200 1500 6050
+Connection ~ 1500 6050
+Wire Wire Line
+	1500 6050 1600 6050
+Text Notes 8800 4150 0    50   Italic 10
+USE INSULATING PADS FOR HEATSINK
+Text Notes 2950 4800 0    50   Italic 10
+USE INSULATING PADS FOR HEATSINK
+Wire Notes Line
+	10350 4500 8300 4500
+Wire Notes Line
+	8300 4500 8300 6650
+Wire Notes Line
+	8300 6650 10350 6650
+Wire Notes Line
+	10350 6650 10350 4500
+Wire Notes Line
+	800  7100 800  7950
+Wire Notes Line
+	800  7950 4600 7950
+Wire Notes Line
+	4600 7950 4600 7100
+Wire Notes Line
+	4600 7100 800  7100
+Wire Notes Line
+	10350 4400 5350 4400
+Wire Notes Line
+	5350 3750 850  3750
+Wire Notes Line
+	10350 850  10350 4400
+Wire Notes Line
+	5350 3750 5350 4400
+Wire Notes Line
+	850  3750 850  850 
+Wire Notes Line
+	850  850  10350 850 
+Wire Notes Line
+	850  4050 850  6800
+Wire Notes Line
+	850  6800 4500 6800
+Wire Notes Line
+	4500 6800 4500 4050
+Wire Notes Line
+	4500 4050 850  4050
+$Comp
+L Device:LED_ALT D10
+U 1 1 5CA21F88
+P 6750 3350
+F 0 "D10" V 6789 3232 50  0000 R CNN
+F 1 "LED" V 6698 3232 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6750 3350 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 6750 3350 50  0001 C CNN
+F 4 "Lite-On" H 6750 3350 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C191KRKT" H 6750 3350 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6750 3350 50  0001 C CNN "Distributor"
+F 7 "160-1447-1-ND" H 6750 3350 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 6750 3350 50  0001 C CNN "URL"
+F 9 "0.29" H 6750 3350 50  0001 C CNN "Unit Price"
+	1    6750 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C5B0DBB
+P 6750 2950
+F 0 "R3" H 6820 2996 50  0000 L CNN
+F 1 "10k" H 6820 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 2950 50  0001 C CNN
+F 3 "~" H 6750 2950 50  0001 C CNN
+	1    6750 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
