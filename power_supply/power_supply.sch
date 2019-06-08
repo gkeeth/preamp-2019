@@ -619,7 +619,7 @@ F 9 "0.29" H 6850 2100 50  0001 C CNN "Unit Price"
 	0    -1   -1   0   
 $EndComp
 Text Notes 5500 6250 0    50   ~ 0
-TODO\nbleeder resistors for reservoir caps? Will LEDs work for that?\nrecalculate reservoir capacitors with final current measurements
+TODO\nbleeder resistors for reservoir caps? Will LEDs work for that?
 $Comp
 L Device:CP1 C8
 U 1 1 5CB200BE
@@ -697,8 +697,6 @@ clearance holes for 8-32 standoffs\nuse insulated standoffs
 Wire Wire Line
 	5400 2450 5400 2750
 Connection ~ 5400 1900
-Wire Wire Line
-	5400 1900 6000 1900
 Connection ~ 5300 3600
 Wire Wire Line
 	5300 3350 5300 3600
@@ -750,57 +748,6 @@ Wire Wire Line
 	5300 2850 5300 3050
 Wire Wire Line
 	5000 2850 5300 2850
-Connection ~ 5900 2750
-Wire Wire Line
-	5900 2750 6000 2750
-Wire Wire Line
-	5900 2750 5400 2750
-Wire Wire Line
-	5300 3600 5900 3600
-Wire Wire Line
-	5900 3350 5900 3600
-Wire Wire Line
-	5900 2750 5900 3050
-$Comp
-L Device:CP1 C6
-U 1 1 5CB06522
-P 5900 3200
-F 0 "C6" H 6015 3291 50  0000 L CNN
-F 1 "1000u" H 6015 3200 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 5900 3200 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 5900 3200 50  0001 C CNN
-F 4 "Nichicon" H 5900 3200 50  0001 C CNN "Manufacturer"
-F 5 "UVR1H102MHD" H 5900 3200 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5900 3200 50  0001 C CNN "Distributor"
-F 7 "493-1111-ND" H 5900 3200 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H102MHD/493-1111-ND/588852" H 5900 3200 50  0001 C CNN "URL"
-F 9 "0.86" H 5900 3200 50  0001 C CNN "Unit Price"
-F 10 "DNP" H 6015 3109 50  0000 L CNN "DNP"
-	1    5900 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 2450 6000 2750
-Wire Wire Line
-	6000 2150 6000 1900
-$Comp
-L Device:CP1 C5
-U 1 1 5CB0609E
-P 6000 2300
-F 0 "C5" H 6115 2391 50  0000 L CNN
-F 1 "1000u" H 6115 2300 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 6000 2300 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 6000 2300 50  0001 C CNN
-F 4 "Nichicon" H 6000 2300 50  0001 C CNN "Manufacturer"
-F 5 "UVR1H102MHD" H 6000 2300 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 6000 2300 50  0001 C CNN "Distributor"
-F 7 "493-1111-ND" H 6000 2300 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H102MHD/493-1111-ND/588852" H 6000 2300 50  0001 C CNN "URL"
-F 9 "0.86" H 6000 2300 50  0001 C CNN "Unit Price"
-F 10 "DNP" H 6115 2209 50  0000 L CNN "DNP"
-	1    6000 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 2000 3850 3600
 Wire Wire Line
@@ -845,15 +792,6 @@ Connection ~ 6850 2750
 Wire Wire Line
 	6850 1900 7400 1900
 Connection ~ 6850 1900
-Wire Wire Line
-	6000 2750 6500 2750
-Connection ~ 6000 2750
-Wire Wire Line
-	6000 1900 6650 1900
-Connection ~ 6000 1900
-Wire Wire Line
-	5900 3600 6650 3600
-Connection ~ 5900 3600
 Wire Wire Line
 	5300 2850 5300 2750
 Wire Wire Line
@@ -1507,4 +1445,10 @@ F 3 "~" H 5400 7400 50  0001 C CNN
 	1    5400 7400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5400 1900 6650 1900
+Wire Wire Line
+	5300 3600 6650 3600
+Wire Wire Line
+	5400 2750 6500 2750
 $EndSCHEMATC
