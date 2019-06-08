@@ -1984,15 +1984,15 @@
     (tags "mounting hole 4.5mm")
     (path /5CB60C90)
     (attr virtual)
-    (fp_text reference H4 (at 0 -5.5) (layer F.SilkS)
+    (fp_text reference H4 (at 0 -5.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_Pad (at 0 5.5) (layer F.Fab)
+    (fp_text value MountingHole_Pad (at 0 5.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 4.75 0) (layer F.CrtYd) (width 0.05))
     (fp_circle (center 0 0) (end 4.5 0) (layer Cmts.User) (width 0.15))
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 9 9) (drill 4.5) (layers *.Cu *.Mask)
@@ -2005,15 +2005,15 @@
     (tags "mounting hole 4.5mm")
     (path /5CB6616E)
     (attr virtual)
-    (fp_text reference H3 (at 0 -5.5) (layer F.SilkS)
+    (fp_text reference H3 (at 0 -5.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_Pad (at 0 5.5) (layer F.Fab)
+    (fp_text value MountingHole_Pad (at 0 5.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 4.75 0) (layer F.CrtYd) (width 0.05))
     (fp_circle (center 0 0) (end 4.5 0) (layer Cmts.User) (width 0.15))
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 9 9) (drill 4.5) (layers *.Cu *.Mask)
@@ -2026,15 +2026,15 @@
     (tags "mounting hole 4.5mm")
     (path /5CB49A9B)
     (attr virtual)
-    (fp_text reference H2 (at 0 -5.5) (layer F.SilkS)
+    (fp_text reference H2 (at 0 -5.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_Pad (at 0 5.5) (layer F.Fab)
+    (fp_text value MountingHole_Pad (at 0 5.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 4.75 0) (layer F.CrtYd) (width 0.05))
     (fp_circle (center 0 0) (end 4.5 0) (layer Cmts.User) (width 0.15))
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 9 9) (drill 4.5) (layers *.Cu *.Mask)
@@ -2047,15 +2047,15 @@
     (tags "mounting hole 4.5mm")
     (path /5CB5B46E)
     (attr virtual)
-    (fp_text reference H1 (at 0 -5.5) (layer F.SilkS)
+    (fp_text reference H1 (at 0 -5.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_Pad (at 0 5.5) (layer F.Fab)
+    (fp_text value MountingHole_Pad (at 0 5.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 4.75 0) (layer F.CrtYd) (width 0.05))
     (fp_circle (center 0 0) (end 4.5 0) (layer Cmts.User) (width 0.15))
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
+    (fp_text user %R (at 0.3 0) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 9 9) (drill 4.5) (layers *.Cu *.Mask)
