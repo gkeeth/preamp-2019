@@ -15,45 +15,28 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C C7
-U 1 1 5C3F0B83
-P 7400 2300
-F 0 "C7" H 7515 2346 50  0000 L CNN
-F 1 "330n" H 7515 2255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7400 2300 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B334KBFNNNE.jsp" H 7400 2300 50  0001 C CNN
-F 4 "Samsung" H 7400 2300 50  0001 C CNN "Manufacturer"
-F 5 "CL21B334KBFNNNE" H 7400 2300 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 7400 2300 50  0001 C CNN "Distributor"
-F 7 "1276-1123-1-ND" H 7400 2300 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B334KBFNNNE/1276-1123-1-ND/3889209" H 7400 2300 50  0001 C CNN "URL"
-F 9 "0.19" H 7400 2300 50  0001 C CNN "Unit Price"
-	1    7400 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C9
 U 1 1 5C3F189C
-P 8600 2200
-F 0 "C9" H 8715 2246 50  0000 L CNN
-F 1 "100u" H 8715 2155 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8600 2200 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 8600 2200 50  0001 C CNN
-F 4 "Nichicon" H 8600 2200 50  0001 C CNN "Manufacturer"
-F 5 "UVR1V101MED" H 8600 2200 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 8600 2200 50  0001 C CNN "Distributor"
-F 7 "493-1081-ND" H 8600 2200 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 8600 2200 50  0001 C CNN "URL"
-F 9 "0.25" H 8600 2200 50  0001 C CNN "Unit Price"
-	1    8600 2200
+P 9750 2300
+F 0 "C9" H 9865 2346 50  0000 L CNN
+F 1 "100u" H 9865 2255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9750 2300 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 9750 2300 50  0001 C CNN
+F 4 "Nichicon" H 9750 2300 50  0001 C CNN "Manufacturer"
+F 5 "UVR1V101MED" H 9750 2300 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 9750 2300 50  0001 C CNN "Distributor"
+F 7 "493-1081-ND" H 9750 2300 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 9750 2300 50  0001 C CNN "URL"
+F 9 "0.25" H 9750 2300 50  0001 C CNN "Unit Price"
+	1    9750 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 2050 9250 1900
+	8600 2150 8600 1900
 Wire Wire Line
-	8600 2050 8600 1900
+	9750 2150 9750 1900
 Wire Wire Line
-	9100 3600 9100 3450
+	8500 3600 8500 3350
 Wire Wire Line
 	9900 2750 9900 2850
 $Comp
@@ -237,7 +220,7 @@ Wire Wire Line
 	5000 3600 5300 3600
 Wire Wire Line
 	4800 3600 3850 3600
-Text Notes 5850 4200 0    50   ~ 0
+Text Notes 5400 4350 0    50   ~ 0
 LED RESISTORS\nVf = 2V\nwith R = 10k, I = 1.3mA\nwith R = 1k, I = 13mA\ntry R = 10k; if too dim try R = 1k
 $Comp
 L Device:Fuse F1
@@ -332,35 +315,35 @@ $EndComp
 $Comp
 L Diode:MRA4004T3G D7
 U 1 1 5CA7F481
-P 9250 2200
-F 0 "D7" V 9204 2121 50  0000 R CNN
-F 1 "MRA4004T3G" V 9295 2121 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 9250 2025 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 9250 2200 50  0001 C CNN
-F 4 "On Semiconductor" H 9250 2200 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 9250 2200 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 9250 2200 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 9250 2200 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 9250 2200 50  0001 C CNN "URL"
-F 9 "0.29" H 9250 2200 50  0001 C CNN "Unit Price"
-	1    9250 2200
+P 8600 2300
+F 0 "D7" V 8554 2221 50  0000 R CNN
+F 1 "MRA4004T3G" V 8645 2221 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA" H 8600 2125 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 8600 2300 50  0001 C CNN
+F 4 "On Semiconductor" H 8600 2300 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 8600 2300 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8600 2300 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 8600 2300 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 8600 2300 50  0001 C CNN "URL"
+F 9 "0.29" H 8600 2300 50  0001 C CNN "Unit Price"
+	1    8600 2300
 	0    -1   1    0   
 $EndComp
 $Comp
 L Diode:MRA4004T3G D8
 U 1 1 5CA801BF
-P 9100 3300
-F 0 "D8" V 9054 3221 50  0000 R CNN
-F 1 "MRA4004T3G" V 9145 3221 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 9100 3125 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 9100 3300 50  0001 C CNN
-F 4 "On Semiconductor" H 9100 3300 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 9100 3300 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 9100 3300 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 9100 3300 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 9100 3300 50  0001 C CNN "URL"
-F 9 "0.29" H 9100 3300 50  0001 C CNN "Unit Price"
-	1    9100 3300
+P 8500 3200
+F 0 "D8" V 8454 3121 50  0000 R CNN
+F 1 "MRA4004T3G" V 8545 3121 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA" H 8500 3025 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 8500 3200 50  0001 C CNN
+F 4 "On Semiconductor" H 8500 3200 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 8500 3200 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8500 3200 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 8500 3200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 8500 3200 50  0001 C CNN "URL"
+F 9 "0.29" H 8500 3200 50  0001 C CNN "Unit Price"
+	1    8500 3200
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -440,111 +423,98 @@ Wire Wire Line
 	3000 1800 3000 1250
 Wire Wire Line
 	3000 2100 3000 2650
-Wire Wire Line
-	9250 1900 9900 1900
-Wire Wire Line
-	8600 1900 9250 1900
 $Comp
 L Device:CP1 C10
 U 1 1 5CA3C45B
-P 8450 3300
-F 0 "C10" H 8565 3346 50  0000 L CNN
-F 1 "100u" H 8565 3255 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8450 3300 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 8450 3300 50  0001 C CNN
-F 4 "Nichicon" H 8450 3300 50  0001 C CNN "Manufacturer"
-F 5 "UVR1V101MED" H 8450 3300 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 8450 3300 50  0001 C CNN "Distributor"
-F 7 "493-1081-ND" H 8450 3300 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 8450 3300 50  0001 C CNN "URL"
-F 9 "0.25" H 8450 3300 50  0001 C CNN "Unit Price"
-	1    8450 3300
+P 9650 3200
+F 0 "C10" H 9765 3246 50  0000 L CNN
+F 1 "100u" H 9765 3155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9650 3200 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 9650 3200 50  0001 C CNN
+F 4 "Nichicon" H 9650 3200 50  0001 C CNN "Manufacturer"
+F 5 "UVR1V101MED" H 9650 3200 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 9650 3200 50  0001 C CNN "Distributor"
+F 7 "493-1081-ND" H 9650 3200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 9650 3200 50  0001 C CNN "URL"
+F 9 "0.25" H 9650 3200 50  0001 C CNN "Unit Price"
+	1    9650 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 3600 8450 3450
+	9650 3600 9650 3350
 $Comp
 L Diode:MRA4004T3G D6
 U 1 1 5CA6D131
-P 7800 4200
-F 0 "D6" H 7800 4416 50  0000 C CNN
-F 1 "MRA4004T3G" H 7800 4325 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 7800 4025 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 7800 4200 50  0001 C CNN
-F 4 "On Semiconductor" H 7800 4200 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 7800 4200 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 7800 4200 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 7800 4200 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 7800 4200 50  0001 C CNN "URL"
-F 9 "0.29" H 7800 4200 50  0001 C CNN "Unit Price"
-	1    7800 4200
+P 7500 4200
+F 0 "D6" H 7500 4416 50  0000 C CNN
+F 1 "MRA4004T3G" H 7500 4325 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 7500 4025 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 7500 4200 50  0001 C CNN
+F 4 "On Semiconductor" H 7500 4200 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 7500 4200 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 7500 4200 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 7500 4200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 7500 4200 50  0001 C CNN "URL"
+F 9 "0.29" H 7500 4200 50  0001 C CNN "Unit Price"
+	1    7500 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:MRA4004T3G D5
 U 1 1 5CA5FC4A
-P 7900 1400
-F 0 "D5" H 7900 1184 50  0000 C CNN
-F 1 "MRA4004T3G" H 7900 1275 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 7900 1225 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 7900 1400 50  0001 C CNN
-F 4 "On Semiconductor" H 7900 1400 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 7900 1400 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 7900 1400 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 7900 1400 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 7900 1400 50  0001 C CNN "URL"
-F 9 "0.29" H 7900 1400 50  0001 C CNN "Unit Price"
-	1    7900 1400
+P 7650 1400
+F 0 "D5" H 7650 1184 50  0000 C CNN
+F 1 "MRA4004T3G" H 7650 1275 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 7650 1225 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 7650 1400 50  0001 C CNN
+F 4 "On Semiconductor" H 7650 1400 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 7650 1400 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 7650 1400 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 7650 1400 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 7650 1400 50  0001 C CNN "URL"
+F 9 "0.29" H 7650 1400 50  0001 C CNN "Unit Price"
+	1    7650 1400
 	1    0    0    1   
 $EndComp
 Text Notes 5400 1750 0    50   ~ 0
 RESERVOIR CAPACITORS\nC = I * dt / Vpp\n\nI = 250mA\ndt = 8.33ms\nVpp = 1-2V\n\nVpp = 1V -> C = 2000uF\nVpp = 2V -> C = 1000uF
 Wire Wire Line
-	8250 4200 8250 3600
+	7950 4200 7950 3600
 Wire Wire Line
-	7950 4200 8250 4200
+	7650 4200 7950 4200
 Wire Wire Line
-	8150 3600 8250 3600
+	8050 1400 8050 1900
 Wire Wire Line
-	8350 1400 8350 1900
+	7800 1400 8050 1400
 Wire Wire Line
-	8050 1400 8350 1400
+	7250 1400 7250 1900
 Wire Wire Line
-	7550 1400 7550 1900
+	7500 1400 7250 1400
 Wire Wire Line
-	7750 1400 7550 1400
-Wire Wire Line
-	8250 1900 8350 1900
+	7950 1900 8050 1900
 $Comp
 L Regulator_Linear:LM7915_TO220 U2
 U 1 1 5C3F04CC
-P 7850 3600
-F 0 "U2" H 7850 3450 50  0000 C CNN
-F 1 "LM7915_TO220" H 7850 3359 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7850 3400 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM7905.pdf" H 7850 3600 50  0001 C CNN
-	1    7850 3600
+P 7550 3600
+F 0 "U2" H 7550 3450 50  0000 C CNN
+F 1 "LM7915_TO220" H 7550 3359 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7550 3400 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7905.pdf" H 7550 3600 50  0001 C CNN
+	1    7550 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Regulator_Linear:LM7815_TO220 U1
 U 1 1 5C3F03FA
-P 7950 1900
-F 0 "U1" H 7950 2142 50  0000 C CNN
-F 1 "LM7815_TO220" H 7950 2051 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7950 2125 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 7950 1850 50  0001 C CNN
-	1    7950 1900
+P 7650 1900
+F 0 "U1" H 7650 2142 50  0000 C CNN
+F 1 "LM7815_TO220" H 7650 2051 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7650 2125 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 7650 1850 50  0001 C CNN
+	1    7650 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8250 3600 8450 3600
-Connection ~ 8250 3600
-Wire Wire Line
-	8350 1900 8600 1900
-Connection ~ 8350 1900
-Wire Wire Line
-	7400 1900 7400 2150
+Connection ~ 8050 1900
 Wire Wire Line
 	4700 1750 4700 1900
 Connection ~ 4700 1900
@@ -593,49 +563,30 @@ Wire Wire Line
 $Comp
 L Device:R R2
 U 1 1 5C4110E7
-P 6850 2500
-F 0 "R2" H 6920 2546 50  0000 L CNN
-F 1 "10k" H 6920 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6780 2500 50  0001 C CNN
-F 3 "~" H 6850 2500 50  0001 C CNN
-	1    6850 2500
+P 5900 2500
+F 0 "R2" H 5970 2546 50  0000 L CNN
+F 1 "10k" H 5970 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5830 2500 50  0001 C CNN
+F 3 "~" H 5900 2500 50  0001 C CNN
+	1    5900 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED_ALT D9
 U 1 1 5C40C321
-P 6850 2100
-F 0 "D9" V 6888 1982 50  0000 R CNN
-F 1 "LED" V 6797 1982 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 6850 2100 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 6850 2100 50  0001 C CNN
-F 4 "Lite-On" H 6850 2100 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C191KRKT" H 6850 2100 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 6850 2100 50  0001 C CNN "Distributor"
-F 7 "160-1447-1-ND" H 6850 2100 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 6850 2100 50  0001 C CNN "URL"
-F 9 "0.29" H 6850 2100 50  0001 C CNN "Unit Price"
-	1    6850 2100
+P 5900 2100
+F 0 "D9" V 5938 1982 50  0000 R CNN
+F 1 "LED" V 5847 1982 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5900 2100 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 5900 2100 50  0001 C CNN
+F 4 "Lite-On" H 5900 2100 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C191KRKT" H 5900 2100 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 5900 2100 50  0001 C CNN "Distributor"
+F 7 "160-1447-1-ND" H 5900 2100 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 5900 2100 50  0001 C CNN "URL"
+F 9 "0.29" H 5900 2100 50  0001 C CNN "Unit Price"
+	1    5900 2100
 	0    -1   -1   0   
-$EndComp
-Text Notes 5500 6250 0    50   ~ 0
-TODO\nbleeder resistors for reservoir caps? Will LEDs work for that?
-$Comp
-L Device:CP1 C8
-U 1 1 5CB200BE
-P 7300 3200
-F 0 "C8" H 7415 3246 50  0000 L CNN
-F 1 "22u" H 7415 3155 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7300 3200 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 7300 3200 50  0001 C CNN
-F 4 "Nichicon" H 7300 3200 50  0001 C CNN "Manufacturer"
-F 5 "UVR1H220MDD" H 7300 3200 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 7300 3200 50  0001 C CNN "Distributor"
-F 7 "493-1104-ND" H 7300 3200 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H220MDD/493-1104-ND/588845" H 7300 3200 50  0001 C CNN "URL"
-F 9 "0.23" H 7300 3200 50  0001 C CNN "Unit Price"
-	1    7300 3200
-	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
@@ -717,33 +668,19 @@ F 9 "0.86" H 5300 3200 50  0001 C CNN "Unit Price"
 	1    5300 3200
 	1    0    0    -1  
 $EndComp
-Connection ~ 8450 2750
-Connection ~ 7950 2750
+Connection ~ 7650 2750
 Wire Wire Line
-	7950 2750 8450 2750
+	7650 2200 7650 2750
 Wire Wire Line
-	7950 2200 7950 2750
+	7550 2750 7650 2750
 Wire Wire Line
-	7850 2750 7950 2750
+	9650 3050 9650 2750
 Wire Wire Line
-	8450 2750 8600 2750
+	8500 2750 8500 3050
 Wire Wire Line
-	8450 3150 8450 2750
+	8600 2750 8600 2450
 Wire Wire Line
-	8600 2750 9100 2750
-Wire Wire Line
-	9100 2750 9250 2750
-Connection ~ 9100 2750
-Wire Wire Line
-	9250 2750 9900 2750
-Wire Wire Line
-	9100 2750 9100 3150
-Wire Wire Line
-	9250 2750 9250 2350
-Wire Wire Line
-	8600 2750 8600 2350
-Wire Wire Line
-	7400 2450 7400 2750
+	9750 2750 9750 2450
 Wire Wire Line
 	5300 2850 5300 3050
 Wire Wire Line
@@ -751,47 +688,23 @@ Wire Wire Line
 Wire Wire Line
 	3850 2000 3850 3600
 Wire Wire Line
-	7850 2750 7850 3300
+	7550 2750 7550 3300
 Wire Wire Line
-	6850 1900 6850 1950
+	5900 1900 5900 1950
 Wire Wire Line
-	6850 2250 6850 2350
+	5900 2250 5900 2350
 Wire Wire Line
-	6850 2650 6850 2750
+	5900 2650 5900 2750
 Wire Wire Line
-	6750 2800 6750 2750
-Connection ~ 6750 2750
+	5800 2800 5800 2750
 Wire Wire Line
-	6750 2750 6850 2750
+	5800 3100 5800 3200
 Wire Wire Line
-	6750 3100 6750 3200
+	5800 3500 5800 3600
 Wire Wire Line
-	6750 3500 6750 3600
-Connection ~ 6750 3600
-Connection ~ 9250 1900
-Connection ~ 9250 2750
-Connection ~ 8600 1900
-Connection ~ 8600 2750
-Wire Wire Line
-	8450 3600 9100 3600
-Connection ~ 8450 3600
-Wire Wire Line
-	9100 3600 9900 3600
-Connection ~ 9100 3600
-Wire Wire Line
-	7550 1900 7650 1900
-Wire Wire Line
-	7850 2750 7400 2750
-Connection ~ 7850 2750
-Connection ~ 7400 2750
-Wire Wire Line
-	7400 1900 7550 1900
-Connection ~ 7400 1900
-Connection ~ 7550 1900
-Connection ~ 6850 2750
-Wire Wire Line
-	6850 1900 7400 1900
-Connection ~ 6850 1900
+	7250 1900 7350 1900
+Connection ~ 7550 2750
+Connection ~ 7250 1900
 Wire Wire Line
 	5300 2850 5300 2750
 Wire Wire Line
@@ -799,26 +712,9 @@ Wire Wire Line
 Connection ~ 5300 2850
 Connection ~ 5400 2750
 Wire Wire Line
-	6750 3600 7300 3600
+	7350 4200 7150 4200
 Wire Wire Line
-	6850 2750 7300 2750
-Wire Wire Line
-	7300 3050 7300 2750
-Connection ~ 7300 2750
-Wire Wire Line
-	7300 2750 7400 2750
-Wire Wire Line
-	7300 3350 7300 3600
-Connection ~ 7300 3600
-Wire Wire Line
-	7300 3600 7450 3600
-Wire Wire Line
-	7650 4200 7450 4200
-Wire Wire Line
-	7450 4200 7450 3600
-Connection ~ 7450 3600
-Wire Wire Line
-	7450 3600 7550 3600
+	7150 4200 7150 3600
 Text Notes 8950 4700 0    79   Italic 16
 OUTPUT CONNECTORS
 Text Notes 950  1750 0    50   ~ 10
@@ -870,64 +766,43 @@ Wire Wire Line
 Wire Wire Line
 	8900 5950 9200 5950
 $Comp
-L Device:C C11
-U 1 1 5CEE94C0
-P 1600 5600
-F 0 "C11" H 1715 5646 50  0000 L CNN
-F 1 "330n" H 1715 5555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 5600 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B334KBFNNNE.jsp" H 1600 5600 50  0001 C CNN
-F 4 "Samsung" H 1600 5600 50  0001 C CNN "Manufacturer"
-F 5 "CL21B334KBFNNNE" H 1600 5600 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 1600 5600 50  0001 C CNN "Distributor"
-F 7 "1276-1123-1-ND" H 1600 5600 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B334KBFNNNE/1276-1123-1-ND/3889209" H 1600 5600 50  0001 C CNN "URL"
-F 9 "0.19" H 1600 5600 50  0001 C CNN "Unit Price"
-	1    1600 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C12
+L Device:CP1 C13
 U 1 1 5CEE94CC
-P 2800 5500
-F 0 "C12" H 2915 5546 50  0000 L CNN
-F 1 "100u" H 2915 5455 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2800 5500 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 2800 5500 50  0001 C CNN
-F 4 "Nichicon" H 2800 5500 50  0001 C CNN "Manufacturer"
-F 5 "UVR1V101MED" H 2800 5500 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 2800 5500 50  0001 C CNN "Distributor"
-F 7 "493-1081-ND" H 2800 5500 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 2800 5500 50  0001 C CNN "URL"
-F 9 "0.25" H 2800 5500 50  0001 C CNN "Unit Price"
-	1    2800 5500
+P 4800 5600
+F 0 "C13" H 4915 5646 50  0000 L CNN
+F 1 "100u" H 4915 5555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4800 5600 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 4800 5600 50  0001 C CNN
+F 4 "Nichicon" H 4800 5600 50  0001 C CNN "Manufacturer"
+F 5 "UVR1V101MED" H 4800 5600 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 4800 5600 50  0001 C CNN "Distributor"
+F 7 "493-1081-ND" H 4800 5600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 4800 5600 50  0001 C CNN "URL"
+F 9 "0.25" H 4800 5600 50  0001 C CNN "Unit Price"
+	1    4800 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 5350 3450 5200
+	3100 5450 3100 5200
 Wire Wire Line
-	2800 5350 2800 5200
+	4800 5450 4800 5200
 $Comp
 L Diode:MRA4004T3G D12
 U 1 1 5CEE94DA
-P 3450 5500
-F 0 "D12" V 3404 5421 50  0000 R CNN
-F 1 "MRA4004T3G" V 3495 5421 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 3450 5325 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 3450 5500 50  0001 C CNN
-F 4 "On Semiconductor" H 3450 5500 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 3450 5500 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 3450 5500 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 3450 5500 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 3450 5500 50  0001 C CNN "URL"
-F 9 "0.29" H 3450 5500 50  0001 C CNN "Unit Price"
-	1    3450 5500
+P 3100 5600
+F 0 "D12" V 3054 5521 50  0000 R CNN
+F 1 "MRA4004T3G" V 3145 5521 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA" H 3100 5425 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 3100 5600 50  0001 C CNN
+F 4 "On Semiconductor" H 3100 5600 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 3100 5600 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3100 5600 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 3100 5600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 3100 5600 50  0001 C CNN "URL"
+F 9 "0.29" H 3100 5600 50  0001 C CNN "Unit Price"
+	1    3100 5600
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	3450 5200 4100 5200
-Wire Wire Line
-	2800 5200 3450 5200
 $Comp
 L Diode:MRA4004T3G D11
 U 1 1 5CEE94E8
@@ -966,27 +841,14 @@ F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 2150 5150 50  0001 C CNN
 	1    2150 5200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 5200 2800 5200
 Connection ~ 2550 5200
-Wire Wire Line
-	1600 5200 1600 5450
 Wire Wire Line
 	2150 5500 2150 6050
 Wire Wire Line
-	2800 6050 2800 5650
-Wire Wire Line
-	1600 5750 1600 6050
-Connection ~ 3450 5200
-Connection ~ 2800 5200
+	4800 6050 4800 5750
 Wire Wire Line
 	1750 5200 1850 5200
-Wire Wire Line
-	1600 5200 1750 5200
-Connection ~ 1600 5200
 Connection ~ 1750 5200
-Wire Wire Line
-	1050 5200 1600 5200
 Text Label 6200 1900 0    50   ~ 0
 +15_unreg
 Text Label 6200 3600 0    50   ~ 0
@@ -1010,12 +872,8 @@ Wire Wire Line
 	1200 1250 2200 1250
 Connection ~ 6650 1900
 Wire Wire Line
-	6650 1900 6850 1900
-Wire Wire Line
 	6650 3700 6650 3600
 Connection ~ 6650 3600
-Wire Wire Line
-	6650 3600 6750 3600
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5CEF1F46
@@ -1042,11 +900,6 @@ Wire Wire Line
 	6500 2750 6500 2650
 Connection ~ 6500 2750
 Wire Wire Line
-	6500 2750 6750 2750
-Connection ~ 2800 6050
-Wire Wire Line
-	2800 6050 2150 6050
-Wire Wire Line
 	2150 6050 1850 6050
 Connection ~ 2150 6050
 Wire Wire Line
@@ -1054,10 +907,10 @@ Wire Wire Line
 Text Notes 1200 6700 0    50   ~ 0
 Tie GNDA and GNDRELAY together through\n1k resistor right at reservoir capacitors!\noptional jumper to directly short GNDA and GNDRELAY
 $Comp
-L Device:R R4
+L Device:R R7
 U 1 1 5CF6C37A
 P 1300 6050
-F 0 "R4" V 1093 6050 50  0000 C CNN
+F 0 "R7" V 1093 6050 50  0000 C CNN
 F 1 "1k" V 1184 6050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 6050 50  0001 C CNN
 F 3 "~" H 1300 6050 50  0001 C CNN
@@ -1091,7 +944,7 @@ F 3 "" H 1000 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 5200 4100 5100
+	5000 5200 5000 5100
 $Comp
 L power:GNDA #PWR0107
 U 1 1 5CFBE3DC
@@ -1193,12 +1046,11 @@ Wire Wire Line
 Text Notes 1300 4250 0    79   Italic 16
 AUX SUPPLY FOR RELAYS/FRONT PANEL
 Wire Wire Line
-	4100 6050 3450 6050
+	5000 6050 4800 6050
 Wire Wire Line
-	4100 6150 4100 6050
+	5000 6150 5000 6050
 Wire Wire Line
-	3450 5650 3450 6050
-Connection ~ 3450 6050
+	3100 5750 3100 6050
 $Comp
 L Connector:Conn_01x04_Male J1
 U 1 1 5CAF6792
@@ -1213,23 +1065,23 @@ $EndComp
 $Comp
 L power_gkeeth:GNDRELAY #PWR0105
 U 1 1 5CCCD4DA
-P 4100 6150
-F 0 "#PWR0105" H 4100 5900 50  0001 C CNN
-F 1 "GNDRELAY" H 4104 5995 50  0000 C CNN
-F 2 "" H 4100 6150 50  0001 C CNN
-F 3 "" H 4100 6150 50  0001 C CNN
-	1    4100 6150
+P 5000 6150
+F 0 "#PWR0105" H 5000 5900 50  0001 C CNN
+F 1 "GNDRELAY" H 5004 5995 50  0000 C CNN
+F 2 "" H 5000 6150 50  0001 C CNN
+F 3 "" H 5000 6150 50  0001 C CNN
+	1    5000 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power_gkeeth:Vrelay #PWR0110
 U 1 1 5CCCDFF2
-P 4100 5100
-F 0 "#PWR0110" H 4100 4950 50  0001 C CNN
-F 1 "Vrelay" H 4117 5273 50  0000 C CNN
-F 2 "" H 4100 5100 50  0001 C CNN
-F 3 "" H 4100 5100 50  0001 C CNN
-	1    4100 5100
+P 5000 5100
+F 0 "#PWR0110" H 5000 4950 50  0001 C CNN
+F 1 "Vrelay" H 5017 5273 50  0000 C CNN
+F 2 "" H 5000 5100 50  0001 C CNN
+F 3 "" H 5000 5100 50  0001 C CNN
+	1    5000 5100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1265,9 +1117,6 @@ F 3 "" H 8700 6050 50  0001 C CNN
 	1    8700 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 6050 3450 6050
-Connection ~ 1600 6050
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 5CD4ED27
@@ -1282,8 +1131,6 @@ $EndComp
 Wire Wire Line
 	1850 6150 1850 6050
 Connection ~ 1850 6050
-Wire Wire Line
-	1850 6050 1600 6050
 $Comp
 L power:GNDA #PWR0106
 U 1 1 5CFBDF10
@@ -1362,8 +1209,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 6200 1500 6050
 Connection ~ 1500 6050
-Wire Wire Line
-	1500 6050 1600 6050
 Text Notes 8800 4150 0    50   Italic 10
 USE INSULATING PADS FOR HEATSINK
 Text Notes 2950 4800 0    50   Italic 10
@@ -1398,38 +1243,32 @@ Wire Notes Line
 	850  850  10350 850 
 Wire Notes Line
 	850  4050 850  6800
-Wire Notes Line
-	850  6800 4500 6800
-Wire Notes Line
-	4500 6800 4500 4050
-Wire Notes Line
-	4500 4050 850  4050
 $Comp
 L Device:LED_ALT D10
 U 1 1 5CA21F88
-P 6750 3350
-F 0 "D10" V 6789 3232 50  0000 R CNN
-F 1 "LED" V 6698 3232 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 6750 3350 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 6750 3350 50  0001 C CNN
-F 4 "Lite-On" H 6750 3350 50  0001 C CNN "Manufacturer"
-F 5 "LTST-C191KRKT" H 6750 3350 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 6750 3350 50  0001 C CNN "Distributor"
-F 7 "160-1447-1-ND" H 6750 3350 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 6750 3350 50  0001 C CNN "URL"
-F 9 "0.29" H 6750 3350 50  0001 C CNN "Unit Price"
-	1    6750 3350
+P 5800 3350
+F 0 "D10" V 5839 3232 50  0000 R CNN
+F 1 "LED" V 5748 3232 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5800 3350 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 5800 3350 50  0001 C CNN
+F 4 "Lite-On" H 5800 3350 50  0001 C CNN "Manufacturer"
+F 5 "LTST-C191KRKT" H 5800 3350 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 5800 3350 50  0001 C CNN "Distributor"
+F 7 "160-1447-1-ND" H 5800 3350 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KRKT/160-1447-1-ND/386836" H 5800 3350 50  0001 C CNN "URL"
+F 9 "0.29" H 5800 3350 50  0001 C CNN "Unit Price"
+	1    5800 3350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5C5B0DBB
-P 6750 2950
-F 0 "R3" H 6820 2996 50  0000 L CNN
-F 1 "10k" H 6820 2905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 2950 50  0001 C CNN
-F 3 "~" H 6750 2950 50  0001 C CNN
-	1    6750 2950
+P 5800 2950
+F 0 "R3" H 5870 2996 50  0000 L CNN
+F 1 "10k" H 5870 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5730 2950 50  0001 C CNN
+F 3 "~" H 5800 2950 50  0001 C CNN
+	1    5800 2950
 	1    0    0    -1  
 $EndComp
 Text Notes 5150 7900 0    50   ~ 10
@@ -1446,9 +1285,302 @@ F 3 "~" H 5400 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 1900 6650 1900
+	5400 1900 5900 1900
 Wire Wire Line
-	5300 3600 6650 3600
+	1500 6050 1600 6050
 Wire Wire Line
-	5400 2750 6500 2750
+	1850 6050 1600 6050
+Connection ~ 1600 6050
+Wire Wire Line
+	1600 5750 1600 6050
+Wire Wire Line
+	1050 5200 1600 5200
+Wire Wire Line
+	1600 5200 1750 5200
+Connection ~ 1600 5200
+Wire Wire Line
+	1600 5200 1600 5450
+$Comp
+L Device:C C11
+U 1 1 5CEE94C0
+P 1600 5600
+F 0 "C11" H 1715 5646 50  0000 L CNN
+F 1 "330n" H 1715 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 5600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B334KBFNNNE.jsp" H 1600 5600 50  0001 C CNN
+F 4 "Samsung" H 1600 5600 50  0001 C CNN "Manufacturer"
+F 5 "CL21B334KBFNNNE" H 1600 5600 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 1600 5600 50  0001 C CNN "Distributor"
+F 7 "1276-1123-1-ND" H 1600 5600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B334KBFNNNE/1276-1123-1-ND/3889209" H 1600 5600 50  0001 C CNN "URL"
+F 9 "0.19" H 1600 5600 50  0001 C CNN "Unit Price"
+	1    1600 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3600 5800 3600
+Wire Wire Line
+	5400 2750 5800 2750
+Wire Wire Line
+	6900 3350 6900 3600
+Wire Wire Line
+	6900 3050 6900 2750
+$Comp
+L Device:CP1 C6
+U 1 1 5CB200BE
+P 6900 3200
+F 0 "C6" H 7015 3246 50  0000 L CNN
+F 1 "22u" H 7015 3155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6900 3200 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 6900 3200 50  0001 C CNN
+F 4 "Nichicon" H 6900 3200 50  0001 C CNN "Manufacturer"
+F 5 "UVR1H220MDD" H 6900 3200 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6900 3200 50  0001 C CNN "Distributor"
+F 7 "493-1104-ND" H 6900 3200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H220MDD/493-1104-ND/588845" H 6900 3200 50  0001 C CNN "URL"
+F 9 "0.23" H 6900 3200 50  0001 C CNN "Unit Price"
+	1    6900 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2450 7000 2750
+Wire Wire Line
+	7000 1900 7000 2150
+$Comp
+L Device:C C5
+U 1 1 5C3F0B83
+P 7000 2300
+F 0 "C5" H 7115 2346 50  0000 L CNN
+F 1 "330n" H 7115 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 2300 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B334KBFNNNE.jsp" H 7000 2300 50  0001 C CNN
+F 4 "Samsung" H 7000 2300 50  0001 C CNN "Manufacturer"
+F 5 "CL21B334KBFNNNE" H 7000 2300 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 7000 2300 50  0001 C CNN "Distributor"
+F 7 "1276-1123-1-ND" H 7000 2300 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B334KBFNNNE/1276-1123-1-ND/3889209" H 7000 2300 50  0001 C CNN "URL"
+F 9 "0.19" H 7000 2300 50  0001 C CNN "Unit Price"
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 5500 6250 0    50   ~ 0
+TODO\nbleeder resistors for reservoir caps? Will LEDs work for that? Well enough.
+$Comp
+L Device:C C7
+U 1 1 5D0F0AC1
+P 8150 2300
+F 0 "C7" H 8265 2346 50  0000 L CNN
+F 1 "100n" H 8265 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8188 2150 50  0001 C CNN
+F 3 "~" H 8150 2300 50  0001 C CNN
+	1    8150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C8
+U 1 1 5D0F1E2B
+P 8050 3200
+F 0 "C8" H 8165 3246 50  0000 L CNN
+F 1 "1u" H 8165 3155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 8050 3200 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-umt.pdf" H 8050 3200 50  0001 C CNN
+F 4 "Nichicon" H 8050 3200 50  0001 C CNN "Manufacturer"
+F 5 "UMT1H010MDD1TP" H 8050 3200 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8050 3200 50  0001 C CNN "Distributor"
+F 7 "493-10286-1-ND" H 8050 3200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UMT1H010MDD1TP/493-10286-1-ND/4312545" H 8050 3200 50  0001 C CNN "URL"
+F 9 "0.27" H 8050 3200 50  0001 C CNN "Unit Price"
+	1    8050 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 9750 1900
+Wire Wire Line
+	9750 1900 9900 1900
+Wire Wire Line
+	8050 1900 8150 1900
+Connection ~ 9750 2750
+Wire Wire Line
+	9750 2750 9900 2750
+Wire Wire Line
+	8150 2150 8150 1900
+Wire Wire Line
+	8150 2450 8150 2750
+Connection ~ 9650 2750
+Wire Wire Line
+	9650 2750 9750 2750
+Connection ~ 9650 3600
+Wire Wire Line
+	9650 3600 9900 3600
+Wire Wire Line
+	7650 2750 8050 2750
+$Comp
+L Device:C C12
+U 1 1 5D161120
+P 2650 5600
+F 0 "C12" H 2765 5646 50  0000 L CNN
+F 1 "100n" H 2765 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 5450 50  0001 C CNN
+F 3 "~" H 2650 5600 50  0001 C CNN
+	1    2650 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5450 2650 5200
+Wire Wire Line
+	2650 5750 2650 6050
+Connection ~ 4800 5200
+Wire Wire Line
+	4800 5200 5000 5200
+Connection ~ 4800 6050
+Connection ~ 5800 2750
+Wire Wire Line
+	5800 2750 5900 2750
+Connection ~ 5800 3600
+Wire Wire Line
+	5800 3600 6650 3600
+Wire Wire Line
+	6650 3600 6900 3600
+Connection ~ 5900 1900
+Wire Wire Line
+	5900 1900 6650 1900
+Connection ~ 5900 2750
+Wire Wire Line
+	5900 2750 6500 2750
+Wire Wire Line
+	6650 1900 7000 1900
+Wire Wire Line
+	6500 2750 6900 2750
+$Comp
+L Device:R R4
+U 1 1 5D1B429A
+P 9350 2300
+F 0 "R4" H 9420 2346 50  0000 L CNN
+F 1 "100k" H 9420 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9280 2300 50  0001 C CNN
+F 3 "~" H 9350 2300 50  0001 C CNN
+	1    9350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5D1B5489
+P 9250 3200
+F 0 "R5" H 9320 3246 50  0000 L CNN
+F 1 "100k" H 9320 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9180 3200 50  0001 C CNN
+F 3 "~" H 9250 3200 50  0001 C CNN
+	1    9250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D1B63D1
+P 4300 5600
+F 0 "R6" H 4370 5646 50  0000 L CNN
+F 1 "100k" H 4370 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4230 5600 50  0001 C CNN
+F 3 "~" H 4300 5600 50  0001 C CNN
+	1    4300 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5450 4300 5200
+Wire Wire Line
+	4300 5750 4300 6050
+Wire Wire Line
+	8050 3050 8050 2750
+Wire Wire Line
+	8050 3350 8050 3600
+Connection ~ 6900 2750
+Connection ~ 6900 3600
+Wire Wire Line
+	6900 2750 7000 2750
+Connection ~ 7000 1900
+Connection ~ 7000 2750
+Wire Wire Line
+	7000 2750 7550 2750
+Wire Wire Line
+	7000 1900 7250 1900
+Wire Wire Line
+	7850 3600 7950 3600
+Wire Wire Line
+	6900 3600 7150 3600
+Connection ~ 7150 3600
+Wire Wire Line
+	7150 3600 7250 3600
+Connection ~ 7950 3600
+Wire Wire Line
+	7950 3600 8050 3600
+Connection ~ 8050 2750
+Connection ~ 8050 3600
+Wire Wire Line
+	8050 2750 8150 2750
+Connection ~ 8150 1900
+Connection ~ 8150 2750
+Wire Wire Line
+	8150 1900 8600 1900
+Connection ~ 8600 1900
+Connection ~ 8600 2750
+Wire Wire Line
+	8600 1900 9350 1900
+Wire Wire Line
+	8600 2750 9250 2750
+Connection ~ 8500 2750
+Wire Wire Line
+	8500 2750 8600 2750
+Connection ~ 8500 3600
+Wire Wire Line
+	8500 3600 9250 3600
+Wire Wire Line
+	8050 3600 8500 3600
+Wire Wire Line
+	8150 2750 8500 2750
+Wire Wire Line
+	9350 2450 9350 2750
+Connection ~ 9350 2750
+Wire Wire Line
+	9350 2750 9650 2750
+Wire Wire Line
+	9250 3050 9250 2750
+Connection ~ 9250 2750
+Wire Wire Line
+	9250 2750 9350 2750
+Wire Wire Line
+	9250 3350 9250 3600
+Connection ~ 9250 3600
+Wire Wire Line
+	9250 3600 9650 3600
+Wire Wire Line
+	9350 2150 9350 1900
+Connection ~ 9350 1900
+Wire Wire Line
+	9350 1900 9750 1900
+Wire Wire Line
+	4300 5200 4800 5200
+Connection ~ 4300 5200
+Wire Wire Line
+	4300 6050 4800 6050
+Connection ~ 4300 6050
+Wire Wire Line
+	3100 5200 4300 5200
+Connection ~ 3100 5200
+Wire Wire Line
+	3100 6050 4300 6050
+Connection ~ 3100 6050
+Connection ~ 2650 5200
+Wire Wire Line
+	2650 5200 3100 5200
+Connection ~ 2650 6050
+Wire Wire Line
+	2650 6050 3100 6050
+Wire Wire Line
+	2550 5200 2650 5200
+Wire Wire Line
+	2150 6050 2650 6050
+Wire Notes Line
+	850  6800 5250 6800
+Wire Notes Line
+	5250 6800 5250 4050
+Wire Notes Line
+	5250 4050 850  4050
 $EndSCHEMATC
