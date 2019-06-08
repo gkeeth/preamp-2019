@@ -1494,17 +1494,17 @@ F 3 "~" H 6750 2950 50  0001 C CNN
 	1    6750 2950
 	1    0    0    -1  
 $EndComp
+Text Notes 5150 7900 0    50   ~ 10
+CC-BY-SA 4.0
 $Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO?
+L Graphic:Logo_Open_Hardware_Large #LOGO1
 U 1 1 5CFA7166
 P 5400 7400
-F 0 "#LOGO?" H 5400 7900 50  0001 C CNN
+F 0 "#LOGO1" H 5400 7900 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Large" H 5400 7000 50  0001 C CNN
 F 2 "" H 5400 7400 50  0001 C CNN
 F 3 "~" H 5400 7400 50  0001 C CNN
 	1    5400 7400
 	1    0    0    -1  
 $EndComp
-Text Notes 5150 7900 0    50   ~ 10
-CC-BY-SA 3.0
 $EndSCHEMATC
