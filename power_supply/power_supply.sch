@@ -104,7 +104,7 @@ L Device:R R1
 U 1 1 5C40FEB0
 P 3350 2200
 F 0 "R1" H 3420 2246 50  0000 L CNN
-F 1 "10-100" H 3420 2155 50  0000 L CNN
+F 1 "100" H 3420 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3280 2200 50  0001 C CNN
 F 3 "~" H 3350 2200 50  0001 C CNN
 	1    3350 2200
@@ -498,7 +498,7 @@ F 9 "0.29" H 7900 1400 50  0001 C CNN "Unit Price"
 	1    0    0    1   
 $EndComp
 Text Notes 5400 1750 0    50   ~ 0
-RESERVOIR CAPACITORS\n\nVpp = I * dt / C\n\nI = 100mA (measured 76mA)\ndt = 6ms (SSAD p710, adjusted for 60Hz mains)\nC = ?\n\nVpp = 1V -> C = 600uF\nVpp = 2V -> 300uF
+RESERVOIR CAPACITORS\nC = I * dt / Vpp\n\nI = 250mA\ndt = 8.33ms\nVpp = 1-2V\n\nVpp = 1V -> C = 2000uF\nVpp = 2V -> C = 1000uF
 Wire Wire Line
 	8250 4200 8250 3600
 Wire Wire Line
