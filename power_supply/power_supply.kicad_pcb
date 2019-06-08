@@ -222,7 +222,7 @@
   )
 
   (module Symbol:OSHW-Logo2_9.8x8mm_SilkScreen locked (layer B.Cu) (tedit 0) (tstamp 5CFA463E)
-    (at 181.318 131.204 180)
+    (at 222.504 133.096 180)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr virtual)
@@ -682,7 +682,7 @@
   )
 
   (module Symbol:KiCad-Logo2_8mm_SilkScreen locked (layer B.Cu) (tedit 0) (tstamp 5CFA2EC4)
-    (at 174.841 141.237 180)
+    (at 216.027 120.523 180)
     (descr "KiCad Logo")
     (tags "Logo KiCad")
     (attr virtual)
@@ -4808,7 +4808,7 @@
     (arrow2a (pts (xy 58 157.479999) (xy 59.126504 158.06642)))
     (arrow2b (pts (xy 58 157.479999) (xy 59.126504 156.893578)))
   )
-  (gr_text "TODO\nfix C9, C10\nadd planes\nmake smaller" (at 163.83 140.97) (layer Cmts.User)
+  (gr_text "TODO\nfix C9, C10\nadd planes\nmake smaller" (at 204.47 133.35) (layer Cmts.User)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (dimension 70 (width 0.15) (layer Dwgs.User)
