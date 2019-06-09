@@ -21,13 +21,13 @@ P 9750 2300
 F 0 "C9" H 9865 2346 50  0000 L CNN
 F 1 "100u" H 9865 2255 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9750 2300 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 9750 2300 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" H 9750 2300 50  0001 C CNN
 F 4 "Nichicon" H 9750 2300 50  0001 C CNN "Manufacturer"
-F 5 "UVR1V101MED" H 9750 2300 50  0001 C CNN "Manufacturer PN"
+F 5 "UVZ1V101MED1TD" H 9750 2300 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 9750 2300 50  0001 C CNN "Distributor"
-F 7 "493-1081-ND" H 9750 2300 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 9750 2300 50  0001 C CNN "URL"
-F 9 "0.25" H 9750 2300 50  0001 C CNN "Unit Price"
+F 7 "493-13488-1-ND" H 9750 2300 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVZ1V101MED1TD/493-13488-1-ND/4342199" H 9750 2300 50  0001 C CNN "URL"
+F 9 "0.33" H 9750 2300 50  0001 C CNN "Unit Price"
 	1    9750 2300
 	1    0    0    -1  
 $EndComp
@@ -100,13 +100,13 @@ P 5400 2300
 F 0 "C3" H 5515 2346 50  0000 L CNN
 F 1 "1000u" H 5515 2255 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 5400 2300 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 5400 2300 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uhe.pdf" H 5400 2300 50  0001 C CNN
 F 4 "Nichicon" H 5400 2300 50  0001 C CNN "Manufacturer"
-F 5 "UVR1H102MHD" H 5400 2300 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5400 2300 50  0001 C CNN "Distributor"
-F 7 "493-1111-ND" H 5400 2300 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H102MHD/493-1111-ND/588852" H 5400 2300 50  0001 C CNN "URL"
-F 9 "0.86" H 5400 2300 50  0001 C CNN "Unit Price"
+F 5 "Digikey" H 5400 2300 50  0001 C CNN "Distributor"
+F 6 "493-1621-ND" H 5400 2300 50  0001 C CNN "Distributor PN"
+F 7 "UHE1H102MHD" H 5400 2300 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UHE1H102MHD/493-1621-ND/589362" H 5400 2300 50  0001 C CNN "URL"
+F 9 "1.47" H 5400 2300 50  0001 C CNN "Unit Price"
 	1    5400 2300
 	1    0    0    -1  
 $EndComp
@@ -430,13 +430,13 @@ P 9650 3200
 F 0 "C10" H 9765 3246 50  0000 L CNN
 F 1 "100u" H 9765 3155 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9650 3200 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 9650 3200 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" H 9650 3200 50  0001 C CNN
 F 4 "Nichicon" H 9650 3200 50  0001 C CNN "Manufacturer"
-F 5 "UVR1V101MED" H 9650 3200 50  0001 C CNN "Manufacturer PN"
+F 5 "UVZ1V101MED1TD" H 9650 3200 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 9650 3200 50  0001 C CNN "Distributor"
-F 7 "493-1081-ND" H 9650 3200 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 9650 3200 50  0001 C CNN "URL"
-F 9 "0.25" H 9650 3200 50  0001 C CNN "Unit Price"
+F 7 "493-13488-1-ND" H 9650 3200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVZ1V101MED1TD/493-13488-1-ND/4342199" H 9650 3200 50  0001 C CNN "URL"
+F 9 "0.33" H 9650 3200 50  0001 C CNN "Unit Price"
 	1    9650 3200
 	1    0    0    -1  
 $EndComp
@@ -658,13 +658,13 @@ P 5300 3200
 F 0 "C4" H 5415 3246 50  0000 L CNN
 F 1 "1000u" H 5415 3155 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 5300 3200 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 5300 3200 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uhe.pdf" H 5300 3200 50  0001 C CNN
 F 4 "Nichicon" H 5300 3200 50  0001 C CNN "Manufacturer"
-F 5 "UVR1H102MHD" H 5300 3200 50  0001 C CNN "Manufacturer PN"
+F 5 "UHE1H102MHD" H 5300 3200 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 5300 3200 50  0001 C CNN "Distributor"
-F 7 "493-1111-ND" H 5300 3200 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H102MHD/493-1111-ND/588852" H 5300 3200 50  0001 C CNN "URL"
-F 9 "0.86" H 5300 3200 50  0001 C CNN "Unit Price"
+F 7 "493-1621-ND" H 5300 3200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UHE1H102MHD/493-1621-ND/589362" H 5300 3200 50  0001 C CNN "URL"
+F 9 "1.47" H 5300 3200 50  0001 C CNN "Unit Price"
 	1    5300 3200
 	1    0    0    -1  
 $EndComp
@@ -772,13 +772,13 @@ P 4800 5600
 F 0 "C13" H 4915 5646 50  0000 L CNN
 F 1 "100u" H 4915 5555 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4800 5600 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 4800 5600 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" H 4800 5600 50  0001 C CNN
 F 4 "Nichicon" H 4800 5600 50  0001 C CNN "Manufacturer"
-F 5 "UVR1V101MED" H 4800 5600 50  0001 C CNN "Manufacturer PN"
+F 5 "UVZ1V101MED1TD" H 4800 5600 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 4800 5600 50  0001 C CNN "Distributor"
-F 7 "493-1081-ND" H 4800 5600 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 4800 5600 50  0001 C CNN "URL"
-F 9 "0.25" H 4800 5600 50  0001 C CNN "Unit Price"
+F 7 "493-13488-1-ND" H 4800 5600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVZ1V101MED1TD/493-13488-1-ND/4342199" H 4800 5600 50  0001 C CNN "URL"
+F 9 "0.33" H 4800 5600 50  0001 C CNN "Unit Price"
 	1    4800 5600
 	1    0    0    -1  
 $EndComp
@@ -1332,13 +1332,13 @@ P 6900 3200
 F 0 "C6" H 7015 3246 50  0000 L CNN
 F 1 "22u" H 7015 3155 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6900 3200 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 6900 3200 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uhe.pdf" H 6900 3200 50  0001 C CNN
 F 4 "Nichicon" H 6900 3200 50  0001 C CNN "Manufacturer"
-F 5 "UVR1H220MDD" H 6900 3200 50  0001 C CNN "Manufacturer PN"
+F 5 "UHE1H220MDD" H 6900 3200 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 6900 3200 50  0001 C CNN "Distributor"
-F 7 "493-1104-ND" H 6900 3200 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1H220MDD/493-1104-ND/588845" H 6900 3200 50  0001 C CNN "URL"
-F 9 "0.23" H 6900 3200 50  0001 C CNN "Unit Price"
+F 7 "493-1603-ND" H 6900 3200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UHE1H220MDD/493-1603-ND/589344" H 6900 3200 50  0001 C CNN "URL"
+F 9 "0.33" H 6900 3200 50  0001 C CNN "Unit Price"
 	1    6900 3200
 	1    0    0    -1  
 $EndComp
@@ -1364,7 +1364,7 @@ F 9 "0.19" H 7000 2300 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 Text Notes 5500 6250 0    50   ~ 0
-TODO\nbleeder resistors for reservoir caps? Will LEDs work for that? Well enough.
+TODO\nbleeder resistors for reservoir caps? Will LEDs work for that? Well enough.\nreplace all electrolytics with 105C models
 $Comp
 L Device:C C7
 U 1 1 5D0F0AC1
