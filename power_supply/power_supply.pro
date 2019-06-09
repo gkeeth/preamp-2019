@@ -1,4 +1,4 @@
-update=Sat 01 Jun 2019 12:02:56 PM EDT
+update=Sun 09 Jun 2019 07:38:05 AM EDT
 version=1
 last_client=kicad
 [general]
@@ -238,7 +238,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=grounds
-Clearance=0.4
+Clearance=0.2
 TrackWidth=0.4064
 ViaDiameter=1
 ViaDrill=0.4
