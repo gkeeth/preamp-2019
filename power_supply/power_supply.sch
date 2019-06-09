@@ -1363,8 +1363,6 @@ F 9 "0.19" H 7000 2300 50  0001 C CNN "Unit Price"
 	1    7000 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 5500 6250 0    50   ~ 0
-TODO\nbleeder resistors for reservoir caps? Will LEDs work for that? Well enough.\nreplace all electrolytics with 105C models
 $Comp
 L Device:C C7
 U 1 1 5D0F0AC1
