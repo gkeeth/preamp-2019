@@ -158,23 +158,6 @@ F 9 "0.99" H 950 2700 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J3
-U 1 1 5C512EBE
-P 1400 5300
-F 0 "J3" H 1400 5500 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 1400 5050 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal" H 1400 5300 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935174.pdf" H 1400 5300 50  0001 C CNN
-F 4 "Phoenix" H 1400 5300 50  0001 C CNN "Manufacturer"
-F 5 "1935174" H 1400 5300 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 1400 5300 50  0001 C CNN "Distributor"
-F 7 "277-1578-ND" H 1400 5300 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/phoenix-contact/1935174/277-1578-ND/568615" H 1400 5300 50  0001 C CNN "URL"
-F 9 "0.60" H 1400 5300 50  0001 C CNN "Unit Price"
-	1    1400 5300
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:VCC #PWR?
 U 1 1 5C513070
 P 2200 4900
@@ -294,7 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 3450 9200 3450
 Text Notes 900  1500 0    50   ~ 0
-TODO:\nadd knobs for pots\nswap +/- for either input or output connectors (make consistent)\nchange power connector to 1x3 Molex SL\nUpdate date field\nAdd power LED(s)\nchange connectors to support headphone amplifier board\nshould mounting holes be tied to GNDA?
+TODO:\nswap +/- for either input or output connectors (make consistent)\ncheck pinning of power connector matches power supply\nUpdate date field\nAdd power LED(s)\nchange connectors to support headphone amplifier board
 Text Label 1450 2600 0    50   ~ 0
 right_in_hot
 Text Label 1450 2700 0    50   ~ 0
@@ -511,5 +494,16 @@ F 3 "" H 6850 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7850 5450 0    50   ~ 0
-Mounting holes for 8-32 standoffs
+Mounting holes for 8-32 standoffs\nUse isolated standoffs
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 5CFE6E45
+P 1400 5300
+F 0 "J3" H 1372 5232 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 1372 5323 50  0000 R CNN
+F 2 "" H 1400 5300 50  0001 C CNN
+F 3 "~" H 1400 5300 50  0001 C CNN
+	1    1400 5300
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
