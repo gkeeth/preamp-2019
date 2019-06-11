@@ -89,7 +89,12 @@ P 3350 2200
 F 0 "R1" H 3420 2246 50  0000 L CNN
 F 1 "100" H 3420 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3280 2200 50  0001 C CNN
-F 3 "~" H 3350 2200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 3350 2200 50  0001 C CNN
+F 4 "Digikey" H 3350 2200 50  0001 C CNN "Distributor"
+F 5 "YAG1241CT-ND" H 3350 2200 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 3350 2200 50  0001 C CNN "Manufacturer"
+F 7 "RT1206FRE07100RL" H 3350 2200 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT1206FRE07100RL/YAG1241CT-ND/4340594" H 3350 2200 50  0001 C CNN "URL"
 	1    3350 2200
 	1    0    0    -1  
 $EndComp
@@ -229,7 +234,14 @@ P 2350 1250
 F 0 "F1" H 2410 1296 50  0000 L CNN
 F 1 "300mA" H 2410 1205 50  0000 L CNN
 F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 2280 1250 50  0001 C CNN
-F 3 "~" H 2350 1250 50  0001 C CNN
+F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN.pdf
+" H 2350 1250 50  0001 C CNN
+F 4 "Digikey" H 2350 1250 50  0001 C CNN "Distributor"
+F 5 "486-1258-ND" H 2350 1250 50  0001 C CNN "Distributor PN"
+F 6 "Schurter" H 2350 1250 50  0001 C CNN "Manufacturer"
+F 7 "0031.8201" H 2350 1250 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en?keywords=486-1258-ND" H 2350 1250 50  0001 C CNN "URL"
+F 9 "0.91" H 2350 1250 50  0001 C CNN "Unit Price"
 	1    2350 1250
 	0    1    1    0   
 $EndComp
@@ -240,7 +252,14 @@ P 2350 2650
 F 0 "F2" H 2410 2696 50  0000 L CNN
 F 1 "300mA" H 2410 2605 50  0000 L CNN
 F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 2280 2650 50  0001 C CNN
-F 3 "~" H 2350 2650 50  0001 C CNN
+F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN.pdf
+" H 2350 2650 50  0001 C CNN
+F 4 "Digikey" H 2350 2650 50  0001 C CNN "Distributor"
+F 5 "486-1258-ND" H 2350 2650 50  0001 C CNN "Distributor PN"
+F 6 "Schurter" H 2350 2650 50  0001 C CNN "Manufacturer"
+F 7 "0031.8201" H 2350 2650 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en?keywords=486-1258-ND" H 2350 2650 50  0001 C CNN "URL"
+F 9 "0.91" H 2350 2650 50  0001 C CNN "Unit Price"
 	1    2350 2650
 	0    1    -1   0   
 $EndComp
@@ -353,7 +372,13 @@ P 9400 5050
 F 0 "J2" H 9372 5074 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 9372 4983 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9400 5050 50  0001 C CNN
-F 3 "~" H 9400 5050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 9400 5050 50  0001 C CNN
+F 4 "Digikey" H 9400 5050 50  0001 C CNN "Distributor"
+F 5 "WM4801-ND" H 9400 5050 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 9400 5050 50  0001 C CNN "Manufacturer"
+F 7 "705430002" H 9400 5050 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=70543-0002" H 9400 5050 50  0001 C CNN "URL"
+F 9 "0.92" H 9400 5050 50  0001 C CNN "Unit Price"
 	1    9400 5050
 	-1   0    0    -1  
 $EndComp
@@ -364,7 +389,13 @@ P 9400 5450
 F 0 "J3" H 9372 5474 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 9372 5383 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9400 5450 50  0001 C CNN
-F 3 "~" H 9400 5450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 9400 5450 50  0001 C CNN
+F 4 "Digikey" H 9400 5450 50  0001 C CNN "Distributor"
+F 5 "WM4801-ND" H 9400 5450 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 9400 5450 50  0001 C CNN "Manufacturer"
+F 7 "705430002" H 9400 5450 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=70543-0002" H 9400 5450 50  0001 C CNN "URL"
+F 9 "0.92" H 9400 5450 50  0001 C CNN "Unit Price"
 	1    9400 5450
 	-1   0    0    -1  
 $EndComp
@@ -375,7 +406,13 @@ P 9400 5850
 F 0 "J4" H 9372 5874 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 9372 5783 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 9400 5850 50  0001 C CNN
-F 3 "~" H 9400 5850 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 9400 5850 50  0001 C CNN
+F 4 "Digikey" H 9400 5850 50  0001 C CNN "Distributor"
+F 5 "WM4801-ND" H 9400 5850 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 9400 5850 50  0001 C CNN "Manufacturer"
+F 7 "705430002" H 9400 5850 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=70543-0002" H 9400 5850 50  0001 C CNN "URL"
+F 9 "0.92" H 9400 5850 50  0001 C CNN "Unit Price"
 	1    9400 5850
 	-1   0    0    -1  
 $EndComp
@@ -499,7 +536,13 @@ P 7550 3600
 F 0 "U2" H 7550 3450 50  0000 C CNN
 F 1 "LM7915_TO220" H 7550 3359 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7550 3400 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM7905.pdf" H 7550 3600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/ST%20Microelectronics%20PDFS/L79xxAC.pdff/LM/LM7905.pdf" H 7550 3600 50  0001 C CNN
+F 4 "Digikey" H 7550 3600 50  0001 C CNN "Distributor"
+F 5 "497-1477-5-ND" H 7550 3600 50  0001 C CNN "Distributor PN"
+F 6 "STMicroelectronics" H 7550 3600 50  0001 C CNN "Manufacturer"
+F 7 "L7915ACV" H 7550 3600 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/stmicroelectronics/L7915ACV/497-1477-5-ND/585998" H 7550 3600 50  0001 C CNN "URL"
+F 9 "0.57" H 7550 3600 50  0001 C CNN "Unit Price"
 	1    7550 3600
 	1    0    0    -1  
 $EndComp
@@ -510,7 +553,13 @@ P 7650 1900
 F 0 "U1" H 7650 2142 50  0000 C CNN
 F 1 "LM7815_TO220" H 7650 2051 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7650 2125 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 7650 1850 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 7650 1850 50  0001 C CNN
+F 4 "Digikey" H 7650 1900 50  0001 C CNN "Distributor"
+F 5 "497-8352-5-ND" H 7650 1900 50  0001 C CNN "Distributor PN"
+F 6 "STMicroelectronics" H 7650 1900 50  0001 C CNN "Manufacturer"
+F 7 "L7815ABV" H 7650 1900 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/stmicroelectronics/L7815ABV/497-8352-5-ND/1038268" H 7650 1900 50  0001 C CNN "URL"
+F 9 "0.50" H 7650 1900 50  0001 C CNN "Unit Price"
 	1    7650 1900
 	1    0    0    -1  
 $EndComp
@@ -567,7 +616,12 @@ P 5900 2500
 F 0 "R2" H 5970 2546 50  0000 L CNN
 F 1 "10k" H 5970 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5830 2500 50  0001 C CNN
-F 3 "~" H 5900 2500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 5900 2500 50  0001 C CNN
+F 4 "Digikey" H 5900 2500 50  0001 C CNN "Distributor"
+F 5 "YAG2321CT-ND" H 5900 2500 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 5900 2500 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE0710KL" H 5900 2500 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE0710KL/YAG2321CT-ND/5252435" H 5900 2500 50  0001 C CNN "URL"
 	1    5900 2500
 	1    0    0    -1  
 $EndComp
@@ -606,7 +660,13 @@ P 8650 3950
 F 0 "HS2" H 8791 3989 50  0000 L CNN
 F 1 "Wakefield-Vette 287-1AB" H 8791 3898 50  0000 L CNN
 F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 8662 3900 50  0001 C CNN
-F 3 "~" H 8662 3900 50  0001 C CNN
+F 3 "http://www.wakefield-vette.com/Portals/0/resources/datasheets/287.pdf" H 8662 3900 50  0001 C CNN
+F 4 "Digikey" H 8650 3950 50  0001 C CNN "Distributor"
+F 5 "345-1219-ND" H 8650 3950 50  0001 C CNN "Distributor PN"
+F 6 "Wakefield-Vette" H 8650 3950 50  0001 C CNN "Manufacturer"
+F 7 "287-1ABE" H 8650 3950 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/wakefield-vette/287-1ABE/345-1219-ND/5068085" H 8650 3950 50  0001 C CNN "URL"
+F 9 "0.64" H 8650 3950 50  0001 C CNN "Unit Price"
 	1    8650 3950
 	1    0    0    -1  
 $EndComp
@@ -837,7 +897,13 @@ P 2150 5200
 F 0 "U3" H 2150 5442 50  0000 C CNN
 F 1 "LM7815_TO220" H 2150 5351 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2150 5425 50  0001 C CIN
-F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 2150 5150 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2150 5150 50  0001 C CNN
+F 4 "Digikey" H 2150 5200 50  0001 C CNN "Distributor"
+F 5 "497-8352-5-ND" H 2150 5200 50  0001 C CNN "Distributor PN"
+F 6 "STMicroelectronics" H 2150 5200 50  0001 C CNN "Manufacturer"
+F 7 "L7815ABV" H 2150 5200 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/stmicroelectronics/L7815ABV/497-8352-5-ND/1038268" H 2150 5200 50  0001 C CNN "URL"
+F 9 "0.50" H 2150 5200 50  0001 C CNN "Unit Price"
 	1    2150 5200
 	1    0    0    -1  
 $EndComp
@@ -913,7 +979,12 @@ P 1300 6050
 F 0 "R7" V 1093 6050 50  0000 C CNN
 F 1 "1k" V 1184 6050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1230 6050 50  0001 C CNN
-F 3 "~" H 1300 6050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 1300 6050 50  0001 C CNN
+F 4 "Digikey" H 1300 6050 50  0001 C CNN "Distributor"
+F 5 "YAG2323CT-ND" H 1300 6050 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 1300 6050 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE071KL" H 1300 6050 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE071KL/YAG2323CT-ND/5252437" H 1300 6050 50  0001 C CNN "URL"
 	1    1300 6050
 	0    1    1    0   
 $EndComp
@@ -1018,7 +1089,13 @@ P 2800 4600
 F 0 "HS3" H 2941 4639 50  0000 L CNN
 F 1 "Wakefield-Vette 287-1AB" H 2941 4548 50  0000 L CNN
 F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 2812 4550 50  0001 C CNN
-F 3 "~" H 2812 4550 50  0001 C CNN
+F 3 "http://www.wakefield-vette.com/Portals/0/resources/datasheets/287.pdf" H 2812 4550 50  0001 C CNN
+F 4 "Digikey" H 2800 4600 50  0001 C CNN "Distributor"
+F 5 "345-1219-ND" H 2800 4600 50  0001 C CNN "Distributor PN"
+F 6 "Wakefield-Vette" H 2800 4600 50  0001 C CNN "Manufacturer"
+F 7 "287-1ABE" H 2800 4600 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/wakefield-vette/287-1ABE/345-1219-ND/5068085" H 2800 4600 50  0001 C CNN "URL"
+F 9 "0.64" H 2800 4600 50  0001 C CNN "Unit Price"
 	1    2800 4600
 	1    0    0    -1  
 $EndComp
@@ -1031,7 +1108,13 @@ P 9400 6150
 F 0 "J5" H 9372 6124 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 9372 6033 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 9400 6150 50  0001 C CNN
-F 3 "~" H 9400 6150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 9400 6150 50  0001 C CNN
+F 4 "Digikey" H 9400 6150 50  0001 C CNN "Distributor"
+F 5 "WM4800-ND" H 9400 6150 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 9400 6150 50  0001 C CNN "Manufacturer"
+F 7 "705430001" H 9400 6150 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=70543-0001" H 9400 6150 50  0001 C CNN "URL"
+F 9 "0.84" H 9400 6150 50  0001 C CNN "Unit Price"
 	1    9400 6150
 	-1   0    0    -1  
 $EndComp
@@ -1058,7 +1141,13 @@ P 1000 1350
 F 0 "J1" H 1000 1700 50  0000 L CNN
 F 1 "Conn_01x04_Male" H 1000 1600 50  0000 L CNN
 F 2 "Connector_Molex_KK-396:Molex_KK-396_A-41791-0004_1x04_P3.96mm_Vertical" H 1000 1350 50  0001 C CNN
-F 3 "~" H 1000 1350 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/026614040_sd.pdf" H 1000 1350 50  0001 C CNN
+F 4 "Digikey" H 1000 1350 50  0001 C CNN "Distributor"
+F 5 "WM5226-ND" H 1000 1350 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 1000 1350 50  0001 C CNN "Manufacturer"
+F 7 "026614040" H 1000 1350 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/molex/0026614040/WM5226-ND/211049" H 1000 1350 50  0001 C CNN "URL"
+F 9 "1.34" H 1000 1350 50  0001 C CNN "Unit Price"
 	1    1000 1350
 	1    0    0    -1  
 $EndComp
@@ -1151,7 +1240,13 @@ P 8650 1300
 F 0 "HS1" H 8791 1339 50  0000 L CNN
 F 1 "Wakefield-Vette 287-1AB" H 8791 1248 50  0000 L CNN
 F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 8662 1250 50  0001 C CNN
-F 3 "~" H 8662 1250 50  0001 C CNN
+F 3 "http://www.wakefield-vette.com/Portals/0/resources/datasheets/287.pdf" H 8662 1250 50  0001 C CNN
+F 4 "Digikey" H 8650 1300 50  0001 C CNN "Distributor"
+F 5 "345-1219-ND" H 8650 1300 50  0001 C CNN "Distributor PN"
+F 6 "Wakefield-Vette" H 8650 1300 50  0001 C CNN "Manufacturer"
+F 7 "287-1ABE" H 8650 1300 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/wakefield-vette/287-1ABE/345-1219-ND/5068085" H 8650 1300 50  0001 C CNN "URL"
+F 9 "0.64" H 8650 1300 50  0001 C CNN "Unit Price"
 	1    8650 1300
 	1    0    0    -1  
 $EndComp
@@ -1168,7 +1263,13 @@ P 9400 6400
 F 0 "J6" H 9372 6374 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 9372 6283 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 9400 6400 50  0001 C CNN
-F 3 "~" H 9400 6400 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 9400 6400 50  0001 C CNN
+F 4 "Digikey" H 9400 6400 50  0001 C CNN "Distributor"
+F 5 "WM4800-ND" H 9400 6400 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 9400 6400 50  0001 C CNN "Manufacturer"
+F 7 "705430001" H 9400 6400 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=70543-0001" H 9400 6400 50  0001 C CNN "URL"
+F 9 "0.84" H 9400 6400 50  0001 C CNN "Unit Price"
 	1    9400 6400
 	-1   0    0    -1  
 $EndComp
@@ -1267,7 +1368,12 @@ P 5800 2950
 F 0 "R3" H 5870 2996 50  0000 L CNN
 F 1 "10k" H 5870 2905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5730 2950 50  0001 C CNN
-F 3 "~" H 5800 2950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 5800 2950 50  0001 C CNN
+F 4 "Digikey" H 5800 2950 50  0001 C CNN "Distributor"
+F 5 "YAG2321CT-ND" H 5800 2950 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 5800 2950 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE0710KL" H 5800 2950 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE0710KL/YAG2321CT-ND/5252435" H 5800 2950 50  0001 C CNN "URL"
 	1    5800 2950
 	1    0    0    -1  
 $EndComp
@@ -1370,7 +1476,12 @@ P 8150 2300
 F 0 "C7" H 8265 2346 50  0000 L CNN
 F 1 "100n" H 8265 2255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8188 2150 50  0001 C CNN
-F 3 "~" H 8150 2300 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MBCNNNC.jsp" H 8150 2300 50  0001 C CNN
+F 4 "Digikey" H 8150 2300 50  0001 C CNN "Distributor"
+F 5 "1276-2450-1-ND" H 8150 2300 50  0001 C CNN "Distributor PN"
+F 6 "Samsung" H 8150 2300 50  0001 C CNN "Manufacturer"
+F 7 "CL21B104MBCNNNC" H 8150 2300 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104MBCNNNC/1276-2450-1-ND/3890536" H 8150 2300 50  0001 C CNN "URL"
 	1    8150 2300
 	1    0    0    -1  
 $EndComp
@@ -1418,7 +1529,12 @@ P 2650 5600
 F 0 "C12" H 2765 5646 50  0000 L CNN
 F 1 "100n" H 2765 5555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 5450 50  0001 C CNN
-F 3 "~" H 2650 5600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B104MBCNNNC.jsp" H 2650 5600 50  0001 C CNN
+F 4 "Digikey" H 2650 5600 50  0001 C CNN "Distributor"
+F 5 "1276-2450-1-ND" H 2650 5600 50  0001 C CNN "Distributor PN"
+F 6 "Samsung" H 2650 5600 50  0001 C CNN "Manufacturer"
+F 7 "CL21B104MBCNNNC" H 2650 5600 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B104MBCNNNC/1276-2450-1-ND/3890536" H 2650 5600 50  0001 C CNN "URL"
 	1    2650 5600
 	1    0    0    -1  
 $EndComp
@@ -1455,7 +1571,12 @@ P 9350 2300
 F 0 "R4" H 9420 2346 50  0000 L CNN
 F 1 "100k" H 9420 2255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9280 2300 50  0001 C CNN
-F 3 "~" H 9350 2300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 9350 2300 50  0001 C CNN
+F 4 "Digikey" H 9350 2300 50  0001 C CNN "Distributor"
+F 5 "YAG2319CT-ND" H 9350 2300 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 9350 2300 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE07100KL" H 9350 2300 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE07100KL/YAG2319CT-ND/5252433" H 9350 2300 50  0001 C CNN "URL"
 	1    9350 2300
 	1    0    0    -1  
 $EndComp
@@ -1466,7 +1587,12 @@ P 9250 3200
 F 0 "R5" H 9320 3246 50  0000 L CNN
 F 1 "100k" H 9320 3155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9180 3200 50  0001 C CNN
-F 3 "~" H 9250 3200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 9250 3200 50  0001 C CNN
+F 4 "Digikey" H 9250 3200 50  0001 C CNN "Distributor"
+F 5 "YAG2319CT-ND" H 9250 3200 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 9250 3200 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE07100KL" H 9250 3200 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE07100KL/YAG2319CT-ND/5252433" H 9250 3200 50  0001 C CNN "URL"
 	1    9250 3200
 	1    0    0    -1  
 $EndComp
@@ -1477,7 +1603,12 @@ P 4300 5600
 F 0 "R6" H 4370 5646 50  0000 L CNN
 F 1 "100k" H 4370 5555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4230 5600 50  0001 C CNN
-F 3 "~" H 4300 5600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 4300 5600 50  0001 C CNN
+F 4 "Digikey" H 4300 5600 50  0001 C CNN "Distributor"
+F 5 "YAG2319CT-ND" H 4300 5600 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 4300 5600 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE07100KL" H 4300 5600 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE07100KL/YAG2319CT-ND/5252433" H 4300 5600 50  0001 C CNN "URL"
 	1    4300 5600
 	1    0    0    -1  
 $EndComp
