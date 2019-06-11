@@ -163,7 +163,7 @@
     (fp_text reference REF** (at 0.59944 7.29996) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Symbol_CC-ShareAlike_CopperTop_Small (at 0.59944 -8.001) (layer B.Fab)
+    (fp_text value Symbol_CC-ShareAlike_CopperTop_Small (at 0.59944 -8.001) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 0.59944 2.4003) (end 0 2.49936) (layer B.Cu) (width 0.381))
@@ -215,7 +215,7 @@
     (fp_text reference REF** (at 0.59944 7.29996) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Symbol_CC-Attribution_CopperTop_Small (at 0.59944 -8.001) (layer B.Fab)
+    (fp_text value Symbol_CC-Attribution_CopperTop_Small (at 0.59944 -8.001) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 0.59944 2.4003) (end 0 2.49936) (layer B.Cu) (width 0.381))
@@ -267,7 +267,7 @@
     (fp_text reference REF** (at 0.59944 7.29996) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Symbol_CreativeCommons_CopperTop_Type2_Small (at 0.59944 -8.001) (layer B.Fab)
+    (fp_text value Symbol_CreativeCommons_CopperTop_Type2_Small (at 0.59944 -8.001) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 0.74944 2.5003) (end 0.15 2.59936) (layer B.Cu) (width 0.381))

@@ -335,4 +335,6 @@ F 9 "0.12" H 5100 4900 50  0001 C CNN "Unit Price"
 $EndComp
 Text Notes 1800 3300 0    50   ~ 0
 Vf = 1.9V\n\n(15V - 1.9V) / 2 mA = 6.6k
+Text Notes 8000 1100 0    50   ~ 0
+TODO\nChange switch to 8pos, 45deg model? A12505RNCQ\nadd connector to optionally bypass toggle switch?
 $EndSCHEMATC
