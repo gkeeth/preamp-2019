@@ -234,8 +234,7 @@ P 2350 1250
 F 0 "F1" H 2410 1296 50  0000 L CNN
 F 1 "300mA" H 2410 1205 50  0000 L CNN
 F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 2280 1250 50  0001 C CNN
-F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN.pdf
-" H 2350 1250 50  0001 C CNN
+F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN.pdf" H 2350 1250 50  0001 C CNN
 F 4 "Digikey" H 2350 1250 50  0001 C CNN "Distributor"
 F 5 "486-1258-ND" H 2350 1250 50  0001 C CNN "Distributor PN"
 F 6 "Schurter" H 2350 1250 50  0001 C CNN "Manufacturer"
@@ -252,8 +251,7 @@ P 2350 2650
 F 0 "F2" H 2410 2696 50  0000 L CNN
 F 1 "300mA" H 2410 2605 50  0000 L CNN
 F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 2280 2650 50  0001 C CNN
-F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN.pdf
-" H 2350 2650 50  0001 C CNN
+F 3 "http://www.schurterinc.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN.pdf" H 2350 2650 50  0001 C CNN
 F 4 "Digikey" H 2350 2650 50  0001 C CNN "Distributor"
 F 5 "486-1258-ND" H 2350 2650 50  0001 C CNN "Distributor PN"
 F 6 "Schurter" H 2350 2650 50  0001 C CNN "Manufacturer"
@@ -1570,7 +1568,7 @@ U 1 1 5D1B429A
 P 9350 2300
 F 0 "R4" H 9420 2346 50  0000 L CNN
 F 1 "100k" H 9420 2255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9280 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9280 2300 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 9350 2300 50  0001 C CNN
 F 4 "Digikey" H 9350 2300 50  0001 C CNN "Distributor"
 F 5 "YAG2319CT-ND" H 9350 2300 50  0001 C CNN "Distributor PN"
@@ -1586,7 +1584,7 @@ U 1 1 5D1B5489
 P 9250 3200
 F 0 "R5" H 9320 3246 50  0000 L CNN
 F 1 "100k" H 9320 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9180 3200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9180 3200 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 9250 3200 50  0001 C CNN
 F 4 "Digikey" H 9250 3200 50  0001 C CNN "Distributor"
 F 5 "YAG2319CT-ND" H 9250 3200 50  0001 C CNN "Distributor PN"
@@ -1602,7 +1600,7 @@ U 1 1 5D1B63D1
 P 4300 5600
 F 0 "R6" H 4370 5646 50  0000 L CNN
 F 1 "100k" H 4370 5555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4230 5600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4230 5600 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 4300 5600 50  0001 C CNN
 F 4 "Digikey" H 4300 5600 50  0001 C CNN "Distributor"
 F 5 "YAG2319CT-ND" H 4300 5600 50  0001 C CNN "Distributor PN"
