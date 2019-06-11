@@ -6,8 +6,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Power Supply for Preamp 2019"
-Date "2019-06-09"
-Rev "0"
+Date "2019-06-10"
+Rev "0.1"
 Comp "G. Keeth"
 Comment1 ""
 Comment2 ""
