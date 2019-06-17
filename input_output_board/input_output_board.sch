@@ -59,28 +59,17 @@ input2_cold
 Wire Wire Line
 	2450 3750 2450 3850
 Text Label 2000 5200 2    50   ~ 0
-input_shield
+input3_shield
 Text Label 2900 5200 0    50   ~ 0
 input3_hot
 Wire Wire Line
 	2150 5200 2050 5200
 Wire Wire Line
-	8200 5850 7300 5850
+	8200 5650 7300 5650
 Text Label 7500 5550 0    50   ~ 0
 output_hot
-Text Label 7500 5850 0    50   ~ 0
+Text Label 7500 5650 0    50   ~ 0
 output_cold
-Wire Wire Line
-	7300 5750 7400 5750
-Wire Wire Line
-	7300 5650 7400 5650
-Wire Wire Line
-	7400 5650 7400 5750
-Connection ~ 7400 5750
-Wire Wire Line
-	7400 5750 8050 5750
-Text Label 7500 5750 0    50   ~ 0
-output_shield
 Wire Wire Line
 	2000 1600 1400 1600
 Wire Wire Line
@@ -154,37 +143,25 @@ F 9 "2.10" H 1200 3350 50  0001 C CNN "Unit Price"
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_gkeeth:Molex_SL_01x04_Male J7
+L Connector_gkeeth:Molex_SL_01x02_Male J7
 U 1 1 5CB530B8
-P 6500 4250
-F 0 "J7" H 6472 4224 50  0000 R CNN
-F 1 "Molex_SL_01x04_Male" H 6472 4133 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 6500 4250 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 6500 4250 50  0001 C CNN
-F 4 "Molex" H 6500 4250 50  0001 C CNN "Manufacturer"
-F 5 "0705430003" H 6500 4250 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 6500 4250 50  0001 C CNN "Distributor"
-F 7 "WM4802-ND" H 6500 4250 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 6500 4250 50  0001 C CNN "URL"
-F 9 "0.99" H 6500 4250 50  0001 C CNN "Unit Price"
-	1    6500 4250
+P 6500 4150
+F 0 "J7" H 6472 4124 50  0000 R CNN
+F 1 "Molex_SL_01x02_Male" H 6472 4033 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 6500 4150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 6500 4150 50  0001 C CNN
+F 4 "Molex" H 6500 4150 50  0001 C CNN "Manufacturer"
+F 5 "0705430003" H 6500 4150 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6500 4150 50  0001 C CNN "Distributor"
+	1    6500 4150
 	-1   0    0    -1  
 $EndComp
 Text Label 5450 4250 0    50   ~ 0
-input_shield
-Wire Wire Line
-	6200 4250 6300 4250
-Connection ~ 6200 4250
-Wire Wire Line
-	6200 4350 6300 4350
-Wire Wire Line
-	6200 4250 6200 4350
-Text Label 5450 4450 0    50   ~ 0
 input_selected_cold
 Text Label 5450 4150 0    50   ~ 0
 input_selected_hot
 Text Label 2000 3450 2    50   ~ 0
-input_shield
+input2_shield
 Text Label 2000 3250 2    50   ~ 0
 input2_hot
 Text Label 2000 5100 2    50   ~ 0
@@ -192,7 +169,7 @@ input3_cold
 Text Label 2000 5000 2    50   ~ 0
 input3_hot
 Text Label 2000 1700 2    50   ~ 0
-input_shield
+input1_shield
 Text Label 2000 1600 2    50   ~ 0
 input1_cold
 Text Label 2000 1500 2    50   ~ 0
@@ -305,17 +282,15 @@ Wire Wire Line
 Wire Wire Line
 	9200 5750 9400 5750
 Wire Wire Line
-	8200 5850 8200 5950
+	8200 5650 8200 5950
 Wire Wire Line
 	8200 5950 8400 5950
 Wire Wire Line
 	7300 5550 8400 5550
 Wire Wire Line
-	8050 5750 8050 6350
+	8050 6450 9300 6450
 Wire Wire Line
-	8050 6350 9300 6350
-Wire Wire Line
-	9300 6350 9300 5850
+	9300 6450 9300 5850
 Wire Wire Line
 	9300 5850 9400 5850
 Wire Wire Line
@@ -466,7 +441,7 @@ Wire Wire Line
 	8200 2650 8200 2550
 Connection ~ 8200 2650
 Text Notes 7500 3950 0    50   ~ 0
-Shields & XLR case ground bonded DIRECTLY to chassis at each connector:\n - XLR combo connectors via mounting screw holes\n - phono jack via chassis contact\n\nflood input_shield across all inputs and connect to input connector (J7)
+Shields & XLR case ground bonded DIRECTLY to chassis at each connector:\n - XLR combo connectors via mounting screw holes\n - phono jack via chassis contact\n\nflood input_shield across all inputs
 Wire Wire Line
 	2350 2100 2350 2000
 Wire Wire Line
@@ -495,7 +470,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 7350 2350 7350
 Text Label 2000 6950 2    50   ~ 0
-input_shield
+input4_shield
 Wire Wire Line
 	2450 7250 2450 7350
 Wire Wire Line
@@ -696,7 +671,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2000 4300 2000
 Wire Wire Line
-	6300 4450 5000 4450
+	6300 4250 5000 4250
 Text Notes 700  7850 0    79   Italic 16
 INPUT CONNECTORS / RELAYS
 Text Notes 800  800  0    50   Italic 10
@@ -731,8 +706,6 @@ Wire Notes Line
 	650  550  7400 550 
 Wire Notes Line
 	650  7900 650  550 
-Wire Wire Line
-	5450 4250 6200 4250
 Wire Notes Line
 	750  2300 750  650 
 Wire Notes Line
@@ -748,8 +721,8 @@ Wire Notes Line
 Wire Notes Line
 	5650 4850 5650 7900
 Wire Wire Line
-	5000 5500 5000 4450
-Connection ~ 5000 4450
+	5000 5500 5000 4250
+Connection ~ 5000 4250
 Wire Wire Line
 	5000 3750 5000 2000
 Connection ~ 5000 3750
@@ -867,24 +840,21 @@ F 9 "2.10" H 2450 6950 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_gkeeth:Molex_SL_01x04_Male J8
+L Connector_gkeeth:Molex_SL_01x02_Male J8
 U 1 1 5CEEDB20
-P 7100 5650
-F 0 "J8" H 7072 5624 50  0000 R CNN
-F 1 "Molex_SL_01x04_Male" H 7072 5533 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0003_1x04_P2.54mm_Vertical" H 7100 5650 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7100 5650 50  0001 C CNN
-F 4 "Molex" H 7100 5650 50  0001 C CNN "Manufacturer"
-F 5 "0705430003" H 7100 5650 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 7100 5650 50  0001 C CNN "Distributor"
-F 7 "WM4802-ND" H 7100 5650 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en?keywords=0705430003" H 7100 5650 50  0001 C CNN "URL"
-F 9 "0.99" H 7100 5650 50  0001 C CNN "Unit Price"
-	1    7100 5650
+P 7100 5550
+F 0 "J8" H 7072 5524 50  0000 R CNN
+F 1 "Molex_SL_01x02_Male" H 7072 5433 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 7100 5550 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7100 5550 50  0001 C CNN
+F 4 "Molex" H 7100 5550 50  0001 C CNN "Manufacturer"
+F 5 "0705430001" H 7100 5550 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 7100 5550 50  0001 C CNN "Distributor"
+	1    7100 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 3750 5000 4450
+	5000 3750 5000 4250
 Wire Wire Line
 	5150 4150 6300 4150
 Connection ~ 5150 4150
@@ -922,4 +892,8 @@ Wire Wire Line
 	1400 3450 2050 3450
 Wire Wire Line
 	1400 1700 2050 1700
+Text Label 8050 6450 0    50   ~ 0
+output_shield
+Text Notes 7750 6550 0    50   ~ 0
+output shield connected to chassis by output connector
 $EndSCHEMATC

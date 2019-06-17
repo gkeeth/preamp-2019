@@ -1,4 +1,4 @@
-update=Sun 28 Apr 2019 10:17:52 AM EDT
+update=Sun 16 Jun 2019 10:17:20 AM EDT
 version=1
 last_client=kicad
 [general]
@@ -268,7 +268,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=relay control
 Clearance=0.3048
-TrackWidth=0.3048
+TrackWidth=0.4064
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
