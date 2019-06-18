@@ -5,11 +5,11 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 3
-Title "Volume Control / Balance Control for Preamp 2019"
-Date "2019-01-14"
+Title "Balanced Amplifier"
+Date "2019-06-18"
 Rev "1"
 Comp "G. Keeth"
-Comment1 ""
+Comment1 "Preamp 2019"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -163,32 +163,30 @@ F 3 "" H 2950 7350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	2950 7350 2950 7050
+	2950 7350 2950 7300
 Wire Wire Line
 	2950 6950 2350 6950
 Wire Wire Line
 	2350 6750 2950 6750
 Wire Wire Line
-	2950 6750 2950 6450
+	2950 6750 2950 6500
 $Comp
 L power:GNDA #PWR?
 U 1 1 5C5131A4
-P 3250 7050
+P 3250 7000
 AR Path="/5BE4EEC1/5C5131A4" Ref="#PWR?"  Part="1" 
 AR Path="/5C5131A4" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 3250 6800 50  0001 C CNN
-F 1 "GNDA" H 3255 6877 50  0000 C CNN
-F 2 "" H 3250 7050 50  0001 C CNN
-F 3 "" H 3250 7050 50  0001 C CNN
-	1    3250 7050
+F 0 "#PWR0136" H 3250 6750 50  0001 C CNN
+F 1 "GNDA" H 3255 6827 50  0000 C CNN
+F 2 "" H 3250 7000 50  0001 C CNN
+F 3 "" H 3250 7000 50  0001 C CNN
+	1    3250 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 7050 3250 6850
+	3250 7000 3250 6900
 Wire Wire Line
 	3250 6850 2350 6850
-Text Notes 900  1500 0    50   ~ 0
-TODO:\nUpdate date field\nAdd power LED(s)
 Text Label 1850 3250 0    50   ~ 0
 left_in_hot
 Text Label 1850 3350 0    50   ~ 0
@@ -198,41 +196,36 @@ hot/cold outputs swapped to maintain overall phase\n(volume control inverts)
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5C227712
-P 2950 6750
-F 0 "#FLG0101" H 2950 6825 50  0001 C CNN
-F 1 "PWR_FLAG" V 2950 6878 50  0000 L CNN
-F 2 "" H 2950 6750 50  0001 C CNN
-F 3 "~" H 2950 6750 50  0001 C CNN
-	1    2950 6750
+P 2950 6500
+F 0 "#FLG0101" H 2950 6575 50  0001 C CNN
+F 1 "PWR_FLAG" V 2950 6628 50  0000 L CNN
+F 2 "" H 2950 6500 50  0001 C CNN
+F 3 "~" H 2950 6500 50  0001 C CNN
+	1    2950 6500
 	0    1    1    0   
 $EndComp
-Connection ~ 3250 6850
-Connection ~ 2950 6750
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5C22777E
-P 3250 6850
-F 0 "#FLG0102" H 3250 6925 50  0001 C CNN
-F 1 "PWR_FLAG" V 3250 6978 50  0000 L CNN
-F 2 "" H 3250 6850 50  0001 C CNN
-F 3 "~" H 3250 6850 50  0001 C CNN
-	1    3250 6850
+P 3250 6900
+F 0 "#FLG0102" H 3250 6975 50  0001 C CNN
+F 1 "PWR_FLAG" V 3250 7028 50  0000 L CNN
+F 2 "" H 3250 6900 50  0001 C CNN
+F 3 "~" H 3250 6900 50  0001 C CNN
+	1    3250 6900
 	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5C227797
-P 2950 7050
-F 0 "#FLG0103" H 2950 7125 50  0001 C CNN
-F 1 "PWR_FLAG" V 2950 7178 50  0000 L CNN
-F 2 "" H 2950 7050 50  0001 C CNN
-F 3 "~" H 2950 7050 50  0001 C CNN
-	1    2950 7050
-	0    -1   1    0   
+P 2950 7300
+F 0 "#FLG0103" H 2950 7375 50  0001 C CNN
+F 1 "PWR_FLAG" V 2950 7428 50  0000 L CNN
+F 2 "" H 2950 7300 50  0001 C CNN
+F 3 "~" H 2950 7300 50  0001 C CNN
+	1    2950 7300
+	0    1    1    0   
 $EndComp
-Connection ~ 2950 7050
-Wire Wire Line
-	2950 7050 2950 6950
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5C1B203E
@@ -513,4 +506,13 @@ Text Notes 8150 3850 0    50   ~ 0
 duplicate output connectors for\ninput/output board and headphone amplifier board
 Text Notes 8350 5350 0    50   Italic 10
 MOUNTING HOLES
+Connection ~ 2950 6500
+Wire Wire Line
+	2950 6500 2950 6450
+Wire Wire Line
+	2950 6950 2950 7300
+Connection ~ 2950 7300
+Connection ~ 3250 6900
+Wire Wire Line
+	3250 6900 3250 6850
 $EndSCHEMATC
