@@ -991,29 +991,8 @@ Text HLabel 9750 5700 2    50   Input ~ 0
 left_out_cold
 Text HLabel 1750 4200 0    50   Input ~ 0
 left_in
-Text HLabel 9750 2700 2    50   Input ~ 0
-right_out_gnd
-Text HLabel 9700 6000 2    50   Input ~ 0
-left_out_gnd
 Wire Wire Line
 	9450 2400 9600 2400
-$Comp
-L power:GNDA #PWR?
-U 1 1 5C073E57
-P 9550 2900
-AR Path="/5BE4EEC1/5C073E57" Ref="#PWR?"  Part="1" 
-AR Path="/5BF8808C/5C073E57" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 9550 2650 50  0001 C CNN
-F 1 "GNDA" H 9555 2727 50  0000 C CNN
-F 2 "" H 9550 2900 50  0001 C CNN
-F 3 "" H 9550 2900 50  0001 C CNN
-	1    9550 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 2900 9550 2700
-Wire Wire Line
-	9550 2700 9750 2700
 Wire Wire Line
 	2700 4350 2700 5100
 Wire Wire Line
@@ -1528,23 +1507,6 @@ F 3 "" H 9050 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9050 4600 9050 4700
-$Comp
-L power:GNDA #PWR?
-U 1 1 5C1CDB68
-P 9500 6200
-AR Path="/5BE4EEC1/5C1CDB68" Ref="#PWR?"  Part="1" 
-AR Path="/5BF8808C/5C1CDB68" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0132" H 9500 5950 50  0001 C CNN
-F 1 "GNDA" H 9505 6027 50  0000 C CNN
-F 2 "" H 9500 6200 50  0001 C CNN
-F 3 "" H 9500 6200 50  0001 C CNN
-	1    9500 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 6200 9500 6000
-Wire Wire Line
-	9500 6000 9700 6000
 $Comp
 L power:GNDA #PWR?
 U 1 1 5C1D7184

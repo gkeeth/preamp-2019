@@ -202,8 +202,6 @@ Text HLabel 1200 2900 0    50   Input ~ 0
 right_in_hot
 Text HLabel 1200 1500 0    50   Input ~ 0
 right_in_cold
-Text HLabel 1200 3500 0    50   Input ~ 0
-right_in_ground
 Wire Wire Line
 	3600 1500 3100 1500
 Wire Wire Line
@@ -550,9 +548,6 @@ Wire Wire Line
 	1200 1500 1300 1500
 Wire Wire Line
 	1200 2900 1300 2900
-Wire Wire Line
-	1200 3500 1800 3500
-Connection ~ 1800 3500
 Connection ~ 6000 3500
 Wire Wire Line
 	5200 3000 5200 2800
@@ -708,8 +703,6 @@ Text HLabel 1200 6000 0    50   Input ~ 0
 left_in_hot
 Text HLabel 1200 4600 0    50   Input ~ 0
 left_in_cold
-Text HLabel 1200 6600 0    50   Input ~ 0
-left_in_ground
 Wire Wire Line
 	3600 4600 3100 4600
 Wire Wire Line
@@ -992,9 +985,6 @@ Wire Wire Line
 	9000 5400 9000 5800
 Wire Wire Line
 	1200 4600 1300 4600
-Wire Wire Line
-	1200 6600 1800 6600
-Connection ~ 1800 6600
 Connection ~ 6000 6600
 Wire Wire Line
 	5200 6100 5200 5900
