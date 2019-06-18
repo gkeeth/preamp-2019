@@ -277,7 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 3450 9200 3450
 Text Notes 900  1500 0    50   ~ 0
-TODO:\nswap +/- for either input or output connectors (make consistent)\ncheck pinning of power connector matches power supply\nUpdate date field\nAdd power LED(s)\nchange connectors to support headphone amplifier board
+TODO:\nswap hot/cold for either input or output connectors (make consistent)\nremove shield/ground from audio in/out connectors\ncheck pinning of power connector matches power supply\nchange power connector footprint to 1x3 Molex SL\nUpdate date field\nAdd power LED(s)\nchange connectors to support headphone amplifier board
 Text Label 1450 2600 0    50   ~ 0
 right_in_hot
 Text Label 1450 2700 0    50   ~ 0
