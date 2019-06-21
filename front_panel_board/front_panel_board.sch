@@ -337,4 +337,17 @@ Text Notes 1800 3300 0    50   ~ 0
 Vf = 1.9V\n\n(15V - 1.9V) / 2 mA = 6.6k
 Text Notes 8000 1100 0    50   ~ 0
 TODO\nChange switch to 8pos, 45deg model? A12505RNCQ\nadd connector to optionally bypass toggle switch?
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO?
+U 1 1 5D0E05C4
+P 5500 7150
+F 0 "#LOGO?" H 5500 7650 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 5500 6750 50  0001 C CNN
+F 2 "" H 5500 7150 50  0001 C CNN
+F 3 "~" H 5500 7150 50  0001 C CNN
+	1    5500 7150
+	1    0    0    -1  
+$EndComp
+Text Notes 5250 7650 0    50   ~ 0
+CC-BY-SA 4.0
 $EndSCHEMATC

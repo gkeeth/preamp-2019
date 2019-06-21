@@ -896,4 +896,17 @@ Text Label 8050 6450 0    50   ~ 0
 output_shield
 Text Notes 7750 6550 0    50   ~ 0
 output shield connected to chassis by output connector
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO?
+U 1 1 5D0E77C4
+P 9950 1400
+F 0 "#LOGO?" H 9950 1900 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 9950 1000 50  0001 C CNN
+F 2 "" H 9950 1400 50  0001 C CNN
+F 3 "~" H 9950 1400 50  0001 C CNN
+	1    9950 1400
+	1    0    0    -1  
+$EndComp
+Text Notes 9700 1900 0    50   ~ 0
+CC-BY-SA 4.0
 $EndSCHEMATC

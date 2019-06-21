@@ -29,97 +29,97 @@ $EndSheet
 $Comp
 L Device:CP1 C?
 U 1 1 5BFE2C28
-P 3950 6600
+P 2800 6650
 AR Path="/5BE4EEC1/5BFE2C28" Ref="C?"  Part="1" 
 AR Path="/5BFE2C28" Ref="C100"  Part="1" 
-F 0 "C100" H 3835 6554 50  0000 R CNN
-F 1 "100u" H 3835 6645 50  0000 R CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3950 6600 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 3950 6600 50  0001 C CNN
-F 4 "Nichicon" H 3950 6600 50  0001 C CNN "Manufacturer"
-F 5 "UVR1V101MED" H 3950 6600 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 3950 6600 50  0001 C CNN "Distributor"
-F 7 "493-1081-ND" H 3950 6600 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 3950 6600 50  0001 C CNN "URL"
-F 9 "0.26" H 3950 6600 50  0001 C CNN "Unit Price"
-F 10 "Electrolytic" V 3950 6600 50  0001 C CNN "Dielectric"
-F 11 "35V" V 3950 6600 50  0001 C CNN "Voltage Rating"
-	1    3950 6600
+F 0 "C100" H 2685 6604 50  0000 R CNN
+F 1 "100u" H 2685 6695 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2800 6650 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 2800 6650 50  0001 C CNN
+F 4 "Nichicon" H 2800 6650 50  0001 C CNN "Manufacturer"
+F 5 "UVR1V101MED" H 2800 6650 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 2800 6650 50  0001 C CNN "Distributor"
+F 7 "493-1081-ND" H 2800 6650 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 2800 6650 50  0001 C CNN "URL"
+F 9 "0.26" H 2800 6650 50  0001 C CNN "Unit Price"
+F 10 "Electrolytic" V 2800 6650 50  0001 C CNN "Dielectric"
+F 11 "35V" V 2800 6650 50  0001 C CNN "Voltage Rating"
+	1    2800 6650
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:CP1 C?
 U 1 1 5BFE2C37
-P 3950 7100
+P 2800 7150
 AR Path="/5BE4EEC1/5BFE2C37" Ref="C?"  Part="1" 
 AR Path="/5BFE2C37" Ref="C101"  Part="1" 
-F 0 "C101" H 3835 7054 50  0000 R CNN
-F 1 "100u" H 3835 7145 50  0000 R CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3950 7100 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 3950 7100 50  0001 C CNN
-F 4 "Nichicon" H 3950 7100 50  0001 C CNN "Manufacturer"
-F 5 "UVR1V101MED" H 3950 7100 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 3950 7100 50  0001 C CNN "Distributor"
-F 7 "493-1081-ND" H 3950 7100 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 3950 7100 50  0001 C CNN "URL"
-F 9 "0.26" H 3950 7100 50  0001 C CNN "Unit Price"
-F 10 "Electrolytic" V 3950 7100 50  0001 C CNN "Dielectric"
-F 11 "35V" V 3950 7100 50  0001 C CNN "Voltage Rating"
-	1    3950 7100
+F 0 "C101" H 2685 7104 50  0000 R CNN
+F 1 "100u" H 2685 7195 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 2800 7150 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 2800 7150 50  0001 C CNN
+F 4 "Nichicon" H 2800 7150 50  0001 C CNN "Manufacturer"
+F 5 "UVR1V101MED" H 2800 7150 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 2800 7150 50  0001 C CNN "Distributor"
+F 7 "493-1081-ND" H 2800 7150 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 2800 7150 50  0001 C CNN "URL"
+F 9 "0.26" H 2800 7150 50  0001 C CNN "Unit Price"
+F 10 "Electrolytic" V 2800 7150 50  0001 C CNN "Dielectric"
+F 11 "35V" V 2800 7150 50  0001 C CNN "Voltage Rating"
+	1    2800 7150
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 5BFE2C3E
-P 3950 6350
+P 2800 6400
 AR Path="/5BE4EEC1/5BFE2C3E" Ref="#PWR?"  Part="1" 
 AR Path="/5BFE2C3E" Ref="#PWR0113"  Part="1" 
-F 0 "#PWR0113" H 3950 6200 50  0001 C CNN
-F 1 "VCC" H 3967 6523 50  0000 C CNN
-F 2 "" H 3950 6350 50  0001 C CNN
-F 3 "" H 3950 6350 50  0001 C CNN
-	1    3950 6350
+F 0 "#PWR0113" H 2800 6250 50  0001 C CNN
+F 1 "VCC" H 2817 6573 50  0000 C CNN
+F 2 "" H 2800 6400 50  0001 C CNN
+F 3 "" H 2800 6400 50  0001 C CNN
+	1    2800 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 6350 3950 6450
+	2800 6400 2800 6500
 Wire Wire Line
-	3950 6750 3950 6850
+	2800 6800 2800 6900
 $Comp
 L power:VEE #PWR?
 U 1 1 5BFE2C46
-P 3950 7350
+P 2800 7400
 AR Path="/5BE4EEC1/5BFE2C46" Ref="#PWR?"  Part="1" 
 AR Path="/5BFE2C46" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 3950 7200 50  0001 C CNN
-F 1 "VEE" H 3967 7523 50  0000 C CNN
-F 2 "" H 3950 7350 50  0001 C CNN
-F 3 "" H 3950 7350 50  0001 C CNN
-	1    3950 7350
+F 0 "#PWR0114" H 2800 7250 50  0001 C CNN
+F 1 "VEE" H 2817 7573 50  0000 C CNN
+F 2 "" H 2800 7400 50  0001 C CNN
+F 3 "" H 2800 7400 50  0001 C CNN
+	1    2800 7400
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3950 7250 3950 7350
+	2800 7300 2800 7400
 $Comp
 L power:GNDA #PWR?
 U 1 1 5BFE2C4D
-P 4450 6950
+P 3300 7000
 AR Path="/5BE4EEC1/5BFE2C4D" Ref="#PWR?"  Part="1" 
 AR Path="/5BFE2C4D" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 4450 6700 50  0001 C CNN
-F 1 "GNDA" H 4455 6777 50  0000 C CNN
-F 2 "" H 4450 6950 50  0001 C CNN
-F 3 "" H 4450 6950 50  0001 C CNN
-	1    4450 6950
+F 0 "#PWR0115" H 3300 6750 50  0001 C CNN
+F 1 "GNDA" H 3305 6827 50  0000 C CNN
+F 2 "" H 3300 7000 50  0001 C CNN
+F 3 "" H 3300 7000 50  0001 C CNN
+	1    3300 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 6950 4450 6850
+	3300 7000 3300 6900
 Wire Wire Line
-	4450 6850 3950 6850
-Connection ~ 3950 6850
+	3300 6900 2800 6900
+Connection ~ 2800 6900
 Wire Wire Line
-	3950 6850 3950 6950
+	2800 6900 2800 7000
 $Sheet
 S 2500 2500 2950 1200
 U 5BE4EEC1
@@ -139,54 +139,54 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR?
 U 1 1 5C513070
-P 2950 6450
+P 1800 6500
 AR Path="/5BE4EEC1/5C513070" Ref="#PWR?"  Part="1" 
 AR Path="/5C513070" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 2950 6300 50  0001 C CNN
-F 1 "VCC" H 2967 6623 50  0000 C CNN
-F 2 "" H 2950 6450 50  0001 C CNN
-F 3 "" H 2950 6450 50  0001 C CNN
-	1    2950 6450
+F 0 "#PWR0134" H 1800 6350 50  0001 C CNN
+F 1 "VCC" H 1817 6673 50  0000 C CNN
+F 2 "" H 1800 6500 50  0001 C CNN
+F 3 "" H 1800 6500 50  0001 C CNN
+	1    1800 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VEE #PWR?
 U 1 1 5C513089
-P 2950 7350
+P 1800 7400
 AR Path="/5BE4EEC1/5C513089" Ref="#PWR?"  Part="1" 
 AR Path="/5C513089" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 2950 7200 50  0001 C CNN
-F 1 "VEE" H 2967 7523 50  0000 C CNN
-F 2 "" H 2950 7350 50  0001 C CNN
-F 3 "" H 2950 7350 50  0001 C CNN
-	1    2950 7350
+F 0 "#PWR0135" H 1800 7250 50  0001 C CNN
+F 1 "VEE" H 1817 7573 50  0000 C CNN
+F 2 "" H 1800 7400 50  0001 C CNN
+F 3 "" H 1800 7400 50  0001 C CNN
+	1    1800 7400
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	2950 7350 2950 7300
+	1800 7400 1800 7350
 Wire Wire Line
-	2950 6950 2350 6950
+	1800 7000 1200 7000
 Wire Wire Line
-	2350 6750 2950 6750
+	1200 6800 1800 6800
 Wire Wire Line
-	2950 6750 2950 6500
+	1800 6800 1800 6550
 $Comp
 L power:GNDA #PWR?
 U 1 1 5C5131A4
-P 3250 7000
+P 2100 7050
 AR Path="/5BE4EEC1/5C5131A4" Ref="#PWR?"  Part="1" 
 AR Path="/5C5131A4" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 3250 6750 50  0001 C CNN
-F 1 "GNDA" H 3255 6827 50  0000 C CNN
-F 2 "" H 3250 7000 50  0001 C CNN
-F 3 "" H 3250 7000 50  0001 C CNN
-	1    3250 7000
+F 0 "#PWR0136" H 2100 6800 50  0001 C CNN
+F 1 "GNDA" H 2105 6877 50  0000 C CNN
+F 2 "" H 2100 7050 50  0001 C CNN
+F 3 "" H 2100 7050 50  0001 C CNN
+	1    2100 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 7000 3250 6900
+	2100 7050 2100 6950
 Wire Wire Line
-	3250 6850 2350 6850
+	2100 6900 1200 6900
 Text Label 1850 3250 0    50   ~ 0
 left_in_hot
 Text Label 1850 3350 0    50   ~ 0
@@ -196,34 +196,34 @@ hot/cold outputs swapped to maintain overall phase\n(volume control inverts)
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5C227712
-P 2950 6500
-F 0 "#FLG0101" H 2950 6575 50  0001 C CNN
-F 1 "PWR_FLAG" V 2950 6628 50  0000 L CNN
-F 2 "" H 2950 6500 50  0001 C CNN
-F 3 "~" H 2950 6500 50  0001 C CNN
-	1    2950 6500
+P 1800 6550
+F 0 "#FLG0101" H 1800 6625 50  0001 C CNN
+F 1 "PWR_FLAG" V 1800 6678 50  0000 L CNN
+F 2 "" H 1800 6550 50  0001 C CNN
+F 3 "~" H 1800 6550 50  0001 C CNN
+	1    1800 6550
 	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5C22777E
-P 3250 6900
-F 0 "#FLG0102" H 3250 6975 50  0001 C CNN
-F 1 "PWR_FLAG" V 3250 7028 50  0000 L CNN
-F 2 "" H 3250 6900 50  0001 C CNN
-F 3 "~" H 3250 6900 50  0001 C CNN
-	1    3250 6900
+P 2100 6950
+F 0 "#FLG0102" H 2100 7025 50  0001 C CNN
+F 1 "PWR_FLAG" V 2100 7078 50  0000 L CNN
+F 2 "" H 2100 6950 50  0001 C CNN
+F 3 "~" H 2100 6950 50  0001 C CNN
+	1    2100 6950
 	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5C227797
-P 2950 7300
-F 0 "#FLG0103" H 2950 7375 50  0001 C CNN
-F 1 "PWR_FLAG" V 2950 7428 50  0000 L CNN
-F 2 "" H 2950 7300 50  0001 C CNN
-F 3 "~" H 2950 7300 50  0001 C CNN
-	1    2950 7300
+P 1800 7350
+F 0 "#FLG0103" H 1800 7425 50  0001 C CNN
+F 1 "PWR_FLAG" V 1800 7478 50  0000 L CNN
+F 2 "" H 1800 7350 50  0001 C CNN
+F 3 "~" H 1800 7350 50  0001 C CNN
+	1    1800 7350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -371,15 +371,15 @@ $EndComp
 $Comp
 L Connector_gkeeth:Molex_SL_01x03_Male J3
 U 1 1 5D0CDEEC
-P 2150 6850
-F 0 "J3" H 2258 7131 50  0000 C CNN
-F 1 "Molex_SL_01x03_Male" H 2258 7040 50  0000 C CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 2150 6850 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 2150 6850 50  0001 C CNN
-F 4 "Molex" H 2150 6850 50  0001 C CNN "Manufacturer"
-F 5 "0705430002" H 2150 6850 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 2150 6850 50  0001 C CNN "Distributor"
-	1    2150 6850
+P 1000 6900
+F 0 "J3" H 1108 7181 50  0000 C CNN
+F 1 "Molex_SL_01x03_Male" H 1108 7090 50  0000 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 1000 6900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 1000 6900 50  0001 C CNN
+F 4 "Molex" H 1000 6900 50  0001 C CNN "Manufacturer"
+F 5 "0705430002" H 1000 6900 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 1000 6900 50  0001 C CNN "Distributor"
+	1    1000 6900
 	1    0    0    -1  
 $EndComp
 Text Label 1850 2700 0    50   ~ 0
@@ -506,13 +506,26 @@ Text Notes 8150 3850 0    50   ~ 0
 duplicate output connectors for\ninput/output board and headphone amplifier board
 Text Notes 8350 5350 0    50   Italic 10
 MOUNTING HOLES
-Connection ~ 2950 6500
+Connection ~ 1800 6550
 Wire Wire Line
-	2950 6500 2950 6450
+	1800 6550 1800 6500
 Wire Wire Line
-	2950 6950 2950 7300
-Connection ~ 2950 7300
-Connection ~ 3250 6900
+	1800 7000 1800 7350
+Connection ~ 1800 7350
+Connection ~ 2100 6950
 Wire Wire Line
-	3250 6900 3250 6850
+	2100 6950 2100 6900
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO?
+U 1 1 5D0DED3F
+P 5550 7200
+F 0 "#LOGO?" H 5550 7700 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 5550 6800 50  0001 C CNN
+F 2 "" H 5550 7200 50  0001 C CNN
+F 3 "~" H 5550 7200 50  0001 C CNN
+	1    5550 7200
+	1    0    0    -1  
+$EndComp
+Text Notes 5300 7700 0    50   ~ 0
+CC-BY-SA 4.0
 $EndSCHEMATC
