@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 5D13901D
-P 1200 1450
-F 0 "J1" H 1308 1631 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1308 1540 50  0000 C CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 1200 1450 50  0001 C CNN
-F 3 "~" H 1200 1450 50  0001 C CNN
-	1    1200 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED_ALT D1
 U 1 1 5D13996E
 P 1400 3600
@@ -134,7 +123,7 @@ input3_select
 Text Label 6500 3600 0    50   ~ 0
 input4_select
 Wire Wire Line
-	5900 5100 6500 5100
+	5900 5100 6000 5100
 Wire Wire Line
 	6500 3700 7400 3700
 Text Label 6500 3700 0    50   ~ 0
@@ -142,12 +131,12 @@ output_mute_select
 $Comp
 L power_gkeeth:Vrelay #PWR0103
 U 1 1 5CD2F453
-P 5100 3450
-F 0 "#PWR0103" H 5100 3300 50  0001 C CNN
-F 1 "Vrelay" H 5117 3623 50  0000 C CNN
-F 2 "" H 5100 3450 50  0001 C CNN
-F 3 "" H 5100 3450 50  0001 C CNN
-	1    5100 3450
+P 4950 3350
+F 0 "#PWR0103" H 4950 3200 50  0001 C CNN
+F 1 "Vrelay" H 4967 3523 50  0000 C CNN
+F 2 "" H 4950 3350 50  0001 C CNN
+F 3 "" H 4950 3350 50  0001 C CNN
+	1    4950 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -172,27 +161,14 @@ Wire Wire Line
 Wire Wire Line
 	5100 3900 5400 3900
 Wire Wire Line
-	5100 3550 5100 3450
-$Comp
-L power_gkeeth:Vrelay #PWR0104
-U 1 1 5CD3104E
-P 5100 4600
-F 0 "#PWR0104" H 5100 4450 50  0001 C CNN
-F 1 "Vrelay" H 5117 4773 50  0000 C CNN
-F 2 "" H 5100 4600 50  0001 C CNN
-F 3 "" H 5100 4600 50  0001 C CNN
-	1    5100 4600
-	1    0    0    -1  
-$EndComp
+	5100 3500 4950 3500
 Wire Wire Line
-	5100 5050 5100 5100
+	4750 3850 4750 5100
 Wire Wire Line
-	5100 5100 5500 5100
-Wire Wire Line
-	5100 4750 5100 4600
-Text Notes 5350 5600 0    50   ~ 0
+	4750 3550 4750 3500
+Text Notes 5300 4800 0    50   ~ 0
 disables main preamp output\n(headphones unaffected)
-Text Notes 5350 5450 0    50   Italic 10
+Text Notes 5300 4650 0    50   Italic 10
 output mute switch
 Text Notes 5600 2800 0    50   Italic 10
 input selection switch
@@ -291,52 +267,37 @@ Connection ~ 1900 1550
 Wire Wire Line
 	1900 1450 2050 1450
 Connection ~ 1900 1450
-$Comp
-L Switch_gkeeth:SW_Rotary12_Letter SW1
-U 1 1 5CD4AABC
-P 6000 3900
-F 0 "SW1" H 5900 4681 50  0000 C CNN
-F 1 "SW_Rotary12_Letter" H 5900 4590 50  0000 C CNN
-F 2 "Button_Switch_THT_gkeeth:SW_Rotary12_C&K_A112xxxxCxx" H 5800 4600 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 5800 4600 50  0001 C CNN
-	1    6000 3900
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6400 3700
 NoConn ~ 6400 3800
 NoConn ~ 6400 4000
 NoConn ~ 6400 4100
-NoConn ~ 6400 4200
-NoConn ~ 6400 4300
-NoConn ~ 6400 4400
-NoConn ~ 6400 4500
 Wire Wire Line
 	6500 3700 6500 5100
 Text Notes 5600 2900 0    50   ~ 0
 use adjustable stops to limit to 4 positions
-Text Notes 3350 5450 0    50   ~ 0
+Text Notes 3000 4250 0    50   ~ 0
 relay rated current: 11.7 mA\nrelay coil resistance: 1.028 k\nVcoil: 12V\nVrelay: 15V\n\nR = (15V - 12V) / 11.7 mA = 256R
 $Comp
 L Device:R R2
 U 1 1 5CD172C4
-P 5100 4900
-F 0 "R2" H 5170 4946 50  0000 L CNN
-F 1 "270" H 5170 4855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5030 4900 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 5100 4900 50  0001 C CNN
-F 4 "Yageo" H 5100 4900 50  0001 C CNN "Manufacturer"
-F 5 "RT0603DRE07270RL" H 5100 4900 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5100 4900 50  0001 C CNN "Distributor"
-F 7 "311-2504-1-ND" H 5100 4900 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603DRE07270RL/311-2504-1-ND/6128923" H 5100 4900 50  0001 C CNN "URL"
-F 9 "0.12" H 5100 4900 50  0001 C CNN "Unit Price"
-	1    5100 4900
+P 4750 3700
+F 0 "R2" H 4820 3746 50  0000 L CNN
+F 1 "270" H 4820 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 3700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 4750 3700 50  0001 C CNN
+F 4 "Yageo" H 4750 3700 50  0001 C CNN "Manufacturer"
+F 5 "RT0603DRE07270RL" H 4750 3700 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 4750 3700 50  0001 C CNN "Distributor"
+F 7 "311-2504-1-ND" H 4750 3700 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603DRE07270RL/311-2504-1-ND/6128923" H 4750 3700 50  0001 C CNN "URL"
+F 9 "0.12" H 4750 3700 50  0001 C CNN "Unit Price"
+	1    4750 3700
 	1    0    0    -1  
 $EndComp
 Text Notes 1800 3300 0    50   ~ 0
 Vf = 1.9V\n\n(15V - 1.9V) / 2 mA = 6.6k
 Text Notes 8000 1100 0    50   ~ 0
-TODO\nChange switch to 8pos, 45deg model? A12505RNCQ\nadd connector to optionally bypass toggle switch?
+TODO\nmove power LED (in layout) to better position
 $Comp
 L Graphic:Logo_Open_Hardware_Large #LOGO?
 U 1 1 5D0E05C4
@@ -350,4 +311,68 @@ F 3 "~" H 5500 7150 50  0001 C CNN
 $EndComp
 Text Notes 5250 7650 0    50   ~ 0
 CC-BY-SA 4.0
+$Comp
+L Switch_gkeeth:SW_Rotary8 SW1
+U 1 1 5D180485
+P 6000 3900
+F 0 "SW1" H 5900 4681 50  0000 C CNN
+F 1 "SW_Rotary8" H 5900 4590 50  0000 C CNN
+F 2 "Button_Switch_THT_gkeeth:SW_Rotary8_C&K_A125xxxxCxx" H 5800 4600 50  0001 C CNN
+F 3 "" H 5800 4600 50  0001 C CNN
+F 4 "C&K" H 6000 3900 50  0001 C CNN "Manufacturer"
+F 5 "A11205RNCQ" H 6000 3900 50  0001 C CNN "Manufacturer PN"
+	1    6000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_gkeeth:Molex_SL_01x02_Male J3
+U 1 1 5D183CB3
+P 5650 5750
+F 0 "J3" V 5804 5562 50  0000 R CNN
+F 1 "Molex_SL_01x02_Male" V 5713 5562 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 5650 5750 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 5650 5750 50  0001 C CNN
+	1    5650 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 3500 4750 3500
+Connection ~ 4950 3500
+Wire Wire Line
+	4950 3500 4950 3350
+Wire Wire Line
+	5100 3550 5100 3500
+Wire Wire Line
+	5750 5550 5750 5450
+Wire Wire Line
+	5750 5450 6000 5450
+Wire Wire Line
+	6000 5450 6000 5100
+Connection ~ 6000 5100
+Wire Wire Line
+	6000 5100 6500 5100
+Wire Wire Line
+	4750 5100 5400 5100
+Wire Wire Line
+	5650 5550 5650 5450
+Wire Wire Line
+	5650 5450 5400 5450
+Wire Wire Line
+	5400 5450 5400 5100
+Connection ~ 5400 5100
+Wire Wire Line
+	5400 5100 5500 5100
+Text Notes 5200 5900 0    50   ~ 0
+Optionally bypass output mute switch
+$Comp
+L Connector_gkeeth:Molex_SL_01x02_Male J1
+U 1 1 5D18B97E
+P 1200 1450
+F 0 "J1" H 1308 1631 50  0000 C CNN
+F 1 "Molex_SL_01x02_Male" H 1308 1540 50  0000 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 1200 1450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 1200 1450 50  0001 C CNN
+	1    1200 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
