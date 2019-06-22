@@ -17,18 +17,18 @@ $EndDescr
 $Comp
 L Connector:AudioJack3 J5
 U 1 1 5CAA8F23
-P 9600 5750
-F 0 "J5" H 9320 5775 50  0000 R CNN
-F 1 "AudioJack3" H 9320 5684 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal" H 9600 5750 50  0001 C CNN
-F 3 "https://www.neutrik.us/media/8560/download/nrj3hf-1-2.pdf?v=1" H 9600 5750 50  0001 C CNN
-F 4 "Neutrik" H 9600 5750 50  0001 C CNN "Manufacturer"
-F 5 "NRJ3HF-1" H 9600 5750 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 9600 5750 50  0001 C CNN "Distributor"
-F 7 "568-NRJ3HF-1" H 9600 5750 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/568-NRJ3HF-1" H 9600 5750 50  0001 C CNN "URL"
-F 9 "0.63" H 9600 5750 50  0001 C CNN "Unit Price"
-	1    9600 5750
+P 10050 5750
+F 0 "J5" H 10032 5383 50  0000 C CNN
+F 1 "AudioJack3" H 10032 5474 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal" H 10050 5750 50  0001 C CNN
+F 3 "https://www.neutrik.us/media/8560/download/nrj3hf-1-2.pdf?v=1" H 10050 5750 50  0001 C CNN
+F 4 "Neutrik" H 10050 5750 50  0001 C CNN "Manufacturer"
+F 5 "NRJ3HF-1" H 10050 5750 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 10050 5750 50  0001 C CNN "Distributor"
+F 7 "568-NRJ3HF-1" H 10050 5750 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/568-NRJ3HF-1" H 10050 5750 50  0001 C CNN "URL"
+F 9 "0.63" H 10050 5750 50  0001 C CNN "Unit Price"
+	1    10050 5750
 	-1   0    0    1   
 $EndComp
 Text Notes 7750 1700 0    50   ~ 0
@@ -65,10 +65,10 @@ input3_hot
 Wire Wire Line
 	2150 5200 2050 5200
 Wire Wire Line
-	8200 5650 7300 5650
-Text Label 7500 5550 0    50   ~ 0
+	8200 5650 7550 5650
+Text Label 7600 5550 0    50   ~ 0
 output_hot
-Text Label 7500 5650 0    50   ~ 0
+Text Label 7600 5650 0    50   ~ 0
 output_cold
 Wire Wire Line
 	2000 1600 1400 1600
@@ -274,25 +274,23 @@ F 9 "0.29" H 8700 4700 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 5650 9000 5650
+	9850 5650 9100 5650
 Wire Wire Line
 	9000 6050 9200 6050
 Wire Wire Line
 	9200 6050 9200 5750
 Wire Wire Line
-	9200 5750 9400 5750
+	9200 5750 9850 5750
 Wire Wire Line
 	8200 5650 8200 5950
 Wire Wire Line
 	8200 5950 8400 5950
 Wire Wire Line
-	7300 5550 8400 5550
+	7300 5550 7450 5550
 Wire Wire Line
-	8050 6450 9300 6450
+	9750 6450 9750 5850
 Wire Wire Line
-	9300 6450 9300 5850
-Wire Wire Line
-	9300 5850 9400 5850
+	9750 5850 9850 5850
 Wire Wire Line
 	8550 4700 8300 4700
 Wire Wire Line
@@ -441,7 +439,7 @@ Wire Wire Line
 	8200 2650 8200 2550
 Connection ~ 8200 2650
 Text Notes 7500 3950 0    50   ~ 0
-Shields & XLR case ground bonded DIRECTLY to chassis at each connector:\n - XLR combo connectors via mounting screw holes\n - phono jack via chassis contact\n\nflood input_shield across all inputs
+Shields & XLR case ground bonded DIRECTLY to chassis at each connector:\n - XLR combo connectors via mounting screw holes\n - phono jack via chassis contact
 Wire Wire Line
 	2350 2100 2350 2000
 Wire Wire Line
@@ -515,8 +513,6 @@ Wire Wire Line
 	2450 2100 2450 2000
 Wire Wire Line
 	2450 2100 3700 2100
-Text Notes 7750 950  0    50   ~ 0
-TODO\ncapacitor(s)\ncreate footprint for output jack\nmounting holes in corners?\nseparate input shields?\nadd jumper to optionally bypass output relay
 Wire Notes Line
 	7550 4050 10450 4050
 Wire Notes Line
@@ -892,21 +888,81 @@ Wire Wire Line
 	1400 3450 2050 3450
 Wire Wire Line
 	1400 1700 2050 1700
-Text Label 8050 6450 0    50   ~ 0
+Text Label 9750 6450 1    50   ~ 0
 output_shield
-Text Notes 7750 6550 0    50   ~ 0
+Text Notes 8250 6600 0    50   ~ 0
 output shield connected to chassis by output connector
 $Comp
 L Graphic:Logo_Open_Hardware_Large #LOGO?
 U 1 1 5D0E77C4
-P 9950 1400
-F 0 "#LOGO?" H 9950 1900 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 9950 1000 50  0001 C CNN
-F 2 "" H 9950 1400 50  0001 C CNN
-F 3 "~" H 9950 1400 50  0001 C CNN
-	1    9950 1400
+P 10000 1000
+F 0 "#LOGO?" H 10000 1500 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 10000 600 50  0001 C CNN
+F 2 "" H 10000 1000 50  0001 C CNN
+F 3 "~" H 10000 1000 50  0001 C CNN
+	1    10000 1000
 	1    0    0    -1  
 $EndComp
-Text Notes 9700 1900 0    50   ~ 0
+Text Notes 9750 1500 0    50   ~ 0
 CC-BY-SA 4.0
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5D10F46D
+P 7800 6300
+F 0 "JP1" H 7800 6421 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7800 6421 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 6300 50  0001 C CNN
+F 3 "~" H 7800 6300 50  0001 C CNN
+	1    7800 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5550 7450 6300
+Wire Wire Line
+	7450 6300 7700 6300
+Connection ~ 7450 5550
+Wire Wire Line
+	7450 5550 8400 5550
+Wire Wire Line
+	7550 5650 7550 6500
+Wire Wire Line
+	7550 6500 7700 6500
+Connection ~ 7550 5650
+Wire Wire Line
+	7550 5650 7300 5650
+Wire Wire Line
+	7900 6500 9200 6500
+Wire Wire Line
+	9200 6500 9200 6050
+Connection ~ 9200 6050
+Wire Wire Line
+	7900 6300 9100 6300
+Wire Wire Line
+	9100 6300 9100 5650
+Connection ~ 9100 5650
+Wire Wire Line
+	9100 5650 9000 5650
+Text Notes 800  2250 0    50   ~ 0
+input shield connected to chassis by input connector
+Text Notes 800  4000 0    50   ~ 0
+input shield connected to chassis by input connector
+Text Notes 800  5750 0    50   ~ 0
+input shield connected to chassis by input connector
+Text Notes 800  7550 0    50   ~ 0
+input shield connected to chassis by input connector
+Text Notes 7500 3400 0    50   ~ 0
+TODO\ncreate footprint for output jack\nmounting holes in corners?\nGND normally open terminals on K5? through resistor?
+Text Notes 6050 6500 0    50   ~ 0
+JP1 & JP2 optionally bypass K5\nif output relay is not required,\nDNP K5 and fit JP1 & JP2
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5D17EFC9
+P 7800 6500
+F 0 "JP2" H 7800 6621 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7800 6621 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 6500 50  0001 C CNN
+F 3 "~" H 7800 6500 50  0001 C CNN
+	1    7800 6500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
