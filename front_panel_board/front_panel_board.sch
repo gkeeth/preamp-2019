@@ -66,17 +66,6 @@ F 9 "4.64" H 5700 5100 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
-U 1 1 5CD2571D
-P 7700 3500
-F 0 "J2" H 7750 3917 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 7750 3826 50  0000 C CNN
-F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 7700 3500 50  0001 C CNN
-F 3 "~" H 7700 3500 50  0001 C CNN
-	1    7700 3500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power_gkeeth:Vrelay #PWR0101
 U 1 1 5CD28662
 P 1900 1350
@@ -107,27 +96,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 1450 1900 1350
 Wire Wire Line
-	6400 3300 7400 3300
-Wire Wire Line
-	7400 3400 6400 3400
-Wire Wire Line
-	6400 3500 7400 3500
-Wire Wire Line
-	7400 3600 6400 3600
-Text Label 6500 3300 0    50   ~ 0
-input1_select
-Text Label 6500 3400 0    50   ~ 0
-input2_select
-Text Label 6500 3500 0    50   ~ 0
-input3_select
-Text Label 6500 3600 0    50   ~ 0
-input4_select
-Wire Wire Line
 	5900 5100 6000 5100
-Wire Wire Line
-	6500 3700 7400 3700
-Text Label 6500 3700 0    50   ~ 0
-output_mute_select
 $Comp
 L power_gkeeth:Vrelay #PWR0103
 U 1 1 5CD2F453
@@ -172,41 +141,6 @@ Text Notes 5300 4650 0    50   Italic 10
 output mute switch
 Text Notes 5600 2800 0    50   Italic 10
 input selection switch
-$Comp
-L power_gkeeth:GNDRELAY #PWR0105
-U 1 1 5CD37D01
-P 8100 3900
-F 0 "#PWR0105" H 8100 3650 50  0001 C CNN
-F 1 "GNDRELAY" H 8104 3745 50  0000 C CNN
-F 2 "" H 8100 3900 50  0001 C CNN
-F 3 "" H 8100 3900 50  0001 C CNN
-	1    8100 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 3900 8100 3700
-Wire Wire Line
-	8100 3300 7900 3300
-Wire Wire Line
-	7900 3400 8100 3400
-Connection ~ 8100 3400
-Wire Wire Line
-	8100 3400 8100 3300
-Wire Wire Line
-	7900 3500 8100 3500
-Connection ~ 8100 3500
-Wire Wire Line
-	8100 3500 8100 3400
-Wire Wire Line
-	7900 3600 8100 3600
-Connection ~ 8100 3600
-Wire Wire Line
-	8100 3600 8100 3500
-Wire Wire Line
-	7900 3700 8100 3700
-Connection ~ 8100 3700
-Wire Wire Line
-	8100 3700 8100 3600
 Wire Wire Line
 	1400 3250 1400 3450
 $Comp
@@ -297,12 +231,12 @@ $EndComp
 Text Notes 1800 3300 0    50   ~ 0
 Vf = 1.9V\n\n(15V - 1.9V) / 2 mA = 6.6k
 Text Notes 8000 1100 0    50   ~ 0
-TODO\nmove power LED (in layout) to better position
+TODO\nmove power LED (in layout) to better position\nchange rotary switch symbol so pin numbers match footprint
 $Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO?
+L Graphic:Logo_Open_Hardware_Large #LOGO1
 U 1 1 5D0E05C4
 P 5500 7150
-F 0 "#LOGO?" H 5500 7650 50  0001 C CNN
+F 0 "#LOGO1" H 5500 7650 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Large" H 5500 6750 50  0001 C CNN
 F 2 "" H 5500 7150 50  0001 C CNN
 F 3 "~" H 5500 7150 50  0001 C CNN
@@ -312,23 +246,10 @@ $EndComp
 Text Notes 5250 7650 0    50   ~ 0
 CC-BY-SA 4.0
 $Comp
-L Switch_gkeeth:SW_Rotary8 SW1
-U 1 1 5D180485
-P 6000 3900
-F 0 "SW1" H 5900 4681 50  0000 C CNN
-F 1 "SW_Rotary8" H 5900 4590 50  0000 C CNN
-F 2 "Button_Switch_THT_gkeeth:SW_Rotary8_C&K_A125xxxxCxx" H 5800 4600 50  0001 C CNN
-F 3 "" H 5800 4600 50  0001 C CNN
-F 4 "C&K" H 6000 3900 50  0001 C CNN "Manufacturer"
-F 5 "A11205RNCQ" H 6000 3900 50  0001 C CNN "Manufacturer PN"
-	1    6000 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_gkeeth:Molex_SL_01x02_Male J3
+L Connector_gkeeth:Molex_SL_01x02_Male J4
 U 1 1 5D183CB3
 P 5650 5750
-F 0 "J3" V 5804 5562 50  0000 R CNN
+F 0 "J4" V 5804 5562 50  0000 R CNN
 F 1 "Molex_SL_01x02_Male" V 5713 5562 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 5650 5750 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 5650 5750 50  0001 C CNN
@@ -374,5 +295,157 @@ F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 1200 1450
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 1200 1450 50  0001 C CNN
 	1    1200 1450
 	1    0    0    -1  
+$EndComp
+Text Label 6750 3700 0    50   ~ 0
+output_mute_select
+Text Label 6750 3600 0    50   ~ 0
+input4_select
+Text Label 6750 3500 0    50   ~ 0
+input3_select
+Text Label 6750 3400 0    50   ~ 0
+input2_select
+Text Label 6750 3300 0    50   ~ 0
+input1_select
+Connection ~ 7550 3700
+Wire Wire Line
+	6500 3700 7550 3700
+Wire Wire Line
+	7550 3700 7550 4450
+Wire Wire Line
+	7650 3600 6400 3600
+Connection ~ 7650 3600
+Wire Wire Line
+	7650 3600 7650 4350
+Connection ~ 7750 3500
+Wire Wire Line
+	6400 3500 7750 3500
+Wire Wire Line
+	7750 3500 7750 4250
+Wire Wire Line
+	7850 3400 6400 3400
+Connection ~ 7850 3400
+Wire Wire Line
+	7850 3400 7850 4150
+Wire Wire Line
+	6400 3300 7950 3300
+Connection ~ 7950 3300
+Wire Wire Line
+	7950 4050 7950 3300
+Wire Wire Line
+	8900 4450 8900 4350
+Connection ~ 8900 4450
+Wire Wire Line
+	8700 4450 8900 4450
+Wire Wire Line
+	8900 4350 8900 4250
+Connection ~ 8900 4350
+Wire Wire Line
+	8700 4350 8900 4350
+Wire Wire Line
+	8900 4250 8900 4150
+Connection ~ 8900 4250
+Wire Wire Line
+	8700 4250 8900 4250
+Wire Wire Line
+	8900 4150 8900 4050
+Connection ~ 8900 4150
+Wire Wire Line
+	8900 4150 8700 4150
+Wire Wire Line
+	8900 4050 8900 3700
+Connection ~ 8900 4050
+Wire Wire Line
+	8700 4050 8900 4050
+Wire Wire Line
+	8900 3700 8900 3600
+Connection ~ 8900 3700
+Wire Wire Line
+	8700 3700 8900 3700
+Wire Wire Line
+	8900 3600 8900 3500
+Connection ~ 8900 3600
+Wire Wire Line
+	8700 3600 8900 3600
+Wire Wire Line
+	8900 3500 8900 3400
+Connection ~ 8900 3500
+Wire Wire Line
+	8700 3500 8900 3500
+Wire Wire Line
+	8900 3400 8900 3300
+Connection ~ 8900 3400
+Wire Wire Line
+	8700 3400 8900 3400
+Wire Wire Line
+	8900 3300 8700 3300
+Wire Wire Line
+	8900 4600 8900 4450
+$Comp
+L power_gkeeth:GNDRELAY #PWR0105
+U 1 1 5CD37D01
+P 8900 4600
+F 0 "#PWR0105" H 8900 4350 50  0001 C CNN
+F 1 "GNDRELAY" H 8904 4445 50  0000 C CNN
+F 2 "" H 8900 4600 50  0001 C CNN
+F 3 "" H 8900 4600 50  0001 C CNN
+	1    8900 4600
+	1    0    0    -1  
+$EndComp
+Text Notes 7550 4900 0    50   Italic 10
+relay control connectors
+Text Notes 7550 5000 0    50   ~ 0
+one each for left & right input/output boards
+$Comp
+L Switch_gkeeth:SW_Rotary8_CK_A125xxxxCxx SW1
+U 1 1 5D13D52B
+P 6000 3900
+F 0 "SW1" H 5900 4681 50  0000 C CNN
+F 1 "SW_Rotary8_CK_A125xxxxCxx" H 5900 4590 50  0000 C CNN
+F 2 "Button_Switch_THT_gkeeth:SW_Rotary8_CK_A125xxxxCxx" H 5800 4600 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1349/arotary.pdf" H 5800 4600 50  0001 C CNN
+	1    6000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4350 8200 4350
+Wire Wire Line
+	7750 4250 8200 4250
+Wire Wire Line
+	7850 4150 8200 4150
+Wire Wire Line
+	8200 4050 7950 4050
+Wire Wire Line
+	7550 4450 8200 4450
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 5D106F42
+P 8500 4250
+F 0 "J3" H 8550 4667 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 8550 4576 50  0000 C CNN
+F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 8500 4250 50  0001 C CNN
+F 3 "~" H 8500 4250 50  0001 C CNN
+	1    8500 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3600 7650 3600
+Wire Wire Line
+	7750 3500 8200 3500
+Wire Wire Line
+	8200 3400 7850 3400
+Wire Wire Line
+	7950 3300 8200 3300
+Wire Wire Line
+	7550 3700 8200 3700
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5CD2571D
+P 8500 3500
+F 0 "J2" H 8550 3917 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 8550 3826 50  0000 C CNN
+F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 8500 3500 50  0001 C CNN
+F 3 "~" H 8500 3500 50  0001 C CNN
+	1    8500 3500
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
