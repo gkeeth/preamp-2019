@@ -208,7 +208,7 @@ AR Path="/5BE4EEC1/5BFF581C" Ref="RV?"  Part="1"
 AR Path="/5BF8808C/5BFF581C" Ref="RV2"  Part="1" 
 F 0 "RV2" H 2630 946 50  0000 R CNN
 F 1 "5k" H 2630 855 50  0000 R CNN
-F 2 "Potentiometer_THT_custom:Potentiometer_Bourns_91_Dual_Horizontal" H 2700 900 50  0001 C CNN
+F 2 "Potentiometer_THT_custom:Potentiometer_Bourns_91A2x-x28-xxx_Dual_Horizontal" H 2700 900 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/91_95.pdf" H 2700 900 50  0001 C CNN
 F 4 "Bourns" H 2700 900 50  0001 C CNN "Manufacturer"
 F 5 "91A2A-B28-B13/B13L" H 2700 900 50  0001 C CNN "Manufacturer PN"
@@ -307,7 +307,7 @@ AR Path="/5BE4EEC1/5BFF5B15" Ref="RV?"  Part="1"
 AR Path="/5BF8808C/5BFF5B15" Ref="RV2"  Part="2" 
 F 0 "RV2" H 2630 4246 50  0000 R CNN
 F 1 "5k" H 2630 4155 50  0000 R CNN
-F 2 "Potentiometer_THT_custom:Potentiometer_Bourns_91_Dual_Horizontal" H 2700 4200 50  0001 C CNN
+F 2 "Potentiometer_THT_custom:Potentiometer_Bourns_91A2x-x28-xxx_Dual_Horizontal" H 2700 4200 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/91_95.pdf" H 2700 4200 50  0001 C CNN
 F 4 "Bourns" H 2700 4200 50  0001 C CNN "Manufacturer"
 F 5 "91A2A-B28-B13/B13L" H 2700 4200 50  0001 C CNN "Manufacturer PN"
