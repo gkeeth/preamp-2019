@@ -516,10 +516,10 @@ Connection ~ 2100 6950
 Wire Wire Line
 	2100 6950 2100 6900
 $Comp
-L Graphic:Logo_Open_Hardware_Large #LOGO?
+L Graphic:Logo_Open_Hardware_Large #LOGO1
 U 1 1 5D0DED3F
 P 5550 7200
-F 0 "#LOGO?" H 5550 7700 50  0001 C CNN
+F 0 "#LOGO1" H 5550 7700 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Large" H 5550 6800 50  0001 C CNN
 F 2 "" H 5550 7200 50  0001 C CNN
 F 3 "~" H 5550 7200 50  0001 C CNN
