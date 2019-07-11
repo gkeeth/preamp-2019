@@ -11,5 +11,5 @@ The preamp is split over several PCBs, with a kicad project for each:
     - negative analog rail
     - digital/relay rail
 3. input_output: board with input/output jacks and relays to select the desired input
-4. input_select: board with pushbutton controls and logic to select desired input
+4. front_panel_board: board with pushbutton controls and logic to select desired input
 
