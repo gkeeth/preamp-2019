@@ -439,7 +439,7 @@ Wire Wire Line
 	1900 1550 1900 1250
 Connection ~ 2150 1150
 Text Notes 1300 7550 0    50   ~ 0
-TODO\ncheck opamp capacitor -- is a single cap from V+ to V- appropriate?\nconsider other opamps, especially lm4562 and ne5532\nswitch to surface mount versions of output transistors\nbal-unbal converter on input\nbulk capacitors on power rails\nmounting holes\nadd output capacitor, series resistor\noutput connector -- molex SL or board-mount headphone jack?
+TODO\ncheck opamp capacitor -- is a single cap from V+ to V- appropriate?\nconsider other opamps, especially lm4562 and ne5532\nswitch to surface mount versions of output transistors\nbal-unbal converter on input\nbulk capacitors on power rails\nmounting holes\nadd output capacitor, series resistor\noutput connector -- molex SL or board-mount headphone jack?\nadd license logo
 $Comp
 L Connector_gkeeth:Molex_SL_01x02_Male J2
 U 1 1 5D7B5472
@@ -459,4 +459,6 @@ Text Label 2450 3050 0    50   ~ 0
 hot
 Text Label 2450 3150 0    50   ~ 0
 cold
+Text Notes 5100 7250 0    50   ~ 0
+CC-BY-SA 4.0
 $EndSCHEMATC
