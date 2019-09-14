@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:input_output_board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -14,24 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 "NOTE: 2 of these boards are needed in total (1 each for L/R)"
 $EndDescr
-$Comp
-L Connector:AudioJack3 J5
-U 1 1 5CAA8F23
-P 10050 5750
-F 0 "J5" H 10032 5383 50  0000 C CNN
-F 1 "AudioJack3" H 10032 5474 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal" H 10050 5750 50  0001 C CNN
-F 3 "https://www.neutrik.us/media/8560/download/nrj3hf-1-2.pdf?v=1" H 10050 5750 50  0001 C CNN
-F 4 "Neutrik" H 10050 5750 50  0001 C CNN "Manufacturer"
-F 5 "NRJ3HF-1" H 10050 5750 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 10050 5750 50  0001 C CNN "Distributor"
-F 7 "568-NRJ3HF-1" H 10050 5750 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/568-NRJ3HF-1" H 10050 5750 50  0001 C CNN "URL"
-F 9 "0.63" H 10050 5750 50  0001 C CNN "Unit Price"
-	1    10050 5750
-	-1   0    0    1   
-$EndComp
-Text Notes 7750 1700 0    50   ~ 0
+Text Notes 7450 6150 0    50   ~ 0
 Tip: hot\nRing: cold\nSleeve: shield\n\n1: shield\n2: hot\n3: cold
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J2
@@ -64,12 +47,6 @@ Text Label 2900 5200 0    50   ~ 0
 input3_hot
 Wire Wire Line
 	2150 5200 2050 5200
-Wire Wire Line
-	8200 5650 7550 5650
-Text Label 7600 5550 0    50   ~ 0
-output_hot
-Text Label 7600 5650 0    50   ~ 0
-output_cold
 Wire Wire Line
 	2000 1600 1400 1600
 Wire Wire Line
@@ -145,20 +122,20 @@ $EndComp
 $Comp
 L Connector_gkeeth:Molex_SL_01x02_Male J7
 U 1 1 5CB530B8
-P 6500 4150
-F 0 "J7" H 6472 4124 50  0000 R CNN
-F 1 "Molex_SL_01x02_Male" H 6472 4033 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 6500 4150 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 6500 4150 50  0001 C CNN
-F 4 "Molex" H 6500 4150 50  0001 C CNN "Manufacturer"
-F 5 "0705430003" H 6500 4150 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 6500 4150 50  0001 C CNN "Distributor"
-	1    6500 4150
+P 6350 4700
+F 0 "J7" H 6322 4674 50  0000 R CNN
+F 1 "Molex_SL_01x02_Male" H 6322 4583 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 6350 4700 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 6350 4700 50  0001 C CNN
+F 4 "Molex" H 6350 4700 50  0001 C CNN "Manufacturer"
+F 5 "0705430003" H 6350 4700 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6350 4700 50  0001 C CNN "Distributor"
+	1    6350 4700
 	-1   0    0    -1  
 $EndComp
-Text Label 5450 4250 0    50   ~ 0
+Text Label 5300 4800 0    50   ~ 0
 input_selected_cold
-Text Label 5450 4150 0    50   ~ 0
+Text Label 5300 4700 0    50   ~ 0
 input_selected_hot
 Text Label 2000 3450 2    50   ~ 0
 input2_shield
@@ -239,105 +216,34 @@ NoConn ~ 3700 3250
 NoConn ~ 3700 3650
 NoConn ~ 3700 5400
 NoConn ~ 3700 5000
-$Comp
-L Relay:G6S-2 K5
-U 1 1 5CC507E9
-P 8700 5650
-F 0 "K5" V 7933 5650 50  0000 C CNN
-F 1 "G6S-2" V 8024 5650 50  0000 C CNN
-F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 9350 5600 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 8500 5650 50  0001 C CNN
-F 4 "Omron" H 8700 5650 50  0001 C CNN "Manufacturer"
-F 5 "G6S-2F DC12" H 8700 5650 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 8700 5650 50  0001 C CNN "Distributor"
-F 7 "Z889-ND" H 8700 5650 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 8700 5650 50  0001 C CNN "URL"
-F 9 "3.64" H 8700 5650 50  0001 C CNN "Unit Price"
-	1    8700 5650
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:D D5
-U 1 1 5CC51A5E
-P 8700 4700
-F 0 "D5" H 8700 4916 50  0000 C CNN
-F 1 "MRA4004T3G" H 8700 4825 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 8700 4700 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 8700 4700 50  0001 C CNN
-F 4 "On Semiconductor" H 8700 4700 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 8700 4700 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 8700 4700 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 8700 4700 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 8700 4700 50  0001 C CNN "URL"
-F 9 "0.29" H 8700 4700 50  0001 C CNN "Unit Price"
-	1    8700 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 5650 9100 5650
-Wire Wire Line
-	9000 6050 9200 6050
-Wire Wire Line
-	9200 6050 9200 5750
-Wire Wire Line
-	9200 5750 9850 5750
-Wire Wire Line
-	8200 5650 8200 5950
-Wire Wire Line
-	8200 5950 8400 5950
-Wire Wire Line
-	7300 5550 7450 5550
-Wire Wire Line
-	9750 6450 9750 5850
-Wire Wire Line
-	9750 5850 9850 5850
-Wire Wire Line
-	8550 4700 8300 4700
-Wire Wire Line
-	8300 4700 8300 5250
-Wire Wire Line
-	8300 5250 8400 5250
-Wire Wire Line
-	9000 5250 9100 5250
-Wire Wire Line
-	9100 5250 9100 4700
-Wire Wire Line
-	9100 4700 8850 4700
-NoConn ~ 8400 6150
-NoConn ~ 8400 5750
-Text Label 9900 2250 2    50   ~ 0
+Text Label 9900 4300 2    50   ~ 0
 input1_select
-Text Label 9900 2350 2    50   ~ 0
+Text Label 9900 4400 2    50   ~ 0
 input2_select
-Text Label 9900 2450 2    50   ~ 0
+Text Label 9900 4500 2    50   ~ 0
 input3_select
-Text Label 9900 2550 2    50   ~ 0
+Text Label 9900 4600 2    50   ~ 0
 input4_select
 Wire Wire Line
-	8550 2250 8450 2250
+	8550 4300 8450 4300
 Wire Wire Line
-	8450 2250 8450 2350
+	8450 4300 8450 4400
 Wire Wire Line
-	8450 2550 8550 2550
+	8450 4600 8550 4600
 Wire Wire Line
-	8550 2450 8450 2450
-Connection ~ 8450 2450
+	8550 4500 8450 4500
+Connection ~ 8450 4500
 Wire Wire Line
-	8450 2450 8450 2550
+	8450 4500 8450 4600
 Wire Wire Line
-	8550 2350 8450 2350
-Connection ~ 8450 2350
+	8550 4400 8450 4400
+Connection ~ 8450 4400
 Wire Wire Line
-	8450 2350 8450 2450
+	8450 4400 8450 4500
 Wire Wire Line
-	8200 2700 8200 2650
+	8200 4750 8200 4700
 Wire Wire Line
-	8200 2650 8450 2650
-Wire Wire Line
-	9200 5350 9200 5250
-Wire Wire Line
-	9200 5250 9100 5250
-Connection ~ 9100 5250
+	8200 4700 8450 4700
 Wire Wire Line
 	4500 4800 4500 4700
 Wire Wire Line
@@ -356,34 +262,29 @@ Text Label 2900 2950 0    50   ~ 0
 input2_select
 Text Label 2900 4700 0    50   ~ 0
 input3_select
-Text Label 9900 2650 2    50   ~ 0
-output_mute_select
+Text Label 9900 4700 2    50   ~ 0
+headphone_select
 Wire Wire Line
-	8450 2650 8450 2550
-Connection ~ 8450 2550
+	8450 4700 8450 4600
+Connection ~ 8450 4600
 Wire Wire Line
-	8450 2650 8550 2650
-Connection ~ 8450 2650
-Text Label 7350 5250 0    50   ~ 0
-output_mute_select
-Wire Wire Line
-	7350 5250 8300 5250
-Connection ~ 8300 5250
+	8450 4700 8550 4700
+Connection ~ 8450 4700
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5CD4A6A5
-P 8200 2550
-F 0 "#FLG0101" H 8200 2625 50  0001 C CNN
-F 1 "PWR_FLAG" H 8200 2723 50  0000 C CNN
-F 2 "" H 8200 2550 50  0001 C CNN
-F 3 "~" H 8200 2550 50  0001 C CNN
-	1    8200 2550
+P 8200 4600
+F 0 "#FLG0101" H 8200 4675 50  0001 C CNN
+F 1 "PWR_FLAG" H 8200 4773 50  0000 C CNN
+F 2 "" H 8200 4600 50  0001 C CNN
+F 3 "~" H 8200 4600 50  0001 C CNN
+	1    8200 4600
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 2650 8200 2550
-Connection ~ 8200 2650
-Text Notes 7500 3950 0    50   ~ 0
+	8200 4700 8200 4600
+Connection ~ 8200 4700
+Text Notes 7450 5400 0    50   ~ 0
 Shields & XLR case ground bonded DIRECTLY to chassis at each connector:\n - XLR combo connectors via mounting screw holes\n - phono jack via chassis contact
 Wire Wire Line
 	2350 2100 2350 2000
@@ -458,20 +359,6 @@ Wire Wire Line
 	2450 2100 2450 2000
 Wire Wire Line
 	2450 2100 3700 2100
-Wire Notes Line
-	7550 4050 10450 4050
-Wire Notes Line
-	10450 4050 10450 6650
-Wire Notes Line
-	10450 6650 5950 6650
-Wire Notes Line
-	5950 6650 5950 5000
-Wire Notes Line
-	5950 5000 7550 5000
-Wire Notes Line
-	7550 5000 7550 4050
-Text Notes 8100 4200 0    79   Italic 16
-OUTPUT CONNECTOR / RELAY
 Wire Wire Line
 	4350 6450 4350 6000
 Connection ~ 4350 6450
@@ -527,12 +414,6 @@ Wire Wire Line
 	2450 7350 3700 7350
 Wire Wire Line
 	2750 6950 3700 6950
-Wire Notes Line
-	5650 4850 7400 4850
-Wire Notes Line
-	7400 4850 7400 550 
-Wire Notes Line
-	650  7900 5650 7900
 Wire Wire Line
 	2900 1200 3650 1200
 Wire Wire Line
@@ -601,7 +482,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2000 4300 2000
 Wire Wire Line
-	6300 4250 5000 4250
+	6150 4800 5000 4800
 Text Notes 700  7850 0    79   Italic 16
 INPUT CONNECTORS / RELAYS
 Text Notes 800  800  0    50   Italic 10
@@ -633,8 +514,6 @@ Wire Notes Line
 Wire Notes Line
 	4750 2300 750  2300
 Wire Notes Line
-	650  550  7400 550 
-Wire Notes Line
 	650  7900 650  550 
 Wire Notes Line
 	750  2300 750  650 
@@ -648,25 +527,14 @@ Wire Notes Line
 	4750 4150 4750 5800
 Wire Notes Line
 	4750 5900 4750 7600
-Wire Notes Line
-	5650 4850 5650 7900
 Wire Wire Line
-	5000 5500 5000 4250
-Connection ~ 5000 4250
-Wire Wire Line
-	5000 3750 5000 2000
+	5000 5500 5000 4800
 Connection ~ 5000 3750
 Wire Wire Line
 	5150 1600 5150 3350
 Connection ~ 5150 3350
 Connection ~ 5150 5100
-Wire Wire Line
-	5150 5100 5150 6850
-Wire Wire Line
-	5000 7250 5000 5500
 Connection ~ 5000 5500
-Wire Wire Line
-	5150 3350 5150 4150
 $Comp
 L Connector_gkeeth:Neutrik_NCJ6FA-H J1
 U 1 1 5CEE6A94
@@ -769,46 +637,27 @@ F 9 "2.10" H 2450 6950 50  0001 C CNN "Unit Price"
 	1    2450 6950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_gkeeth:Molex_SL_01x02_Male J8
-U 1 1 5CEEDB20
-P 7100 5550
-F 0 "J8" H 7072 5524 50  0000 R CNN
-F 1 "Molex_SL_01x02_Male" H 7072 5433 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 7100 5550 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7100 5550 50  0001 C CNN
-F 4 "Molex" H 7100 5550 50  0001 C CNN "Manufacturer"
-F 5 "0705430001" H 7100 5550 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 7100 5550 50  0001 C CNN "Distributor"
-	1    7100 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5000 3750 5000 4250
+	5150 4700 6150 4700
 Wire Wire Line
-	5150 4150 6300 4150
-Connection ~ 5150 4150
+	9050 4600 9900 4600
 Wire Wire Line
-	5150 4150 5150 5100
+	9050 4500 9900 4500
 Wire Wire Line
-	9050 2550 9900 2550
+	9050 4400 9900 4400
 Wire Wire Line
-	9050 2450 9900 2450
+	9050 4300 9900 4300
 Wire Wire Line
-	9050 2350 9900 2350
-Wire Wire Line
-	9050 2250 9900 2250
-Wire Wire Line
-	9900 2650 9050 2650
+	9900 4700 9050 4700
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J6
 U 1 1 5CC54E3F
-P 8750 2450
-F 0 "J6" H 8800 2867 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 8800 2776 50  0000 C CNN
-F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 8750 2450 50  0001 C CNN
-F 3 "~" H 8750 2450 50  0001 C CNN
-	1    8750 2450
+P 8750 4500
+F 0 "J6" H 8800 4917 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 8800 4826 50  0000 C CNN
+F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 8750 4500 50  0001 C CNN
+F 3 "~" H 8750 4500 50  0001 C CNN
+	1    8750 4500
 	1    0    0    -1  
 $EndComp
 Connection ~ 2050 1700
@@ -822,60 +671,19 @@ Wire Wire Line
 	1400 3450 2050 3450
 Wire Wire Line
 	1400 1700 2050 1700
-Text Label 9750 6450 1    50   ~ 0
-output_shield
-Text Notes 8250 6600 0    50   ~ 0
-output shield connected to chassis by output connector
 $Comp
 L Graphic:Logo_Open_Hardware_Large #LOGO1
 U 1 1 5D0E77C4
-P 10000 1000
-F 0 "#LOGO1" H 10000 1500 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 10000 600 50  0001 C CNN
-F 2 "" H 10000 1000 50  0001 C CNN
-F 3 "~" H 10000 1000 50  0001 C CNN
-	1    10000 1000
+P 10000 6200
+F 0 "#LOGO1" H 10000 6700 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 10000 5800 50  0001 C CNN
+F 2 "" H 10000 6200 50  0001 C CNN
+F 3 "~" H 10000 6200 50  0001 C CNN
+	1    10000 6200
 	1    0    0    -1  
 $EndComp
-Text Notes 9750 1500 0    50   ~ 0
+Text Notes 9750 6700 0    50   ~ 0
 CC-BY-SA 4.0
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 5D10F46D
-P 7800 6300
-F 0 "JP1" H 7800 6421 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 7800 6421 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 6300 50  0001 C CNN
-F 3 "~" H 7800 6300 50  0001 C CNN
-	1    7800 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 5550 7450 6300
-Wire Wire Line
-	7450 6300 7700 6300
-Connection ~ 7450 5550
-Wire Wire Line
-	7450 5550 8400 5550
-Wire Wire Line
-	7550 5650 7550 6500
-Wire Wire Line
-	7550 6500 7700 6500
-Connection ~ 7550 5650
-Wire Wire Line
-	7550 5650 7300 5650
-Wire Wire Line
-	7900 6500 9200 6500
-Wire Wire Line
-	9200 6500 9200 6050
-Connection ~ 9200 6050
-Wire Wire Line
-	7900 6300 9100 6300
-Wire Wire Line
-	9100 6300 9100 5650
-Connection ~ 9100 5650
-Wire Wire Line
-	9100 5650 9000 5650
 Text Notes 800  2250 0    50   ~ 0
 input shield connected to chassis by input connector
 Text Notes 800  4000 0    50   ~ 0
@@ -884,32 +692,8 @@ Text Notes 800  5750 0    50   ~ 0
 input shield connected to chassis by input connector
 Text Notes 800  7550 0    50   ~ 0
 input shield connected to chassis by input connector
-Text Notes 7500 3400 0    50   ~ 0
-TODO\ncreate footprint for output jack\nmounting holes in corners?\nGND normally open terminals on K5? through resistor?
-Text Notes 6050 6500 0    50   ~ 0
-JP1 & JP2 optionally bypass K5\nif output relay is not required,\nDNP K5 and fit JP1 & JP2
-$Comp
-L Device:Jumper_NO_Small JP2
-U 1 1 5D17EFC9
-P 7800 6500
-F 0 "JP2" H 7800 6621 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 7800 6621 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7800 6500 50  0001 C CNN
-F 3 "~" H 7800 6500 50  0001 C CNN
-	1    7800 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power_gkeeth:GNDRELAY #PWR0101
-U 1 1 5D1932B9
-P 9200 5350
-F 0 "#PWR0101" H 9200 5100 50  0001 C CNN
-F 1 "GNDRELAY" H 9204 5195 50  0000 C CNN
-F 2 "" H 9200 5350 50  0001 C CNN
-F 3 "" H 9200 5350 50  0001 C CNN
-	1    9200 5350
-	1    0    0    -1  
-$EndComp
+Text Notes 8200 6150 0    50   ~ 0
+TODO\ncreate footprint for output jack\nmounting holes in corners?\npulldown resistors on J5?
 $Comp
 L power_gkeeth:GNDRELAY #PWR0102
 U 1 1 5D193C96
@@ -957,12 +741,288 @@ $EndComp
 $Comp
 L power_gkeeth:GNDRELAY #PWR0106
 U 1 1 5D194E29
-P 8200 2700
-F 0 "#PWR0106" H 8200 2450 50  0001 C CNN
-F 1 "GNDRELAY" H 8204 2545 50  0000 C CNN
-F 2 "" H 8200 2700 50  0001 C CNN
-F 3 "" H 8200 2700 50  0001 C CNN
-	1    8200 2700
+P 8200 4750
+F 0 "#PWR0106" H 8200 4500 50  0001 C CNN
+F 1 "GNDRELAY" H 8204 4595 50  0000 C CNN
+F 2 "" H 8200 4750 50  0001 C CNN
+F 3 "" H 8200 4750 50  0001 C CNN
+	1    8200 4750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_gkeeth:Molex_SL_01x02_Male J6
+U 1 1 5D8346C7
+P 10000 2400
+F 0 "J6" H 10108 2167 50  0000 C CNN
+F 1 "Molex_SL_01x02_Male" H 10108 2076 50  0000 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 10000 2400 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 10000 2400 50  0001 C CNN
+F 4 "Molex" H 10000 2400 50  0001 C CNN "Manufacturer"
+F 5 "0705430003" H 10000 2400 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 10000 2400 50  0001 C CNN "Distributor"
+	1    10000 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power_gkeeth:GNDRELAY #PWR?
+U 1 1 5D821EF0
+P 9000 1150
+F 0 "#PWR?" H 9000 900 50  0001 C CNN
+F 1 "GNDRELAY" H 9004 995 50  0000 C CNN
+F 2 "" H 9000 1150 50  0001 C CNN
+F 3 "" H 9000 1150 50  0001 C CNN
+	1    9000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5D821EEA
+P 9600 3250
+F 0 "JP2" H 9600 3343 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9600 3371 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 3250 50  0001 C CNN
+F 3 "~" H 9600 3250 50  0001 C CNN
+	1    9600 3250
+	1    0    0    -1  
+$EndComp
+Text Notes 7550 3650 0    50   ~ 0
+JP1 - JP4 optionally bypass K5\n\nTo hardwire main output:\nDNP K5, fit JP1 & JP3\n\nTo hardwire headphone output:\nDNP K5, fit JP2 & JP4
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5D821ED4
+P 9600 3050
+F 0 "JP1" H 9600 3150 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9600 3171 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 3050 50  0001 C CNN
+F 3 "~" H 9600 3050 50  0001 C CNN
+	1    9600 3050
+	1    0    0    -1  
+$EndComp
+Text Notes 8100 700  0    50   ~ 0
+output shield connected to chassis by output connector
+Text Label 9750 2100 1    50   ~ 0
+output_shield
+$Comp
+L Connector_gkeeth:Molex_SL_01x02_Male J8
+U 1 1 5D821ECB
+P 7100 2000
+F 0 "J8" H 7072 1974 50  0000 R CNN
+F 1 "Molex_SL_01x02_Male" H 7072 1883 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 7100 2000 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7100 2000 50  0001 C CNN
+F 4 "Molex" H 7100 2000 50  0001 C CNN "Manufacturer"
+F 5 "0705430001" H 7100 2000 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 7100 2000 50  0001 C CNN "Distributor"
+	1    7100 2000
+	1    0    0    -1  
+$EndComp
+Text Notes 5950 700  0    79   Italic 16
+OUTPUT CONNECTOR / RELAY
+Connection ~ 7950 1600
+Wire Wire Line
+	7000 1600 7950 1600
+Text Label 7000 1600 0    50   ~ 0
+headphone_select
+Wire Wire Line
+	8750 1050 8500 1050
+Wire Wire Line
+	8750 1600 8750 1050
+Wire Wire Line
+	8650 1600 8750 1600
+Wire Wire Line
+	7950 1600 8050 1600
+Wire Wire Line
+	7950 1050 7950 1600
+Wire Wire Line
+	8200 1050 7950 1050
+$Comp
+L Device:D D5
+U 1 1 5D821EA3
+P 8350 1050
+F 0 "D5" H 8350 1266 50  0000 C CNN
+F 1 "MRA4004T3G" H 8350 1175 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 8350 1050 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 8350 1050 50  0001 C CNN
+F 4 "On Semiconductor" H 8350 1050 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 8350 1050 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8350 1050 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 8350 1050 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 8350 1050 50  0001 C CNN "URL"
+F 9 "0.29" H 8350 1050 50  0001 C CNN "Unit Price"
+	1    8350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:G6S-2 K5
+U 1 1 5D821E97
+P 8350 2000
+F 0 "K5" V 7583 2000 50  0000 C CNN
+F 1 "G6S-2" V 7674 2000 50  0000 C CNN
+F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 9000 1950 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 8150 2000 50  0001 C CNN
+F 4 "Omron" H 8350 2000 50  0001 C CNN "Manufacturer"
+F 5 "G6S-2F DC12" H 8350 2000 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8350 2000 50  0001 C CNN "Distributor"
+F 7 "Z889-ND" H 8350 2000 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 8350 2000 50  0001 C CNN "URL"
+F 9 "3.64" H 8350 2000 50  0001 C CNN "Unit Price"
+	1    8350 2000
+	0    1    1    0   
+$EndComp
+Text Label 7500 2400 0    50   ~ 0
+output_cold
+Text Label 7500 2000 0    50   ~ 0
+output_hot
+$Comp
+L Connector:AudioJack3 J5
+U 1 1 5D821E7D
+P 10000 1300
+F 0 "J5" H 9982 933 50  0000 C CNN
+F 1 "AudioJack3" H 9982 1024 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal" H 10000 1300 50  0001 C CNN
+F 3 "https://www.neutrik.us/media/8560/download/nrj3hf-1-2.pdf?v=1" H 10000 1300 50  0001 C CNN
+F 4 "Neutrik" H 10000 1300 50  0001 C CNN "Manufacturer"
+F 5 "NRJ3HF-1" H 10000 1300 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 10000 1300 50  0001 C CNN "Distributor"
+F 7 "568-NRJ3HF-1" H 10000 1300 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/568-NRJ3HF-1" H 10000 1300 50  0001 C CNN "URL"
+F 9 "0.63" H 10000 1300 50  0001 C CNN "Unit Price"
+	1    10000 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 2000 5000 3750
+Wire Wire Line
+	5150 3350 5150 4700
+Wire Notes Line
+	6150 7900 6150 6700
+Wire Notes Line
+	6150 6700 7300 6700
+Wire Notes Line
+	650  7900 6150 7900
+Wire Wire Line
+	7300 2100 7400 2100
+Wire Wire Line
+	7400 2100 7400 2400
+Wire Wire Line
+	9000 1150 9000 1050
+Wire Wire Line
+	9000 1050 8750 1050
+Wire Wire Line
+	9500 1900 9500 1200
+Wire Wire Line
+	9500 1200 9800 1200
+Wire Wire Line
+	9800 1300 9600 1300
+Wire Wire Line
+	9600 1300 9600 2300
+Wire Wire Line
+	9750 2100 9750 1400
+Wire Wire Line
+	9750 1400 9800 1400
+Connection ~ 8750 1050
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 5DA7C338
+P 9600 3500
+F 0 "JP3" H 9600 3600 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9600 3621 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 3500 50  0001 C CNN
+F 3 "~" H 9600 3500 50  0001 C CNN
+	1    9600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 5DA7C8D9
+P 9600 3700
+F 0 "JP4" H 9600 3793 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9600 3821 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 3700 50  0001 C CNN
+F 3 "~" H 9600 3700 50  0001 C CNN
+	1    9600 3700
+	1    0    0    -1  
+$EndComp
+Text Label 8800 1900 0    50   ~ 0
+main_hot
+Text Label 8800 2100 0    50   ~ 0
+headphone_hot
+Text Label 8800 2300 0    50   ~ 0
+main_cold
+Text Label 8800 2500 0    50   ~ 0
+headphone_cold
+Wire Wire Line
+	7300 2000 8050 2000
+Wire Wire Line
+	7400 2400 8050 2400
+Wire Wire Line
+	8650 1900 9500 1900
+Wire Wire Line
+	8650 2100 9450 2100
+Wire Wire Line
+	8650 2300 9600 2300
+Wire Wire Line
+	8650 2500 9800 2500
+Wire Wire Line
+	9450 2100 9450 2400
+Wire Wire Line
+	9450 2400 9800 2400
+Wire Wire Line
+	9000 3050 9500 3050
+Wire Wire Line
+	9000 3250 9500 3250
+Wire Wire Line
+	9000 3500 9500 3500
+Wire Wire Line
+	9000 3700 9500 3700
+Wire Wire Line
+	10350 3050 9700 3050
+Wire Wire Line
+	10350 3250 9700 3250
+Wire Wire Line
+	10350 3500 9700 3500
+Wire Wire Line
+	10350 3700 9700 3700
+Text Label 9000 3050 0    50   ~ 0
+output_hot
+Text Label 9000 3500 0    50   ~ 0
+output_cold
+Text Label 9000 3250 0    50   ~ 0
+output_hot
+Text Label 9000 3700 0    50   ~ 0
+output_cold
+Text Label 10350 3050 2    50   ~ 0
+main_hot
+Text Label 10350 3250 2    50   ~ 0
+headphone_hot
+Text Label 10350 3500 2    50   ~ 0
+main_cold
+Text Label 10350 3700 2    50   ~ 0
+headphone_cold
+Wire Notes Line
+	10450 550  5950 550 
+Wire Notes Line
+	5950 550  5950 3800
+Wire Notes Line
+	5950 3800 10450 3800
+Wire Notes Line
+	10450 550  10450 3800
+Wire Notes Line
+	650  550  5800 550 
+Wire Notes Line
+	5800 550  5800 3950
+Wire Notes Line
+	5800 3950 7300 3950
+Wire Notes Line
+	7300 3950 7300 6700
+Connection ~ 5000 4800
+Wire Wire Line
+	5000 4800 5000 3750
+Connection ~ 5150 4700
+Wire Wire Line
+	5150 4700 5150 5100
+Wire Wire Line
+	5150 5100 5150 6850
+Wire Wire Line
+	5000 5500 5000 7250
 $EndSCHEMATC
