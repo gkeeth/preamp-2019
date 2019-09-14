@@ -20,8 +20,14 @@ U 1 1 5D782F10
 P 5300 2300
 F 0 "R6" H 5370 2346 50  0000 L CNN
 F 1 "10" H 5370 2255 50  0000 L CNN
-F 2 "" V 5230 2300 50  0001 C CNN
-F 3 "~" H 5300 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 2300 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5300 2300 50  0001 C CNN
+F 4 "Digikey" H 5300 2300 50  0001 C CNN "Distributor"
+F 5 "RNCP0603FTD10R0CT-ND" H 5300 2300 50  0001 C CNN "Distributor PN"
+F 6 "Stackpole" H 5300 2300 50  0001 C CNN "Manufacturer"
+F 7 "RNCP0603FTD10R0" H 5300 2300 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10R0/RNCP0603FTD10R0CT-ND/2240413" H 5300 2300 50  0001 C CNN "URL"
+F 9 "0.10" H 5300 2300 50  0001 C CNN "Unit Price"
 	1    5300 2300
 	1    0    0    -1  
 $EndComp
@@ -48,34 +54,12 @@ F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 4600 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA42 Q1
-U 1 1 5D785E27
-P 5200 1800
-F 0 "Q1" H 5391 1846 50  0000 L CNN
-F 1 "MPSA42" H 5391 1755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 1725 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 5200 1800 50  0001 L CNN
-	1    5200 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:MPSA92 Q2
-U 1 1 5D7865C2
-P 5200 3300
-F 0 "Q2" H 5391 3254 50  0000 L CNN
-F 1 "MPSA92" H 5391 3345 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 3225 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 5200 3300 50  0001 L CNN
-	1    5200 3300
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:R R5
 U 1 1 5D789DBE
 P 4600 3550
 F 0 "R5" H 4670 3596 50  0000 L CNN
 F 1 "4.7k" H 4670 3505 50  0000 L CNN
-F 2 "" V 4530 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 3550 50  0001 C CNN
 F 3 "~" H 4600 3550 50  0001 C CNN
 	1    4600 3550
 	1    0    0    -1  
@@ -130,16 +114,16 @@ Wire Wire Line
 	4600 3850 5300 3850
 Connection ~ 5300 3850
 Wire Wire Line
-	5300 3850 5300 3500
+	5300 3850 5300 3600
 Wire Wire Line
-	5300 1600 5300 1300
+	5300 1600 5300 1500
 $Comp
 L Device:R R2
 U 1 1 5D791E9A
 P 3850 900
 F 0 "R2" V 3643 900 50  0000 C CNN
 F 1 "22k" V 3734 900 50  0000 C CNN
-F 2 "" V 3780 900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 900 50  0001 C CNN
 F 3 "~" H 3850 900 50  0001 C CNN
 	1    3850 900 
 	0    1    1    0   
@@ -150,7 +134,7 @@ U 1 1 5D792524
 P 2900 2000
 F 0 "R1" V 3107 2000 50  0000 C CNN
 F 1 "10k" V 3016 2000 50  0000 C CNN
-F 2 "" V 2830 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 2000 50  0001 C CNN
 F 3 "~" H 2900 2000 50  0001 C CNN
 	1    2900 2000
 	0    -1   -1   0   
@@ -174,8 +158,15 @@ U 1 1 5D79B71F
 P 7200 1350
 F 0 "C7" H 7315 1396 50  0000 L CNN
 F 1 "100n" H 7315 1305 50  0000 L CNN
-F 2 "" H 7238 1200 50  0001 C CNN
-F 3 "~" H 7200 1350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7238 1200 50  0001 C CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCM21BR72A104KA37%23.pdf" H 7200 1350 50  0001 C CNN
+F 4 "X7R" H 7200 1350 50  0001 C CNN "Dielectric"
+F 5 "Digikey" H 7200 1350 50  0001 C CNN "Distributor"
+F 6 "490-8051-1-ND" H 7200 1350 50  0001 C CNN "Distributor PN"
+F 7 "Murata" H 7200 1350 50  0001 C CNN "Manufacturer"
+F 8 "GCM21BR72A104KA37K" H 7200 1350 50  0001 C CNN "Manufacturer PN"
+F 9 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/GCM21BR72A104KA37K/490-8051-1-ND/4380336" H 7200 1350 50  0001 C CNN "URL"
+F 10 "0.43" H 7200 1350 50  0001 C CNN "Unit Price"
 	1    7200 1350
 	1    0    0    -1  
 $EndComp
@@ -307,7 +298,7 @@ F 3 "~" H 1500 7550 50  0001 C CNN
 $EndComp
 Connection ~ 1500 7550
 Text Notes 7750 5400 0    50   ~ 0
-TODO\nconsider other opamps, especially lm4562 and TL072\nswitch to surface mount versions of output transistors\nheadphone jack ground to chassis...?
+TODO\nconsider other opamps, especially lm4562 and TL072\nheadphone jack ground to chassis...?
 $Comp
 L Connector_gkeeth:Molex_SL_01x02_Male J1
 U 1 1 5D7B5472
@@ -331,7 +322,7 @@ U 1 1 5D7DDE42
 P 2900 2200
 F 0 "R3" V 2785 2200 50  0000 C CNN
 F 1 "10k" V 2694 2200 50  0000 C CNN
-F 2 "" V 2830 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 2200 50  0001 C CNN
 F 3 "~" H 2900 2200 50  0001 C CNN
 	1    2900 2200
 	0    -1   -1   0   
@@ -363,8 +354,14 @@ U 1 1 5D825D62
 P 5300 6000
 F 0 "R14" H 5370 6046 50  0000 L CNN
 F 1 "10" H 5370 5955 50  0000 L CNN
-F 2 "" V 5230 6000 50  0001 C CNN
-F 3 "~" H 5300 6000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 6000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5300 6000 50  0001 C CNN
+F 4 "Digikey" H 5300 6000 50  0001 C CNN "Distributor"
+F 5 "RNCP0603FTD10R0CT-ND" H 5300 6000 50  0001 C CNN "Distributor PN"
+F 6 "Stackpole" H 5300 6000 50  0001 C CNN "Manufacturer"
+F 7 "RNCP0603FTD10R0" H 5300 6000 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10R0/RNCP0603FTD10R0CT-ND/2240413" H 5300 6000 50  0001 C CNN "URL"
+F 9 "0.10" H 5300 6000 50  0001 C CNN "Unit Price"
 	1    5300 6000
 	1    0    0    -1  
 $EndComp
@@ -374,8 +371,14 @@ U 1 1 5D825D68
 P 5300 6500
 F 0 "R15" H 5370 6546 50  0000 L CNN
 F 1 "10" H 5370 6455 50  0000 L CNN
-F 2 "" V 5230 6500 50  0001 C CNN
-F 3 "~" H 5300 6500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 6500 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5300 6500 50  0001 C CNN
+F 4 "Digikey" H 5300 6500 50  0001 C CNN "Distributor"
+F 5 "RNCP0603FTD10R0CT-ND" H 5300 6500 50  0001 C CNN "Distributor PN"
+F 6 "Stackpole" H 5300 6500 50  0001 C CNN "Manufacturer"
+F 7 "RNCP0603FTD10R0" H 5300 6500 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10R0/RNCP0603FTD10R0CT-ND/2240413" H 5300 6500 50  0001 C CNN "URL"
+F 9 "0.10" H 5300 6500 50  0001 C CNN "Unit Price"
 	1    5300 6500
 	1    0    0    -1  
 $EndComp
@@ -402,34 +405,12 @@ F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 4600 6600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_BJT:MPSA42 Q3
-U 1 1 5D825D7A
-P 5200 5500
-F 0 "Q3" H 5391 5546 50  0000 L CNN
-F 1 "MPSA42" H 5391 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 5425 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF" H 5200 5500 50  0001 L CNN
-	1    5200 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:MPSA92 Q4
-U 1 1 5D825D80
-P 5200 7000
-F 0 "Q4" H 5391 6954 50  0000 L CNN
-F 1 "MPSA92" H 5391 7045 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5400 6925 50  0001 L CIN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF" H 5200 7000 50  0001 L CNN
-	1    5200 7000
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:R R13
 U 1 1 5D825D86
 P 4600 7250
 F 0 "R13" H 4670 7296 50  0000 L CNN
 F 1 "4.7k" H 4670 7205 50  0000 L CNN
-F 2 "" V 4530 7250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 7250 50  0001 C CNN
 F 3 "~" H 4600 7250 50  0001 C CNN
 	1    4600 7250
 	1    0    0    -1  
@@ -484,16 +465,16 @@ Wire Wire Line
 	4600 7550 5300 7550
 Connection ~ 5300 7550
 Wire Wire Line
-	5300 7550 5300 7200
+	5300 7550 5300 7300
 Wire Wire Line
-	5300 5300 5300 5000
+	5300 5300 5300 5200
 $Comp
 L Device:R R12
 U 1 1 5D825DB6
 P 3450 6450
 F 0 "R12" H 3380 6404 50  0000 R CNN
 F 1 "22k" H 3380 6495 50  0000 R CNN
-F 2 "" V 3380 6450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 6450 50  0001 C CNN
 F 3 "~" H 3450 6450 50  0001 C CNN
 	1    3450 6450
 	-1   0    0    1   
@@ -504,7 +485,7 @@ U 1 1 5D825DBC
 P 2900 5700
 F 0 "R9" V 3107 5700 50  0000 C CNN
 F 1 "10k" V 3016 5700 50  0000 C CNN
-F 2 "" V 2830 5700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 5700 50  0001 C CNN
 F 3 "~" H 2900 5700 50  0001 C CNN
 	1    2900 5700
 	0    -1   -1   0   
@@ -558,7 +539,7 @@ U 1 1 5D825DDB
 P 2900 5900
 F 0 "R11" V 2785 5900 50  0000 C CNN
 F 1 "10k" V 2694 5900 50  0000 C CNN
-F 2 "" V 2830 5900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 5900 50  0001 C CNN
 F 3 "~" H 2900 5900 50  0001 C CNN
 	1    2900 5900
 	0    -1   -1   0   
@@ -599,7 +580,7 @@ U 1 1 5D8742D1
 P 3050 6450
 F 0 "C5" H 3165 6496 50  0000 L CNN
 F 1 "22p" H 3165 6405 50  0000 L CNN
-F 2 "" H 3088 6300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 6300 50  0001 C CNN
 F 3 "~" H 3050 6450 50  0001 C CNN
 	1    3050 6450
 	1    0    0    -1  
@@ -624,7 +605,7 @@ U 1 1 5D87B243
 P 3450 2750
 F 0 "R4" H 3380 2704 50  0000 R CNN
 F 1 "22k" H 3380 2795 50  0000 R CNN
-F 2 "" V 3380 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 2750 50  0001 C CNN
 F 3 "~" H 3450 2750 50  0001 C CNN
 	1    3450 2750
 	-1   0    0    1   
@@ -650,7 +631,7 @@ U 1 1 5D87B251
 P 3050 2750
 F 0 "C2" H 3165 2796 50  0000 L CNN
 F 1 "22p" H 3165 2705 50  0000 L CNN
-F 2 "" H 3088 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 2600 50  0001 C CNN
 F 3 "~" H 3050 2750 50  0001 C CNN
 	1    3050 2750
 	1    0    0    -1  
@@ -680,7 +661,7 @@ U 1 1 5D8857CE
 P 3850 1300
 F 0 "C1" V 3598 1300 50  0000 C CNN
 F 1 "22p" V 3689 1300 50  0000 C CNN
-F 2 "" H 3888 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 1150 50  0001 C CNN
 F 3 "~" H 3850 1300 50  0001 C CNN
 	1    3850 1300
 	0    1    1    0   
@@ -691,7 +672,7 @@ U 1 1 5D888CF1
 P 3850 5000
 F 0 "C4" V 3598 5000 50  0000 C CNN
 F 1 "22p" V 3689 5000 50  0000 C CNN
-F 2 "" H 3888 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 4850 50  0001 C CNN
 F 3 "~" H 3850 5000 50  0001 C CNN
 	1    3850 5000
 	0    1    1    0   
@@ -726,20 +707,13 @@ U 1 1 5D8981A1
 P 3900 2100
 F 0 "U1" H 3900 1733 50  0000 C CNN
 F 1 "NE5532" H 3900 1824 50  0000 C CNN
-F 2 "" H 3900 2100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 2100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3900 2100 50  0001 C CNN
+F 4 "ON Semiconductor" H 3900 2100 50  0001 C CNN "Manufacturer"
+F 5 "NE5532AD8R2G" H 3900 2100 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3900 2100 50  0001 C CNN "Distributor"
+F 7 "NE5532AD8R2GOSCT-ND" H 3900 2100 50  0001 C CNN "Distributor PN"
 	1    3900 2100
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:NE5532 U1
-U 2 1 5D89A702
-P 3900 5800
-F 0 "U1" H 3900 5433 50  0000 C CNN
-F 1 "NE5532" H 3900 5524 50  0000 C CNN
-F 2 "" H 3900 5800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3900 5800 50  0001 C CNN
-	2    3900 5800
 	1    0    0    1   
 $EndComp
 Text Notes 1450 4850 0    50   ~ 0
@@ -750,8 +724,14 @@ U 1 1 5D783209
 P 5300 2800
 F 0 "R7" H 5370 2846 50  0000 L CNN
 F 1 "10" H 5370 2755 50  0000 L CNN
-F 2 "" V 5230 2800 50  0001 C CNN
-F 3 "~" H 5300 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 2800 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5300 2800 50  0001 C CNN
+F 4 "Digikey" H 5300 2800 50  0001 C CNN "Distributor"
+F 5 "RNCP0603FTD10R0CT-ND" H 5300 2800 50  0001 C CNN "Distributor PN"
+F 6 "Stackpole" H 5300 2800 50  0001 C CNN "Manufacturer"
+F 7 "RNCP0603FTD10R0" H 5300 2800 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10R0/RNCP0603FTD10R0CT-ND/2240413" H 5300 2800 50  0001 C CNN "URL"
+F 9 "0.10" H 5300 2800 50  0001 C CNN "Unit Price"
 	1    5300 2800
 	1    0    0    -1  
 $EndComp
@@ -761,7 +741,7 @@ U 1 1 5D825DB0
 P 3850 4600
 F 0 "R10" V 3643 4600 50  0000 C CNN
 F 1 "22k" V 3734 4600 50  0000 C CNN
-F 2 "" V 3780 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 4600 50  0001 C CNN
 F 3 "~" H 3850 4600 50  0001 C CNN
 	1    3850 4600
 	0    1    1    0   
@@ -771,55 +751,17 @@ L Device:R R8
 U 1 1 5D8A16EC
 P 6650 2550
 F 0 "R8" V 6443 2550 50  0000 C CNN
-F 1 "47" V 6534 2550 50  0000 C CNN
-F 2 "" V 6580 2550 50  0001 C CNN
-F 3 "~" H 6650 2550 50  0001 C CNN
+F 1 "47 1W" V 6534 2550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 6580 2550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28766/mbxsma.pdf" H 6650 2550 50  0001 C CNN
+F 4 "Vishay BC" H 6650 2550 50  0001 C CNN "Manufacturer"
+F 5 "MBE04140C4709FC100" H 6650 2550 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6650 2550 50  0001 C CNN "Distributor"
+F 7 "BC4537CT-ND" H 6650 2550 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/vishay-bc-components/MBE04140C4709FC100/BC4537CT-ND/7351967" H 6650 2550 50  0001 C CNN "URL"
+F 9 "0.69" H 6650 2550 50  0001 C CNN "Unit Price"
 	1    6650 2550
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R16
-U 1 1 5D8A1F79
-P 6650 6250
-F 0 "R16" V 6443 6250 50  0000 C CNN
-F 1 "47" V 6534 6250 50  0000 C CNN
-F 2 "" V 6580 6250 50  0001 C CNN
-F 3 "~" H 6650 6250 50  0001 C CNN
-	1    6650 6250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP1 C3
-U 1 1 5D8A28D9
-P 6050 2550
-F 0 "C3" V 6302 2550 50  0000 C CNN
-F 1 "220u" V 6211 2550 50  0000 C CNN
-F 2 "" H 6050 2550 50  0001 C CNN
-F 3 "~" H 6050 2550 50  0001 C CNN
-	1    6050 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:CP1 C6
-U 1 1 5D8A2CE8
-P 6050 6250
-F 0 "C6" V 6302 6250 50  0000 C CNN
-F 1 "220u" V 6211 6250 50  0000 C CNN
-F 2 "" H 6050 6250 50  0001 C CNN
-F 3 "~" H 6050 6250 50  0001 C CNN
-	1    6050 6250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Amplifier_Operational:NE5532 U1
-U 3 1 5D89CD03
-P 7750 1350
-F 0 "U1" H 7708 1396 50  0000 L CNN
-F 1 "NE5532" H 7708 1305 50  0000 L CNN
-F 2 "" H 7750 1350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 7750 1350 50  0001 C CNN
-	3    7750 1350
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6500 6250 6200 6250
@@ -851,9 +793,17 @@ L Device:CP1 C8
 U 1 1 5D8CBE42
 P 8650 1150
 F 0 "C8" H 8765 1196 50  0000 L CNN
-F 1 "220u" H 8765 1105 50  0000 L CNN
-F 2 "" H 8650 1150 50  0001 C CNN
-F 3 "~" H 8650 1150 50  0001 C CNN
+F 1 "100u" H 8765 1105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8650 1150 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 8650 1150 50  0001 C CNN
+F 4 "Nichicon" H 8650 1150 50  0001 C CNN "Manufacturer"
+F 5 "UVR1V101MED" H 8650 1150 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8650 1150 50  0001 C CNN "Distributor"
+F 7 "493-1081-ND" H 8650 1150 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 8650 1150 50  0001 C CNN "URL"
+F 9 "0.26" H 8650 1150 50  0001 C CNN "Unit Price"
+F 10 "Electrolytic" H 8650 1150 50  0001 C CNN "Dielectric"
+F 11 "35V" H 8650 1150 50  0001 C CNN "Voltage Rating"
 	1    8650 1150
 	1    0    0    -1  
 $EndComp
@@ -866,17 +816,6 @@ F 1 "GNDA" H 8255 1277 50  0000 C CNN
 F 2 "" H 8250 1450 50  0001 C CNN
 F 3 "" H 8250 1450 50  0001 C CNN
 	1    8250 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C9
-U 1 1 5D8CD682
-P 8650 1650
-F 0 "C9" H 8765 1696 50  0000 L CNN
-F 1 "220u" H 8765 1605 50  0000 L CNN
-F 2 "" H 8650 1650 50  0001 C CNN
-F 3 "~" H 8650 1650 50  0001 C CNN
-	1    8650 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1007,4 +946,204 @@ Text Label 7300 6350 0    50   ~ 0
 gnd_out
 Text Notes 7500 6500 0    50   ~ 0
 Connect output connector ground to star ground
+$Comp
+L Amplifier_Operational:NE5532 U1
+U 2 1 5D95A57F
+P 3900 5800
+F 0 "U1" H 3900 5433 50  0000 C CNN
+F 1 "NE5532" H 3900 5524 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3900 5800 50  0001 C CNN
+F 4 "ON Semiconductor" H 3900 5800 50  0001 C CNN "Manufacturer"
+F 5 "NE5532AD8R2G" H 3900 5800 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3900 5800 50  0001 C CNN "Distributor"
+F 7 "NE5532AD8R2GOSCT-ND" H 3900 5800 50  0001 C CNN "Distributor PN"
+	2    3900 5800
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U1
+U 3 1 5D95E720
+P 7750 1350
+F 0 "U1" H 7708 1304 50  0000 L CNN
+F 1 "NE5532" H 7708 1395 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7750 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 7750 1350 50  0001 C CNN
+F 4 "ON Semiconductor" H 7750 1350 50  0001 C CNN "Manufacturer"
+F 5 "NE5532AD8R2G" H 7750 1350 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 7750 1350 50  0001 C CNN "Distributor"
+F 7 "NE5532AD8R2GOSCT-ND" H 7750 1350 50  0001 C CNN "Distributor PN"
+	3    7750 1350
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1 C9
+U 1 1 5D9649FC
+P 8650 1650
+F 0 "C9" H 8765 1696 50  0000 L CNN
+F 1 "100u" H 8765 1605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 8650 1650 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvr.pdf" H 8650 1650 50  0001 C CNN
+F 4 "Nichicon" H 8650 1650 50  0001 C CNN "Manufacturer"
+F 5 "UVR1V101MED" H 8650 1650 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 8650 1650 50  0001 C CNN "Distributor"
+F 7 "493-1081-ND" H 8650 1650 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVR1V101MED/493-1081-ND/588822" H 8650 1650 50  0001 C CNN "URL"
+F 9 "0.26" H 8650 1650 50  0001 C CNN "Unit Price"
+F 10 "Electrolytic" H 8650 1650 50  0001 C CNN "Dielectric"
+F 11 "35V" H 8650 1650 50  0001 C CNN "Voltage Rating"
+	1    8650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5D965E2F
+P 6050 2550
+F 0 "C3" V 5798 2550 50  0000 C CNN
+F 1 "220u" V 5889 2550 50  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 6088 2400 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 6050 2550 50  0001 C CNN
+F 4 "Nichicon" H 6050 2550 50  0001 C CNN "Manufacturer"
+F 5 "UVP1V221MHD" H 6050 2550 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6050 2550 50  0001 C CNN "Distributor"
+F 7 "493-16138-ND" H 6050 2550 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVP1V221MHD/493-16138-ND/2539596" H 6050 2550 50  0001 C CNN "URL"
+F 9 "0.87" H 6050 2550 50  0001 C CNN "Unit Price"
+F 10 "Nonpolarized Electrolytic" V 6050 2550 50  0001 C CNN "Dielectric"
+F 11 "35V" V 6050 2550 50  0001 C CNN "Voltage Rating"
+	1    6050 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5D966B04
+P 6050 6250
+F 0 "C6" V 5798 6250 50  0000 C CNN
+F 1 "220u" V 5889 6250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 6088 6100 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 6050 6250 50  0001 C CNN
+F 4 "Nichicon" H 6050 6250 50  0001 C CNN "Manufacturer"
+F 5 "UVP1V221MHD" H 6050 6250 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6050 6250 50  0001 C CNN "Distributor"
+F 7 "493-16138-ND" H 6050 6250 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVP1V221MHD/493-16138-ND/2539596" H 6050 6250 50  0001 C CNN "URL"
+F 9 "0.87" H 6050 6250 50  0001 C CNN "Unit Price"
+F 10 "Nonpolarized Electrolytic" V 6050 6250 50  0001 C CNN "Dielectric"
+F 11 "35V" V 6050 6250 50  0001 C CNN "Voltage Rating"
+	1    6050 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_PNP_BCEC Q2
+U 1 1 5D96CA9F
+P 5200 3300
+F 0 "Q2" H 5488 3254 50  0000 L CNN
+F 1 "PZTA92" H 5488 3345 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 5400 3400 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZTA92T1-D.PDF" H 5200 3300 50  0001 C CNN
+F 4 "ON Semiconductor" H 5200 3300 50  0001 C CNN "Manufacturer"
+F 5 "PZTA92T1G" H 5200 3300 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 5200 3300 50  0001 C CNN "Distributor"
+F 7 "PZTA92T1GOSCT-ND" H 5200 3300 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA92T1G/PZTA92T1GOSCT-ND/920290" H 5200 3300 50  0001 C CNN "URL"
+F 9 "0.44" H 5200 3300 50  0001 C CNN "Unit Price"
+	1    5200 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Q_NPN_BCEC Q3
+U 1 1 5D973B3C
+P 5200 5500
+F 0 "Q3" H 5488 5546 50  0000 L CNN
+F 1 "PZTA42" H 5488 5455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 5400 5600 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF" H 5200 5500 50  0001 C CNN
+F 4 "ON Semiconductor" H 5200 5500 50  0001 C CNN "Manufacturer"
+F 5 "Digikey" H 5200 5500 50  0001 C CNN "Distributor"
+F 6 "PZTA42T1GOSCT-ND" H 5200 5500 50  0001 C CNN "Distributor PN"
+F 7 "PZTA42T1G" H 5200 5500 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA42T1G/PZTA42T1GOSCT-ND/1139989" H 5200 5500 50  0001 C CNN "URL"
+F 9 "0.43" H 5200 5500 50  0001 C CNN "Unit Price"
+	1    5200 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5200 5400 5200
+Wire Wire Line
+	5400 5200 5400 5300
+Connection ~ 5300 5200
+Wire Wire Line
+	5300 5200 5300 5000
+$Comp
+L Device:Q_NPN_BCEC Q1
+U 1 1 5D97BBB9
+P 5200 1800
+F 0 "Q1" H 5488 1846 50  0000 L CNN
+F 1 "PZTA42" H 5488 1755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 5400 1900 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF" H 5200 1800 50  0001 C CNN
+F 4 "ON Semiconductor" H 5200 1800 50  0001 C CNN "Manufacturer"
+F 5 "Digikey" H 5200 1800 50  0001 C CNN "Distributor"
+F 6 "PZTA42T1GOSCT-ND" H 5200 1800 50  0001 C CNN "Distributor PN"
+F 7 "PZTA42T1G" H 5200 1800 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA42T1G/PZTA42T1GOSCT-ND/1139989" H 5200 1800 50  0001 C CNN "URL"
+F 9 "0.43" H 5200 1800 50  0001 C CNN "Unit Price"
+	1    5200 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1600 5400 1500
+Wire Wire Line
+	5400 1500 5300 1500
+Connection ~ 5300 1500
+Wire Wire Line
+	5300 1500 5300 1300
+$Comp
+L Device:Q_PNP_BCEC Q4
+U 1 1 5D98233C
+P 5200 7000
+F 0 "Q4" H 5488 6954 50  0000 L CNN
+F 1 "PZTA92" H 5488 7045 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 5400 7100 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/PZTA92T1-D.PDF" H 5200 7000 50  0001 C CNN
+F 4 "ON Semiconductor" H 5200 7000 50  0001 C CNN "Manufacturer"
+F 5 "PZTA92T1G" H 5200 7000 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 5200 7000 50  0001 C CNN "Distributor"
+F 7 "PZTA92T1GOSCT-ND" H 5200 7000 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA92T1G/PZTA92T1GOSCT-ND/920290" H 5200 7000 50  0001 C CNN "URL"
+F 9 "0.44" H 5200 7000 50  0001 C CNN "Unit Price"
+	1    5200 7000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5400 3500 5400 3600
+Wire Wire Line
+	5400 3600 5300 3600
+Connection ~ 5300 3600
+Wire Wire Line
+	5300 3600 5300 3500
+Wire Wire Line
+	5400 7200 5400 7300
+Wire Wire Line
+	5400 7300 5300 7300
+Connection ~ 5300 7300
+Wire Wire Line
+	5300 7300 5300 7200
+$Comp
+L Device:R R16
+U 1 1 5D99AC16
+P 6650 6250
+F 0 "R16" V 6443 6250 50  0000 C CNN
+F 1 "47 1W" V 6534 6250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 6580 6250 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/28766/mbxsma.pdf" H 6650 6250 50  0001 C CNN
+F 4 "Vishay BC" H 6650 6250 50  0001 C CNN "Manufacturer"
+F 5 "MBE04140C4709FC100" H 6650 6250 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6650 6250 50  0001 C CNN "Distributor"
+F 7 "BC4537CT-ND" H 6650 6250 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/vishay-bc-components/MBE04140C4709FC100/BC4537CT-ND/7351967" H 6650 6250 50  0001 C CNN "URL"
+F 9 "0.69" H 6650 6250 50  0001 C CNN "Unit Price"
+	1    6650 6250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
