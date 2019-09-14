@@ -216,7 +216,7 @@ U 1 1 5D79F9DA
 P 850 7100
 F 0 "J4" H 958 7381 50  0000 C CNN
 F 1 "Molex_SL_01x03_Male" H 958 7290 50  0000 C CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 850 7100 50  0001 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0002_1x03_P2.54mm_Horizontal" H 850 7100 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 850 7100 50  0001 C CNN
 	1    850  7100
 	1    0    0    -1  
@@ -305,7 +305,7 @@ U 1 1 5D7B5472
 P 1600 2150
 F 0 "J1" H 1573 2032 50  0000 R CNN
 F 1 "Molex_SL_01x02_Male" H 1573 2123 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 1600 2150 50  0001 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 1600 2150 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 1600 2150 50  0001 C CNN
 	1    1600 2150
 	1    0    0    1   
@@ -524,7 +524,7 @@ U 1 1 5D825DD3
 P 1600 5850
 F 0 "J2" H 1573 5732 50  0000 R CNN
 F 1 "Molex_SL_01x02_Male" H 1573 5823 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 1600 5850 50  0001 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 1600 5850 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 1600 5850 50  0001 C CNN
 	1    1600 5850
 	1    0    0    1   
@@ -933,7 +933,7 @@ U 1 1 5D93DF57
 P 8050 6250
 F 0 "J3" H 8022 6274 50  0000 R CNN
 F 1 "Molex_SL_01x03_Male" H 8022 6183 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 8050 6250 50  0001 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0002_1x03_P2.54mm_Horizontal" H 8050 6250 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 8050 6250 50  0001 C CNN
 	1    8050 6250
 	-1   0    0    -1  
