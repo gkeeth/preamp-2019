@@ -220,10 +220,10 @@ Connection ~ 7650 1000
 Wire Wire Line
 	7650 1000 7650 1050
 $Comp
-L Connector_gkeeth:Molex_SL_01x03_Male J3
+L Connector_gkeeth:Molex_SL_01x03_Male J4
 U 1 1 5D79F9DA
 P 850 7100
-F 0 "J3" H 958 7381 50  0000 C CNN
+F 0 "J4" H 958 7381 50  0000 C CNN
 F 1 "Molex_SL_01x03_Male" H 958 7290 50  0000 C CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 850 7100 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 850 7100 50  0001 C CNN
@@ -307,7 +307,7 @@ F 3 "~" H 1500 7550 50  0001 C CNN
 $EndComp
 Connection ~ 1500 7550
 Text Notes 7750 5400 0    50   ~ 0
-TODO\nconsider other opamps, especially lm4562 and TL072\nswitch to surface mount versions of output transistors\noutput connector -- molex SL or board-mount headphone jack?\nhow to ground headphone jack?\noutput relay
+TODO\nconsider other opamps, especially lm4562 and TL072\nswitch to surface mount versions of output transistors\nheadphone jack ground to chassis...?
 $Comp
 L Connector_gkeeth:Molex_SL_01x02_Male J1
 U 1 1 5D7B5472
@@ -348,17 +348,6 @@ Wire Wire Line
 	2400 2150 2400 2200
 Wire Wire Line
 	2400 2200 2750 2200
-$Comp
-L Connector:AudioJack3 J4
-U 1 1 5D7EE19B
-P 7550 6250
-F 0 "J4" H 7270 6183 50  0000 R CNN
-F 1 "AudioJack3" H 7270 6274 50  0000 R CNN
-F 2 "" H 7550 6250 50  0001 C CNN
-F 3 "~" H 7550 6250 50  0001 C CNN
-	1    7550 6250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4600 1800 4600 2100
 Wire Wire Line
@@ -601,7 +590,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 2550 7000 6150
 Wire Wire Line
-	7000 6150 7350 6150
+	7000 6150 7850 6150
 Wire Wire Line
 	3450 5900 3450 6200
 $Comp
@@ -838,7 +827,7 @@ Wire Wire Line
 	5900 6250 5800 6250
 Connection ~ 5800 6250
 Wire Wire Line
-	6800 6250 7350 6250
+	6800 6250 7850 6250
 Wire Wire Line
 	5800 2550 5900 2550
 Connection ~ 5800 2550
@@ -950,7 +939,7 @@ $EndComp
 Wire Wire Line
 	7150 6500 7150 6350
 Wire Wire Line
-	7150 6350 7350 6350
+	7150 6350 7850 6350
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5D92F911
@@ -999,4 +988,23 @@ F 3 "~" H 9350 3750 50  0001 C CNN
 	1    9350 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_gkeeth:Molex_SL_01x03_Male J3
+U 1 1 5D93DF57
+P 8050 6250
+F 0 "J3" H 8022 6274 50  0000 R CNN
+F 1 "Molex_SL_01x03_Male" H 8022 6183 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0002_1x03_P2.54mm_Vertical" H 8050 6250 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 8050 6250 50  0001 C CNN
+	1    8050 6250
+	-1   0    0    -1  
+$EndComp
+Text Label 7300 6150 0    50   ~ 0
+left_out
+Text Label 7300 6250 0    50   ~ 0
+right_out
+Text Label 7300 6350 0    50   ~ 0
+gnd_out
+Text Notes 7500 6500 0    50   ~ 0
+Connect output connector ground to star ground
 $EndSCHEMATC
