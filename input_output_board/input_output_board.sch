@@ -125,7 +125,7 @@ U 1 1 5CB530B8
 P 6350 4700
 F 0 "J7" H 6322 4674 50  0000 R CNN
 F 1 "Molex_SL_01x02_Male" H 6322 4583 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 6350 4700 50  0001 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 6350 4700 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 6350 4700 50  0001 C CNN
 F 4 "Molex" H 6350 4700 50  0001 C CNN "Manufacturer"
 F 5 "0705430003" H 6350 4700 50  0001 C CNN "Manufacturer PN"
@@ -750,12 +750,12 @@ F 3 "" H 8200 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_gkeeth:Molex_SL_01x02_Male J6
+L Connector_gkeeth:Molex_SL_01x02_Male J9
 U 1 1 5D8346C7
 P 10000 2400
-F 0 "J6" H 10108 2167 50  0000 C CNN
+F 0 "J9" H 10108 2167 50  0000 C CNN
 F 1 "Molex_SL_01x02_Male" H 10108 2076 50  0000 C CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 10000 2400 50  0001 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 10000 2400 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 10000 2400 50  0001 C CNN
 F 4 "Molex" H 10000 2400 50  0001 C CNN "Manufacturer"
 F 5 "0705430003" H 10000 2400 50  0001 C CNN "Manufacturer PN"
@@ -764,38 +764,14 @@ F 6 "Digikey" H 10000 2400 50  0001 C CNN "Distributor"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power_gkeeth:GNDRELAY #PWR?
+L power_gkeeth:GNDRELAY #PWR0101
 U 1 1 5D821EF0
 P 9000 1150
-F 0 "#PWR?" H 9000 900 50  0001 C CNN
+F 0 "#PWR0101" H 9000 900 50  0001 C CNN
 F 1 "GNDRELAY" H 9004 995 50  0000 C CNN
 F 2 "" H 9000 1150 50  0001 C CNN
 F 3 "" H 9000 1150 50  0001 C CNN
 	1    9000 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP2
-U 1 1 5D821EEA
-P 9600 3250
-F 0 "JP2" H 9600 3343 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 9600 3371 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 3250 50  0001 C CNN
-F 3 "~" H 9600 3250 50  0001 C CNN
-	1    9600 3250
-	1    0    0    -1  
-$EndComp
-Text Notes 7550 3650 0    50   ~ 0
-JP1 - JP4 optionally bypass K5\n\nTo hardwire main output:\nDNP K5, fit JP1 & JP3\n\nTo hardwire headphone output:\nDNP K5, fit JP2 & JP4
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 5D821ED4
-P 9600 3050
-F 0 "JP1" H 9600 3150 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 9600 3171 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 3050 50  0001 C CNN
-F 3 "~" H 9600 3050 50  0001 C CNN
-	1    9600 3050
 	1    0    0    -1  
 $EndComp
 Text Notes 8100 700  0    50   ~ 0
@@ -808,7 +784,7 @@ U 1 1 5D821ECB
 P 7100 2000
 F 0 "J8" H 7072 1974 50  0000 R CNN
 F 1 "Molex_SL_01x02_Male" H 7072 1883 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 7100 2000 50  0001 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 7100 2000 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7100 2000 50  0001 C CNN
 F 4 "Molex" H 7100 2000 50  0001 C CNN "Manufacturer"
 F 5 "0705430001" H 7100 2000 50  0001 C CNN "Manufacturer PN"
@@ -921,28 +897,6 @@ Wire Wire Line
 Wire Wire Line
 	9750 1400 9800 1400
 Connection ~ 8750 1050
-$Comp
-L Device:Jumper_NO_Small JP3
-U 1 1 5DA7C338
-P 9600 3500
-F 0 "JP3" H 9600 3600 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 9600 3621 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 3500 50  0001 C CNN
-F 3 "~" H 9600 3500 50  0001 C CNN
-	1    9600 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP4
-U 1 1 5DA7C8D9
-P 9600 3700
-F 0 "JP4" H 9600 3793 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 9600 3821 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 3700 50  0001 C CNN
-F 3 "~" H 9600 3700 50  0001 C CNN
-	1    9600 3700
-	1    0    0    -1  
-$EndComp
 Text Label 8800 1900 0    50   ~ 0
 main_hot
 Text Label 8800 2100 0    50   ~ 0
@@ -967,38 +921,6 @@ Wire Wire Line
 	9450 2100 9450 2400
 Wire Wire Line
 	9450 2400 9800 2400
-Wire Wire Line
-	9000 3050 9500 3050
-Wire Wire Line
-	9000 3250 9500 3250
-Wire Wire Line
-	9000 3500 9500 3500
-Wire Wire Line
-	9000 3700 9500 3700
-Wire Wire Line
-	10350 3050 9700 3050
-Wire Wire Line
-	10350 3250 9700 3250
-Wire Wire Line
-	10350 3500 9700 3500
-Wire Wire Line
-	10350 3700 9700 3700
-Text Label 9000 3050 0    50   ~ 0
-output_hot
-Text Label 9000 3500 0    50   ~ 0
-output_cold
-Text Label 9000 3250 0    50   ~ 0
-output_hot
-Text Label 9000 3700 0    50   ~ 0
-output_cold
-Text Label 10350 3050 2    50   ~ 0
-main_hot
-Text Label 10350 3250 2    50   ~ 0
-headphone_hot
-Text Label 10350 3500 2    50   ~ 0
-main_cold
-Text Label 10350 3700 2    50   ~ 0
-headphone_cold
 Wire Notes Line
 	10450 550  5950 550 
 Wire Notes Line
