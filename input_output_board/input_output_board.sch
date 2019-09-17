@@ -749,123 +749,10 @@ F 3 "" H 8200 4750 50  0001 C CNN
 	1    8200 4750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_gkeeth:Molex_SL_01x02_Male J9
-U 1 1 5D8346C7
-P 10000 2400
-F 0 "J9" H 10108 2167 50  0000 C CNN
-F 1 "Molex_SL_01x02_Male" H 10108 2076 50  0000 C CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 10000 2400 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 10000 2400 50  0001 C CNN
-F 4 "Molex" H 10000 2400 50  0001 C CNN "Manufacturer"
-F 5 "0705430003" H 10000 2400 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 10000 2400 50  0001 C CNN "Distributor"
-	1    10000 2400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power_gkeeth:GNDRELAY #PWR0101
-U 1 1 5D821EF0
-P 9000 1150
-F 0 "#PWR0101" H 9000 900 50  0001 C CNN
-F 1 "GNDRELAY" H 9004 995 50  0000 C CNN
-F 2 "" H 9000 1150 50  0001 C CNN
-F 3 "" H 9000 1150 50  0001 C CNN
-	1    9000 1150
-	1    0    0    -1  
-$EndComp
-Text Notes 8100 700  0    50   ~ 0
+Text Notes 8250 750  0    50   ~ 0
 output shield connected to chassis by output connector
-Text Label 9750 2100 1    50   ~ 0
-output_shield
-$Comp
-L Connector_gkeeth:Molex_SL_01x02_Male J8
-U 1 1 5D821ECB
-P 7100 2000
-F 0 "J8" H 7072 1974 50  0000 R CNN
-F 1 "Molex_SL_01x02_Male" H 7072 1883 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 7100 2000 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 7100 2000 50  0001 C CNN
-F 4 "Molex" H 7100 2000 50  0001 C CNN "Manufacturer"
-F 5 "0705430001" H 7100 2000 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 7100 2000 50  0001 C CNN "Distributor"
-	1    7100 2000
-	1    0    0    -1  
-$EndComp
 Text Notes 5950 700  0    79   Italic 16
 OUTPUT CONNECTOR / RELAY
-Connection ~ 7950 1600
-Wire Wire Line
-	7000 1600 7950 1600
-Text Label 7000 1600 0    50   ~ 0
-headphone_select
-Wire Wire Line
-	8750 1050 8500 1050
-Wire Wire Line
-	8750 1600 8750 1050
-Wire Wire Line
-	8650 1600 8750 1600
-Wire Wire Line
-	7950 1600 8050 1600
-Wire Wire Line
-	7950 1050 7950 1600
-Wire Wire Line
-	8200 1050 7950 1050
-$Comp
-L Device:D D5
-U 1 1 5D821EA3
-P 8350 1050
-F 0 "D5" H 8350 1266 50  0000 C CNN
-F 1 "MRA4004T3G" H 8350 1175 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 8350 1050 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 8350 1050 50  0001 C CNN
-F 4 "On Semiconductor" H 8350 1050 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 8350 1050 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 8350 1050 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 8350 1050 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 8350 1050 50  0001 C CNN "URL"
-F 9 "0.29" H 8350 1050 50  0001 C CNN "Unit Price"
-	1    8350 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay:G6S-2 K5
-U 1 1 5D821E97
-P 8350 2000
-F 0 "K5" V 7583 2000 50  0000 C CNN
-F 1 "G6S-2" V 7674 2000 50  0000 C CNN
-F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 9000 1950 50  0001 L CNN
-F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 8150 2000 50  0001 C CNN
-F 4 "Omron" H 8350 2000 50  0001 C CNN "Manufacturer"
-F 5 "G6S-2F DC12" H 8350 2000 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 8350 2000 50  0001 C CNN "Distributor"
-F 7 "Z889-ND" H 8350 2000 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 8350 2000 50  0001 C CNN "URL"
-F 9 "3.64" H 8350 2000 50  0001 C CNN "Unit Price"
-	1    8350 2000
-	0    1    1    0   
-$EndComp
-Text Label 7500 2400 0    50   ~ 0
-output_cold
-Text Label 7500 2000 0    50   ~ 0
-output_hot
-$Comp
-L Connector:AudioJack3 J5
-U 1 1 5D821E7D
-P 10000 1300
-F 0 "J5" H 9982 933 50  0000 C CNN
-F 1 "AudioJack3" H 9982 1024 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_Neutrik_NMJ6HCD2_Horizontal" H 10000 1300 50  0001 C CNN
-F 3 "https://www.neutrik.us/media/8560/download/nrj3hf-1-2.pdf?v=1" H 10000 1300 50  0001 C CNN
-F 4 "Neutrik" H 10000 1300 50  0001 C CNN "Manufacturer"
-F 5 "NRJ3HF-1" H 10000 1300 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 10000 1300 50  0001 C CNN "Distributor"
-F 7 "568-NRJ3HF-1" H 10000 1300 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/568-NRJ3HF-1" H 10000 1300 50  0001 C CNN "URL"
-F 9 "0.63" H 10000 1300 50  0001 C CNN "Unit Price"
-	1    10000 1300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5000 2000 5000 3750
 Wire Wire Line
@@ -876,51 +763,6 @@ Wire Notes Line
 	6150 6700 7300 6700
 Wire Notes Line
 	650  7900 6150 7900
-Wire Wire Line
-	7300 2100 7400 2100
-Wire Wire Line
-	7400 2100 7400 2400
-Wire Wire Line
-	9000 1150 9000 1050
-Wire Wire Line
-	9000 1050 8750 1050
-Wire Wire Line
-	9500 1900 9500 1200
-Wire Wire Line
-	9500 1200 9800 1200
-Wire Wire Line
-	9800 1300 9600 1300
-Wire Wire Line
-	9600 1300 9600 2300
-Wire Wire Line
-	9750 2100 9750 1400
-Wire Wire Line
-	9750 1400 9800 1400
-Connection ~ 8750 1050
-Text Label 8800 1900 0    50   ~ 0
-main_hot
-Text Label 8800 2100 0    50   ~ 0
-headphone_hot
-Text Label 8800 2300 0    50   ~ 0
-main_cold
-Text Label 8800 2500 0    50   ~ 0
-headphone_cold
-Wire Wire Line
-	7300 2000 8050 2000
-Wire Wire Line
-	7400 2400 8050 2400
-Wire Wire Line
-	8650 1900 9500 1900
-Wire Wire Line
-	8650 2100 9450 2100
-Wire Wire Line
-	8650 2300 9600 2300
-Wire Wire Line
-	8650 2500 9800 2500
-Wire Wire Line
-	9450 2100 9450 2400
-Wire Wire Line
-	9450 2400 9800 2400
 Wire Notes Line
 	10450 550  5950 550 
 Wire Notes Line
@@ -947,4 +789,192 @@ Wire Wire Line
 	5150 5100 5150 6850
 Wire Wire Line
 	5000 5500 5000 7250
+$Comp
+L Connector_gkeeth:Neutrik_NCJ6FA-H J5
+U 2 1 5D808DA8
+P 10050 1250
+F 0 "J5" H 10032 883 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 10032 974 50  0000 C CNN
+F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 10050 1250 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 10050 1250 50  0001 C CNN
+F 4 "Neutrik" H 10050 1250 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 10050 1250 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 10050 1250 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 10050 1250 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 10050 1250 50  0001 C CNN "URL"
+F 9 "2.10" H 10050 1250 50  0001 C CNN "Unit Price"
+	2    10050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8550 2550 8900 2550
+Wire Wire Line
+	8550 2250 8550 2550
+Wire Wire Line
+	7750 2650 8900 2650
+Wire Wire Line
+	7750 2450 8750 2450
+Wire Wire Line
+	7750 2250 8550 2250
+Wire Wire Line
+	7750 2050 8350 2050
+Wire Wire Line
+	6600 2550 7150 2550
+Wire Wire Line
+	6500 2150 7150 2150
+Text Label 7900 2650 0    50   ~ 0
+headphone_cold
+Text Label 7900 2450 0    50   ~ 0
+main_cold
+Text Label 7900 2250 0    50   ~ 0
+headphone_hot
+Text Label 7900 2050 0    50   ~ 0
+main_hot
+Connection ~ 7850 1200
+Wire Wire Line
+	8750 1650 8750 2450
+Wire Wire Line
+	8350 2050 8350 1350
+Wire Wire Line
+	8100 1200 7850 1200
+Wire Wire Line
+	8100 1300 8100 1200
+Wire Wire Line
+	6600 2250 6600 2550
+Wire Wire Line
+	6500 2250 6600 2250
+Text Label 6650 2150 0    50   ~ 0
+output_hot
+Text Label 6650 2550 0    50   ~ 0
+output_cold
+$Comp
+L Relay:G6S-2 K5
+U 1 1 5D821E97
+P 7450 2150
+F 0 "K5" V 6683 2150 50  0000 C CNN
+F 1 "G6S-2" V 6774 2150 50  0000 C CNN
+F 2 "Relay_SMD:Relay_DPDT_Omron_G6S-2F" H 8100 2100 50  0001 L CNN
+F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf" H 7250 2150 50  0001 C CNN
+F 4 "Omron" H 7450 2150 50  0001 C CNN "Manufacturer"
+F 5 "G6S-2F DC12" H 7450 2150 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 7450 2150 50  0001 C CNN "Distributor"
+F 7 "Z889-ND" H 7450 2150 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491" H 7450 2150 50  0001 C CNN "URL"
+F 9 "3.64" H 7450 2150 50  0001 C CNN "Unit Price"
+	1    7450 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5D821EA3
+P 7450 1200
+F 0 "D5" H 7450 1416 50  0000 C CNN
+F 1 "MRA4004T3G" H 7450 1325 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 7450 1200 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 7450 1200 50  0001 C CNN
+F 4 "On Semiconductor" H 7450 1200 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 7450 1200 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 7450 1200 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 7450 1200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 7450 1200 50  0001 C CNN "URL"
+F 9 "0.29" H 7450 1200 50  0001 C CNN "Unit Price"
+	1    7450 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1200 7050 1200
+Wire Wire Line
+	7050 1200 7050 1750
+Wire Wire Line
+	7050 1750 7150 1750
+Wire Wire Line
+	7750 1750 7850 1750
+Wire Wire Line
+	7850 1750 7850 1200
+Wire Wire Line
+	7850 1200 7600 1200
+Text Label 6100 1750 0    50   ~ 0
+headphone_select
+Wire Wire Line
+	6100 1750 7050 1750
+Connection ~ 7050 1750
+$Comp
+L Connector_gkeeth:Molex_SL_01x02_Male J8
+U 1 1 5D821ECB
+P 6300 2150
+F 0 "J8" H 6408 2331 50  0000 C CNN
+F 1 "Molex_SL_01x02_Male" H 6408 2240 50  0000 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 6300 2150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 6300 2150 50  0001 C CNN
+F 4 "Molex" H 6300 2150 50  0001 C CNN "Manufacturer"
+F 5 "0705430001" H 6300 2150 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6300 2150 50  0001 C CNN "Distributor"
+	1    6300 2150
+	1    0    0    -1  
+$EndComp
+Text Label 9250 1350 0    50   ~ 0
+main_shield
+$Comp
+L power_gkeeth:GNDRELAY #PWR0101
+U 1 1 5D821EF0
+P 8100 1300
+F 0 "#PWR0101" H 8100 1050 50  0001 C CNN
+F 1 "GNDRELAY" H 8104 1145 50  0000 C CNN
+F 2 "" H 8100 1300 50  0001 C CNN
+F 3 "" H 8100 1300 50  0001 C CNN
+	1    8100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_gkeeth:Molex_SL_01x02_Male J9
+U 1 1 5D8346C7
+P 9100 2550
+F 0 "J9" H 9208 2317 50  0000 C CNN
+F 1 "Molex_SL_01x02_Male" H 9208 2226 50  0000 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 9100 2550 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 9100 2550 50  0001 C CNN
+F 4 "Molex" H 9100 2550 50  0001 C CNN "Manufacturer"
+F 5 "0705430003" H 9100 2550 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 9100 2550 50  0001 C CNN "Distributor"
+	1    9100 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_gkeeth:Neutrik_NCJ6FA-H J5
+U 1 1 5D807783
+P 8750 1350
+F 0 "J5" H 8750 1715 50  0000 C CNN
+F 1 "Neutrik_NCJ6FA-H" H 8750 1624 50  0000 C CNN
+F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 8750 1350 50  0001 C CNN
+F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 8750 1350 50  0001 C CNN
+F 4 "Neutrik" H 8750 1350 50  0001 C CNN "Manufacturer"
+F 5 "NCJ6FA-H" H 8750 1350 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 8750 1350 50  0001 C CNN "Distributor"
+F 7 "568-NCJ6FA-H" H 8750 1350 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 8750 1350 50  0001 C CNN "URL"
+F 9 "2.10" H 8750 1350 50  0001 C CNN "Unit Price"
+	1    8750 1350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1350 8450 1350
+Wire Wire Line
+	9050 1350 9100 1350
+Wire Wire Line
+	8850 1650 8850 1700
+Wire Wire Line
+	8850 1700 9100 1700
+Wire Wire Line
+	9100 1700 9100 1350
+Wire Wire Line
+	9100 1350 9850 1350
+Connection ~ 9100 1350
+Wire Wire Line
+	9250 1150 9850 1150
+Wire Wire Line
+	9250 1250 9850 1250
+Text Label 9250 1150 0    50   ~ 0
+main_hot
+Text Label 9250 1250 0    50   ~ 0
+main_cold
 $EndSCHEMATC
