@@ -67,15 +67,6 @@ $EndComp
 Wire Wire Line
 	4600 2650 4600 2750
 Wire Wire Line
-	4600 3050 4600 3300
-Wire Wire Line
-	5000 3300 4600 3300
-Connection ~ 4600 3300
-Wire Wire Line
-	4600 3300 4600 3400
-Wire Wire Line
-	5300 3100 5300 2950
-Wire Wire Line
 	5300 2650 5300 2550
 Wire Wire Line
 	5300 2150 5300 2000
@@ -112,11 +103,6 @@ Wire Wire Line
 	4600 3700 4600 3850
 Wire Wire Line
 	4600 3850 5300 3850
-Connection ~ 5300 3850
-Wire Wire Line
-	5300 3850 5300 3600
-Wire Wire Line
-	5300 1600 5300 1500
 $Comp
 L Device:R R2
 U 1 1 5D791E9A
@@ -464,10 +450,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 7550 5300 7550
 Connection ~ 5300 7550
-Wire Wire Line
-	5300 7550 5300 7300
-Wire Wire Line
-	5300 5300 5300 5200
 $Comp
 L Device:R R12
 U 1 1 5D825DB6
@@ -1034,102 +1016,6 @@ F 11 "35V" V 6050 6250 50  0001 C CNN "Voltage Rating"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_PNP_BCEC Q2
-U 1 1 5D96CA9F
-P 5200 3300
-F 0 "Q2" H 5488 3254 50  0000 L CNN
-F 1 "PZTA92" H 5488 3345 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 5400 3400 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/PZTA92T1-D.PDF" H 5200 3300 50  0001 C CNN
-F 4 "ON Semiconductor" H 5200 3300 50  0001 C CNN "Manufacturer"
-F 5 "PZTA92T1G" H 5200 3300 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5200 3300 50  0001 C CNN "Distributor"
-F 7 "PZTA92T1GOSCT-ND" H 5200 3300 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA92T1G/PZTA92T1GOSCT-ND/920290" H 5200 3300 50  0001 C CNN "URL"
-F 9 "0.44" H 5200 3300 50  0001 C CNN "Unit Price"
-	1    5200 3300
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:Q_NPN_BCEC Q3
-U 1 1 5D973B3C
-P 5200 5500
-F 0 "Q3" H 5488 5546 50  0000 L CNN
-F 1 "PZTA42" H 5488 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 5400 5600 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF" H 5200 5500 50  0001 C CNN
-F 4 "ON Semiconductor" H 5200 5500 50  0001 C CNN "Manufacturer"
-F 5 "Digikey" H 5200 5500 50  0001 C CNN "Distributor"
-F 6 "PZTA42T1GOSCT-ND" H 5200 5500 50  0001 C CNN "Distributor PN"
-F 7 "PZTA42T1G" H 5200 5500 50  0001 C CNN "Manufacturer PN"
-F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA42T1G/PZTA42T1GOSCT-ND/1139989" H 5200 5500 50  0001 C CNN "URL"
-F 9 "0.43" H 5200 5500 50  0001 C CNN "Unit Price"
-	1    5200 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 5200 5400 5200
-Wire Wire Line
-	5400 5200 5400 5300
-Connection ~ 5300 5200
-Wire Wire Line
-	5300 5200 5300 5000
-$Comp
-L Device:Q_NPN_BCEC Q1
-U 1 1 5D97BBB9
-P 5200 1800
-F 0 "Q1" H 5488 1846 50  0000 L CNN
-F 1 "PZTA42" H 5488 1755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 5400 1900 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF" H 5200 1800 50  0001 C CNN
-F 4 "ON Semiconductor" H 5200 1800 50  0001 C CNN "Manufacturer"
-F 5 "Digikey" H 5200 1800 50  0001 C CNN "Distributor"
-F 6 "PZTA42T1GOSCT-ND" H 5200 1800 50  0001 C CNN "Distributor PN"
-F 7 "PZTA42T1G" H 5200 1800 50  0001 C CNN "Manufacturer PN"
-F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA42T1G/PZTA42T1GOSCT-ND/1139989" H 5200 1800 50  0001 C CNN "URL"
-F 9 "0.43" H 5200 1800 50  0001 C CNN "Unit Price"
-	1    5200 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 1600 5400 1500
-Wire Wire Line
-	5400 1500 5300 1500
-Connection ~ 5300 1500
-Wire Wire Line
-	5300 1500 5300 1300
-$Comp
-L Device:Q_PNP_BCEC Q4
-U 1 1 5D98233C
-P 5200 7000
-F 0 "Q4" H 5488 6954 50  0000 L CNN
-F 1 "PZTA92" H 5488 7045 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 5400 7100 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/PZTA92T1-D.PDF" H 5200 7000 50  0001 C CNN
-F 4 "ON Semiconductor" H 5200 7000 50  0001 C CNN "Manufacturer"
-F 5 "PZTA92T1G" H 5200 7000 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 5200 7000 50  0001 C CNN "Distributor"
-F 7 "PZTA92T1GOSCT-ND" H 5200 7000 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA92T1G/PZTA92T1GOSCT-ND/920290" H 5200 7000 50  0001 C CNN "URL"
-F 9 "0.44" H 5200 7000 50  0001 C CNN "Unit Price"
-	1    5200 7000
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	5400 3500 5400 3600
-Wire Wire Line
-	5400 3600 5300 3600
-Connection ~ 5300 3600
-Wire Wire Line
-	5300 3600 5300 3500
-Wire Wire Line
-	5400 7200 5400 7300
-Wire Wire Line
-	5400 7300 5300 7300
-Connection ~ 5300 7300
-Wire Wire Line
-	5300 7300 5300 7200
-$Comp
 L Device:R R16
 U 1 1 5D99AC16
 P 6650 6250
@@ -1145,5 +1031,91 @@ F 8 "https://www.digikey.com/product-detail/en/vishay-bc-components/MBE04140C470
 F 9 "0.69" H 6650 6250 50  0001 C CNN "Unit Price"
 	1    6650 6250
 	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 1300 5300 1600
+$Comp
+L Transistor_BJT_gkeeth:PZTA42 Q1
+U 1 1 5D835D77
+P 5200 1800
+F 0 "Q1" H 5390 1846 50  0000 L CNN
+F 1 "PZTA42" H 5390 1755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5400 1725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF" H 5200 1800 50  0001 L CNN
+F 4 "Digikey" H 5200 1800 50  0001 C CNN "Distributor"
+F 5 "PZTA42T1GOSCT-ND" H 5200 1800 50  0001 C CNN "Distributor PN"
+F 6 "ON Semiconductor" H 5200 1800 50  0001 C CNN "Manufacturer"
+F 7 "PZTA42T1G" H 5200 1800 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA42T1G/PZTA42T1GOSCT-ND/1139989" H 5200 1800 50  0001 C CNN "URL"
+F 9 "0.43" H 5200 1800 50  0001 C CNN "Unit Price"
+	1    5200 1800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 3850
+Wire Wire Line
+	5300 3100 5300 2950
+Wire Wire Line
+	4600 3300 4600 3400
+Wire Wire Line
+	4600 3050 4600 3300
+Connection ~ 4600 3300
+Wire Wire Line
+	5000 3300 4600 3300
+$Comp
+L Transistor_BJT:PZTA92 Q2
+U 1 1 5D83FFA6
+P 5200 3300
+F 0 "Q2" H 5390 3254 50  0000 L CNN
+F 1 "PZTA92" H 5390 3345 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5400 3225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PZTA92T1-D.PDF" H 5200 3300 50  0001 L CNN
+F 4 "Digikey" H 5200 3300 50  0001 C CNN "Distributor"
+F 5 "PZTA92T1GOSCT-ND" H 5200 3300 50  0001 C CNN "Distributor PN"
+F 6 "ON Semiconductor" H 5200 3300 50  0001 C CNN "Manufacturer"
+F 7 "PZTA92T1G" H 5200 3300 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA92T1G/PZTA92T1GOSCT-ND/920290" H 5200 3300 50  0001 C CNN "URL"
+F 9 "0.44" H 5200 3300 50  0001 C CNN "Unit Price"
+	1    5200 3300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5300 3500 5300 3850
+Wire Wire Line
+	5300 7200 5300 7550
+Wire Wire Line
+	5300 5000 5300 5300
+$Comp
+L Transistor_BJT:PZTA92 Q4
+U 1 1 5D846814
+P 5200 7000
+F 0 "Q4" H 5390 6954 50  0000 L CNN
+F 1 "PZTA92" H 5390 7045 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5400 6925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PZTA92T1-D.PDF" H 5200 7000 50  0001 L CNN
+F 4 "Digikey" H 5200 7000 50  0001 C CNN "Distributor"
+F 5 "PZTA92T1GOSCT-ND" H 5200 7000 50  0001 C CNN "Distributor PN"
+F 6 "ON Semiconductor" H 5200 7000 50  0001 C CNN "Manufacturer"
+F 7 "PZTA92T1G" H 5200 7000 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA92T1G/PZTA92T1GOSCT-ND/920290" H 5200 7000 50  0001 C CNN "URL"
+F 9 "0.44" H 5200 7000 50  0001 C CNN "Unit Price"
+	1    5200 7000
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT_gkeeth:PZTA42 Q3
+U 1 1 5D8472CD
+P 5200 5500
+F 0 "Q3" H 5390 5546 50  0000 L CNN
+F 1 "PZTA42" H 5390 5455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5400 5425 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF" H 5200 5500 50  0001 L CNN
+F 4 "Digikey" H 5200 5500 50  0001 C CNN "Distributor"
+F 5 "PZTA42T1GOSCT-ND" H 5200 5500 50  0001 C CNN "Distributor PN"
+F 6 "ON Semiconductor" H 5200 5500 50  0001 C CNN "Manufacturer"
+F 7 "PZTA42T1G" H 5200 5500 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA42T1G/PZTA42T1GOSCT-ND/1139989" H 5200 5500 50  0001 C CNN "URL"
+F 9 "0.43" H 5200 5500 50  0001 C CNN "Unit Price"
+	1    5200 5500
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
