@@ -23,13 +23,13 @@ P 2450 3450
 F 0 "J2" H 2450 3815 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H-0" H 2450 3724 50  0000 C CNN
 F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 2450 3450 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 3450 50  0001 C CNN
+F 3 "https://www.neutrik.us/en-us/product/ncj6fa-h-0" H 2450 3450 50  0001 C CNN
 F 4 "Neutrik" H 2450 3450 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 2450 3450 50  0001 C CNN "Manufacturer PN"
+F 5 "NCJ6FA-H-0" H 2450 3450 50  0001 C CNN "Manufacturer PN"
 F 6 "Mouser" H 2450 3450 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 2450 3450 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 3450 50  0001 C CNN "URL"
-F 9 "2.10" H 2450 3450 50  0001 C CNN "Unit Price"
+F 7 "568-NCJ6FA-H-0" H 2450 3450 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D" H 2450 3450 50  0001 C CNN "URL"
+F 9 "2.14" H 2450 3450 50  0001 C CNN "Unit Price"
 	1    2450 3450
 	1    0    0    -1  
 $EndComp
@@ -109,13 +109,13 @@ P 1200 3350
 F 0 "J2" H 1182 2983 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H-0" H 1182 3074 50  0000 C CNN
 F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 1200 3350 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 3350 50  0001 C CNN
+F 3 "https://www.neutrik.us/en-us/product/ncj6fa-h-0" H 1200 3350 50  0001 C CNN
 F 4 "Neutrik" H 1200 3350 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 1200 3350 50  0001 C CNN "Manufacturer PN"
+F 5 "NCJ6FA-H-0" H 1200 3350 50  0001 C CNN "Manufacturer PN"
 F 6 "Mouser" H 1200 3350 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 1200 3350 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1200 3350 50  0001 C CNN "URL"
-F 9 "2.10" H 1200 3350 50  0001 C CNN "Unit Price"
+F 7 "568-NCJ6FA-H-0" H 1200 3350 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D" H 1200 3350 50  0001 C CNN "URL"
+F 9 "2.14" H 1200 3350 50  0001 C CNN "Unit Price"
 	2    1200 3350
 	1    0    0    1   
 $EndComp
@@ -542,13 +542,13 @@ P 2450 1700
 F 0 "J1" H 2450 2065 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H-0" H 2450 1974 50  0000 C CNN
 F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 2450 1700 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 1700 50  0001 C CNN
+F 3 "https://www.neutrik.us/en-us/product/ncj6fa-h-0" H 2450 1700 50  0001 C CNN
 F 4 "Neutrik" H 2450 1700 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 2450 1700 50  0001 C CNN "Manufacturer PN"
+F 5 "NCJ6FA-H-0" H 2450 1700 50  0001 C CNN "Manufacturer PN"
 F 6 "Mouser" H 2450 1700 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 2450 1700 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 1700 50  0001 C CNN "URL"
-F 9 "2.10" H 2450 1700 50  0001 C CNN "Unit Price"
+F 7 "568-NCJ6FA-H-0" H 2450 1700 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D" H 2450 1700 50  0001 C CNN "URL"
+F 9 "2.14" H 2450 1700 50  0001 C CNN "Unit Price"
 	1    2450 1700
 	1    0    0    -1  
 $EndComp
@@ -559,13 +559,13 @@ P 1200 1600
 F 0 "J1" H 1182 1233 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H-0" H 1182 1324 50  0000 C CNN
 F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 1200 1600 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 1600 50  0001 C CNN
+F 3 "https://www.neutrik.us/en-us/product/ncj6fa-h-0" H 1200 1600 50  0001 C CNN
 F 4 "Neutrik" H 1200 1600 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 1200 1600 50  0001 C CNN "Manufacturer PN"
+F 5 "NCJ6FA-H-0" H 1200 1600 50  0001 C CNN "Manufacturer PN"
 F 6 "Mouser" H 1200 1600 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 1200 1600 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1200 1600 50  0001 C CNN "URL"
-F 9 "2.10" H 1200 1600 50  0001 C CNN "Unit Price"
+F 7 "568-NCJ6FA-H-0" H 1200 1600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D" H 1200 1600 50  0001 C CNN "URL"
+F 9 "2.14" H 1200 1600 50  0001 C CNN "Unit Price"
 	2    1200 1600
 	1    0    0    1   
 $EndComp
@@ -576,13 +576,13 @@ P 1200 5100
 F 0 "J3" H 1182 4733 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H-0" H 1182 4824 50  0000 C CNN
 F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 1200 5100 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 5100 50  0001 C CNN
+F 3 "https://www.neutrik.us/en-us/product/ncj6fa-h-0" H 1200 5100 50  0001 C CNN
 F 4 "Neutrik" H 1200 5100 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 1200 5100 50  0001 C CNN "Manufacturer PN"
+F 5 "NCJ6FA-H-0" H 1200 5100 50  0001 C CNN "Manufacturer PN"
 F 6 "Mouser" H 1200 5100 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 1200 5100 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1200 5100 50  0001 C CNN "URL"
-F 9 "2.10" H 1200 5100 50  0001 C CNN "Unit Price"
+F 7 "568-NCJ6FA-H-0" H 1200 5100 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D" H 1200 5100 50  0001 C CNN "URL"
+F 9 "2.14" H 1200 5100 50  0001 C CNN "Unit Price"
 	2    1200 5100
 	1    0    0    1   
 $EndComp
@@ -593,13 +593,13 @@ P 1200 6850
 F 0 "J4" H 1182 6483 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H-0" H 1182 6574 50  0000 C CNN
 F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 1200 6850 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 6850 50  0001 C CNN
+F 3 "https://www.neutrik.us/en-us/product/ncj6fa-h-0" H 1200 6850 50  0001 C CNN
 F 4 "Neutrik" H 1200 6850 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 1200 6850 50  0001 C CNN "Manufacturer PN"
+F 5 "NCJ6FA-H-0" H 1200 6850 50  0001 C CNN "Manufacturer PN"
 F 6 "Mouser" H 1200 6850 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 1200 6850 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 1200 6850 50  0001 C CNN "URL"
-F 9 "2.10" H 1200 6850 50  0001 C CNN "Unit Price"
+F 7 "568-NCJ6FA-H-0" H 1200 6850 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D" H 1200 6850 50  0001 C CNN "URL"
+F 9 "2.14" H 1200 6850 50  0001 C CNN "Unit Price"
 	2    1200 6850
 	1    0    0    1   
 $EndComp
@@ -610,13 +610,13 @@ P 2450 5200
 F 0 "J3" H 2450 5565 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H-0" H 2450 5474 50  0000 C CNN
 F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 2450 5200 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 5200 50  0001 C CNN
+F 3 "https://www.neutrik.us/en-us/product/ncj6fa-h-0" H 2450 5200 50  0001 C CNN
 F 4 "Neutrik" H 2450 5200 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 2450 5200 50  0001 C CNN "Manufacturer PN"
+F 5 "NCJ6FA-H-0" H 2450 5200 50  0001 C CNN "Manufacturer PN"
 F 6 "Mouser" H 2450 5200 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 2450 5200 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 5200 50  0001 C CNN "URL"
-F 9 "2.10" H 2450 5200 50  0001 C CNN "Unit Price"
+F 7 "568-NCJ6FA-H-0" H 2450 5200 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D" H 2450 5200 50  0001 C CNN "URL"
+F 9 "2.14" H 2450 5200 50  0001 C CNN "Unit Price"
 	1    2450 5200
 	1    0    0    -1  
 $EndComp
@@ -627,13 +627,13 @@ P 2450 6950
 F 0 "J4" H 2450 7315 50  0000 C CNN
 F 1 "Neutrik_NCJ6FA-H-0" H 2450 7224 50  0000 C CNN
 F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 2450 6950 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 6950 50  0001 C CNN
+F 3 "https://www.neutrik.us/en-us/product/ncj6fa-h-0" H 2450 6950 50  0001 C CNN
 F 4 "Neutrik" H 2450 6950 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 2450 6950 50  0001 C CNN "Manufacturer PN"
+F 5 "NCJ6FA-H-0" H 2450 6950 50  0001 C CNN "Manufacturer PN"
 F 6 "Mouser" H 2450 6950 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 2450 6950 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 2450 6950 50  0001 C CNN "URL"
-F 9 "2.10" H 2450 6950 50  0001 C CNN "Unit Price"
+F 7 "568-NCJ6FA-H-0" H 2450 6950 50  0001 C CNN "Distributor PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D" H 2450 6950 50  0001 C CNN "URL"
+F 9 "2.14" H 2450 6950 50  0001 C CNN "Unit Price"
 	1    2450 6950
 	1    0    0    -1  
 $EndComp
@@ -693,7 +693,7 @@ input shield connected to chassis by input connector
 Text Notes 800  7550 0    50   ~ 0
 input shield connected to chassis by input connector
 Text Notes 8200 6150 0    50   ~ 0
-TODO\nchange output jack to 6.35mm (not combo)\ncreate footprint for output jack\nmounting holes in corners?\npulldown resistors on J5?
+TODO\npulldown resistors on J5?
 $Comp
 L power_gkeeth:GNDRELAY #PWR0102
 U 1 1 5D193C96
@@ -789,23 +789,6 @@ Wire Wire Line
 	5150 5100 5150 6850
 Wire Wire Line
 	5000 5500 5000 7250
-$Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J5
-U 2 1 5D808DA8
-P 10050 1250
-F 0 "J5" H 10032 883 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H-0" H 10032 974 50  0000 C CNN
-F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 10050 1250 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 10050 1250 50  0001 C CNN
-F 4 "Neutrik" H 10050 1250 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 10050 1250 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 10050 1250 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 10050 1250 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 10050 1250 50  0001 C CNN "URL"
-F 9 "2.10" H 10050 1250 50  0001 C CNN "Unit Price"
-	2    10050 1250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8550 2550 8900 2550
 Wire Wire Line
@@ -912,7 +895,7 @@ F 6 "Digikey" H 6300 2150 50  0001 C CNN "Distributor"
 	1    6300 2150
 	1    0    0    -1  
 $EndComp
-Text Label 9250 1350 0    50   ~ 0
+Text Label 9850 1350 2    50   ~ 0
 main_shield
 $Comp
 L power_gkeeth:GNDRELAY #PWR0101
@@ -939,23 +922,6 @@ F 6 "Digikey" H 9100 2550 50  0001 C CNN "Distributor"
 	1    9100 2550
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J5
-U 1 1 5D807783
-P 8750 1350
-F 0 "J5" H 8750 1715 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H-0" H 8750 1624 50  0000 C CNN
-F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 8750 1350 50  0001 C CNN
-F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 8750 1350 50  0001 C CNN
-F 4 "Neutrik" H 8750 1350 50  0001 C CNN "Manufacturer"
-F 5 "NCJ6FA-H" H 8750 1350 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 8750 1350 50  0001 C CNN "Distributor"
-F 7 "568-NCJ6FA-H" H 8750 1350 50  0001 C CNN "Distributor PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H?qs=aEaV1LakhLZ1UcG8BF7YQQ%3D%3D" H 8750 1350 50  0001 C CNN "URL"
-F 9 "2.10" H 8750 1350 50  0001 C CNN "Unit Price"
-	1    8750 1350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	8350 1350 8450 1350
 Wire Wire Line
@@ -969,12 +935,21 @@ Wire Wire Line
 Wire Wire Line
 	9100 1350 9850 1350
 Connection ~ 9100 1350
-Wire Wire Line
-	9250 1150 9850 1150
-Wire Wire Line
-	9250 1250 9850 1250
-Text Label 9250 1150 0    50   ~ 0
-main_hot
-Text Label 9250 1250 0    50   ~ 0
-main_cold
+$Comp
+L Connector_gkeeth:Neutrik_NC3MAH J5
+U 1 1 5D8B61B8
+P 8750 1350
+F 0 "J5" H 8750 1715 50  0000 C CNN
+F 1 "Neutrik_NC3MAH" H 8750 1624 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR_Neutrik_NC3MAH_Horizontal" H 8750 1350 50  0001 C CNN
+F 3 "https://www.neutrik.us/en-us/product/nc3mah" H 8750 1350 50  0001 C CNN
+F 4 "Mouser" H 8750 1350 50  0001 C CNN "Distributor"
+F 5 "568-NC3MAH" H 8750 1350 50  0001 C CNN "Distributor PN"
+F 6 "Neutrik" H 8750 1350 50  0001 C CNN "Manufacturer"
+F 7 "NC3MAH" H 8750 1350 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NC3MAH?qs=sGAEpiMZZMv0W4pxf2HiV0%252BKdhvD8lQRNSjbmflhq7A%3D" H 8750 1350 50  0001 C CNN "URL"
+F 9 "1.25" H 8750 1350 50  0001 C CNN "Unit Price"
+	1    8750 1350
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

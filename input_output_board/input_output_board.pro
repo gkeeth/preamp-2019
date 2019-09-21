@@ -1,4 +1,4 @@
-update=Sun 15 Sep 2019 04:19:44 PM EDT
+update=Sat 21 Sep 2019 02:51:23 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -278,7 +278,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=shield
-Clearance=0.3556
+Clearance=0.3048
 TrackWidth=0.3556
 ViaDiameter=0.8
 ViaDrill=0.4
