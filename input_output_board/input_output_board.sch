@@ -17,12 +17,12 @@ $EndDescr
 Text Notes 7450 6150 0    50   ~ 0
 Tip: hot\nRing: cold\nSleeve: shield\n\n1: shield\n2: hot\n3: cold
 $Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J2
+L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J2
 U 1 1 5CAED56C
 P 2450 3450
 F 0 "J2" H 2450 3815 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 2450 3724 50  0000 C CNN
-F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 2450 3450 50  0001 C CNN
+F 1 "Neutrik_NCJ6FA-H-0" H 2450 3724 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 2450 3450 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 3450 50  0001 C CNN
 F 4 "Neutrik" H 2450 3450 50  0001 C CNN "Manufacturer"
 F 5 "NCJ6FA-H" H 2450 3450 50  0001 C CNN "Manufacturer PN"
@@ -103,12 +103,12 @@ F 9 "0.29" H 3650 950 50  0001 C CNN "Unit Price"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J2
+L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J2
 U 2 1 5CAEF4BC
 P 1200 3350
 F 0 "J2" H 1182 2983 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1182 3074 50  0000 C CNN
-F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 1200 3350 50  0001 C CNN
+F 1 "Neutrik_NCJ6FA-H-0" H 1182 3074 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 1200 3350 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 3350 50  0001 C CNN
 F 4 "Neutrik" H 1200 3350 50  0001 C CNN "Manufacturer"
 F 5 "NCJ6FA-H" H 1200 3350 50  0001 C CNN "Manufacturer PN"
@@ -536,12 +536,12 @@ Connection ~ 5150 3350
 Connection ~ 5150 5100
 Connection ~ 5000 5500
 $Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J1
+L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J1
 U 1 1 5CEE6A94
 P 2450 1700
 F 0 "J1" H 2450 2065 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 2450 1974 50  0000 C CNN
-F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 2450 1700 50  0001 C CNN
+F 1 "Neutrik_NCJ6FA-H-0" H 2450 1974 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 2450 1700 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 1700 50  0001 C CNN
 F 4 "Neutrik" H 2450 1700 50  0001 C CNN "Manufacturer"
 F 5 "NCJ6FA-H" H 2450 1700 50  0001 C CNN "Manufacturer PN"
@@ -553,12 +553,12 @@ F 9 "2.10" H 2450 1700 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J1
+L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J1
 U 2 1 5CEE74AE
 P 1200 1600
 F 0 "J1" H 1182 1233 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1182 1324 50  0000 C CNN
-F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 1200 1600 50  0001 C CNN
+F 1 "Neutrik_NCJ6FA-H-0" H 1182 1324 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 1200 1600 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 1600 50  0001 C CNN
 F 4 "Neutrik" H 1200 1600 50  0001 C CNN "Manufacturer"
 F 5 "NCJ6FA-H" H 1200 1600 50  0001 C CNN "Manufacturer PN"
@@ -570,12 +570,12 @@ F 9 "2.10" H 1200 1600 50  0001 C CNN "Unit Price"
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J3
+L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J3
 U 2 1 5CEE9005
 P 1200 5100
 F 0 "J3" H 1182 4733 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1182 4824 50  0000 C CNN
-F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 1200 5100 50  0001 C CNN
+F 1 "Neutrik_NCJ6FA-H-0" H 1182 4824 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 1200 5100 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 5100 50  0001 C CNN
 F 4 "Neutrik" H 1200 5100 50  0001 C CNN "Manufacturer"
 F 5 "NCJ6FA-H" H 1200 5100 50  0001 C CNN "Manufacturer PN"
@@ -587,12 +587,12 @@ F 9 "2.10" H 1200 5100 50  0001 C CNN "Unit Price"
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J4
+L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J4
 U 2 1 5CEE9880
 P 1200 6850
 F 0 "J4" H 1182 6483 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 1182 6574 50  0000 C CNN
-F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 1200 6850 50  0001 C CNN
+F 1 "Neutrik_NCJ6FA-H-0" H 1182 6574 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 1200 6850 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 1200 6850 50  0001 C CNN
 F 4 "Neutrik" H 1200 6850 50  0001 C CNN "Manufacturer"
 F 5 "NCJ6FA-H" H 1200 6850 50  0001 C CNN "Manufacturer PN"
@@ -604,12 +604,12 @@ F 9 "2.10" H 1200 6850 50  0001 C CNN "Unit Price"
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J3
+L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J3
 U 1 1 5CEEA018
 P 2450 5200
 F 0 "J3" H 2450 5565 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 2450 5474 50  0000 C CNN
-F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 2450 5200 50  0001 C CNN
+F 1 "Neutrik_NCJ6FA-H-0" H 2450 5474 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 2450 5200 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 5200 50  0001 C CNN
 F 4 "Neutrik" H 2450 5200 50  0001 C CNN "Manufacturer"
 F 5 "NCJ6FA-H" H 2450 5200 50  0001 C CNN "Manufacturer PN"
@@ -621,12 +621,12 @@ F 9 "2.10" H 2450 5200 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J4
+L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J4
 U 1 1 5CEEA75D
 P 2450 6950
 F 0 "J4" H 2450 7315 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 2450 7224 50  0000 C CNN
-F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 2450 6950 50  0001 C CNN
+F 1 "Neutrik_NCJ6FA-H-0" H 2450 7224 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 2450 6950 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 2450 6950 50  0001 C CNN
 F 4 "Neutrik" H 2450 6950 50  0001 C CNN "Manufacturer"
 F 5 "NCJ6FA-H" H 2450 6950 50  0001 C CNN "Manufacturer PN"
@@ -693,7 +693,7 @@ input shield connected to chassis by input connector
 Text Notes 800  7550 0    50   ~ 0
 input shield connected to chassis by input connector
 Text Notes 8200 6150 0    50   ~ 0
-TODO\ncreate footprint for output jack\nmounting holes in corners?\npulldown resistors on J5?
+TODO\nchange output jack to 6.35mm (not combo)\ncreate footprint for output jack\nmounting holes in corners?\npulldown resistors on J5?
 $Comp
 L power_gkeeth:GNDRELAY #PWR0102
 U 1 1 5D193C96
@@ -790,12 +790,12 @@ Wire Wire Line
 Wire Wire Line
 	5000 5500 5000 7250
 $Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J5
+L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J5
 U 2 1 5D808DA8
 P 10050 1250
 F 0 "J5" H 10032 883 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 10032 974 50  0000 C CNN
-F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 10050 1250 50  0001 C CNN
+F 1 "Neutrik_NCJ6FA-H-0" H 10032 974 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 10050 1250 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 10050 1250 50  0001 C CNN
 F 4 "Neutrik" H 10050 1250 50  0001 C CNN "Manufacturer"
 F 5 "NCJ6FA-H" H 10050 1250 50  0001 C CNN "Manufacturer PN"
@@ -940,12 +940,12 @@ F 6 "Digikey" H 9100 2550 50  0001 C CNN "Distributor"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_gkeeth:Neutrik_NCJ6FA-H J5
+L Connector_gkeeth:Neutrik_NCJ6FA-H-0 J5
 U 1 1 5D807783
 P 8750 1350
 F 0 "J5" H 8750 1715 50  0000 C CNN
-F 1 "Neutrik_NCJ6FA-H" H 8750 1624 50  0000 C CNN
-F 2 "Connector_Audio_gkeeth:Jack_Combo_Neutrik_NCJ6FA-H_Horizontal" H 8750 1350 50  0001 C CNN
+F 1 "Neutrik_NCJ6FA-H-0" H 8750 1624 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal" H 8750 1350 50  0001 C CNN
 F 3 "https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1" H 8750 1350 50  0001 C CNN
 F 4 "Neutrik" H 8750 1350 50  0001 C CNN "Manufacturer"
 F 5 "NCJ6FA-H" H 8750 1350 50  0001 C CNN "Manufacturer PN"

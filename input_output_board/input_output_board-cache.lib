@@ -56,11 +56,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_gkeeth_Neutrik_NCJ6FA-H
+# Connector_gkeeth_Neutrik_NCJ6FA-H-0
 #
-DEF Connector_gkeeth_Neutrik_NCJ6FA-H J 0 20 Y N 2 F N
+DEF Connector_gkeeth_Neutrik_NCJ6FA-H-0 J 0 20 Y N 2 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Connector_gkeeth_Neutrik_NCJ6FA-H" 0 300 50 H V C CNN
+F1 "Connector_gkeeth_Neutrik_NCJ6FA-H-0" 0 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
