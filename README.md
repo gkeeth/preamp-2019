@@ -15,8 +15,6 @@ The preamp is split over several PCBs, with a kicad project for each:
 5. headphone_amp: a very basic headphone amplifier that converts the balanced
    output of the balanced_amplifier board to an unbalanced signal, and buffers it
 
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
-
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0
 International License][cc-by-sa].
 
