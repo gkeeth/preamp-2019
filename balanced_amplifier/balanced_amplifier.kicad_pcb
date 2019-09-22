@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.2)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.4)
 
   (general
     (thickness 1.6)
@@ -7078,7 +7078,7 @@
     (arrow2a (pts (xy 65.200001 33.8) (xy 64.61358 34.926504)))
     (arrow2b (pts (xy 65.200001 33.8) (xy 65.786422 34.926504)))
   )
-  (gr_text "TODO\nUpdate date silk\ncheck pot directions" (at 213.2 34.3) (layer Cmts.User)
+  (gr_text "TODO\nUpdate date silk\ncheck pot directions\nchange to horizontal connectors?" (at 213.2 34.3) (layer Cmts.User)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "Volume Pot" (at 151.765 103.67) (layer F.SilkS) (tstamp 5C1CB85F)
