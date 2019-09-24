@@ -1,15 +1,16 @@
 enclosure: consider Hammond 1441-16BK3CWW
-dimensions: 10" W x 6" D x 2" H
+enclosure: Hammond 1444-24
+dimensions: 12" x 8" x 3"
 necessary parts:
- - enclosure (1441-16BK3CWW) - $65.03
- - bottom plate (1431-16BK3) - $8.90
- - screws (1421J6BK) - $5.87 (mouser)
- - feet (1421T6CL) - $7.13
+ - enclosure (1444-24)
+ - bottom plate (1434-22)
+ - screws (1421J6)
+ - feet (1421T6CL)
 
-transformer: consider Triad VPT30-1670
-dimensions: 83mm D x 36mm H (1.42" height)
-15VAC parallel / 30VAC series, 50VA max
-$32.47
+transformer: Triad VPT30-870
+dimensions: 74mm D x 34mm H
+15VAC parallel / 30VAC series, 25VA max
+
 
 power switch: consider E-switch RC1083BBLKBLKFF0
 4.7mm faston/0.187"
@@ -21,5 +22,5 @@ faston 6.3mm/0.25"
 input selection switch: https://www.digikey.com/product-detail/en/c-k/A10405RNCQ/CKN11161-ND/3751691
 8pos, adjustable stop, 45deg throw: https://www.digikey.com/products/en?keywords=a12505rncq
 
-output jacks: consider neutrik nrj3hf-1 (1/4", unswitched, stereo, chassis connection)
-https://www.mouser.com/ProductDetail/Neutrik/NRJ3HF-1?qs=%2Fha2pyFaduhwbyTFTEXAhJFjmdMGtzEyvOaGAldSrO0%3D
+input jacks: NCJ6FA-H-0
+output jacks: NC3MAH
