@@ -199,92 +199,92 @@ Wire Wire Line
 $Comp
 L Connector_gkeeth:Molex_SL_01x03_Male J4
 U 1 1 5D79F9DA
-P 850 7100
-F 0 "J4" H 958 7381 50  0000 C CNN
-F 1 "Molex_SL_01x03_Male" H 958 7290 50  0000 C CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70553-0002_1x03_P2.54mm_Horizontal" H 850 7100 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 850 7100 50  0001 C CNN
-	1    850  7100
+P 850 6900
+F 0 "J4" H 958 7181 50  0000 C CNN
+F 1 "Molex_SL_01x03_Male" H 958 7090 50  0000 C CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0002_1x03_P2.54mm_Horizontal" H 850 6900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 850 6900 50  0001 C CNN
+	1    850  6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VEE #PWR0105
 U 1 1 5D7A1515
-P 1500 7600
-F 0 "#PWR0105" H 1500 7450 50  0001 C CNN
-F 1 "VEE" H 1518 7773 50  0000 C CNN
-F 2 "" H 1500 7600 50  0001 C CNN
-F 3 "" H 1500 7600 50  0001 C CNN
-	1    1500 7600
+P 1500 7400
+F 0 "#PWR0105" H 1500 7250 50  0001 C CNN
+F 1 "VEE" H 1518 7573 50  0000 C CNN
+F 2 "" H 1500 7400 50  0001 C CNN
+F 3 "" H 1500 7400 50  0001 C CNN
+	1    1500 7400
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR0106
 U 1 1 5D7A1A95
-P 1500 6750
-F 0 "#PWR0106" H 1500 6600 50  0001 C CNN
-F 1 "VCC" H 1517 6923 50  0000 C CNN
-F 2 "" H 1500 6750 50  0001 C CNN
-F 3 "" H 1500 6750 50  0001 C CNN
-	1    1500 6750
+P 1500 6550
+F 0 "#PWR0106" H 1500 6400 50  0001 C CNN
+F 1 "VCC" H 1517 6723 50  0000 C CNN
+F 2 "" H 1500 6550 50  0001 C CNN
+F 3 "" H 1500 6550 50  0001 C CNN
+	1    1500 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR0107
 U 1 1 5D7A1D81
-P 2150 7200
-F 0 "#PWR0107" H 2150 6950 50  0001 C CNN
-F 1 "GNDA" H 2155 7027 50  0000 C CNN
-F 2 "" H 2150 7200 50  0001 C CNN
-F 3 "" H 2150 7200 50  0001 C CNN
-	1    2150 7200
+P 2150 7000
+F 0 "#PWR0107" H 2150 6750 50  0001 C CNN
+F 1 "GNDA" H 2155 6827 50  0000 C CNN
+F 2 "" H 2150 7000 50  0001 C CNN
+F 3 "" H 2150 7000 50  0001 C CNN
+	1    2150 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 6750 1500 6800
+	1500 6550 1500 6600
 Wire Wire Line
-	1500 7000 1050 7000
+	1500 6800 1050 6800
 Wire Wire Line
-	1500 7600 1500 7550
+	1500 7400 1500 7350
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5D7A63A2
-P 1500 6800
-F 0 "#FLG0101" H 1500 6875 50  0001 C CNN
-F 1 "PWR_FLAG" V 1500 6928 50  0000 L CNN
-F 2 "" H 1500 6800 50  0001 C CNN
-F 3 "~" H 1500 6800 50  0001 C CNN
-	1    1500 6800
+P 1500 6600
+F 0 "#FLG0101" H 1500 6675 50  0001 C CNN
+F 1 "PWR_FLAG" V 1500 6728 50  0000 L CNN
+F 2 "" H 1500 6600 50  0001 C CNN
+F 3 "~" H 1500 6600 50  0001 C CNN
+	1    1500 6600
 	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5D7A67E9
-P 2250 7100
-F 0 "#FLG0102" H 2250 7175 50  0001 C CNN
-F 1 "PWR_FLAG" V 2250 7228 50  0000 L CNN
-F 2 "" H 2250 7100 50  0001 C CNN
-F 3 "~" H 2250 7100 50  0001 C CNN
-	1    2250 7100
+P 2250 6900
+F 0 "#FLG0102" H 2250 6975 50  0001 C CNN
+F 1 "PWR_FLAG" V 2250 7028 50  0000 L CNN
+F 2 "" H 2250 6900 50  0001 C CNN
+F 3 "~" H 2250 6900 50  0001 C CNN
+	1    2250 6900
 	0    1    1    0   
 $EndComp
-Connection ~ 1500 6800
+Connection ~ 1500 6600
 Wire Wire Line
-	1500 6800 1500 7000
+	1500 6600 1500 6800
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5D7A8C03
-P 1500 7550
-F 0 "#FLG0103" H 1500 7625 50  0001 C CNN
-F 1 "PWR_FLAG" V 1500 7678 50  0000 L CNN
-F 2 "" H 1500 7550 50  0001 C CNN
-F 3 "~" H 1500 7550 50  0001 C CNN
-	1    1500 7550
+P 1500 7350
+F 0 "#FLG0103" H 1500 7425 50  0001 C CNN
+F 1 "PWR_FLAG" V 1500 7478 50  0000 L CNN
+F 2 "" H 1500 7350 50  0001 C CNN
+F 3 "~" H 1500 7350 50  0001 C CNN
+	1    1500 7350
 	0    1    1    0   
 $EndComp
-Connection ~ 1500 7550
+Connection ~ 1500 7350
 Text Notes 7750 5400 0    50   ~ 0
-TODO\nconsider other opamps, especially lm4562 and TL072\nheadphone jack ground to chassis...?
+TODO\nconsider other opamps, especially lm4562 and TL072\nheadphone jack ground to chassis...?\nadjust system gain to match headphone volume to speaker volume
 $Comp
 L Connector_gkeeth:Molex_SL_01x02_Male J1
 U 1 1 5D7B5472
@@ -337,250 +337,246 @@ Wire Wire Line
 $Comp
 L Device:R R14
 U 1 1 5D825D62
-P 5300 6000
-F 0 "R14" H 5370 6046 50  0000 L CNN
-F 1 "10" H 5370 5955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 6000 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5300 6000 50  0001 C CNN
-F 4 "Digikey" H 5300 6000 50  0001 C CNN "Distributor"
-F 5 "RNCP0603FTD10R0CT-ND" H 5300 6000 50  0001 C CNN "Distributor PN"
-F 6 "Stackpole" H 5300 6000 50  0001 C CNN "Manufacturer"
-F 7 "RNCP0603FTD10R0" H 5300 6000 50  0001 C CNN "Manufacturer PN"
-F 8 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10R0/RNCP0603FTD10R0CT-ND/2240413" H 5300 6000 50  0001 C CNN "URL"
-F 9 "0.10" H 5300 6000 50  0001 C CNN "Unit Price"
-	1    5300 6000
+P 5300 5800
+F 0 "R14" H 5370 5846 50  0000 L CNN
+F 1 "10" H 5370 5755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 5800 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5300 5800 50  0001 C CNN
+F 4 "Digikey" H 5300 5800 50  0001 C CNN "Distributor"
+F 5 "RNCP0603FTD10R0CT-ND" H 5300 5800 50  0001 C CNN "Distributor PN"
+F 6 "Stackpole" H 5300 5800 50  0001 C CNN "Manufacturer"
+F 7 "RNCP0603FTD10R0" H 5300 5800 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10R0/RNCP0603FTD10R0CT-ND/2240413" H 5300 5800 50  0001 C CNN "URL"
+F 9 "0.10" H 5300 5800 50  0001 C CNN "Unit Price"
+	1    5300 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R15
 U 1 1 5D825D68
-P 5300 6500
-F 0 "R15" H 5370 6546 50  0000 L CNN
-F 1 "10" H 5370 6455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 6500 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5300 6500 50  0001 C CNN
-F 4 "Digikey" H 5300 6500 50  0001 C CNN "Distributor"
-F 5 "RNCP0603FTD10R0CT-ND" H 5300 6500 50  0001 C CNN "Distributor PN"
-F 6 "Stackpole" H 5300 6500 50  0001 C CNN "Manufacturer"
-F 7 "RNCP0603FTD10R0" H 5300 6500 50  0001 C CNN "Manufacturer PN"
-F 8 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10R0/RNCP0603FTD10R0CT-ND/2240413" H 5300 6500 50  0001 C CNN "URL"
-F 9 "0.10" H 5300 6500 50  0001 C CNN "Unit Price"
-	1    5300 6500
+P 5300 6300
+F 0 "R15" H 5370 6346 50  0000 L CNN
+F 1 "10" H 5370 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 6300 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5300 6300 50  0001 C CNN
+F 4 "Digikey" H 5300 6300 50  0001 C CNN "Distributor"
+F 5 "RNCP0603FTD10R0CT-ND" H 5300 6300 50  0001 C CNN "Distributor PN"
+F 6 "Stackpole" H 5300 6300 50  0001 C CNN "Manufacturer"
+F 7 "RNCP0603FTD10R0" H 5300 6300 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0603FTD10R0/RNCP0603FTD10R0CT-ND/2240413" H 5300 6300 50  0001 C CNN "URL"
+F 9 "0.10" H 5300 6300 50  0001 C CNN "Unit Price"
+	1    5300 6300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:1N4148WS D3
 U 1 1 5D825D6E
-P 4600 6200
-F 0 "D3" V 4646 6120 50  0000 R CNN
-F 1 "1N4148WS" V 4555 6120 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-323" H 4600 6025 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 4600 6200 50  0001 C CNN
-	1    4600 6200
+P 4600 6000
+F 0 "D3" V 4646 5920 50  0000 R CNN
+F 1 "1N4148WS" V 4555 5920 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 4600 5825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 4600 6000 50  0001 C CNN
+	1    4600 6000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Diode:1N4148WS D4
 U 1 1 5D825D74
-P 4600 6600
-F 0 "D4" V 4646 6520 50  0000 R CNN
-F 1 "1N4148WS" V 4555 6520 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-323" H 4600 6425 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 4600 6600 50  0001 C CNN
-	1    4600 6600
+P 4600 6400
+F 0 "D4" V 4646 6320 50  0000 R CNN
+F 1 "1N4148WS" V 4555 6320 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 4600 6225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 4600 6400 50  0001 C CNN
+	1    4600 6400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 5D825D86
-P 4600 7250
-F 0 "R13" H 4670 7296 50  0000 L CNN
-F 1 "4.7k" H 4670 7205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 7250 50  0001 C CNN
-F 3 "~" H 4600 7250 50  0001 C CNN
-	1    4600 7250
+P 4600 7050
+F 0 "R13" H 4670 7096 50  0000 L CNN
+F 1 "4.7k" H 4670 7005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 7050 50  0001 C CNN
+F 3 "~" H 4600 7050 50  0001 C CNN
+	1    4600 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 6350 4600 6450
+	4600 6150 4600 6250
 Wire Wire Line
-	4600 6750 4600 7000
+	4600 6550 4600 6800
 Wire Wire Line
-	5000 7000 4600 7000
-Connection ~ 4600 7000
+	5000 6800 4600 6800
+Connection ~ 4600 6800
 Wire Wire Line
-	4600 7000 4600 7100
+	4600 6800 4600 6900
 Wire Wire Line
-	5300 6800 5300 6650
+	5300 6600 5300 6450
 Wire Wire Line
-	5300 6350 5300 6250
+	5300 6150 5300 6050
 Wire Wire Line
-	5300 5850 5300 5700
+	5300 5650 5300 5500
 Wire Wire Line
-	5000 5500 4600 5500
-Connection ~ 5300 6250
+	5000 5300 4600 5300
+Connection ~ 5300 6050
 Wire Wire Line
-	5300 6250 5300 6150
+	5300 6050 5300 5950
 $Comp
 L power:VCC #PWR0108
 U 1 1 5D825D98
-P 5300 5000
-F 0 "#PWR0108" H 5300 4850 50  0001 C CNN
-F 1 "VCC" H 5317 5173 50  0000 C CNN
-F 2 "" H 5300 5000 50  0001 C CNN
-F 3 "" H 5300 5000 50  0001 C CNN
-	1    5300 5000
+P 5300 4800
+F 0 "#PWR0108" H 5300 4650 50  0001 C CNN
+F 1 "VCC" H 5317 4973 50  0000 C CNN
+F 2 "" H 5300 4800 50  0001 C CNN
+F 3 "" H 5300 4800 50  0001 C CNN
+	1    5300 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VEE #PWR0109
 U 1 1 5D825D9E
-P 5300 7650
-F 0 "#PWR0109" H 5300 7500 50  0001 C CNN
-F 1 "VEE" H 5318 7823 50  0000 C CNN
-F 2 "" H 5300 7650 50  0001 C CNN
-F 3 "" H 5300 7650 50  0001 C CNN
-	1    5300 7650
+P 5300 7450
+F 0 "#PWR0109" H 5300 7300 50  0001 C CNN
+F 1 "VEE" H 5318 7623 50  0000 C CNN
+F 2 "" H 5300 7450 50  0001 C CNN
+F 3 "" H 5300 7450 50  0001 C CNN
+	1    5300 7450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5300 7650 5300 7550
+	5300 7450 5300 7350
 Wire Wire Line
-	4600 7400 4600 7550
+	4600 7200 4600 7350
 Wire Wire Line
-	4600 7550 5300 7550
-Connection ~ 5300 7550
+	4600 7350 5300 7350
+Connection ~ 5300 7350
 $Comp
 L Device:R R12
 U 1 1 5D825DB6
-P 3450 6450
-F 0 "R12" H 3380 6404 50  0000 R CNN
-F 1 "22k" H 3380 6495 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 6450 50  0001 C CNN
-F 3 "~" H 3450 6450 50  0001 C CNN
-	1    3450 6450
+P 3450 6250
+F 0 "R12" H 3380 6204 50  0000 R CNN
+F 1 "22k" H 3380 6295 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 6250 50  0001 C CNN
+F 3 "~" H 3450 6250 50  0001 C CNN
+	1    3450 6250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R9
 U 1 1 5D825DBC
-P 2900 5700
-F 0 "R9" V 3107 5700 50  0000 C CNN
-F 1 "10k" V 3016 5700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 5700 50  0001 C CNN
-F 3 "~" H 2900 5700 50  0001 C CNN
-	1    2900 5700
+P 2900 5500
+F 0 "R9" V 3107 5500 50  0000 C CNN
+F 1 "10k" V 3016 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 5500 50  0001 C CNN
+F 3 "~" H 2900 5500 50  0001 C CNN
+	1    2900 5500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDA #PWR0110
 U 1 1 5D825DC2
-P 3450 6700
-F 0 "#PWR0110" H 3450 6450 50  0001 C CNN
-F 1 "GNDA" H 3455 6527 50  0000 C CNN
-F 2 "" H 3450 6700 50  0001 C CNN
-F 3 "" H 3450 6700 50  0001 C CNN
-	1    3450 6700
+P 3450 6500
+F 0 "#PWR0110" H 3450 6250 50  0001 C CNN
+F 1 "GNDA" H 3455 6327 50  0000 C CNN
+F 2 "" H 3450 6500 50  0001 C CNN
+F 3 "" H 3450 6500 50  0001 C CNN
+	1    3450 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 6700 3450 6650
-Wire Wire Line
-	3450 5900 3600 5900
-Wire Wire Line
-	3050 5700 3450 5700
-Wire Wire Line
-	3700 4600 3450 4600
-Wire Wire Line
-	3450 4600 3450 5000
-Connection ~ 3450 5700
+	3450 6500 3450 6450
 Wire Wire Line
 	3450 5700 3600 5700
 Wire Wire Line
-	5800 4600 5800 6250
+	3050 5500 3450 5500
 Wire Wire Line
-	5800 6250 5300 6250
+	3700 4400 3450 4400
+Wire Wire Line
+	3450 4400 3450 4800
+Connection ~ 3450 5500
+Wire Wire Line
+	3450 5500 3600 5500
+Wire Wire Line
+	5800 4400 5800 6050
+Wire Wire Line
+	5800 6050 5300 6050
 $Comp
 L Connector_gkeeth:Molex_SL_01x02_Male J2
 U 1 1 5D825DD3
-P 1600 5850
-F 0 "J2" H 1573 5732 50  0000 R CNN
-F 1 "Molex_SL_01x02_Male" H 1573 5823 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 1600 5850 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 1600 5850 50  0001 C CNN
-	1    1600 5850
+P 1600 5650
+F 0 "J2" H 1573 5532 50  0000 R CNN
+F 1 "Molex_SL_01x02_Male" H 1573 5623 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 1600 5650 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 1600 5650 50  0001 C CNN
+	1    1600 5650
 	1    0    0    1   
 $EndComp
-Text Label 1950 5850 0    50   ~ 0
+Text Label 1950 5650 0    50   ~ 0
 right_hot
-Text Label 1950 5750 0    50   ~ 0
+Text Label 1950 5550 0    50   ~ 0
 right_cold
 $Comp
 L Device:R R11
 U 1 1 5D825DDB
-P 2900 5900
-F 0 "R11" V 2785 5900 50  0000 C CNN
-F 1 "10k" V 2694 5900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 5900 50  0001 C CNN
-F 3 "~" H 2900 5900 50  0001 C CNN
-	1    2900 5900
+P 2900 5700
+F 0 "R11" V 2785 5700 50  0000 C CNN
+F 1 "10k" V 2694 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 5700 50  0001 C CNN
+F 3 "~" H 2900 5700 50  0001 C CNN
+	1    2900 5700
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3050 5900 3450 5900
-Connection ~ 3450 5900
+	3050 5700 3450 5700
+Connection ~ 3450 5700
 Wire Wire Line
-	1800 5750 2400 5750
+	1800 5550 2400 5550
 Wire Wire Line
-	2400 5750 2400 5700
+	2400 5550 2400 5500
+Wire Wire Line
+	2400 5500 2750 5500
+Wire Wire Line
+	1800 5650 2400 5650
+Wire Wire Line
+	2400 5650 2400 5700
 Wire Wire Line
 	2400 5700 2750 5700
 Wire Wire Line
-	1800 5850 2400 5850
+	4600 5300 4600 5600
 Wire Wire Line
-	2400 5850 2400 5900
+	4200 5600 4600 5600
+Connection ~ 4600 5600
 Wire Wire Line
-	2400 5900 2750 5900
+	4600 5600 4600 5850
 Wire Wire Line
-	4600 5500 4600 5800
+	4000 4400 4350 4400
 Wire Wire Line
-	4200 5800 4600 5800
-Connection ~ 4600 5800
-Wire Wire Line
-	4600 5800 4600 6050
-Wire Wire Line
-	4000 4600 4350 4600
-Wire Wire Line
-	7000 2550 7000 6150
-Wire Wire Line
-	7000 6150 7850 6150
-Wire Wire Line
-	3450 5900 3450 6200
+	3450 5700 3450 6000
 $Comp
 L Device:C C5
 U 1 1 5D8742D1
-P 3050 6450
-F 0 "C5" H 3165 6496 50  0000 L CNN
-F 1 "22p" H 3165 6405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 6300 50  0001 C CNN
-F 3 "~" H 3050 6450 50  0001 C CNN
-	1    3050 6450
+P 3050 6250
+F 0 "C5" H 3165 6296 50  0000 L CNN
+F 1 "22p" H 3165 6205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 6100 50  0001 C CNN
+F 3 "~" H 3050 6250 50  0001 C CNN
+	1    3050 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 6300 3050 6200
+	3050 6100 3050 6000
 Wire Wire Line
-	3050 6200 3450 6200
-Connection ~ 3450 6200
+	3050 6000 3450 6000
+Connection ~ 3450 6000
 Wire Wire Line
-	3450 6200 3450 6300
+	3450 6000 3450 6100
 Wire Wire Line
-	3050 6600 3050 6650
+	3050 6400 3050 6450
 Wire Wire Line
-	3050 6650 3450 6650
-Connection ~ 3450 6650
+	3050 6450 3450 6450
+Connection ~ 3450 6450
 Wire Wire Line
-	3450 6650 3450 6600
+	3450 6450 3450 6400
 $Comp
 L Device:R R4
 U 1 1 5D87B243
@@ -651,26 +647,26 @@ $EndComp
 $Comp
 L Device:C C4
 U 1 1 5D888CF1
-P 3850 5000
-F 0 "C4" V 3598 5000 50  0000 C CNN
-F 1 "22p" V 3689 5000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 4850 50  0001 C CNN
-F 3 "~" H 3850 5000 50  0001 C CNN
-	1    3850 5000
+P 3850 4800
+F 0 "C4" V 3598 4800 50  0000 C CNN
+F 1 "22p" V 3689 4800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 4650 50  0001 C CNN
+F 3 "~" H 3850 4800 50  0001 C CNN
+	1    3850 4800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3700 5000 3450 5000
-Connection ~ 3450 5000
+	3700 4800 3450 4800
+Connection ~ 3450 4800
 Wire Wire Line
-	3450 5000 3450 5700
+	3450 4800 3450 5500
 Wire Wire Line
-	4000 5000 4350 5000
+	4000 4800 4350 4800
 Wire Wire Line
-	4350 5000 4350 4600
-Connection ~ 4350 4600
+	4350 4800 4350 4400
+Connection ~ 4350 4400
 Wire Wire Line
-	4350 4600 5800 4600
+	4350 4400 5800 4400
 Wire Wire Line
 	3700 1300 3450 1300
 Connection ~ 3450 1300
@@ -698,7 +694,7 @@ F 7 "NE5532AD8R2GOSCT-ND" H 3900 2100 50  0001 C CNN "Distributor PN"
 	1    3900 2100
 	1    0    0    1   
 $EndComp
-Text Notes 1450 4850 0    50   ~ 0
+Text Notes 1450 4650 0    50   ~ 0
 fc = 1/(2 x pi x 22k x 22p) = 330kHz\nBandwidth limiting capacitors may be unnecessary
 $Comp
 L Device:R R7
@@ -720,45 +716,22 @@ $EndComp
 $Comp
 L Device:R R10
 U 1 1 5D825DB0
-P 3850 4600
-F 0 "R10" V 3643 4600 50  0000 C CNN
-F 1 "22k" V 3734 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 4600 50  0001 C CNN
-F 3 "~" H 3850 4600 50  0001 C CNN
-	1    3850 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5D8A16EC
-P 6650 2550
-F 0 "R8" V 6443 2550 50  0000 C CNN
-F 1 "47 1W" V 6534 2550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 6580 2550 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/28766/mbxsma.pdf" H 6650 2550 50  0001 C CNN
-F 4 "Vishay BC" H 6650 2550 50  0001 C CNN "Manufacturer"
-F 5 "MBE04140C4709FC100" H 6650 2550 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 6650 2550 50  0001 C CNN "Distributor"
-F 7 "BC4537CT-ND" H 6650 2550 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/vishay-bc-components/MBE04140C4709FC100/BC4537CT-ND/7351967" H 6650 2550 50  0001 C CNN "URL"
-F 9 "0.69" H 6650 2550 50  0001 C CNN "Unit Price"
-	1    6650 2550
+P 3850 4400
+F 0 "R10" V 3643 4400 50  0000 C CNN
+F 1 "22k" V 3734 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 4400 50  0001 C CNN
+F 3 "~" H 3850 4400 50  0001 C CNN
+	1    3850 4400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6500 6250 6200 6250
-Wire Wire Line
-	5900 6250 5800 6250
-Connection ~ 5800 6250
-Wire Wire Line
-	6800 6250 7850 6250
+	5900 6050 5800 6050
+Connection ~ 5800 6050
 Wire Wire Line
 	5800 2550 5900 2550
 Connection ~ 5800 2550
 Wire Wire Line
-	6200 2550 6500 2550
-Wire Wire Line
-	6800 2550 7000 2550
+	6200 2550 6350 2550
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 5D8CA8E0
@@ -836,31 +809,31 @@ Wire Wire Line
 Wire Wire Line
 	8650 1800 8650 1900
 Wire Wire Line
-	1050 7200 1500 7200
+	1050 7000 1500 7000
 Wire Wire Line
-	1500 7200 1500 7550
+	1500 7000 1500 7350
 Wire Wire Line
-	1050 7100 2150 7100
+	1050 6900 2150 6900
 Wire Wire Line
-	2150 7100 2150 7200
+	2150 6900 2150 7000
 Wire Wire Line
-	2150 7100 2250 7100
-Connection ~ 2150 7100
+	2150 6900 2250 6900
+Connection ~ 2150 6900
 $Comp
 L power:GNDA #PWR0115
 U 1 1 5D92A4FE
-P 7150 6500
-F 0 "#PWR0115" H 7150 6250 50  0001 C CNN
-F 1 "GNDA" H 7155 6327 50  0000 C CNN
-F 2 "" H 7150 6500 50  0001 C CNN
-F 3 "" H 7150 6500 50  0001 C CNN
-	1    7150 6500
+P 7150 6300
+F 0 "#PWR0115" H 7150 6050 50  0001 C CNN
+F 1 "GNDA" H 7155 6127 50  0000 C CNN
+F 2 "" H 7150 6300 50  0001 C CNN
+F 3 "" H 7150 6300 50  0001 C CNN
+	1    7150 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 6500 7150 6350
+	7150 6300 7150 6150
 Wire Wire Line
-	7150 6350 7850 6350
+	7150 6150 7850 6150
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5D92F911
@@ -912,35 +885,35 @@ $EndComp
 $Comp
 L Connector_gkeeth:Molex_SL_01x03_Male J3
 U 1 1 5D93DF57
-P 8050 6250
-F 0 "J3" H 8022 6274 50  0000 R CNN
-F 1 "Molex_SL_01x03_Male" H 8022 6183 50  0000 R CNN
-F 2 "Connector_Molex_SL:Molex_SL_A-70553-0002_1x03_P2.54mm_Horizontal" H 8050 6250 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 8050 6250 50  0001 C CNN
-	1    8050 6250
+P 8050 6050
+F 0 "J3" H 8022 6074 50  0000 R CNN
+F 1 "Molex_SL_01x03_Male" H 8022 5983 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70553-0002_1x03_P2.54mm_Horizontal" H 8050 6050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 8050 6050 50  0001 C CNN
+	1    8050 6050
 	-1   0    0    -1  
 $EndComp
-Text Label 7300 6150 0    50   ~ 0
+Text Label 7300 5950 0    50   ~ 0
 left_out
-Text Label 7300 6250 0    50   ~ 0
+Text Label 7300 6050 0    50   ~ 0
 right_out
-Text Label 7300 6350 0    50   ~ 0
+Text Label 7300 6150 0    50   ~ 0
 gnd_out
-Text Notes 7500 6500 0    50   ~ 0
+Text Notes 7500 6300 0    50   ~ 0
 Connect output connector ground to star ground
 $Comp
 L Amplifier_Operational:NE5532 U1
 U 2 1 5D95A57F
-P 3900 5800
-F 0 "U1" H 3900 5433 50  0000 C CNN
-F 1 "NE5532" H 3900 5524 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 5800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3900 5800 50  0001 C CNN
-F 4 "ON Semiconductor" H 3900 5800 50  0001 C CNN "Manufacturer"
-F 5 "NE5532AD8R2G" H 3900 5800 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 3900 5800 50  0001 C CNN "Distributor"
-F 7 "NE5532AD8R2GOSCT-ND" H 3900 5800 50  0001 C CNN "Distributor PN"
-	2    3900 5800
+P 3900 5600
+F 0 "U1" H 3900 5233 50  0000 C CNN
+F 1 "NE5532" H 3900 5324 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 5600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3900 5600 50  0001 C CNN
+F 4 "ON Semiconductor" H 3900 5600 50  0001 C CNN "Manufacturer"
+F 5 "NE5532AD8R2G" H 3900 5600 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3900 5600 50  0001 C CNN "Distributor"
+F 7 "NE5532AD8R2GOSCT-ND" H 3900 5600 50  0001 C CNN "Distributor PN"
+	2    3900 5600
 	1    0    0    1   
 $EndComp
 $Comp
@@ -999,37 +972,20 @@ $EndComp
 $Comp
 L Device:C C6
 U 1 1 5D966B04
-P 6050 6250
-F 0 "C6" V 5798 6250 50  0000 C CNN
-F 1 "220u" V 5889 6250 50  0000 C CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 6088 6100 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 6050 6250 50  0001 C CNN
-F 4 "Nichicon" H 6050 6250 50  0001 C CNN "Manufacturer"
-F 5 "UVP1V221MHD" H 6050 6250 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 6050 6250 50  0001 C CNN "Distributor"
-F 7 "493-16138-ND" H 6050 6250 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/nichicon/UVP1V221MHD/493-16138-ND/2539596" H 6050 6250 50  0001 C CNN "URL"
-F 9 "0.87" H 6050 6250 50  0001 C CNN "Unit Price"
-F 10 "Nonpolarized Electrolytic" V 6050 6250 50  0001 C CNN "Dielectric"
-F 11 "35V" V 6050 6250 50  0001 C CNN "Voltage Rating"
-	1    6050 6250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R16
-U 1 1 5D99AC16
-P 6650 6250
-F 0 "R16" V 6443 6250 50  0000 C CNN
-F 1 "47 1W" V 6534 6250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 6580 6250 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/28766/mbxsma.pdf" H 6650 6250 50  0001 C CNN
-F 4 "Vishay BC" H 6650 6250 50  0001 C CNN "Manufacturer"
-F 5 "MBE04140C4709FC100" H 6650 6250 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 6650 6250 50  0001 C CNN "Distributor"
-F 7 "BC4537CT-ND" H 6650 6250 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/vishay-bc-components/MBE04140C4709FC100/BC4537CT-ND/7351967" H 6650 6250 50  0001 C CNN "URL"
-F 9 "0.69" H 6650 6250 50  0001 C CNN "Unit Price"
-	1    6650 6250
+P 6050 6050
+F 0 "C6" V 5798 6050 50  0000 C CNN
+F 1 "220u" V 5889 6050 50  0000 C CNN
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 6088 5900 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 6050 6050 50  0001 C CNN
+F 4 "Nichicon" H 6050 6050 50  0001 C CNN "Manufacturer"
+F 5 "UVP1V221MHD" H 6050 6050 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 6050 6050 50  0001 C CNN "Distributor"
+F 7 "493-16138-ND" H 6050 6050 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/product-detail/en/nichicon/UVP1V221MHD/493-16138-ND/2539596" H 6050 6050 50  0001 C CNN "URL"
+F 9 "0.87" H 6050 6050 50  0001 C CNN "Unit Price"
+F 10 "Nonpolarized Electrolytic" V 6050 6050 50  0001 C CNN "Dielectric"
+F 11 "35V" V 6050 6050 50  0001 C CNN "Voltage Rating"
+	1    6050 6050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1047,9 +1003,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 3500 5300 3850
 Wire Wire Line
-	5300 7200 5300 7550
+	5300 7000 5300 7350
 Wire Wire Line
-	5300 5000 5300 5300
+	5300 4800 5300 5100
 $Comp
 L Transistor_BJT:PZTA42 Q1
 U 1 1 5D86B1D4
@@ -1087,35 +1043,101 @@ $EndComp
 $Comp
 L Transistor_BJT:PZTA42 Q3
 U 1 1 5D86E452
-P 5200 5500
-F 0 "Q3" H 5390 5546 50  0000 L CNN
-F 1 "PZTA42" H 5390 5455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5400 5425 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF" H 5200 5500 50  0001 L CNN
-F 4 "Digikey" H 5200 5500 50  0001 C CNN "Distributor"
-F 5 "PZTA42T1GOSCT-ND" H 5200 5500 50  0001 C CNN "Distributor PN"
-F 6 "ON Semiconductor" H 5200 5500 50  0001 C CNN "Manufacturer"
-F 7 "PZTA42T1G" H 5200 5500 50  0001 C CNN "Manufacturer PN"
-F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA42T1G/PZTA42T1GOSCT-ND/1139989" H 5200 5500 50  0001 C CNN "URL"
-F 9 "0.43" H 5200 5500 50  0001 C CNN "Unit Price"
-	1    5200 5500
+P 5200 5300
+F 0 "Q3" H 5390 5346 50  0000 L CNN
+F 1 "PZTA42" H 5390 5255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5400 5225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF" H 5200 5300 50  0001 L CNN
+F 4 "Digikey" H 5200 5300 50  0001 C CNN "Distributor"
+F 5 "PZTA42T1GOSCT-ND" H 5200 5300 50  0001 C CNN "Distributor PN"
+F 6 "ON Semiconductor" H 5200 5300 50  0001 C CNN "Manufacturer"
+F 7 "PZTA42T1G" H 5200 5300 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA42T1G/PZTA42T1GOSCT-ND/1139989" H 5200 5300 50  0001 C CNN "URL"
+F 9 "0.43" H 5200 5300 50  0001 C CNN "Unit Price"
+	1    5200 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:PZTA92 Q4
 U 1 1 5D86F45B
-P 5200 7000
-F 0 "Q4" H 5390 6954 50  0000 L CNN
-F 1 "PZTA92" H 5390 7045 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5400 6925 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PZTA92T1-D.PDF" H 5200 7000 50  0001 L CNN
-F 4 "Digikey" H 5200 7000 50  0001 C CNN "Distributor"
-F 5 "PZTA92T1GOSCT-ND" H 5200 7000 50  0001 C CNN "Distributor PN"
-F 6 "ON Semiconductor" H 5200 7000 50  0001 C CNN "Manufacturer"
-F 7 "PZTA92T1G" H 5200 7000 50  0001 C CNN "Manufacturer PN"
-F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA92T1G/PZTA92T1GOSCT-ND/920290" H 5200 7000 50  0001 C CNN "URL"
-F 9 "0.44" H 5200 7000 50  0001 C CNN "Unit Price"
-	1    5200 7000
+P 5200 6800
+F 0 "Q4" H 5390 6754 50  0000 L CNN
+F 1 "PZTA92" H 5390 6845 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5400 6725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/PZTA92T1-D.PDF" H 5200 6800 50  0001 L CNN
+F 4 "Digikey" H 5200 6800 50  0001 C CNN "Distributor"
+F 5 "PZTA92T1GOSCT-ND" H 5200 6800 50  0001 C CNN "Distributor PN"
+F 6 "ON Semiconductor" H 5200 6800 50  0001 C CNN "Manufacturer"
+F 7 "PZTA92T1G" H 5200 6800 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/on-semiconductor/PZTA92T1G/PZTA92T1GOSCT-ND/920290" H 5200 6800 50  0001 C CNN "URL"
+F 9 "0.44" H 5200 6800 50  0001 C CNN "Unit Price"
+	1    5200 6800
 	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 5D8D030E
+P 6350 2950
+F 0 "#PWR?" H 6350 2700 50  0001 C CNN
+F 1 "GNDA" H 6355 2777 50  0000 C CNN
+F 2 "" H 6350 2950 50  0001 C CNN
+F 3 "" H 6350 2950 50  0001 C CNN
+	1    6350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2950 6350 2900
+Wire Wire Line
+	6350 2600 6350 2550
+Connection ~ 6350 2550
+Wire Wire Line
+	6350 2550 7000 2550
+$Comp
+L power:GNDA #PWR?
+U 1 1 5D8DF1C2
+P 6350 6450
+F 0 "#PWR?" H 6350 6200 50  0001 C CNN
+F 1 "GNDA" H 6355 6277 50  0000 C CNN
+F 2 "" H 6350 6450 50  0001 C CNN
+F 3 "" H 6350 6450 50  0001 C CNN
+	1    6350 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6100 6350 6050
+Wire Wire Line
+	6350 6050 6200 6050
+Wire Wire Line
+	6350 6400 6350 6450
+Text Notes 1450 4800 0    50   ~ 0
+adjust gain
+$Comp
+L Device:R R16
+U 1 1 5D8EF0BD
+P 6350 6250
+F 0 "R16" H 6420 6296 50  0000 L CNN
+F 1 "10k" H 6420 6205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 6250 50  0001 C CNN
+F 3 "~" H 6350 6250 50  0001 C CNN
+	1    6350 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 6050 6350 6050
+Connection ~ 6350 6050
+Wire Wire Line
+	7850 5950 7000 5950
+Wire Wire Line
+	7000 5950 7000 2550
+$Comp
+L Device:R R8
+U 1 1 5D90FF4F
+P 6350 2750
+F 0 "R8" H 6420 2796 50  0000 L CNN
+F 1 "10k" H 6420 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 2750 50  0001 C CNN
+F 3 "~" H 6350 2750 50  0001 C CNN
+	1    6350 2750
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
