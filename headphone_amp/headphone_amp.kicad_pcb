@@ -42,7 +42,7 @@
   )
 
   (setup
-    (last_trace_width 0.2032)
+    (last_trace_width 0.2)
     (user_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
@@ -2039,7 +2039,7 @@
     (arrow2a (pts (xy 89 150) (xy 89.586421 148.873496)))
     (arrow2b (pts (xy 89 150) (xy 88.413579 148.873496)))
   )
-  (gr_text "TODO\ncheck height of all components, especially output caps\nchoose orientation and rearrange connectors?\nconnect output ground to star ground" (at 128.5 92) (layer Cmts.User)
+  (gr_text "TODO\ncheck height of all components, especially output caps\nchoose orientation and rearrange connectors?\nconnect output ground to star ground\nadd kicad/oshw/CC BY-SA labels" (at 128.5 92) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_line (start 100 100) (end 100 150) (layer Edge.Cuts) (width 0.05) (tstamp 5D880E70))
