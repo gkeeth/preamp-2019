@@ -284,7 +284,7 @@ F 3 "~" H 1500 7350 50  0001 C CNN
 $EndComp
 Connection ~ 1500 7350
 Text Notes 7750 5400 0    50   ~ 0
-TODO\nconsider other opamps, especially lm4562 and TL072\nheadphone jack ground to chassis...?\nadjust system gain to match headphone volume to speaker volume
+TODO\nconsider other opamps, especially lm4562 and TL072\nadjust system gain to match headphone volume to speaker volume
 $Comp
 L Connector_gkeeth:Molex_SL_01x02_Male J1
 U 1 1 5D7B5472
@@ -822,18 +822,14 @@ Connection ~ 2150 6900
 $Comp
 L power:GNDA #PWR0115
 U 1 1 5D92A4FE
-P 7150 6300
-F 0 "#PWR0115" H 7150 6050 50  0001 C CNN
-F 1 "GNDA" H 7155 6127 50  0000 C CNN
-F 2 "" H 7150 6300 50  0001 C CNN
-F 3 "" H 7150 6300 50  0001 C CNN
-	1    7150 6300
+P 6800 6450
+F 0 "#PWR0115" H 6800 6200 50  0001 C CNN
+F 1 "GNDA" H 6805 6277 50  0000 C CNN
+F 2 "" H 6800 6450 50  0001 C CNN
+F 3 "" H 6800 6450 50  0001 C CNN
+	1    6800 6450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 6300 7150 6150
-Wire Wire Line
-	7150 6150 7850 6150
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5D92F911
@@ -899,7 +895,7 @@ Text Label 7300 6050 0    50   ~ 0
 right_out
 Text Label 7300 6150 0    50   ~ 0
 gnd_out
-Text Notes 7500 6300 0    50   ~ 0
+Text Notes 7800 6300 0    50   ~ 0
 Connect output connector ground to star ground
 $Comp
 L Amplifier_Operational:NE5532 U1
@@ -1075,10 +1071,10 @@ F 9 "0.44" H 5200 6800 50  0001 C CNN "Unit Price"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR0118
 U 1 1 5D8D030E
 P 6350 2950
-F 0 "#PWR?" H 6350 2700 50  0001 C CNN
+F 0 "#PWR0118" H 6350 2700 50  0001 C CNN
 F 1 "GNDA" H 6355 2777 50  0000 C CNN
 F 2 "" H 6350 2950 50  0001 C CNN
 F 3 "" H 6350 2950 50  0001 C CNN
@@ -1093,10 +1089,10 @@ Connection ~ 6350 2550
 Wire Wire Line
 	6350 2550 7000 2550
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR0119
 U 1 1 5D8DF1C2
 P 6350 6450
-F 0 "#PWR?" H 6350 6200 50  0001 C CNN
+F 0 "#PWR0119" H 6350 6200 50  0001 C CNN
 F 1 "GNDA" H 6355 6277 50  0000 C CNN
 F 2 "" H 6350 6450 50  0001 C CNN
 F 3 "" H 6350 6450 50  0001 C CNN
@@ -1140,4 +1136,21 @@ F 3 "~" H 6350 2750 50  0001 C CNN
 	1    6350 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5D95037D
+P 7150 6150
+F 0 "NT1" H 7150 6061 50  0000 C CNN
+F 1 "Net-Tie_2" H 7150 5970 50  0000 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 7150 6150 50  0001 C CNN
+F 3 "~" H 7150 6150 50  0001 C CNN
+	1    7150 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 6150 7850 6150
+Wire Wire Line
+	6800 6450 6800 6150
+Wire Wire Line
+	6800 6150 7050 6150
 $EndSCHEMATC
