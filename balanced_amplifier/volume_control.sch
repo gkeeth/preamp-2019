@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:balanced_amplifier-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -1642,7 +1642,7 @@ AR Path="/5BE4EEC1/5C4F8306" Ref="C?"  Part="1"
 AR Path="/5BF8808C/5C4F8306" Ref="C26"  Part="1" 
 F 0 "C26" V 8448 900 50  0000 C CNN
 F 1 "220u" V 8539 900 50  0000 C CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 8738 750 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm" H 8738 750 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 8700 900 50  0001 C CNN
 F 4 "Nichicon" H 8700 900 50  0001 C CNN "Manufacturer"
 F 5 "UVP1V221MHD" H 8700 900 50  0001 C CNN "Manufacturer PN"
@@ -1686,7 +1686,7 @@ AR Path="/5BE4EEC1/5C503F94" Ref="C?"  Part="1"
 AR Path="/5BF8808C/5C503F94" Ref="C33"  Part="1" 
 F 0 "C33" V 8448 4200 50  0000 C CNN
 F 1 "220u" V 8539 4200 50  0000 C CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 8738 4050 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm" H 8738 4050 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 8700 4200 50  0001 C CNN
 F 4 "Nichicon" H 8700 4200 50  0001 C CNN "Manufacturer"
 F 5 "UVP1V221MHD" H 8700 4200 50  0001 C CNN "Manufacturer PN"
