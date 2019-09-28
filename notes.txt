@@ -7,7 +7,7 @@ necessary parts:
  - screws (1421J6)
  - feet (1421T6CL)
 
-transformer: Triad VPT30-870
+transformer: Triad VPT30-830
 dimensions: 74mm D x 34mm H
 15VAC parallel / 30VAC series, 25VA max
 
