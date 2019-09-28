@@ -208,7 +208,7 @@ AR Path="/5BE4EEC1/5BFF581C" Ref="RV?"  Part="1"
 AR Path="/5BF8808C/5BFF581C" Ref="RV2"  Part="1" 
 F 0 "RV2" H 2630 946 50  0000 R CNN
 F 1 "5k" H 2630 855 50  0000 R CNN
-F 2 "Potentiometer_THT_custom:Potentiometer_Bourns_91A2x-x28-xxx_Dual_Horizontal" H 2700 900 50  0001 C CNN
+F 2 "Potentiometer_THT_gkeeth:Potentiometer_Bourns_91A2x-x28-xxx_Dual_Horizontal" H 2700 900 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/91_95.pdf" H 2700 900 50  0001 C CNN
 F 4 "Bourns" H 2700 900 50  0001 C CNN "Manufacturer"
 F 5 "91A2A-B28-B13/B13L" H 2700 900 50  0001 C CNN "Manufacturer PN"
@@ -307,7 +307,7 @@ AR Path="/5BE4EEC1/5BFF5B15" Ref="RV?"  Part="1"
 AR Path="/5BF8808C/5BFF5B15" Ref="RV2"  Part="2" 
 F 0 "RV2" H 2630 4246 50  0000 R CNN
 F 1 "5k" H 2630 4155 50  0000 R CNN
-F 2 "Potentiometer_THT_custom:Potentiometer_Bourns_91A2x-x28-xxx_Dual_Horizontal" H 2700 4200 50  0001 C CNN
+F 2 "Potentiometer_THT_gkeeth:Potentiometer_Bourns_91A2x-x28-xxx_Dual_Horizontal" H 2700 4200 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/91_95.pdf" H 2700 4200 50  0001 C CNN
 F 4 "Bourns" H 2700 4200 50  0001 C CNN "Manufacturer"
 F 5 "91A2A-B28-B13/B13L" H 2700 4200 50  0001 C CNN "Manufacturer PN"
@@ -1664,7 +1664,7 @@ AR Path="/5BE4EEC1/5C503D82" Ref="C?"  Part="1"
 AR Path="/5BF8808C/5C503D82" Ref="C27"  Part="1" 
 F 0 "C27" V 8348 2400 50  0000 C CNN
 F 1 "220u" V 8439 2400 50  0000 C CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 8638 2250 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm" H 8638 2250 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 8600 2400 50  0001 C CNN
 F 4 "Nichicon" H 8600 2400 50  0001 C CNN "Manufacturer"
 F 5 "UVP1V221MHD" H 8600 2400 50  0001 C CNN "Manufacturer PN"
@@ -1708,7 +1708,7 @@ AR Path="/5BE4EEC1/5C50403E" Ref="C?"  Part="1"
 AR Path="/5BF8808C/5C50403E" Ref="C34"  Part="1" 
 F 0 "C34" V 8348 5700 50  0000 C CNN
 F 1 "220u" V 8439 5700 50  0000 C CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 8638 5550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm" H 8638 5550 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvp.pdf" H 8600 5700 50  0001 C CNN
 F 4 "Nichicon" H 8600 5700 50  0001 C CNN "Manufacturer"
 F 5 "UVP1V221MHD" H 8600 5700 50  0001 C CNN "Manufacturer PN"

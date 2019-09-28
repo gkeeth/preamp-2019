@@ -1030,7 +1030,7 @@ U 1 1 5BED5B03
 P 8500 1200
 F 0 "RV1" H 8430 1246 50  0000 R CNN
 F 1 "5k" H 8430 1155 50  0000 R CNN
-F 2 "Potentiometer_THT_custom:Potentiometer_Bourns_91A2x-x28-xxx_Dual_Horizontal" H 8500 1200 50  0001 C CNN
+F 2 "Potentiometer_THT_gkeeth:Potentiometer_Bourns_91A2x-x28-xxx_Dual_Horizontal" H 8500 1200 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/91_95.pdf" H 8500 1200 50  0001 C CNN
 F 4 "Bourns" H 8500 1200 50  0001 C CNN "Manufacturer"
 F 5 "91A2A-B28-B13/B13L" H 8500 1200 50  0001 C CNN "Manufacturer PN"
@@ -1047,7 +1047,7 @@ U 2 1 5BED620D
 P 8500 4300
 F 0 "RV1" H 8431 4254 50  0000 R CNN
 F 1 "5k" H 8431 4345 50  0000 R CNN
-F 2 "Potentiometer_THT_custom:Potentiometer_Bourns_91A2x-x28-xxx_Dual_Horizontal" H 8500 4300 50  0001 C CNN
+F 2 "Potentiometer_THT_gkeeth:Potentiometer_Bourns_91A2x-x28-xxx_Dual_Horizontal" H 8500 4300 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/91_95.pdf" H 8500 4300 50  0001 C CNN
 F 4 "Bourns" H 8500 4300 50  0001 C CNN "Manufacturer"
 F 5 "91A2A-B28-B13/B13L" H 8500 4300 50  0001 C CNN "Manufacturer PN"
