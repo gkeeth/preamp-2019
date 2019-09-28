@@ -232,7 +232,7 @@ U 1 1 5C1B203E
 P 8450 6200
 F 0 "H2" H 8550 6251 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8550 6160 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 8450 6200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8450 6200 50  0001 C CNN
 F 3 "~" H 8450 6200 50  0001 C CNN
 F 4 "~" H 8450 6200 50  0001 C CNN "Manufacturer"
 F 5 "~" H 8450 6200 50  0001 C CNN "Manufacturer PN"
@@ -260,7 +260,7 @@ U 1 1 5C1B2453
 P 9500 5750
 F 0 "H3" H 9600 5801 50  0000 L CNN
 F 1 "MountingHole_Pad" H 9600 5710 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 9500 5750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9500 5750 50  0001 C CNN
 F 3 "~" H 9500 5750 50  0001 C CNN
 F 4 "~" H 9500 5750 50  0001 C CNN "Manufacturer"
 F 5 "~" H 9500 5750 50  0001 C CNN "Manufacturer PN"
@@ -288,7 +288,7 @@ U 1 1 5C1B2D88
 P 9500 6200
 F 0 "H4" H 9600 6251 50  0000 L CNN
 F 1 "MountingHole_Pad" H 9600 6160 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 9500 6200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9500 6200 50  0001 C CNN
 F 3 "~" H 9500 6200 50  0001 C CNN
 F 4 "~" H 9500 6200 50  0001 C CNN "Manufacturer"
 F 5 "~" H 9500 6200 50  0001 C CNN "Manufacturer PN"
@@ -316,7 +316,7 @@ U 1 1 5C1B36D7
 P 8450 5750
 F 0 "H1" H 8550 5801 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8550 5710 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 8450 5750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8450 5750 50  0001 C CNN
 F 3 "~" H 8450 5750 50  0001 C CNN
 F 4 "~" H 8450 5750 50  0001 C CNN "Manufacturer"
 F 5 "~" H 8450 5750 50  0001 C CNN "Manufacturer PN"
@@ -339,7 +339,7 @@ F 3 "" H 8450 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 8350 5450 0    50   ~ 0
-Use insulating 8-32 standoffs
+Use insulating M3 standoffs
 $Comp
 L Connector_gkeeth:Molex_SL_01x02_Male J4
 U 1 1 5D0CC222
