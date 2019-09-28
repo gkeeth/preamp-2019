@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:power_supply-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -657,7 +657,7 @@ U 1 1 5CB5054C
 P 8650 3950
 F 0 "HS2" H 8791 3989 50  0000 L CNN
 F 1 "Wakefield-Vette 287-1AB" H 8791 3898 50  0000 L CNN
-F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 8662 3900 50  0001 C CNN
+F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_TO-220_Vertical" H 8662 3900 50  0001 C CNN
 F 3 "http://www.wakefield-vette.com/Portals/0/resources/datasheets/287.pdf" H 8662 3900 50  0001 C CNN
 F 4 "Digikey" H 8650 3950 50  0001 C CNN "Distributor"
 F 5 "345-1219-ND" H 8650 3950 50  0001 C CNN "Distributor PN"
@@ -1086,7 +1086,7 @@ U 1 1 5CFC037A
 P 2800 4600
 F 0 "HS3" H 2941 4639 50  0000 L CNN
 F 1 "Wakefield-Vette 287-1AB" H 2941 4548 50  0000 L CNN
-F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 2812 4550 50  0001 C CNN
+F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_TO-220_Vertical" H 2812 4550 50  0001 C CNN
 F 3 "http://www.wakefield-vette.com/Portals/0/resources/datasheets/287.pdf" H 2812 4550 50  0001 C CNN
 F 4 "Digikey" H 2800 4600 50  0001 C CNN "Distributor"
 F 5 "345-1219-ND" H 2800 4600 50  0001 C CNN "Distributor PN"
@@ -1237,7 +1237,7 @@ U 1 1 5CB4FC2E
 P 8650 1300
 F 0 "HS1" H 8791 1339 50  0000 L CNN
 F 1 "Wakefield-Vette 287-1AB" H 8791 1248 50  0000 L CNN
-F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_T0-220_Vertical" H 8662 1250 50  0001 C CNN
+F 2 "Heatsink_gkeeth:Heatsink_Wakefield-Vette_287-1AB_TO-220_Vertical" H 8662 1250 50  0001 C CNN
 F 3 "http://www.wakefield-vette.com/Portals/0/resources/datasheets/287.pdf" H 8662 1250 50  0001 C CNN
 F 4 "Digikey" H 8650 1300 50  0001 C CNN "Distributor"
 F 5 "345-1219-ND" H 8650 1300 50  0001 C CNN "Distributor PN"
