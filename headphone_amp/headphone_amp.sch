@@ -836,7 +836,7 @@ U 1 1 5D92F911
 P 8300 3750
 F 0 "H1" H 8400 3799 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8400 3708 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 8300 3750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8300 3750 50  0001 C CNN
 F 3 "~" H 8300 3750 50  0001 C CNN
 	1    8300 3750
 	1    0    0    -1  
@@ -873,7 +873,7 @@ U 1 1 5D935956
 P 9350 3750
 F 0 "H2" H 9450 3799 50  0000 L CNN
 F 1 "MountingHole_Pad" H 9450 3708 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 9350 3750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9350 3750 50  0001 C CNN
 F 3 "~" H 9350 3750 50  0001 C CNN
 	1    9350 3750
 	1    0    0    -1  
