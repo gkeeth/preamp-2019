@@ -692,8 +692,6 @@ Text Notes 800  5750 0    50   ~ 0
 input shield connected to chassis by input connector
 Text Notes 800  7550 0    50   ~ 0
 input shield connected to chassis by input connector
-Text Notes 8200 6150 0    50   ~ 0
-TODO\npulldown resistors on J5?
 $Comp
 L power_gkeeth:GNDRELAY #PWR0102
 U 1 1 5D193C96
