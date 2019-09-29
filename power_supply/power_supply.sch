@@ -646,7 +646,7 @@ U 1 1 5CB49A9B
 P 1900 7550
 F 0 "H2" H 2000 7599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2000 7508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1900 7550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1900 7550 50  0001 C CNN
 F 3 "~" H 1900 7550 50  0001 C CNN
 	1    1900 7550
 	1    0    0    -1  
@@ -674,7 +674,7 @@ U 1 1 5CB5B46E
 P 1000 7550
 F 0 "H1" H 1100 7599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1100 7508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 1000 7550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1000 7550 50  0001 C CNN
 F 3 "~" H 1000 7550 50  0001 C CNN
 	1    1000 7550
 	1    0    0    -1  
@@ -685,7 +685,7 @@ U 1 1 5CB60C90
 P 3700 7550
 F 0 "H4" H 3800 7599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3800 7508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 3700 7550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3700 7550 50  0001 C CNN
 F 3 "~" H 3700 7550 50  0001 C CNN
 	1    3700 7550
 	1    0    0    -1  
@@ -696,13 +696,13 @@ U 1 1 5CB6616E
 P 2800 7550
 F 0 "H3" H 2900 7599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2900 7508 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm_Pad" H 2800 7550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 2800 7550 50  0001 C CNN
 F 3 "~" H 2800 7550 50  0001 C CNN
 	1    2800 7550
 	1    0    0    -1  
 $EndComp
 Text Notes 900  7350 0    50   ~ 0
-clearance holes for 8-32 standoffs\nuse insulated standoffs
+clearance holes for M3 standoffs\nuse insulated standoffs
 Wire Wire Line
 	5400 2450 5400 2750
 Connection ~ 5400 1900
