@@ -89,23 +89,6 @@ F 3 "" H 3700 3050 50  0001 C CNN
 	1    3700 3050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R1
-U 1 1 5CD3055D
-P 3700 3400
-F 0 "R1" H 3770 3446 50  0000 L CNN
-F 1 "270" H 3770 3355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 3400 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 3700 3400 50  0001 C CNN
-F 4 "Yageo" H 3700 3400 50  0001 C CNN "Manufacturer"
-F 5 "RT0603DRE07270RL" H 3700 3400 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 3700 3400 50  0001 C CNN "Distributor"
-F 7 "311-2504-1-ND" H 3700 3400 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603DRE07270RL/311-2504-1-ND/6128923" H 3700 3400 50  0001 C CNN "URL"
-F 9 "0.12" H 3700 3400 50  0001 C CNN "Unit Price"
-	1    3700 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 3550 3700 3600
 Wire Wire Line
@@ -114,14 +97,14 @@ Wire Wire Line
 	3700 4650 3700 4750
 Wire Wire Line
 	3700 4350 3700 4250
-Text Notes 4200 5300 0    50   ~ 0
-selects headphone output vs main output
+Text Notes 4200 5450 0    50   ~ 0
+selects headphone output vs main output\nUP: headphones\nDOWN: main output
 Text Notes 4200 5200 0    50   Italic 10
 headphone selection switch
 Text Notes 4200 2500 0    50   Italic 10
 input selection switch
 Wire Wire Line
-	950  6350 950  6550
+	950  6350 950  6500
 $Comp
 L power_gkeeth:GNDRELAY #PWR0106
 U 1 1 5CD3DD03
@@ -134,7 +117,7 @@ F 3 "" H 950 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  7050 950  6850
+	950  7050 950  6950
 $Comp
 L power_gkeeth:Vrelay #PWR0107
 U 1 1 5CD3E691
@@ -196,21 +179,15 @@ U 1 1 5CD172C4
 P 3700 4500
 F 0 "R2" H 3770 4546 50  0000 L CNN
 F 1 "270" H 3770 4455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3630 4500 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" H 3700 4500 50  0001 C CNN
-F 4 "Yageo" H 3700 4500 50  0001 C CNN "Manufacturer"
-F 5 "RT0603DRE07270RL" H 3700 4500 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 3700 4500 50  0001 C CNN "Distributor"
-F 7 "311-2504-1-ND" H 3700 4500 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603DRE07270RL/311-2504-1-ND/6128923" H 3700 4500 50  0001 C CNN "URL"
-F 9 "0.12" H 3700 4500 50  0001 C CNN "Unit Price"
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 4500 50  0001 C CNN
+F 3 "" H 3700 4500 50  0001 C CNN
 	1    3700 4500
 	1    0    0    -1  
 $EndComp
 Text Notes 1350 6400 0    50   ~ 0
 Vf = 1.9V\n\n(15V - 1.9V) / 2 mA = 6.6k
 Text Notes 8000 1100 0    50   ~ 0
-TODO\nmove power LED (in layout) to better position\nchange rotary switch symbol so pin numbers match footprint\nresistor packages big enough?
+TODO\nmove power LED (in layout) to better position\nchange rotary switch symbol so pin numbers match footprint
 $Comp
 L Graphic:Logo_Open_Hardware_Large #LOGO1
 U 1 1 5D0E05C4
@@ -440,4 +417,44 @@ Text Notes 2800 4750 0    50   Italic 0
 headphones selected
 Text Notes 2800 5000 0    50   Italic 0
 main output selected
+$Comp
+L Connector_gkeeth:Molex_SL_01x02_Male J4
+U 1 1 5D95AB4A
+P 2000 6750
+F 0 "J4" H 1972 6632 50  0000 R CNN
+F 1 "Molex_SL_01x02_Male" H 1972 6723 50  0000 R CNN
+F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 2000 6750 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 2000 6750 50  0001 C CNN
+	1    2000 6750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 6650 1500 6500
+Wire Wire Line
+	1500 6500 950  6500
+Wire Wire Line
+	1500 6650 1800 6650
+Connection ~ 950  6500
+Wire Wire Line
+	950  6500 950  6550
+Wire Wire Line
+	950  6950 1500 6950
+Wire Wire Line
+	1500 6950 1500 6750
+Wire Wire Line
+	1500 6750 1800 6750
+Connection ~ 950  6950
+Wire Wire Line
+	950  6950 950  6850
+$Comp
+L Device:R R1
+U 1 1 5D940B78
+P 3700 3400
+F 0 "R1" H 3770 3446 50  0000 L CNN
+F 1 "270" H 3770 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 3400 50  0001 C CNN
+F 3 "" H 3700 3400 50  0001 C CNN
+	1    3700 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
