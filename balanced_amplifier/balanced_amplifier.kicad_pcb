@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
+    (drawings 14)
     (tracks 612)
     (zones 0)
     (modules 128)
@@ -7077,9 +7077,6 @@
     (arrow1b (pts (xy 65.200001 121.8) (xy 65.786422 120.673496)))
     (arrow2a (pts (xy 65.200001 33.8) (xy 64.61358 34.926504)))
     (arrow2b (pts (xy 65.200001 33.8) (xy 65.786422 34.926504)))
-  )
-  (gr_text "TODO\ncheck pot directions" (at 213.2 34.3) (layer Cmts.User)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "Volume Pot" (at 156.2 104.6) (layer F.SilkS) (tstamp 5D90D89B)
     (effects (font (size 1.3 1.3) (thickness 0.2)))
