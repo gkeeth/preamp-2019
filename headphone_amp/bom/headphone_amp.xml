@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/graham/Projects/preamp-2019/headphone_amp/headphone_amp.sch</source>
-    <date>Mon 30 Sep 2019 08:15:23 PM EDT</date>
+    <date>Tue 01 Oct 2019 08:24:51 AM EDT</date>
     <tool>Eeschema 5.1.4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -39,6 +39,14 @@
       <value>1N4148WS</value>
       <footprint>Diode_SMD:D_SOD-323</footprint>
       <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">512-1N4148WS</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">1N4148WS</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/512-1N4148WS</field>
+        <field name="Unit Price">0.15</field>
+      </fields>
       <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D784EB4</tstamp>
@@ -47,6 +55,14 @@
       <value>1N4148WS</value>
       <footprint>Diode_SMD:D_SOD-323</footprint>
       <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">512-1N4148WS</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">1N4148WS</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/512-1N4148WS</field>
+        <field name="Unit Price">0.15</field>
+      </fields>
       <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D785905</tstamp>
@@ -54,7 +70,15 @@
     <comp ref="R5">
       <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">603-RT0603FRE074K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE074K7L</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/603-RT0603FRE074K7L</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D789DBE</tstamp>
@@ -62,7 +86,15 @@
     <comp ref="R2">
       <value>22k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">603-RT0603FRE1322KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE1322KL</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL</field>
+        <field name="Unit Price">0.19</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D791E9A</tstamp>
@@ -70,7 +102,15 @@
     <comp ref="R1">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">YAG2321CT-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE0710KL</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/yageo/RT0603FRE0710KL/YAG2321CT-ND/5252435</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D792524</tstamp>
@@ -96,6 +136,14 @@
       <value>Molex_SL_01x03_Male</value>
       <footprint>Connector_Molex_SL:Molex_SL_A-70553-0002_1x03_P2.54mm_Horizontal</footprint>
       <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">538-70553-0002</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">70553-0002</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/538-70553-0002</field>
+        <field name="Unit Price">1.12</field>
+      </fields>
       <libsource lib="Connector_gkeeth" part="Molex_SL_01x03_Male" description="Molex SL connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D79F9DA</tstamp>
@@ -104,6 +152,14 @@
       <value>Molex_SL_01x02_Male</value>
       <footprint>Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal</footprint>
       <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">538-70553-0001</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">70553-0001</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/538-70553-0001</field>
+        <field name="Unit Price">0.71</field>
+      </fields>
       <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D7B5472</tstamp>
@@ -111,7 +167,15 @@
     <comp ref="R3">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">YAG2321CT-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE0710KL</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/yageo/RT0603FRE0710KL/YAG2321CT-ND/5252435</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D7DDE42</tstamp>
@@ -152,6 +216,14 @@
       <value>1N4148WS</value>
       <footprint>Diode_SMD:D_SOD-323</footprint>
       <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">512-1N4148WS</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">1N4148WS</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/512-1N4148WS</field>
+        <field name="Unit Price">0.15</field>
+      </fields>
       <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D825D6E</tstamp>
@@ -160,6 +232,14 @@
       <value>1N4148WS</value>
       <footprint>Diode_SMD:D_SOD-323</footprint>
       <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">512-1N4148WS</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">1N4148WS</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/512-1N4148WS</field>
+        <field name="Unit Price">0.15</field>
+      </fields>
       <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D825D74</tstamp>
@@ -167,7 +247,15 @@
     <comp ref="R13">
       <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">603-RT0603FRE074K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE074K7L</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/603-RT0603FRE074K7L</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D825D86</tstamp>
@@ -175,7 +263,15 @@
     <comp ref="R12">
       <value>22k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">603-RT0603FRE1322KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE1322KL</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL</field>
+        <field name="Unit Price">0.19</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D825DB6</tstamp>
@@ -183,7 +279,15 @@
     <comp ref="R9">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">YAG2321CT-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE0710KL</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/yageo/RT0603FRE0710KL/YAG2321CT-ND/5252435</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D825DBC</tstamp>
@@ -192,6 +296,14 @@
       <value>Molex_SL_01x02_Male</value>
       <footprint>Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal</footprint>
       <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">538-70553-0001</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">70553-0001</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/538-70553-0001</field>
+        <field name="Unit Price">0.71</field>
+      </fields>
       <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D825DD3</tstamp>
@@ -199,7 +311,15 @@
     <comp ref="R11">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">YAG2321CT-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE0710KL</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/yageo/RT0603FRE0710KL/YAG2321CT-ND/5252435</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D825DDB</tstamp>
@@ -208,6 +328,15 @@
       <value>22p</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Dielectric">C0G/NP0</field>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">80-C0603C220J5G7411</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0603C220J5GAC7411</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/80-C0603C220J5G7411</field>
+        <field name="Unit Price">0.23</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D8742D1</tstamp>
@@ -215,7 +344,15 @@
     <comp ref="R4">
       <value>22k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">603-RT0603FRE1322KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE1322KL</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL</field>
+        <field name="Unit Price">0.19</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D87B243</tstamp>
@@ -224,6 +361,15 @@
       <value>22p</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Dielectric">C0G/NP0</field>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">80-C0603C220J5G7411</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0603C220J5GAC7411</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/80-C0603C220J5G7411</field>
+        <field name="Unit Price">0.23</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D87B251</tstamp>
@@ -232,6 +378,15 @@
       <value>22p</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Dielectric">C0G/NP0</field>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">80-C0603C220J5G7411</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0603C220J5GAC7411</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/80-C0603C220J5G7411</field>
+        <field name="Unit Price">0.23</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D8857CE</tstamp>
@@ -240,6 +395,15 @@
       <value>22p</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Dielectric">C0G/NP0</field>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">80-C0603C220J5G7411</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0603C220J5GAC7411</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/80-C0603C220J5G7411</field>
+        <field name="Unit Price">0.23</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D888CF1</tstamp>
@@ -253,6 +417,8 @@
         <field name="Distributor PN">NE5532AD8R2GOSCT-ND</field>
         <field name="Manufacturer">ON Semiconductor</field>
         <field name="Manufacturer PN">NE5532AD8R2G</field>
+        <field name="URL">https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND</field>
+        <field name="Unit Price">0.90</field>
       </fields>
       <libsource lib="Amplifier_Operational" part="NE5532" description="Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"/>
       <sheetpath names="/" tstamps="/"/>
@@ -277,7 +443,15 @@
     <comp ref="R10">
       <value>22k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">603-RT0603FRE1322KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE1322KL</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL</field>
+        <field name="Unit Price">0.19</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D825DB0</tstamp>
@@ -320,6 +494,14 @@
       <value>Molex_SL_01x03_Male</value>
       <footprint>Connector_Molex_SL:Molex_SL_A-70553-0002_1x03_P2.54mm_Horizontal</footprint>
       <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">538-70553-0002</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">70553-0002</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/538-70553-0002</field>
+        <field name="Unit Price">1.12</field>
+      </fields>
       <libsource lib="Connector_gkeeth" part="Molex_SL_01x03_Male" description="Molex SL connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D93DF57</tstamp>
@@ -445,7 +627,15 @@
     <comp ref="R16">
       <value>22k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">603-RT0603FRE1322KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE1322KL</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL</field>
+        <field name="Unit Price">0.19</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D8EF0BD</tstamp>
@@ -453,7 +643,15 @@
     <comp ref="R8">
       <value>22k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">603-RT0603FRE1322KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0603FRE1322KL</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL</field>
+        <field name="Unit Price">0.19</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D90FF4F</tstamp>
