@@ -180,7 +180,13 @@ P 3700 4500
 F 0 "R2" H 3770 4546 50  0000 L CNN
 F 1 "270" H 3770 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 4500 50  0001 C CNN
-F 3 "" H 3700 4500 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 3700 4500 50  0001 C CNN
+F 4 "603-RT0805FRE07270RL" H 3700 4500 50  0001 C CNN "Distributor PN"
+F 5 "Mouser" H 3700 4500 50  0001 C CNN "Distributor"
+F 6 "Yageo" H 3700 4500 50  0001 C CNN "Manufacturer"
+F 7 "RT0805FRE07270RL" H 3700 4500 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/603-RT0805FRE07270RL" H 3700 4500 50  0001 C CNN "URL"
+F 9 "0.12" H 3700 4500 50  0001 C CNN "Unit Price"
 	1    3700 4500
 	1    0    0    -1  
 $EndComp
@@ -211,6 +217,12 @@ F 0 "J1" H 1308 1631 50  0000 C CNN
 F 1 "Molex_SL_01x02_Male" H 1308 1540 50  0000 C CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 1200 1450 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 1200 1450 50  0001 C CNN
+F 4 "Digikey" H 1200 1450 50  0001 C CNN "Distributor"
+F 5 "WM4800-ND" H 1200 1450 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 1200 1450 50  0001 C CNN "Manufacturer"
+F 7 "0705430001" H 1200 1450 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 1200 1450 50  0001 C CNN "URL"
+F 9 "0.84" H 1200 1450 50  0001 C CNN "Unit Price"
 	1    1200 1450
 	1    0    0    -1  
 $EndComp
@@ -321,6 +333,12 @@ F 0 "SW1" H 4500 4381 50  0000 C CNN
 F 1 "SW_Rotary8_CK_A125xxxxCxx" H 4500 4290 50  0000 C CNN
 F 2 "Button_Switch_THT_gkeeth:SW_Rotary8_CK_A125xxxxCxx" H 4400 4300 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1349/arotary.pdf" H 4400 4300 50  0001 C CNN
+F 4 "Mouser" H 4600 3600 50  0001 C CNN "Distributor"
+F 5 "611-A12505RNCQ" H 4600 3600 50  0001 C CNN "Distributor PN"
+F 6 "C&K" H 4600 3600 50  0001 C CNN "Manufacturer"
+F 7 "A12505RNCQ" H 4600 3600 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/611-A12505RNCQ" H 4600 3600 50  0001 C CNN "URL"
+F 9 "8.05" H 4600 3600 50  0001 C CNN "Unit Price"
 	1    4600 3600
 	1    0    0    -1  
 $EndComp
@@ -341,7 +359,13 @@ P 7100 3950
 F 0 "J3" H 7150 4367 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 7150 4276 50  0000 C CNN
 F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 7100 3950 50  0001 C CNN
-F 3 "~" H 7100 3950 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/702461001_sd.pdf" H 7100 3950 50  0001 C CNN
+F 4 "Digikey" H 7100 3950 50  0001 C CNN "Distributor"
+F 5 "WM9219-ND" H 7100 3950 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 7100 3950 50  0001 C CNN "Manufacturer"
+F 7 "0702461001" H 7100 3950 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en?keywords=70246-1001" H 7100 3950 50  0001 C CNN "URL"
+F 9 "1.70" H 7100 3950 50  0001 C CNN "Unit Price"
 	1    7100 3950
 	-1   0    0    -1  
 $EndComp
@@ -362,7 +386,13 @@ P 7100 3200
 F 0 "J2" H 7150 3617 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 7150 3526 50  0000 C CNN
 F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 7100 3200 50  0001 C CNN
-F 3 "~" H 7100 3200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/702461001_sd.pdf" H 7100 3200 50  0001 C CNN
+F 4 "Digikey" H 7100 3200 50  0001 C CNN "Distributor"
+F 5 "WM9219-ND" H 7100 3200 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 7100 3200 50  0001 C CNN "Manufacturer"
+F 7 "0702461001" H 7100 3200 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en?keywords=70246-1001" H 7100 3200 50  0001 C CNN "URL"
+F 9 "1.70" H 7100 3200 50  0001 C CNN "Unit Price"
 	1    7100 3200
 	-1   0    0    -1  
 $EndComp
@@ -425,6 +455,12 @@ F 0 "J4" H 1972 6632 50  0000 R CNN
 F 1 "Molex_SL_01x02_Male" H 1972 6723 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical" H 2000 6750 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 2000 6750 50  0001 C CNN
+F 4 "Digikey" H 2000 6750 50  0001 C CNN "Distributor"
+F 5 "WM4800-ND" H 2000 6750 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 2000 6750 50  0001 C CNN "Manufacturer"
+F 7 "0705430001" H 2000 6750 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 2000 6750 50  0001 C CNN "URL"
+F 9 "0.84" H 2000 6750 50  0001 C CNN "Unit Price"
 	1    2000 6750
 	-1   0    0    1   
 $EndComp
@@ -453,7 +489,13 @@ P 3700 3400
 F 0 "R1" H 3770 3446 50  0000 L CNN
 F 1 "270" H 3770 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 3400 50  0001 C CNN
-F 3 "" H 3700 3400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" H 3700 3400 50  0001 C CNN
+F 4 "603-RT0805FRE07270RL" H 3700 3400 50  0001 C CNN "Distributor PN"
+F 5 "Mouser" H 3700 3400 50  0001 C CNN "Distributor"
+F 6 "Yageo" H 3700 3400 50  0001 C CNN "Manufacturer"
+F 7 "RT0805FRE07270RL" H 3700 3400 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/603-RT0805FRE07270RL" H 3700 3400 50  0001 C CNN "URL"
+F 9 "0.12" H 3700 3400 50  0001 C CNN "Unit Price"
 	1    3700 3400
 	1    0    0    -1  
 $EndComp
