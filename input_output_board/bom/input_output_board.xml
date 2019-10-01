@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/graham/Projects/preamp-2019/input_output_board/input_output_board.sch</source>
-    <date>Mon 30 Sep 2019 08:14:36 PM EDT</date>
+    <date>Tue 01 Oct 2019 08:27:54 AM EDT</date>
     <tool>Eeschema 5.1.4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -89,8 +89,11 @@
       <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
       <fields>
         <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">WM4900-ND</field>
         <field name="Manufacturer">Molex</field>
-        <field name="Manufacturer PN">0705430003</field>
+        <field name="Manufacturer PN">0705430001</field>
+        <field name="URL">https://www.digikey.com/products/en?keywords=70553-0001</field>
+        <field name="Unit Price">0.74</field>
       </fields>
       <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -227,7 +230,15 @@
     <comp ref="J6">
       <value>Conn_02x05_Odd_Even</value>
       <footprint>Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.molex.com/pdm_docs/sd/702461001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">WM9219-ND</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">0702461001</field>
+        <field name="URL">https://www.digikey.com/products/en?keywords=70246-1001</field>
+        <field name="Unit Price">1.70</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CC54E3F</tstamp>
@@ -270,8 +281,11 @@
       <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
       <fields>
         <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">WM4900-ND</field>
         <field name="Manufacturer">Molex</field>
         <field name="Manufacturer PN">0705430001</field>
+        <field name="URL">https://www.digikey.com/products/en?keywords=70553-0001</field>
+        <field name="Unit Price">0.74</field>
       </fields>
       <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -283,8 +297,11 @@
       <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
       <fields>
         <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">WM4900-ND</field>
         <field name="Manufacturer">Molex</field>
-        <field name="Manufacturer PN">0705430003</field>
+        <field name="Manufacturer PN">0705430001</field>
+        <field name="URL">https://www.digikey.com/products/en?keywords=70553-0001</field>
+        <field name="Unit Price">0.74</field>
       </fields>
       <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
