@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/graham/Projects/preamp-2019/input_output_board/input_output_board.sch</source>
+    <date>Mon 30 Sep 2019 08:14:36 PM EDT</date>
+    <tool>Eeschema 5.1.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>INPUT/OUTPUT BOARD</title>
+        <company>G. Keeth</company>
+        <rev>0</rev>
+        <date>2019-09-22</date>
+        <source>input_output_board.sch</source>
+        <comment number="1" value="Preamp 2019"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="NOTE: 2 of these boards are needed in total (1 each for L/R)"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>Neutrik_NCJ6FA-H-0</value>
+      <footprint>Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal</footprint>
+      <datasheet>https://www.neutrik.us/en-us/product/ncj6fa-h-0</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">568-NCJ6FA-H-0</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer PN">NCJ6FA-H-0</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D</field>
+        <field name="Unit Price">2.14</field>
+      </fields>
+      <libsource lib="Connector_gkeeth" part="Neutrik_NCJ6FA-H-0" description="Neutrik Combo-A XLR (Male or Female) and Audio Jack (Stereo / TRS) Combo Connector, Discrete Ground Pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAED56C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>MRA4004T3G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">MRA4004T3GOSCT-ND</field>
+        <field name="Manufacturer">On Semiconductor</field>
+        <field name="Manufacturer PN">MRA4004T3G</field>
+        <field name="URL">https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&amp;k=&amp;pkeyword=MRA4004T3G&amp;sv=0&amp;pv7=2&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</field>
+        <field name="Unit Price">0.29</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB90FB2</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>MRA4004T3G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">MRA4004T3GOSCT-ND</field>
+        <field name="Manufacturer">On Semiconductor</field>
+        <field name="Manufacturer PN">MRA4004T3G</field>
+        <field name="URL">https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&amp;k=&amp;pkeyword=MRA4004T3G&amp;sv=0&amp;pv7=2&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</field>
+        <field name="Unit Price">0.29</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB903B2</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>MRA4004T3G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">MRA4004T3GOSCT-ND</field>
+        <field name="Manufacturer">On Semiconductor</field>
+        <field name="Manufacturer PN">MRA4004T3G</field>
+        <field name="URL">https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&amp;k=&amp;pkeyword=MRA4004T3G&amp;sv=0&amp;pv7=2&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</field>
+        <field name="Unit Price">0.29</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB8CEA8</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Molex_SL_01x02_Male</value>
+      <footprint>Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">0705430003</field>
+      </fields>
+      <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB530B8</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>G6S-2</value>
+      <footprint>Relay_SMD:Relay_DPDT_Omron_G6S-2F</footprint>
+      <datasheet>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">Z889-ND</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer PN">G6S-2F DC12</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491</field>
+        <field name="Unit Price">3.64</field>
+      </fields>
+      <libsource lib="Relay" part="G6S-2" description="Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Single-side Stable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CADCB43</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>G6S-2</value>
+      <footprint>Relay_SMD:Relay_DPDT_Omron_G6S-2F</footprint>
+      <datasheet>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">Z889-ND</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer PN">G6S-2F DC12</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491</field>
+        <field name="Unit Price">3.64</field>
+      </fields>
+      <libsource lib="Relay" part="G6S-2" description="Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Single-side Stable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CADB323</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>G6S-2</value>
+      <footprint>Relay_SMD:Relay_DPDT_Omron_G6S-2F</footprint>
+      <datasheet>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">Z889-ND</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer PN">G6S-2F DC12</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491</field>
+        <field name="Unit Price">3.64</field>
+      </fields>
+      <libsource lib="Relay" part="G6S-2" description="Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Single-side Stable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CABFDDA</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>MRA4004T3G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">MRA4004T3GOSCT-ND</field>
+        <field name="Manufacturer">On Semiconductor</field>
+        <field name="Manufacturer PN">MRA4004T3G</field>
+        <field name="URL">https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&amp;k=&amp;pkeyword=MRA4004T3G&amp;sv=0&amp;pv7=2&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</field>
+        <field name="Unit Price">0.29</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB915D2</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>G6S-2</value>
+      <footprint>Relay_SMD:Relay_DPDT_Omron_G6S-2F</footprint>
+      <datasheet>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">Z889-ND</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer PN">G6S-2F DC12</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491</field>
+        <field name="Unit Price">3.64</field>
+      </fields>
+      <libsource lib="Relay" part="G6S-2" description="Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Single-side Stable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CADDA03</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Neutrik_NCJ6FA-H-0</value>
+      <footprint>Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal</footprint>
+      <datasheet>https://www.neutrik.us/en-us/product/ncj6fa-h-0</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">568-NCJ6FA-H-0</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer PN">NCJ6FA-H-0</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D</field>
+        <field name="Unit Price">2.14</field>
+      </fields>
+      <libsource lib="Connector_gkeeth" part="Neutrik_NCJ6FA-H-0" description="Neutrik Combo-A XLR (Male or Female) and Audio Jack (Stereo / TRS) Combo Connector, Discrete Ground Pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEE6A94</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Neutrik_NCJ6FA-H-0</value>
+      <footprint>Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal</footprint>
+      <datasheet>https://www.neutrik.us/en-us/product/ncj6fa-h-0</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">568-NCJ6FA-H-0</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer PN">NCJ6FA-H-0</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D</field>
+        <field name="Unit Price">2.14</field>
+      </fields>
+      <libsource lib="Connector_gkeeth" part="Neutrik_NCJ6FA-H-0" description="Neutrik Combo-A XLR (Male or Female) and Audio Jack (Stereo / TRS) Combo Connector, Discrete Ground Pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEE9005</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Neutrik_NCJ6FA-H-0</value>
+      <footprint>Connector_Audio_project:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H-0_Horizontal</footprint>
+      <datasheet>https://www.neutrik.us/en-us/product/ncj6fa-h-0</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">568-NCJ6FA-H-0</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer PN">NCJ6FA-H-0</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Neutrik/NCJ6FA-H-0?qs=sGAEpiMZZMv0W4pxf2HiVz0kF5fvPbmUN84Qkb8AgIM%3D</field>
+        <field name="Unit Price">2.14</field>
+      </fields>
+      <libsource lib="Connector_gkeeth" part="Neutrik_NCJ6FA-H-0" description="Neutrik Combo-A XLR (Male or Female) and Audio Jack (Stereo / TRS) Combo Connector, Discrete Ground Pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEE9880</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC54E3F</tstamp>
+    </comp>
+    <comp ref="K5">
+      <value>G6S-2</value>
+      <footprint>Relay_SMD:Relay_DPDT_Omron_G6S-2F</footprint>
+      <datasheet>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">Z889-ND</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer PN">G6S-2F DC12</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G6S-2F-DC12/Z889-ND/27491</field>
+        <field name="Unit Price">3.64</field>
+      </fields>
+      <libsource lib="Relay" part="G6S-2" description="Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Single-side Stable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D821E97</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>MRA4004T3G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">MRA4004T3GOSCT-ND</field>
+        <field name="Manufacturer">On Semiconductor</field>
+        <field name="Manufacturer PN">MRA4004T3G</field>
+        <field name="URL">https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&amp;k=&amp;pkeyword=MRA4004T3G&amp;sv=0&amp;pv7=2&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</field>
+        <field name="Unit Price">0.29</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D821EA3</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Molex_SL_01x02_Male</value>
+      <footprint>Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">0705430001</field>
+      </fields>
+      <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D821ECB</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Molex_SL_01x02_Male</value>
+      <footprint>Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">0705430003</field>
+      </fields>
+      <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8346C7</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Neutrik_NC3MAH</value>
+      <footprint>Connector_Audio_project:Jack_XLR_Neutrik_NC3MAH_Horizontal</footprint>
+      <datasheet>https://www.neutrik.us/en-us/product/nc3mah</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">568-NC3MAH</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer PN">NC3MAH</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/Neutrik/NC3MAH?qs=sGAEpiMZZMv0W4pxf2HiV0%252BKdhvD8lQRNSjbmflhq7A%3D</field>
+        <field name="Unit Price">1.25</field>
+      </fields>
+      <libsource lib="Connector_gkeeth" part="Neutrik_NC3MAH" description="XLR Connector, Male or Female, 3 Pins, Discrete Ground Pin"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8B61B8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_gkeeth" part="Molex_SL_01x02_Male">
+      <description>Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Molex_SL_01x02_Male</field>
+        <field name="Footprint">Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_gkeeth" part="Neutrik_NC3MAH">
+      <description>XLR Connector, Male or Female, 3 Pins, Discrete Ground Pin</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>Jack*XLR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Neutrik_NC3MAH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="G" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_gkeeth" part="Neutrik_NCJ6FA-H-0">
+      <description>Neutrik Combo-A XLR (Male or Female) and Audio Jack (Stereo / TRS) Combo Connector, Discrete Ground Pin</description>
+      <docs>https://www.neutrik.com/media/8445/download/ncj6fa-v.pdf?v=1</docs>
+      <footprints>
+        <fp>Jack*XLR*6.35mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Neutrik_NCJ6FA-H-0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="G" name="~" type="passive"/>
+        <pin num="R" name="~" type="passive"/>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="G6S-2">
+      <description>Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Single-side Stable</description>
+      <docs>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf</docs>
+      <footprints>
+        <fp>Relay*DPDT*Omron*G6S?2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G6S-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/home/graham/kicad/libraries/symbols/kicad-symbols//Connector_Generic.lib</uri>
+    </library>
+    <library logical="Connector_gkeeth">
+      <uri>/home/graham/kicad/libraries//symbols/kicad-library-gkeeth/Connector_gkeeth.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/graham/kicad/libraries/symbols/kicad-symbols//Device.lib</uri>
+    </library>
+    <library logical="Relay">
+      <uri>/home/graham/kicad/libraries/symbols/kicad-symbols//Relay.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/input1_select">
+      <node ref="K1" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="2" name="/input4_select">
+      <node ref="D4" pin="1"/>
+      <node ref="J6" pin="8"/>
+      <node ref="K4" pin="1"/>
+    </net>
+    <net code="3" name="/input3_select">
+      <node ref="D3" pin="1"/>
+      <node ref="J6" pin="6"/>
+      <node ref="K3" pin="1"/>
+    </net>
+    <net code="4" name="/input2_select">
+      <node ref="J6" pin="4"/>
+      <node ref="D2" pin="1"/>
+      <node ref="K2" pin="1"/>
+    </net>
+    <net code="5" name="/headphone_select">
+      <node ref="K5" pin="12"/>
+      <node ref="D5" pin="1"/>
+      <node ref="J6" pin="10"/>
+    </net>
+    <net code="6" name="/main_shield">
+      <node ref="J5" pin="1"/>
+      <node ref="J5" pin="G"/>
+    </net>
+    <net code="7" name="/output_cold">
+      <node ref="J8" pin="2"/>
+      <node ref="K5" pin="9"/>
+    </net>
+    <net code="8" name="GNDRELAY">
+      <node ref="K2" pin="12"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="K1" pin="12"/>
+      <node ref="K3" pin="12"/>
+      <node ref="D4" pin="2"/>
+      <node ref="K4" pin="12"/>
+      <node ref="J6" pin="9"/>
+      <node ref="J6" pin="7"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J6" pin="1"/>
+      <node ref="K5" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="9" name="/output_hot">
+      <node ref="J8" pin="1"/>
+      <node ref="K5" pin="4"/>
+    </net>
+    <net code="10" name="/headphone_cold">
+      <node ref="K5" pin="8"/>
+      <node ref="J9" pin="2"/>
+    </net>
+    <net code="11" name="/main_hot">
+      <node ref="K5" pin="3"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="12" name="/headphone_hot">
+      <node ref="K5" pin="5"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="13" name="/main_cold">
+      <node ref="J5" pin="3"/>
+      <node ref="K5" pin="10"/>
+    </net>
+    <net code="14" name="Net-(K1-Pad10)">
+      <node ref="K1" pin="10"/>
+    </net>
+    <net code="15" name="Net-(K1-Pad3)">
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="16" name="Net-(K2-Pad3)">
+      <node ref="K2" pin="3"/>
+    </net>
+    <net code="17" name="Net-(K2-Pad10)">
+      <node ref="K2" pin="10"/>
+    </net>
+    <net code="18" name="Net-(K3-Pad3)">
+      <node ref="K3" pin="3"/>
+    </net>
+    <net code="19" name="Net-(K3-Pad10)">
+      <node ref="K3" pin="10"/>
+    </net>
+    <net code="20" name="/input2_cold">
+      <node ref="J2" pin="3"/>
+      <node ref="K2" pin="8"/>
+      <node ref="J2" pin="R"/>
+    </net>
+    <net code="21" name="/input1_hot">
+      <node ref="J1" pin="T"/>
+      <node ref="J1" pin="2"/>
+      <node ref="K1" pin="5"/>
+    </net>
+    <net code="22" name="/input1_cold">
+      <node ref="K1" pin="8"/>
+      <node ref="J1" pin="R"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="23" name="/input1_shield">
+      <node ref="J1" pin="S"/>
+      <node ref="J1" pin="G"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="24" name="/input3_hot">
+      <node ref="K3" pin="5"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="T"/>
+    </net>
+    <net code="25" name="/input3_cold">
+      <node ref="K3" pin="8"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="R"/>
+    </net>
+    <net code="26" name="/input_selected_hot">
+      <node ref="K4" pin="4"/>
+      <node ref="J7" pin="1"/>
+      <node ref="K2" pin="4"/>
+      <node ref="K1" pin="4"/>
+      <node ref="K3" pin="4"/>
+    </net>
+    <net code="27" name="/input_selected_cold">
+      <node ref="K3" pin="9"/>
+      <node ref="K2" pin="9"/>
+      <node ref="J7" pin="2"/>
+      <node ref="K1" pin="9"/>
+      <node ref="K4" pin="9"/>
+    </net>
+    <net code="28" name="/input2_hot">
+      <node ref="J2" pin="2"/>
+      <node ref="K2" pin="5"/>
+      <node ref="J2" pin="T"/>
+    </net>
+    <net code="29" name="Net-(K4-Pad3)">
+      <node ref="K4" pin="3"/>
+    </net>
+    <net code="30" name="/input4_cold">
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="R"/>
+      <node ref="K4" pin="8"/>
+    </net>
+    <net code="31" name="/input4_hot">
+      <node ref="K4" pin="5"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J4" pin="T"/>
+    </net>
+    <net code="32" name="Net-(K4-Pad10)">
+      <node ref="K4" pin="10"/>
+    </net>
+    <net code="33" name="/input4_shield">
+      <node ref="J4" pin="1"/>
+      <node ref="J4" pin="G"/>
+      <node ref="J4" pin="S"/>
+    </net>
+    <net code="34" name="/input2_shield">
+      <node ref="J2" pin="G"/>
+      <node ref="J2" pin="S"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="35" name="/input3_shield">
+      <node ref="J3" pin="S"/>
+      <node ref="J3" pin="G"/>
+      <node ref="J3" pin="1"/>
+    </net>
+  </nets>
+</export>

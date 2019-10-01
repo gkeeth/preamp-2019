@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/graham/Projects/preamp-2019/front_panel_board/front_panel_board.sch</source>
+    <date>Mon 30 Sep 2019 08:15:11 PM EDT</date>
+    <tool>Eeschema 5.1.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Front Panel Board</title>
+        <company>G. Keeth</company>
+        <rev>0</rev>
+        <date>2019-09-22</date>
+        <source>front_panel_board.sch</source>
+        <comment number="1" value="Preamp 2019"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED_ALT</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP7113LGD.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">754-1265-ND</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer PN">WP7113LGD</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/kingbright/WP7113LGD/754-1265-ND/1747664</field>
+        <field name="Unit Price">0.48</field>
+      </fields>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D13996E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>6.8k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">YAG5968CT-ND</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">YAG5968CT-ND</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/yageo/RT0603FRE076K8L/YAG5968CT-ND/9370998</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D13A415</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>270</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD172C4</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Molex_SL_01x02_Male</value>
+      <footprint>Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D18B97E</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Rotary8_CK_A125xxxxCxx</value>
+      <footprint>Button_Switch_THT_gkeeth:SW_Rotary8_CK_A125xxxxCxx</footprint>
+      <datasheet>https://www.ckswitches.com/media/1349/arotary.pdf</datasheet>
+      <libsource lib="Switch_gkeeth" part="SW_Rotary8_CK_A125xxxxCxx" description="C&amp;K A125xxxxCxx rotary switch with 8 positions (adjustable stop), 45deg indexing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D13D52B</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D106F42</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD2571D</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_THT_gkeeth:SW_Toggle_SPDT_NKK_M201xxxx03</footprint>
+      <datasheet>http://www.nkkswitches.com/pdf/MtogglesBushing.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">360-1802-ND</field>
+        <field name="Manufacturer">NKK</field>
+        <field name="Manufacturer PN">M2012SS1W03</field>
+        <field name="URL">https://www.digikey.com/product-detail/en/nkk-switches/M2012SS1W03/360-1802-ND/1006881</field>
+        <field name="Unit Price">4.75</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8C2CF2</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Molex_SL_01x02_Male</value>
+      <footprint>Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D95AB4A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>270</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D940B78</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_gkeeth" part="Molex_SL_01x02_Male">
+      <description>Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Molex_SL_01x02_Male</field>
+        <field name="Footprint">Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_ALT">
+      <description>Light emitting diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch_gkeeth" part="SW_Rotary8_CK_A125xxxxCxx">
+      <description>C&amp;K A125xxxxCxx rotary switch with 8 positions (adjustable stop), 45deg indexing</description>
+      <docs>https://www.ckswitches.com/media/1349/arotary.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Rotary8_CK_A125xxxxCxx</field>
+        <field name="Footprint">Button_Switch_THT_gkeeth:SW_Rotary8_CK_A125xxxxCxx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="A" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/home/graham/kicad/libraries/symbols/kicad-symbols//Connector_Generic.lib</uri>
+    </library>
+    <library logical="Connector_gkeeth">
+      <uri>/home/graham/kicad/libraries//symbols/kicad-library-gkeeth/Connector_gkeeth.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/graham/kicad/libraries/symbols/kicad-symbols//Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/home/graham/kicad/libraries/symbols/kicad-symbols//Switch.lib</uri>
+    </library>
+    <library logical="Switch_gkeeth">
+      <uri>/home/graham/kicad/libraries//symbols/kicad-library-gkeeth/Switch_gkeeth.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(SW1-Pad7)">
+      <node ref="SW1" pin="7"/>
+    </net>
+    <net code="2" name="Net-(SW1-Pad8)">
+      <node ref="SW1" pin="8"/>
+    </net>
+    <net code="3" name="GNDRELAY">
+      <node ref="J4" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="9"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="9"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J1" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(SW1-Pad10)">
+      <node ref="SW1" pin="10"/>
+    </net>
+    <net code="5" name="Net-(SW1-Pad11)">
+      <node ref="SW1" pin="11"/>
+    </net>
+    <net code="6" name="Net-(R1-Pad2)">
+      <node ref="SW1" pin="A"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="7" name="Vrelay">
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="10" name="/headphone_select">
+      <node ref="J3" pin="10"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="11" name="/input4_select">
+      <node ref="SW1" pin="5"/>
+      <node ref="J3" pin="8"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="12" name="/input3_select">
+      <node ref="J3" pin="6"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="13" name="/input2_select">
+      <node ref="J3" pin="4"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="14" name="/input1_select">
+      <node ref="J3" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+  </nets>
+</export>

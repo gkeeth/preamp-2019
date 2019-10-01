@@ -1,0 +1,32 @@
+"Source:","/home/graham/Projects/preamp-2019/front_panel_board/front_panel_board.sch"
+"Date:","Mon 30 Sep 2019 08:15:11 PM EDT"
+"Tool:","Eeschema 5.1.4"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","10"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Distributor","Distributor PN","Manufacturer","Manufacturer PN","URL","Unit Price"
+"","","D1","LED_ALT","Device:LED_ALT","LED_THT:LED_D5.0mm","http://www.kingbrightusa.com/images/catalog/SPEC/WP7113LGD.pdf","Digikey","754-1265-ND","Kingbright","WP7113LGD","https://www.digikey.com/product-detail/en/kingbright/WP7113LGD/754-1265-ND/1747664","0.48"
+"","","J1","Molex_SL_01x02_Male","Connector_gkeeth:Molex_SL_01x02_Male","Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical","https://www.molex.com/pdm_docs/sd/705430001_sd.pdf","","","","","",""
+"","","J2","Conn_02x05_Odd_Even","Connector_Generic:Conn_02x05_Odd_Even","Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical","~","","","","","",""
+"","","J3","Conn_02x05_Odd_Even","Connector_Generic:Conn_02x05_Odd_Even","Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical","~","","","","","",""
+"","","J4","Molex_SL_01x02_Male","Connector_gkeeth:Molex_SL_01x02_Male","Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical","https://www.molex.com/pdm_docs/sd/705430001_sd.pdf","","","","","",""
+"","","R1","270","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","","","","","","",""
+"","","R2","270","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","","","","","","",""
+"","","R3","6.8k","Device:R","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf","Digikey","YAG5968CT-ND","Yageo","YAG5968CT-ND","https://www.digikey.com/product-detail/en/yageo/RT0603FRE076K8L/YAG5968CT-ND/9370998","0.10"
+"","","SW1","SW_Rotary8_CK_A125xxxxCxx","Switch_gkeeth:SW_Rotary8_CK_A125xxxxCxx","Button_Switch_THT_gkeeth:SW_Rotary8_CK_A125xxxxCxx","https://www.ckswitches.com/media/1349/arotary.pdf","","","","","",""
+"","","SW2","SW_SPDT","Switch:SW_SPDT","Button_Switch_THT_gkeeth:SW_Toggle_SPDT_NKK_M201xxxx03","http://www.nkkswitches.com/pdf/MtogglesBushing.pdf","Digikey","360-1802-ND","NKK","M2012SS1W03","https://www.digikey.com/product-detail/en/nkk-switches/M2012SS1W03/360-1802-ND/1006881","4.75"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Distributor","Distributor PN","Manufacturer","Manufacturer PN","URL","Unit Price"
+"1","1","D1","LED_ALT","Device:LED_ALT","LED_THT:LED_D5.0mm","http://www.kingbrightusa.com/images/catalog/SPEC/WP7113LGD.pdf","Digikey","754-1265-ND","Kingbright","WP7113LGD","https://www.digikey.com/product-detail/en/kingbright/WP7113LGD/754-1265-ND/1747664","0.48"
+"2","2","J1, J4","Molex_SL_01x02_Male","Connector_gkeeth:Molex_SL_01x02_Male","Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical","https://www.molex.com/pdm_docs/sd/705430001_sd.pdf","","","","","",""
+"3","2","J2, J3","Conn_02x05_Odd_Even","Connector_Generic:Conn_02x05_Odd_Even","Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical","~","","","","","",""
+"4","2","R1, R2","270","Device:R","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","","","","","","",""
+"5","1","R3","6.8k","Device:R","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf","Digikey","YAG5968CT-ND","Yageo","YAG5968CT-ND","https://www.digikey.com/product-detail/en/yageo/RT0603FRE076K8L/YAG5968CT-ND/9370998","0.10"
+"6","1","SW1","SW_Rotary8_CK_A125xxxxCxx","Switch_gkeeth:SW_Rotary8_CK_A125xxxxCxx","Button_Switch_THT_gkeeth:SW_Rotary8_CK_A125xxxxCxx","https://www.ckswitches.com/media/1349/arotary.pdf","","","","","",""
+"7","1","SW2","SW_SPDT","Switch:SW_SPDT","Button_Switch_THT_gkeeth:SW_Toggle_SPDT_NKK_M201xxxx03","http://www.nkkswitches.com/pdf/MtogglesBushing.pdf","Digikey","360-1802-ND","NKK","M2012SS1W03","https://www.digikey.com/product-detail/en/nkk-switches/M2012SS1W03/360-1802-ND/1006881","4.75"
