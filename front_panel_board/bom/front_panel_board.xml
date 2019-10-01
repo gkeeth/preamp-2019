@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/graham/Projects/preamp-2019/front_panel_board/front_panel_board.sch</source>
-    <date>Mon 30 Sep 2019 08:15:11 PM EDT</date>
+    <date>Tue 01 Oct 2019 08:37:29 AM EDT</date>
     <tool>Eeschema 5.1.4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -54,6 +54,15 @@
     <comp ref="R2">
       <value>270</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">603-RT0805FRE07270RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0805FRE07270RL</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/603-RT0805FRE07270RL</field>
+        <field name="Unit Price">0.12</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD172C4</tstamp>
@@ -62,6 +71,14 @@
       <value>Molex_SL_01x02_Male</value>
       <footprint>Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical</footprint>
       <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">WM4800-ND</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">0705430001</field>
+        <field name="URL">https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</field>
+        <field name="Unit Price">0.84</field>
+      </fields>
       <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D18B97E</tstamp>
@@ -70,6 +87,14 @@
       <value>SW_Rotary8_CK_A125xxxxCxx</value>
       <footprint>Button_Switch_THT_gkeeth:SW_Rotary8_CK_A125xxxxCxx</footprint>
       <datasheet>https://www.ckswitches.com/media/1349/arotary.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">611-A12505RNCQ</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Manufacturer PN">A12505RNCQ</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/611-A12505RNCQ</field>
+        <field name="Unit Price">8.05</field>
+      </fields>
       <libsource lib="Switch_gkeeth" part="SW_Rotary8_CK_A125xxxxCxx" description="C&amp;K A125xxxxCxx rotary switch with 8 positions (adjustable stop), 45deg indexing"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D13D52B</tstamp>
@@ -77,7 +102,15 @@
     <comp ref="J3">
       <value>Conn_02x05_Odd_Even</value>
       <footprint>Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.molex.com/pdm_docs/sd/702461001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">WM9219-ND</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">0702461001</field>
+        <field name="URL">https://www.digikey.com/products/en?keywords=70246-1001</field>
+        <field name="Unit Price">1.70</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D106F42</tstamp>
@@ -85,7 +118,15 @@
     <comp ref="J2">
       <value>Conn_02x05_Odd_Even</value>
       <footprint>Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.molex.com/pdm_docs/sd/702461001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">WM9219-ND</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">0702461001</field>
+        <field name="URL">https://www.digikey.com/products/en?keywords=70246-1001</field>
+        <field name="Unit Price">1.70</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD2571D</tstamp>
@@ -110,6 +151,14 @@
       <value>Molex_SL_01x02_Male</value>
       <footprint>Connector_Molex_SL:Molex_SL_A-70543-0001_1x02_P2.54mm_Vertical</footprint>
       <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">WM4800-ND</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">0705430001</field>
+        <field name="URL">https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</field>
+        <field name="Unit Price">0.84</field>
+      </fields>
       <libsource lib="Connector_gkeeth" part="Molex_SL_01x02_Male" description="Molex SL connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D95AB4A</tstamp>
@@ -117,6 +166,15 @@
     <comp ref="R1">
       <value>270</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">603-RT0805FRE07270RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RT0805FRE07270RL</field>
+        <field name="URL">https://www.mouser.com/ProductDetail/603-RT0805FRE07270RL</field>
+        <field name="Unit Price">0.12</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D940B78</tstamp>
