@@ -39,6 +39,12 @@ F 0 "D1" V 4646 2420 50  0000 R CNN
 F 1 "1N4148WS" V 4555 2420 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 4600 2325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 4600 2500 50  0001 C CNN
+F 4 "Mouser" H 4600 2500 50  0001 C CNN "Distributor"
+F 5 "512-1N4148WS" H 4600 2500 50  0001 C CNN "Distributor PN"
+F 6 "ON Semiconductor" H 4600 2500 50  0001 C CNN "Manufacturer"
+F 7 "1N4148WS" H 4600 2500 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/512-1N4148WS" H 4600 2500 50  0001 C CNN "URL"
+F 9 "0.15" H 4600 2500 50  0001 C CNN "Unit Price"
 	1    4600 2500
 	0    -1   -1   0   
 $EndComp
@@ -50,6 +56,12 @@ F 0 "D2" V 4646 2820 50  0000 R CNN
 F 1 "1N4148WS" V 4555 2820 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 4600 2725 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 4600 2900 50  0001 C CNN
+F 4 "Mouser" H 4600 2900 50  0001 C CNN "Distributor"
+F 5 "512-1N4148WS" H 4600 2900 50  0001 C CNN "Distributor PN"
+F 6 "ON Semiconductor" H 4600 2900 50  0001 C CNN "Manufacturer"
+F 7 "1N4148WS" H 4600 2900 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/512-1N4148WS" H 4600 2900 50  0001 C CNN "URL"
+F 9 "0.15" H 4600 2900 50  0001 C CNN "Unit Price"
 	1    4600 2900
 	0    -1   -1   0   
 $EndComp
@@ -60,7 +72,13 @@ P 4600 3550
 F 0 "R5" H 4670 3596 50  0000 L CNN
 F 1 "4.7k" H 4670 3505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 3550 50  0001 C CNN
-F 3 "~" H 4600 3550 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 4600 3550 50  0001 C CNN
+F 4 "Mouser" H 4600 3550 50  0001 C CNN "Distributor"
+F 5 "603-RT0603FRE074K7L" H 4600 3550 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 4600 3550 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE074K7L" H 4600 3550 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/603-RT0603FRE074K7L" H 4600 3550 50  0001 C CNN "URL"
+F 9 "0.10" H 4600 3550 50  0001 C CNN "Unit Price"
 	1    4600 3550
 	1    0    0    -1  
 $EndComp
@@ -110,7 +128,13 @@ P 3850 900
 F 0 "R2" V 3643 900 50  0000 C CNN
 F 1 "22k" V 3734 900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 900 50  0001 C CNN
-F 3 "~" H 3850 900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 3850 900 50  0001 C CNN
+F 4 "Mouser" H 3850 900 50  0001 C CNN "Distributor"
+F 5 "603-RT0603FRE1322KL" H 3850 900 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 3850 900 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE1322KL" H 3850 900 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL" H 3850 900 50  0001 C CNN "URL"
+F 9 "0.19" H 3850 900 50  0001 C CNN "Unit Price"
 	1    3850 900 
 	0    1    1    0   
 $EndComp
@@ -121,7 +145,13 @@ P 2900 2000
 F 0 "R1" V 3107 2000 50  0000 C CNN
 F 1 "10k" V 3016 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 2000 50  0001 C CNN
-F 3 "~" H 2900 2000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 2900 2000 50  0001 C CNN
+F 4 "Digikey" H 2900 2000 50  0001 C CNN "Distributor"
+F 5 "YAG2321CT-ND" H 2900 2000 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 2900 2000 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE0710KL" H 2900 2000 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE0710KL/YAG2321CT-ND/5252435" H 2900 2000 50  0001 C CNN "URL"
+F 9 "0.10" H 2900 2000 50  0001 C CNN "Unit Price"
 	1    2900 2000
 	0    -1   -1   0   
 $EndComp
@@ -204,6 +234,12 @@ F 0 "J4" H 958 7181 50  0000 C CNN
 F 1 "Molex_SL_01x03_Male" H 958 7090 50  0000 C CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70553-0002_1x03_P2.54mm_Horizontal" H 850 6900 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 850 6900 50  0001 C CNN
+F 4 "Mouser" H 850 6900 50  0001 C CNN "Distributor"
+F 5 "538-70553-0002" H 850 6900 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 850 6900 50  0001 C CNN "Manufacturer"
+F 7 "70553-0002" H 850 6900 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/538-70553-0002" H 850 6900 50  0001 C CNN "URL"
+F 9 "1.12" H 850 6900 50  0001 C CNN "Unit Price"
 	1    850  6900
 	1    0    0    -1  
 $EndComp
@@ -293,6 +329,12 @@ F 0 "J1" H 1573 2032 50  0000 R CNN
 F 1 "Molex_SL_01x02_Male" H 1573 2123 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 1600 2150 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 1600 2150 50  0001 C CNN
+F 4 "Mouser" H 1600 2150 50  0001 C CNN "Distributor"
+F 5 "538-70553-0001" H 1600 2150 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 1600 2150 50  0001 C CNN "Manufacturer"
+F 7 "70553-0001" H 1600 2150 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/538-70553-0001" H 1600 2150 50  0001 C CNN "URL"
+F 9 "0.71" H 1600 2150 50  0001 C CNN "Unit Price"
 	1    1600 2150
 	1    0    0    1   
 $EndComp
@@ -309,7 +351,13 @@ P 2900 2200
 F 0 "R3" V 2785 2200 50  0000 C CNN
 F 1 "10k" V 2694 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 2200 50  0001 C CNN
-F 3 "~" H 2900 2200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 2900 2200 50  0001 C CNN
+F 4 "Digikey" H 2900 2200 50  0001 C CNN "Distributor"
+F 5 "YAG2321CT-ND" H 2900 2200 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 2900 2200 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE0710KL" H 2900 2200 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE0710KL/YAG2321CT-ND/5252435" H 2900 2200 50  0001 C CNN "URL"
+F 9 "0.10" H 2900 2200 50  0001 C CNN "Unit Price"
 	1    2900 2200
 	0    -1   -1   0   
 $EndComp
@@ -376,6 +424,12 @@ F 0 "D3" V 4646 5920 50  0000 R CNN
 F 1 "1N4148WS" V 4555 5920 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 4600 5825 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 4600 6000 50  0001 C CNN
+F 4 "Mouser" H 4600 6000 50  0001 C CNN "Distributor"
+F 5 "512-1N4148WS" H 4600 6000 50  0001 C CNN "Distributor PN"
+F 6 "ON Semiconductor" H 4600 6000 50  0001 C CNN "Manufacturer"
+F 7 "1N4148WS" H 4600 6000 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/512-1N4148WS" H 4600 6000 50  0001 C CNN "URL"
+F 9 "0.15" H 4600 6000 50  0001 C CNN "Unit Price"
 	1    4600 6000
 	0    -1   -1   0   
 $EndComp
@@ -387,6 +441,12 @@ F 0 "D4" V 4646 6320 50  0000 R CNN
 F 1 "1N4148WS" V 4555 6320 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 4600 6225 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 4600 6400 50  0001 C CNN
+F 4 "Mouser" H 4600 6400 50  0001 C CNN "Distributor"
+F 5 "512-1N4148WS" H 4600 6400 50  0001 C CNN "Distributor PN"
+F 6 "ON Semiconductor" H 4600 6400 50  0001 C CNN "Manufacturer"
+F 7 "1N4148WS" H 4600 6400 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/512-1N4148WS" H 4600 6400 50  0001 C CNN "URL"
+F 9 "0.15" H 4600 6400 50  0001 C CNN "Unit Price"
 	1    4600 6400
 	0    -1   -1   0   
 $EndComp
@@ -397,7 +457,13 @@ P 4600 7050
 F 0 "R13" H 4670 7096 50  0000 L CNN
 F 1 "4.7k" H 4670 7005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4530 7050 50  0001 C CNN
-F 3 "~" H 4600 7050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 4600 7050 50  0001 C CNN
+F 4 "Mouser" H 4600 7050 50  0001 C CNN "Distributor"
+F 5 "603-RT0603FRE074K7L" H 4600 7050 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 4600 7050 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE074K7L" H 4600 7050 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/603-RT0603FRE074K7L" H 4600 7050 50  0001 C CNN "URL"
+F 9 "0.10" H 4600 7050 50  0001 C CNN "Unit Price"
 	1    4600 7050
 	1    0    0    -1  
 $EndComp
@@ -457,7 +523,13 @@ P 3450 6250
 F 0 "R12" H 3380 6204 50  0000 R CNN
 F 1 "22k" H 3380 6295 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 6250 50  0001 C CNN
-F 3 "~" H 3450 6250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 3450 6250 50  0001 C CNN
+F 4 "Mouser" H 3450 6250 50  0001 C CNN "Distributor"
+F 5 "603-RT0603FRE1322KL" H 3450 6250 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 3450 6250 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE1322KL" H 3450 6250 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL" H 3450 6250 50  0001 C CNN "URL"
+F 9 "0.19" H 3450 6250 50  0001 C CNN "Unit Price"
 	1    3450 6250
 	-1   0    0    1   
 $EndComp
@@ -468,7 +540,13 @@ P 2900 5500
 F 0 "R9" V 3107 5500 50  0000 C CNN
 F 1 "10k" V 3016 5500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 5500 50  0001 C CNN
-F 3 "~" H 2900 5500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 2900 5500 50  0001 C CNN
+F 4 "Digikey" H 2900 5500 50  0001 C CNN "Distributor"
+F 5 "YAG2321CT-ND" H 2900 5500 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 2900 5500 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE0710KL" H 2900 5500 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE0710KL/YAG2321CT-ND/5252435" H 2900 5500 50  0001 C CNN "URL"
+F 9 "0.10" H 2900 5500 50  0001 C CNN "Unit Price"
 	1    2900 5500
 	0    -1   -1   0   
 $EndComp
@@ -508,6 +586,12 @@ F 0 "J2" H 1573 5532 50  0000 R CNN
 F 1 "Molex_SL_01x02_Male" H 1573 5623 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 1600 5650 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 1600 5650 50  0001 C CNN
+F 4 "Mouser" H 1600 5650 50  0001 C CNN "Distributor"
+F 5 "538-70553-0001" H 1600 5650 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 1600 5650 50  0001 C CNN "Manufacturer"
+F 7 "70553-0001" H 1600 5650 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/538-70553-0001" H 1600 5650 50  0001 C CNN "URL"
+F 9 "0.71" H 1600 5650 50  0001 C CNN "Unit Price"
 	1    1600 5650
 	1    0    0    1   
 $EndComp
@@ -522,7 +606,13 @@ P 2900 5700
 F 0 "R11" V 2785 5700 50  0000 C CNN
 F 1 "10k" V 2694 5700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 5700 50  0001 C CNN
-F 3 "~" H 2900 5700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 2900 5700 50  0001 C CNN
+F 4 "Digikey" H 2900 5700 50  0001 C CNN "Distributor"
+F 5 "YAG2321CT-ND" H 2900 5700 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 2900 5700 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE0710KL" H 2900 5700 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/product-detail/en/yageo/RT0603FRE0710KL/YAG2321CT-ND/5252435" H 2900 5700 50  0001 C CNN "URL"
+F 9 "0.10" H 2900 5700 50  0001 C CNN "Unit Price"
 	1    2900 5700
 	0    -1   -1   0   
 $EndComp
@@ -560,6 +650,13 @@ F 0 "C5" H 3165 6296 50  0000 L CNN
 F 1 "22p" H 3165 6205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 6100 50  0001 C CNN
 F 3 "~" H 3050 6250 50  0001 C CNN
+F 4 "C0G/NP0" H 3050 6250 50  0001 C CNN "Dielectric"
+F 5 "Mouser" H 3050 6250 50  0001 C CNN "Distributor"
+F 6 "80-C0603C220J5G7411" H 3050 6250 50  0001 C CNN "Distributor PN"
+F 7 "KEMET" H 3050 6250 50  0001 C CNN "Manufacturer"
+F 8 "C0603C220J5GAC7411" H 3050 6250 50  0001 C CNN "Manufacturer PN"
+F 9 "https://www.mouser.com/ProductDetail/80-C0603C220J5G7411" H 3050 6250 50  0001 C CNN "URL"
+F 10 "0.23" H 3050 6250 50  0001 C CNN "Unit Price"
 	1    3050 6250
 	1    0    0    -1  
 $EndComp
@@ -584,7 +681,13 @@ P 3450 2750
 F 0 "R4" H 3380 2704 50  0000 R CNN
 F 1 "22k" H 3380 2795 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3380 2750 50  0001 C CNN
-F 3 "~" H 3450 2750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 3450 2750 50  0001 C CNN
+F 4 "Mouser" H 3450 2750 50  0001 C CNN "Distributor"
+F 5 "603-RT0603FRE1322KL" H 3450 2750 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 3450 2750 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE1322KL" H 3450 2750 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL" H 3450 2750 50  0001 C CNN "URL"
+F 9 "0.19" H 3450 2750 50  0001 C CNN "Unit Price"
 	1    3450 2750
 	-1   0    0    1   
 $EndComp
@@ -611,6 +714,13 @@ F 0 "C2" H 3165 2796 50  0000 L CNN
 F 1 "22p" H 3165 2705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 2600 50  0001 C CNN
 F 3 "~" H 3050 2750 50  0001 C CNN
+F 4 "C0G/NP0" H 3050 2750 50  0001 C CNN "Dielectric"
+F 5 "Mouser" H 3050 2750 50  0001 C CNN "Distributor"
+F 6 "80-C0603C220J5G7411" H 3050 2750 50  0001 C CNN "Distributor PN"
+F 7 "KEMET" H 3050 2750 50  0001 C CNN "Manufacturer"
+F 8 "C0603C220J5GAC7411" H 3050 2750 50  0001 C CNN "Manufacturer PN"
+F 9 "https://www.mouser.com/ProductDetail/80-C0603C220J5G7411" H 3050 2750 50  0001 C CNN "URL"
+F 10 "0.23" H 3050 2750 50  0001 C CNN "Unit Price"
 	1    3050 2750
 	1    0    0    -1  
 $EndComp
@@ -641,6 +751,13 @@ F 0 "C1" V 3598 1300 50  0000 C CNN
 F 1 "22p" V 3689 1300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 1150 50  0001 C CNN
 F 3 "~" H 3850 1300 50  0001 C CNN
+F 4 "C0G/NP0" H 3850 1300 50  0001 C CNN "Dielectric"
+F 5 "Mouser" H 3850 1300 50  0001 C CNN "Distributor"
+F 6 "80-C0603C220J5G7411" H 3850 1300 50  0001 C CNN "Distributor PN"
+F 7 "KEMET" H 3850 1300 50  0001 C CNN "Manufacturer"
+F 8 "C0603C220J5GAC7411" H 3850 1300 50  0001 C CNN "Manufacturer PN"
+F 9 "https://www.mouser.com/ProductDetail/80-C0603C220J5G7411" H 3850 1300 50  0001 C CNN "URL"
+F 10 "0.23" H 3850 1300 50  0001 C CNN "Unit Price"
 	1    3850 1300
 	0    1    1    0   
 $EndComp
@@ -652,6 +769,13 @@ F 0 "C4" V 3598 4800 50  0000 C CNN
 F 1 "22p" V 3689 4800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 4650 50  0001 C CNN
 F 3 "~" H 3850 4800 50  0001 C CNN
+F 4 "C0G/NP0" H 3850 4800 50  0001 C CNN "Dielectric"
+F 5 "Mouser" H 3850 4800 50  0001 C CNN "Distributor"
+F 6 "80-C0603C220J5G7411" H 3850 4800 50  0001 C CNN "Distributor PN"
+F 7 "KEMET" H 3850 4800 50  0001 C CNN "Manufacturer"
+F 8 "C0603C220J5GAC7411" H 3850 4800 50  0001 C CNN "Manufacturer PN"
+F 9 "https://www.mouser.com/ProductDetail/80-C0603C220J5G7411" H 3850 4800 50  0001 C CNN "URL"
+F 10 "0.23" H 3850 4800 50  0001 C CNN "Unit Price"
 	1    3850 4800
 	0    1    1    0   
 $EndComp
@@ -691,6 +815,8 @@ F 4 "ON Semiconductor" H 3900 2100 50  0001 C CNN "Manufacturer"
 F 5 "NE5532AD8R2G" H 3900 2100 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 3900 2100 50  0001 C CNN "Distributor"
 F 7 "NE5532AD8R2GOSCT-ND" H 3900 2100 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND" H 3900 2100 50  0001 C CNN "URL"
+F 9 "0.90" H 3900 2100 50  0001 C CNN "Unit Price"
 	1    3900 2100
 	1    0    0    1   
 $EndComp
@@ -720,7 +846,13 @@ P 3850 4400
 F 0 "R10" V 3643 4400 50  0000 C CNN
 F 1 "22k" V 3734 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3780 4400 50  0001 C CNN
-F 3 "~" H 3850 4400 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 3850 4400 50  0001 C CNN
+F 4 "Mouser" H 3850 4400 50  0001 C CNN "Distributor"
+F 5 "603-RT0603FRE1322KL" H 3850 4400 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 3850 4400 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE1322KL" H 3850 4400 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL" H 3850 4400 50  0001 C CNN "URL"
+F 9 "0.19" H 3850 4400 50  0001 C CNN "Unit Price"
 	1    3850 4400
 	0    1    1    0   
 $EndComp
@@ -886,6 +1018,12 @@ F 0 "J3" H 8022 6074 50  0000 R CNN
 F 1 "Molex_SL_01x03_Male" H 8022 5983 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70553-0002_1x03_P2.54mm_Horizontal" H 8050 6050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 8050 6050 50  0001 C CNN
+F 4 "Mouser" H 8050 6050 50  0001 C CNN "Distributor"
+F 5 "538-70553-0002" H 8050 6050 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 8050 6050 50  0001 C CNN "Manufacturer"
+F 7 "70553-0002" H 8050 6050 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/538-70553-0002" H 8050 6050 50  0001 C CNN "URL"
+F 9 "1.12" H 8050 6050 50  0001 C CNN "Unit Price"
 	1    8050 6050
 	-1   0    0    -1  
 $EndComp
@@ -909,6 +1047,8 @@ F 4 "ON Semiconductor" H 3900 5600 50  0001 C CNN "Manufacturer"
 F 5 "NE5532AD8R2G" H 3900 5600 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 3900 5600 50  0001 C CNN "Distributor"
 F 7 "NE5532AD8R2GOSCT-ND" H 3900 5600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND" H 3900 5600 50  0001 C CNN "URL"
+F 9 "0.90" H 3900 5600 50  0001 C CNN "Unit Price"
 	2    3900 5600
 	1    0    0    1   
 $EndComp
@@ -924,6 +1064,8 @@ F 4 "ON Semiconductor" H 7750 1350 50  0001 C CNN "Manufacturer"
 F 5 "NE5532AD8R2G" H 7750 1350 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 7750 1350 50  0001 C CNN "Distributor"
 F 7 "NE5532AD8R2GOSCT-ND" H 7750 1350 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND" H 7750 1350 50  0001 C CNN "URL"
+F 9 "0.90" H 7750 1350 50  0001 C CNN "Unit Price"
 	3    7750 1350
 	1    0    0    1   
 $EndComp
@@ -1114,7 +1256,13 @@ P 6350 6250
 F 0 "R16" H 6420 6296 50  0000 L CNN
 F 1 "22k" H 6420 6205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 6250 50  0001 C CNN
-F 3 "~" H 6350 6250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6350 6250 50  0001 C CNN
+F 4 "Mouser" H 6350 6250 50  0001 C CNN "Distributor"
+F 5 "603-RT0603FRE1322KL" H 6350 6250 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 6350 6250 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE1322KL" H 6350 6250 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL" H 6350 6250 50  0001 C CNN "URL"
+F 9 "0.19" H 6350 6250 50  0001 C CNN "Unit Price"
 	1    6350 6250
 	1    0    0    -1  
 $EndComp
@@ -1132,7 +1280,13 @@ P 6350 2750
 F 0 "R8" H 6420 2796 50  0000 L CNN
 F 1 "22k" H 6420 2705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 2750 50  0001 C CNN
-F 3 "~" H 6350 2750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_11.pdf" H 6350 2750 50  0001 C CNN
+F 4 "Mouser" H 6350 2750 50  0001 C CNN "Distributor"
+F 5 "603-RT0603FRE1322KL" H 6350 2750 50  0001 C CNN "Distributor PN"
+F 6 "Yageo" H 6350 2750 50  0001 C CNN "Manufacturer"
+F 7 "RT0603FRE1322KL" H 6350 2750 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/603-RT0603FRE1322KL" H 6350 2750 50  0001 C CNN "URL"
+F 9 "0.19" H 6350 2750 50  0001 C CNN "Unit Price"
 	1    6350 2750
 	1    0    0    -1  
 $EndComp
