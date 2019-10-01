@@ -128,8 +128,11 @@ F 1 "Molex_SL_01x02_Male" H 6322 4583 50  0000 R CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 6350 4700 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 6350 4700 50  0001 C CNN
 F 4 "Molex" H 6350 4700 50  0001 C CNN "Manufacturer"
-F 5 "0705430003" H 6350 4700 50  0001 C CNN "Manufacturer PN"
+F 5 "0705430001" H 6350 4700 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 6350 4700 50  0001 C CNN "Distributor"
+F 7 "WM4900-ND" H 6350 4700 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=70553-0001" H 6350 4700 50  0001 C CNN "URL"
+F 9 "0.74" H 6350 4700 50  0001 C CNN "Unit Price"
 	1    6350 4700
 	-1   0    0    -1  
 $EndComp
@@ -656,7 +659,13 @@ P 8750 4500
 F 0 "J6" H 8800 4917 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 8800 4826 50  0000 C CNN
 F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 8750 4500 50  0001 C CNN
-F 3 "~" H 8750 4500 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/702461001_sd.pdf" H 8750 4500 50  0001 C CNN
+F 4 "Digikey" H 8750 4500 50  0001 C CNN "Distributor"
+F 5 "WM9219-ND" H 8750 4500 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 8750 4500 50  0001 C CNN "Manufacturer"
+F 7 "0702461001" H 8750 4500 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en?keywords=70246-1001" H 8750 4500 50  0001 C CNN "URL"
+F 9 "1.70" H 8750 4500 50  0001 C CNN "Unit Price"
 	1    8750 4500
 	1    0    0    -1  
 $EndComp
@@ -890,6 +899,9 @@ F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 6300 2150 50  0001 C 
 F 4 "Molex" H 6300 2150 50  0001 C CNN "Manufacturer"
 F 5 "0705430001" H 6300 2150 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 6300 2150 50  0001 C CNN "Distributor"
+F 7 "WM4900-ND" H 6300 2150 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=70553-0001" H 6300 2150 50  0001 C CNN "URL"
+F 9 "0.74" H 6300 2150 50  0001 C CNN "Unit Price"
 	1    6300 2150
 	1    0    0    -1  
 $EndComp
@@ -915,8 +927,11 @@ F 1 "Molex_SL_01x02_Male" H 9208 2226 50  0000 C CNN
 F 2 "Connector_Molex_SL:Molex_SL_A-70553-0001_1x02_P2.54mm_Horizontal" H 9100 2550 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/705430001_sd.pdf" H 9100 2550 50  0001 C CNN
 F 4 "Molex" H 9100 2550 50  0001 C CNN "Manufacturer"
-F 5 "0705430003" H 9100 2550 50  0001 C CNN "Manufacturer PN"
+F 5 "0705430001" H 9100 2550 50  0001 C CNN "Manufacturer PN"
 F 6 "Digikey" H 9100 2550 50  0001 C CNN "Distributor"
+F 7 "WM4900-ND" H 9100 2550 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=70553-0001" H 9100 2550 50  0001 C CNN "URL"
+F 9 "0.74" H 9100 2550 50  0001 C CNN "Unit Price"
 	1    9100 2550
 	-1   0    0    -1  
 $EndComp
