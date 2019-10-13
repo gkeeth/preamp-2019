@@ -6,8 +6,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "INPUT/OUTPUT BOARD"
-Date "2019-09-22"
-Rev "0"
+Date "2019-10-13"
+Rev "1"
 Comp "G. Keeth"
 Comment1 "Preamp 2019"
 Comment2 ""
