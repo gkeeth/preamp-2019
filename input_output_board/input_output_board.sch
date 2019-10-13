@@ -803,8 +803,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 2650 8900 2650
 Wire Wire Line
-	7750 2450 8750 2450
-Wire Wire Line
 	7750 2250 8550 2250
 Wire Wire Line
 	7750 2050 8350 2050
@@ -820,15 +818,10 @@ Text Label 7900 2250 0    50   ~ 0
 headphone_hot
 Text Label 7900 2050 0    50   ~ 0
 main_hot
-Connection ~ 7850 1200
 Wire Wire Line
-	8750 1650 8750 2450
+	9000 1650 9000 2450
 Wire Wire Line
 	8350 2050 8350 1350
-Wire Wire Line
-	8100 1200 7850 1200
-Wire Wire Line
-	8100 1300 8100 1200
 Wire Wire Line
 	6600 2250 6600 2550
 Wire Wire Line
@@ -857,37 +850,26 @@ $EndComp
 $Comp
 L Device:D D5
 U 1 1 5D821EA3
-P 7450 1200
-F 0 "D5" H 7450 1416 50  0000 C CNN
-F 1 "MRA4004T3G" H 7450 1325 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 7450 1200 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 7450 1200 50  0001 C CNN
-F 4 "On Semiconductor" H 7450 1200 50  0001 C CNN "Manufacturer"
-F 5 "MRA4004T3G" H 7450 1200 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 7450 1200 50  0001 C CNN "Distributor"
-F 7 "MRA4004T3GOSCT-ND" H 7450 1200 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 7450 1200 50  0001 C CNN "URL"
-F 9 "0.29" H 7450 1200 50  0001 C CNN "Unit Price"
-	1    7450 1200
-	1    0    0    -1  
+P 7050 1450
+F 0 "D5" V 7004 1529 50  0000 L CNN
+F 1 "MRA4004T3G" V 7095 1529 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 7050 1450 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF" H 7050 1450 50  0001 C CNN
+F 4 "On Semiconductor" H 7050 1450 50  0001 C CNN "Manufacturer"
+F 5 "MRA4004T3G" H 7050 1450 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 7050 1450 50  0001 C CNN "Distributor"
+F 7 "MRA4004T3GOSCT-ND" H 7050 1450 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/diodes-rectifiers-single/280?k=MRA4004T3G&k=&pkeyword=MRA4004T3G&sv=0&pv7=2&sf=0&quantity=&ColumnSort=0&page=1&pageSize=25" H 7050 1450 50  0001 C CNN "URL"
+F 9 "0.29" H 7050 1450 50  0001 C CNN "Unit Price"
+	1    7050 1450
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	7300 1200 7050 1200
-Wire Wire Line
-	7050 1200 7050 1750
-Wire Wire Line
-	7050 1750 7150 1750
 Wire Wire Line
 	7750 1750 7850 1750
 Wire Wire Line
 	7850 1750 7850 1200
-Wire Wire Line
-	7850 1200 7600 1200
-Text Label 6100 1750 0    50   ~ 0
+Text Label 6350 1200 0    50   ~ 0
 headphone_select
-Wire Wire Line
-	6100 1750 7050 1750
-Connection ~ 7050 1750
 $Comp
 L Connector_gkeeth:Molex_SL_01x02_Male J8
 U 1 1 5D821ECB
@@ -905,17 +887,17 @@ F 9 "0.74" H 6300 2150 50  0001 C CNN "Unit Price"
 	1    6300 2150
 	1    0    0    -1  
 $EndComp
-Text Label 9850 1350 2    50   ~ 0
+Text Label 10100 1350 2    50   ~ 0
 main_shield
 $Comp
 L power_gkeeth:GNDRELAY #PWR0101
 U 1 1 5D821EF0
-P 8100 1300
-F 0 "#PWR0101" H 8100 1050 50  0001 C CNN
-F 1 "GNDRELAY" H 8104 1145 50  0000 C CNN
-F 2 "" H 8100 1300 50  0001 C CNN
-F 3 "" H 8100 1300 50  0001 C CNN
-	1    8100 1300
+P 6900 1800
+F 0 "#PWR0101" H 6900 1550 50  0001 C CNN
+F 1 "GNDRELAY" H 6904 1645 50  0000 C CNN
+F 2 "" H 6900 1800 50  0001 C CNN
+F 3 "" H 6900 1800 50  0001 C CNN
+	1    6900 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -936,33 +918,51 @@ F 9 "0.74" H 9100 2550 50  0001 C CNN "Unit Price"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8350 1350 8450 1350
+	9300 1350 9350 1350
 Wire Wire Line
-	9050 1350 9100 1350
+	9100 1650 9100 1700
 Wire Wire Line
-	8850 1650 8850 1700
+	9100 1700 9350 1700
 Wire Wire Line
-	8850 1700 9100 1700
+	9350 1700 9350 1350
 Wire Wire Line
-	9100 1700 9100 1350
-Wire Wire Line
-	9100 1350 9850 1350
-Connection ~ 9100 1350
+	9350 1350 10100 1350
+Connection ~ 9350 1350
 $Comp
 L Connector_gkeeth:Neutrik_NC3MAH J5
 U 1 1 5D8B61B8
-P 8750 1350
-F 0 "J5" H 8750 1715 50  0000 C CNN
-F 1 "Neutrik_NC3MAH" H 8750 1624 50  0000 C CNN
-F 2 "Connector_Audio_project:Jack_XLR_Neutrik_NC3MAH_Horizontal" H 8750 1350 50  0001 C CNN
-F 3 "https://www.neutrik.us/en-us/product/nc3mah" H 8750 1350 50  0001 C CNN
-F 4 "Mouser" H 8750 1350 50  0001 C CNN "Distributor"
-F 5 "568-NC3MAH" H 8750 1350 50  0001 C CNN "Distributor PN"
-F 6 "Neutrik" H 8750 1350 50  0001 C CNN "Manufacturer"
-F 7 "NC3MAH" H 8750 1350 50  0001 C CNN "Manufacturer PN"
-F 8 "https://www.mouser.com/ProductDetail/Neutrik/NC3MAH?qs=sGAEpiMZZMv0W4pxf2HiV0%252BKdhvD8lQRNSjbmflhq7A%3D" H 8750 1350 50  0001 C CNN "URL"
-F 9 "1.25" H 8750 1350 50  0001 C CNN "Unit Price"
-	1    8750 1350
+P 9000 1350
+F 0 "J5" H 9000 1715 50  0000 C CNN
+F 1 "Neutrik_NC3MAH" H 9000 1624 50  0000 C CNN
+F 2 "Connector_Audio_project:Jack_XLR_Neutrik_NC3MAH_Horizontal" H 9000 1350 50  0001 C CNN
+F 3 "https://www.neutrik.us/en-us/product/nc3mah" H 9000 1350 50  0001 C CNN
+F 4 "Mouser" H 9000 1350 50  0001 C CNN "Distributor"
+F 5 "568-NC3MAH" H 9000 1350 50  0001 C CNN "Distributor PN"
+F 6 "Neutrik" H 9000 1350 50  0001 C CNN "Manufacturer"
+F 7 "NC3MAH" H 9000 1350 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.mouser.com/ProductDetail/Neutrik/NC3MAH?qs=sGAEpiMZZMv0W4pxf2HiV0%252BKdhvD8lQRNSjbmflhq7A%3D" H 9000 1350 50  0001 C CNN "URL"
+F 9 "1.25" H 9000 1350 50  0001 C CNN "Unit Price"
+	1    9000 1350
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	6900 1800 6900 1750
+Wire Wire Line
+	8350 1350 8700 1350
+Wire Wire Line
+	7750 2450 9000 2450
+Wire Wire Line
+	6900 1750 7050 1750
+Wire Wire Line
+	7050 1600 7050 1750
+Connection ~ 7050 1750
+Wire Wire Line
+	7050 1750 7150 1750
+Wire Wire Line
+	7050 1300 7050 1200
+Wire Wire Line
+	7050 1200 7850 1200
+Wire Wire Line
+	6350 1200 7050 1200
+Connection ~ 7050 1200
 $EndSCHEMATC
