@@ -6,8 +6,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Headphone Amplifier"
-Date "2019-09-14"
-Rev "0"
+Date "2019-10-13"
+Rev "1"
 Comp "G. Keeth"
 Comment1 "Preamp 2019"
 Comment2 ""
@@ -803,23 +803,6 @@ Wire Wire Line
 Connection ~ 4350 900 
 Wire Wire Line
 	4350 900  5800 900 
-$Comp
-L Amplifier_Operational:NE5532 U1
-U 1 1 5D8981A1
-P 3900 2100
-F 0 "U1" H 3900 1733 50  0000 C CNN
-F 1 "NE5532" H 3900 1824 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 2100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3900 2100 50  0001 C CNN
-F 4 "ON Semiconductor" H 3900 2100 50  0001 C CNN "Manufacturer"
-F 5 "NE5532AD8R2G" H 3900 2100 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 3900 2100 50  0001 C CNN "Distributor"
-F 7 "NE5532AD8R2GOSCT-ND" H 3900 2100 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND" H 3900 2100 50  0001 C CNN "URL"
-F 9 "0.90" H 3900 2100 50  0001 C CNN "Unit Price"
-	1    3900 2100
-	1    0    0    1   
-$EndComp
 Text Notes 1450 4650 0    50   ~ 0
 fc = 1/(2 x pi x 22k x 22p) = 330kHz\nBandwidth limiting capacitors may be unnecessary
 $Comp
@@ -1035,40 +1018,6 @@ Text Label 7300 6150 0    50   ~ 0
 gnd_out
 Text Notes 7800 6300 0    50   ~ 0
 Connect output connector ground to star ground
-$Comp
-L Amplifier_Operational:NE5532 U1
-U 2 1 5D95A57F
-P 3900 5600
-F 0 "U1" H 3900 5233 50  0000 C CNN
-F 1 "NE5532" H 3900 5324 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 5600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3900 5600 50  0001 C CNN
-F 4 "ON Semiconductor" H 3900 5600 50  0001 C CNN "Manufacturer"
-F 5 "NE5532AD8R2G" H 3900 5600 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 3900 5600 50  0001 C CNN "Distributor"
-F 7 "NE5532AD8R2GOSCT-ND" H 3900 5600 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND" H 3900 5600 50  0001 C CNN "URL"
-F 9 "0.90" H 3900 5600 50  0001 C CNN "Unit Price"
-	2    3900 5600
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:NE5532 U1
-U 3 1 5D95E720
-P 7750 1350
-F 0 "U1" H 7708 1304 50  0000 L CNN
-F 1 "NE5532" H 7708 1395 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7750 1350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 7750 1350 50  0001 C CNN
-F 4 "ON Semiconductor" H 7750 1350 50  0001 C CNN "Manufacturer"
-F 5 "NE5532AD8R2G" H 7750 1350 50  0001 C CNN "Manufacturer PN"
-F 6 "Digikey" H 7750 1350 50  0001 C CNN "Distributor"
-F 7 "NE5532AD8R2GOSCT-ND" H 7750 1350 50  0001 C CNN "Distributor PN"
-F 8 "https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND" H 7750 1350 50  0001 C CNN "URL"
-F 9 "0.90" H 7750 1350 50  0001 C CNN "Unit Price"
-	3    7750 1350
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:CP1 C9
 U 1 1 5D9649FC
@@ -1307,4 +1256,55 @@ Wire Wire Line
 	6800 6450 6800 6150
 Wire Wire Line
 	6800 6150 7050 6150
+$Comp
+L Amplifier_Operational:NE5532 U1
+U 1 1 5D8981A1
+P 3900 5600
+F 0 "U1" H 3900 5233 50  0000 C CNN
+F 1 "NE5532" H 3900 5324 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 5600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3900 5600 50  0001 C CNN
+F 4 "ON Semiconductor" H 3900 5600 50  0001 C CNN "Manufacturer"
+F 5 "NE5532AD8R2G" H 3900 5600 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3900 5600 50  0001 C CNN "Distributor"
+F 7 "NE5532AD8R2GOSCT-ND" H 3900 5600 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND" H 3900 5600 50  0001 C CNN "URL"
+F 9 "0.90" H 3900 5600 50  0001 C CNN "Unit Price"
+	1    3900 5600
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U1
+U 3 1 5D95E720
+P 7750 1350
+F 0 "U1" H 7708 1304 50  0000 L CNN
+F 1 "NE5532" H 7708 1395 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7750 1350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 7750 1350 50  0001 C CNN
+F 4 "ON Semiconductor" H 7750 1350 50  0001 C CNN "Manufacturer"
+F 5 "NE5532AD8R2G" H 7750 1350 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 7750 1350 50  0001 C CNN "Distributor"
+F 7 "NE5532AD8R2GOSCT-ND" H 7750 1350 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND" H 7750 1350 50  0001 C CNN "URL"
+F 9 "0.90" H 7750 1350 50  0001 C CNN "Unit Price"
+	3    7750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:NE5532 U1
+U 2 1 5D95A57F
+P 3900 2100
+F 0 "U1" H 3900 1733 50  0000 C CNN
+F 1 "NE5532" H 3900 1824 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne5532.pdf" H 3900 2100 50  0001 C CNN
+F 4 "ON Semiconductor" H 3900 2100 50  0001 C CNN "Manufacturer"
+F 5 "NE5532AD8R2G" H 3900 2100 50  0001 C CNN "Manufacturer PN"
+F 6 "Digikey" H 3900 2100 50  0001 C CNN "Distributor"
+F 7 "NE5532AD8R2GOSCT-ND" H 3900 2100 50  0001 C CNN "Distributor PN"
+F 8 "https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND" H 3900 2100 50  0001 C CNN "URL"
+F 9 "0.90" H 3900 2100 50  0001 C CNN "Unit Price"
+	2    3900 2100
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
