@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/graham/Projects/preamp-2019/input_output_board/input_output_board.sch</source>
-    <date>Tue 01 Oct 2019 08:27:54 AM EDT</date>
+    <date>Sun 13 Oct 2019 07:21:07 PM EDT</date>
     <tool>Eeschema 5.1.4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>INPUT/OUTPUT BOARD</title>
         <company>G. Keeth</company>
-        <rev>0</rev>
-        <date>2019-09-22</date>
+        <rev>1</rev>
+        <date>2019-10-13</date>
         <source>input_output_board.sch</source>
         <comment number="1" value="Preamp 2019"/>
         <comment number="2" value=""/>
@@ -457,62 +457,62 @@
   </libraries>
   <nets>
     <net code="1" name="/input1_select">
-      <node ref="K1" pin="1"/>
       <node ref="J6" pin="2"/>
+      <node ref="K1" pin="1"/>
       <node ref="D1" pin="1"/>
     </net>
     <net code="2" name="/input4_select">
-      <node ref="D4" pin="1"/>
-      <node ref="J6" pin="8"/>
       <node ref="K4" pin="1"/>
+      <node ref="J6" pin="8"/>
+      <node ref="D4" pin="1"/>
     </net>
     <net code="3" name="/input3_select">
-      <node ref="D3" pin="1"/>
       <node ref="J6" pin="6"/>
       <node ref="K3" pin="1"/>
+      <node ref="D3" pin="1"/>
     </net>
     <net code="4" name="/input2_select">
-      <node ref="J6" pin="4"/>
       <node ref="D2" pin="1"/>
+      <node ref="J6" pin="4"/>
       <node ref="K2" pin="1"/>
     </net>
-    <net code="5" name="/headphone_select">
-      <node ref="K5" pin="12"/>
-      <node ref="D5" pin="1"/>
-      <node ref="J6" pin="10"/>
-    </net>
-    <net code="6" name="/main_shield">
+    <net code="5" name="/main_shield">
       <node ref="J5" pin="1"/>
       <node ref="J5" pin="G"/>
     </net>
-    <net code="7" name="/output_cold">
+    <net code="6" name="/output_cold">
       <node ref="J8" pin="2"/>
       <node ref="K5" pin="9"/>
     </net>
-    <net code="8" name="GNDRELAY">
-      <node ref="K2" pin="12"/>
-      <node ref="D3" pin="2"/>
+    <net code="7" name="GNDRELAY">
+      <node ref="K1" pin="12"/>
       <node ref="D1" pin="2"/>
       <node ref="D2" pin="2"/>
-      <node ref="K1" pin="12"/>
+      <node ref="K5" pin="12"/>
+      <node ref="D3" pin="2"/>
       <node ref="K3" pin="12"/>
-      <node ref="D4" pin="2"/>
-      <node ref="K4" pin="12"/>
-      <node ref="J6" pin="9"/>
-      <node ref="J6" pin="7"/>
-      <node ref="J6" pin="5"/>
+      <node ref="K2" pin="12"/>
       <node ref="J6" pin="3"/>
       <node ref="J6" pin="1"/>
-      <node ref="K5" pin="1"/>
+      <node ref="J6" pin="5"/>
+      <node ref="D4" pin="2"/>
+      <node ref="K4" pin="12"/>
       <node ref="D5" pin="2"/>
+      <node ref="J6" pin="7"/>
+      <node ref="J6" pin="9"/>
     </net>
-    <net code="9" name="/output_hot">
+    <net code="8" name="/headphone_select">
+      <node ref="J6" pin="10"/>
+      <node ref="K5" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="9" name="/main_cold">
+      <node ref="J5" pin="3"/>
+      <node ref="K5" pin="10"/>
+    </net>
+    <net code="10" name="/output_hot">
       <node ref="J8" pin="1"/>
       <node ref="K5" pin="4"/>
-    </net>
-    <net code="10" name="/headphone_cold">
-      <node ref="K5" pin="8"/>
-      <node ref="J9" pin="2"/>
     </net>
     <net code="11" name="/main_hot">
       <node ref="K5" pin="3"/>
@@ -522,9 +522,9 @@
       <node ref="K5" pin="5"/>
       <node ref="J9" pin="1"/>
     </net>
-    <net code="13" name="/main_cold">
-      <node ref="J5" pin="3"/>
-      <node ref="K5" pin="10"/>
+    <net code="13" name="/headphone_cold">
+      <node ref="J9" pin="2"/>
+      <node ref="K5" pin="8"/>
     </net>
     <net code="14" name="Net-(K1-Pad10)">
       <node ref="K1" pin="10"/>
@@ -545,8 +545,8 @@
       <node ref="K3" pin="10"/>
     </net>
     <net code="20" name="/input2_cold">
-      <node ref="J2" pin="3"/>
       <node ref="K2" pin="8"/>
+      <node ref="J2" pin="3"/>
       <node ref="J2" pin="R"/>
     </net>
     <net code="21" name="/input1_hot">
@@ -555,8 +555,8 @@
       <node ref="K1" pin="5"/>
     </net>
     <net code="22" name="/input1_cold">
-      <node ref="K1" pin="8"/>
       <node ref="J1" pin="R"/>
+      <node ref="K1" pin="8"/>
       <node ref="J1" pin="3"/>
     </net>
     <net code="23" name="/input1_shield">
