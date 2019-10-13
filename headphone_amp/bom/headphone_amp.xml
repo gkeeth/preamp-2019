@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/graham/Projects/preamp-2019/headphone_amp/headphone_amp.sch</source>
-    <date>Tue 01 Oct 2019 08:24:51 AM EDT</date>
+    <date>Sun 13 Oct 2019 07:17:30 PM EDT</date>
     <tool>Eeschema 5.1.4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Headphone Amplifier</title>
         <company>G. Keeth</company>
-        <rev>0</rev>
-        <date>2019-09-14</date>
+        <rev>1</rev>
+        <date>2019-10-13</date>
         <source>headphone_amp.sch</source>
         <comment number="1" value="Preamp 2019"/>
         <comment number="2" value=""/>
@@ -408,22 +408,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D888CF1</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>NE5532</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/ne5532.pdf</datasheet>
-      <fields>
-        <field name="Distributor">Digikey</field>
-        <field name="Distributor PN">NE5532AD8R2GOSCT-ND</field>
-        <field name="Manufacturer">ON Semiconductor</field>
-        <field name="Manufacturer PN">NE5532AD8R2G</field>
-        <field name="URL">https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND</field>
-        <field name="Unit Price">0.90</field>
-      </fields>
-      <libsource lib="Amplifier_Operational" part="NE5532" description="Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D8981A1</tstamp>
-    </comp>
     <comp ref="R7">
       <value>10</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
@@ -663,6 +647,22 @@
       <libsource lib="Device" part="Net-Tie_2" description="Net tie, 2 pins"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D95037D</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>NE5532</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne5532.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Digikey</field>
+        <field name="Distributor PN">NE5532AD8R2GOSCT-ND</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">NE5532AD8R2G</field>
+        <field name="URL">https://www.digikey.com/products/en?keywords=NE5532AD8R2GOSCT-ND</field>
+        <field name="Unit Price">0.90</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="NE5532" description="Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8981A1</tstamp>
     </comp>
   </components>
   <libparts>
@@ -943,124 +943,124 @@
   </libraries>
   <nets>
     <net code="1" name="Net-(C4-Pad2)">
+      <node ref="U1" pin="2"/>
       <node ref="R9" pin="2"/>
-      <node ref="U1" pin="6"/>
       <node ref="C4" pin="2"/>
       <node ref="R10" pin="2"/>
     </net>
     <net code="2" name="VCC">
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="8"/>
       <node ref="Q3" pin="2"/>
       <node ref="Q1" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="U1" pin="4"/>
       <node ref="C8" pin="1"/>
-      <node ref="J4" pin="1"/>
+      <node ref="C7" pin="1"/>
     </net>
-    <net code="3" name="Net-(C1-Pad2)">
+    <net code="3" name="VEE">
+      <node ref="R13" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="4" name="GNDA">
+      <node ref="H2" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="NT1" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad2)">
+      <node ref="U1" pin="6"/>
       <node ref="C1" pin="2"/>
       <node ref="R1" pin="2"/>
       <node ref="R2" pin="2"/>
-      <node ref="U1" pin="2"/>
     </net>
-    <net code="4" name="VEE">
-      <node ref="C7" pin="2"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="J4" pin="3"/>
-      <node ref="R5" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="5" name="GNDA">
-      <node ref="R4" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="J4" pin="2"/>
-      <node ref="H2" pin="1"/>
-      <node ref="H1" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="R12" pin="1"/>
-      <node ref="R16" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="NT1" pin="1"/>
-    </net>
-    <net code="6" name="Net-(C2-Pad1)">
-      <node ref="R3" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="R4" pin="2"/>
-      <node ref="C2" pin="1"/>
-    </net>
-    <net code="7" name="Net-(Q2-Pad3)">
-      <node ref="R7" pin="2"/>
-      <node ref="Q2" pin="3"/>
-    </net>
-    <net code="8" name="Net-(D2-Pad1)">
-      <node ref="R5" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="Q2" pin="1"/>
-    </net>
-    <net code="9" name="Net-(Q1-Pad3)">
-      <node ref="Q1" pin="3"/>
-      <node ref="R6" pin="1"/>
-    </net>
-    <net code="10" name="Net-(C5-Pad1)">
+    <net code="7" name="Net-(C5-Pad1)">
       <node ref="R11" pin="2"/>
-      <node ref="C5" pin="1"/>
-      <node ref="U1" pin="5"/>
       <node ref="R12" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="3"/>
     </net>
-    <net code="11" name="/gnd_out">
+    <net code="8" name="/gnd_out">
       <node ref="NT1" pin="2"/>
       <node ref="J3" pin="3"/>
     </net>
-    <net code="12" name="/right_out">
+    <net code="9" name="/right_out">
       <node ref="R16" pin="1"/>
       <node ref="C6" pin="1"/>
       <node ref="J3" pin="2"/>
     </net>
-    <net code="13" name="/left_out">
-      <node ref="R8" pin="1"/>
-      <node ref="J3" pin="1"/>
+    <net code="10" name="/left_out">
       <node ref="C3" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="11" name="Net-(Q2-Pad3)">
+      <node ref="R7" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="12" name="Net-(D2-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(Q1-Pad3)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q1" pin="3"/>
     </net>
     <net code="14" name="/left_hot">
-      <node ref="R3" pin="1"/>
       <node ref="J1" pin="1"/>
+      <node ref="R3" pin="1"/>
     </net>
     <net code="15" name="/left_cold">
       <node ref="J1" pin="2"/>
       <node ref="R1" pin="1"/>
     </net>
     <net code="16" name="Net-(D1-Pad1)">
-      <node ref="D2" pin="2"/>
       <node ref="D1" pin="1"/>
+      <node ref="D2" pin="2"/>
     </net>
     <net code="17" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2"/>
       <node ref="Q1" pin="1"/>
-      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="7"/>
     </net>
     <net code="18" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1"/>
       <node ref="R7" pin="1"/>
+      <node ref="C1" pin="1"/>
       <node ref="C3" pin="2"/>
-      <node ref="R2" pin="1"/>
       <node ref="R6" pin="2"/>
+      <node ref="R2" pin="1"/>
     </net>
     <net code="19" name="/right_hot">
-      <node ref="J2" pin="1"/>
       <node ref="R11" pin="1"/>
+      <node ref="J2" pin="1"/>
     </net>
     <net code="20" name="/right_cold">
-      <node ref="J2" pin="2"/>
       <node ref="R9" pin="1"/>
+      <node ref="J2" pin="2"/>
     </net>
     <net code="21" name="Net-(D3-Pad2)">
-      <node ref="Q3" pin="1"/>
+      <node ref="U1" pin="1"/>
       <node ref="D3" pin="2"/>
-      <node ref="U1" pin="7"/>
+      <node ref="Q3" pin="1"/>
     </net>
     <net code="22" name="Net-(D3-Pad1)">
       <node ref="D4" pin="2"/>
@@ -1076,9 +1076,9 @@
       <node ref="Q4" pin="3"/>
     </net>
     <net code="25" name="Net-(C4-Pad1)">
-      <node ref="C6" pin="2"/>
-      <node ref="R10" pin="1"/>
       <node ref="C4" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C6" pin="2"/>
       <node ref="R14" pin="2"/>
       <node ref="R15" pin="1"/>
     </net>
