@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:input_output_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -219,13 +218,13 @@ NoConn ~ 3700 3250
 NoConn ~ 3700 3650
 NoConn ~ 3700 5400
 NoConn ~ 3700 5000
-Text Label 9900 4300 2    50   ~ 0
-input1_select
 Text Label 9900 4400 2    50   ~ 0
-input2_select
+input1_select
 Text Label 9900 4500 2    50   ~ 0
-input3_select
+input2_select
 Text Label 9900 4600 2    50   ~ 0
+input3_select
+Text Label 9900 4700 2    50   ~ 0
 input4_select
 Wire Wire Line
 	8550 4300 8450 4300
@@ -265,7 +264,7 @@ Text Label 2900 2950 0    50   ~ 0
 input2_select
 Text Label 2900 4700 0    50   ~ 0
 input3_select
-Text Label 9900 4700 2    50   ~ 0
+Text Label 9900 4300 2    50   ~ 0
 headphone_select
 Wire Wire Line
 	8450 4700 8450 4600
@@ -643,31 +642,31 @@ $EndComp
 Wire Wire Line
 	5150 4700 6150 4700
 Wire Wire Line
+	9050 4700 9900 4700
+Wire Wire Line
 	9050 4600 9900 4600
 Wire Wire Line
 	9050 4500 9900 4500
 Wire Wire Line
 	9050 4400 9900 4400
 Wire Wire Line
-	9050 4300 9900 4300
-Wire Wire Line
-	9900 4700 9050 4700
+	9900 4300 9050 4300
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J6
 U 1 1 5CC54E3F
-P 8750 4500
-F 0 "J6" H 8800 4917 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 8800 4826 50  0000 C CNN
-F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 8750 4500 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/702461001_sd.pdf" H 8750 4500 50  0001 C CNN
-F 4 "Digikey" H 8750 4500 50  0001 C CNN "Distributor"
-F 5 "WM9219-ND" H 8750 4500 50  0001 C CNN "Distributor PN"
-F 6 "Molex" H 8750 4500 50  0001 C CNN "Manufacturer"
-F 7 "0702461001" H 8750 4500 50  0001 C CNN "Manufacturer PN"
-F 8 "https://www.digikey.com/products/en?keywords=70246-1001" H 8750 4500 50  0001 C CNN "URL"
-F 9 "1.70" H 8750 4500 50  0001 C CNN "Unit Price"
-	1    8750 4500
-	1    0    0    -1  
+P 8850 4500
+F 0 "J6" H 8900 4917 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 8900 4826 50  0000 C CNN
+F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70247-10xx_2x05_P2.54mm_Horizontal" H 8850 4500 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/702461001_sd.pdf" H 8850 4500 50  0001 C CNN
+F 4 "Digikey" H 8850 4500 50  0001 C CNN "Distributor"
+F 5 "WM9219-ND" H 8850 4500 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 8850 4500 50  0001 C CNN "Manufacturer"
+F 7 "0702461001" H 8850 4500 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en?keywords=70246-1001" H 8850 4500 50  0001 C CNN "URL"
+F 9 "1.70" H 8850 4500 50  0001 C CNN "Unit Price"
+	1    8850 4500
+	-1   0    0    -1  
 $EndComp
 Connection ~ 2050 1700
 Wire Wire Line
