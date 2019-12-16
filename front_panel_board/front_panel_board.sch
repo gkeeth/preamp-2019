@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:front_panel_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -168,7 +167,7 @@ NoConn ~ 5000 3500
 NoConn ~ 5000 3700
 NoConn ~ 5000 3800
 Wire Wire Line
-	5100 3400 5100 4850
+	5100 2900 5100 4850
 Text Notes 4200 2600 0    50   ~ 0
 use adjustable stops to limit to 4 positions
 Text Notes 8000 1850 0    50   ~ 0
@@ -226,7 +225,7 @@ F 9 "0.84" H 1200 1450 50  0001 C CNN "Unit Price"
 	1    1200 1450
 	1    0    0    -1  
 $EndComp
-Text Label 5350 3400 0    50   ~ 0
+Text Label 5350 2900 0    50   ~ 0
 headphone_select
 Text Label 5350 3300 0    50   ~ 0
 input4_select
@@ -236,80 +235,50 @@ Text Label 5350 3100 0    50   ~ 0
 input2_select
 Text Label 5350 3000 0    50   ~ 0
 input1_select
-Connection ~ 6150 3400
+Connection ~ 6550 2900
 Wire Wire Line
-	5100 3400 6150 3400
+	5100 2900 6550 2900
 Wire Wire Line
-	6150 3400 6150 4150
+	6550 2900 6550 3650
 Wire Wire Line
-	6250 3300 5000 3300
-Connection ~ 6250 3300
+	6150 3300 5000 3300
+Connection ~ 6150 3300
 Wire Wire Line
-	6250 3300 6250 4050
-Connection ~ 6350 3200
+	6150 3300 6150 4050
+Connection ~ 6250 3200
 Wire Wire Line
-	5000 3200 6350 3200
+	5000 3200 6250 3200
 Wire Wire Line
-	6350 3200 6350 3950
+	6250 3200 6250 3950
 Wire Wire Line
-	6450 3100 5000 3100
-Connection ~ 6450 3100
+	6350 3100 5000 3100
+Connection ~ 6350 3100
 Wire Wire Line
-	6450 3100 6450 3850
+	6350 3100 6350 3850
 Wire Wire Line
-	5000 3000 6550 3000
-Connection ~ 6550 3000
+	5000 3000 6450 3000
+Connection ~ 6450 3000
 Wire Wire Line
-	6550 3750 6550 3000
-Wire Wire Line
-	7500 4150 7500 4050
-Connection ~ 7500 4150
-Wire Wire Line
-	7300 4150 7500 4150
+	6450 3750 6450 3000
 Wire Wire Line
 	7500 4050 7500 3950
 Connection ~ 7500 4050
 Wire Wire Line
-	7300 4050 7500 4050
-Wire Wire Line
 	7500 3950 7500 3850
 Connection ~ 7500 3950
 Wire Wire Line
-	7300 3950 7500 3950
-Wire Wire Line
 	7500 3850 7500 3750
 Connection ~ 7500 3850
-Wire Wire Line
-	7500 3850 7300 3850
-Wire Wire Line
-	7500 3750 7500 3400
 Connection ~ 7500 3750
-Wire Wire Line
-	7300 3750 7500 3750
-Wire Wire Line
-	7500 3400 7500 3300
-Connection ~ 7500 3400
-Wire Wire Line
-	7300 3400 7500 3400
 Wire Wire Line
 	7500 3300 7500 3200
 Connection ~ 7500 3300
 Wire Wire Line
-	7300 3300 7500 3300
-Wire Wire Line
 	7500 3200 7500 3100
 Connection ~ 7500 3200
 Wire Wire Line
-	7300 3200 7500 3200
-Wire Wire Line
 	7500 3100 7500 3000
 Connection ~ 7500 3100
-Wire Wire Line
-	7300 3100 7500 3100
-Wire Wire Line
-	7500 3000 7300 3000
-Wire Wire Line
-	7500 4300 7500 4150
 $Comp
 L power_gkeeth:GNDRELAY #PWR0105
 U 1 1 5CD37D01
@@ -343,58 +312,58 @@ F 9 "8.05" H 4600 3600 50  0001 C CNN "Unit Price"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 4050 6800 4050
+	6150 4050 6800 4050
 Wire Wire Line
-	6350 3950 6800 3950
+	6250 3950 6800 3950
 Wire Wire Line
-	6450 3850 6800 3850
+	6350 3850 6800 3850
 Wire Wire Line
-	6800 3750 6550 3750
+	6800 3750 6450 3750
 Wire Wire Line
-	6150 4150 6800 4150
+	6550 3650 6800 3650
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J3
 U 1 1 5D106F42
-P 7100 3950
-F 0 "J3" H 7150 4367 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 7150 4276 50  0000 C CNN
-F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 7100 3950 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/702461001_sd.pdf" H 7100 3950 50  0001 C CNN
-F 4 "Digikey" H 7100 3950 50  0001 C CNN "Distributor"
-F 5 "WM9219-ND" H 7100 3950 50  0001 C CNN "Distributor PN"
-F 6 "Molex" H 7100 3950 50  0001 C CNN "Manufacturer"
-F 7 "0702461001" H 7100 3950 50  0001 C CNN "Manufacturer PN"
-F 8 "https://www.digikey.com/products/en?keywords=70246-1001" H 7100 3950 50  0001 C CNN "URL"
-F 9 "1.70" H 7100 3950 50  0001 C CNN "Unit Price"
-	1    7100 3950
-	-1   0    0    -1  
+P 7000 3850
+F 0 "J3" H 7050 4267 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 7050 4176 50  0000 C CNN
+F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 7000 3850 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/702461001_sd.pdf" H 7000 3850 50  0001 C CNN
+F 4 "Digikey" H 7000 3850 50  0001 C CNN "Distributor"
+F 5 "WM9219-ND" H 7000 3850 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 7000 3850 50  0001 C CNN "Manufacturer"
+F 7 "0702461001" H 7000 3850 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en?keywords=70246-1001" H 7000 3850 50  0001 C CNN "URL"
+F 9 "1.70" H 7000 3850 50  0001 C CNN "Unit Price"
+	1    7000 3850
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 3300 6250 3300
+	6800 3300 6150 3300
 Wire Wire Line
-	6350 3200 6800 3200
+	6250 3200 6800 3200
 Wire Wire Line
-	6800 3100 6450 3100
+	6800 3100 6350 3100
 Wire Wire Line
-	6550 3000 6800 3000
+	6450 3000 6800 3000
 Wire Wire Line
-	6150 3400 6800 3400
+	6550 2900 6800 2900
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 5CD2571D
-P 7100 3200
-F 0 "J2" H 7150 3617 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 7150 3526 50  0000 C CNN
-F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 7100 3200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/702461001_sd.pdf" H 7100 3200 50  0001 C CNN
-F 4 "Digikey" H 7100 3200 50  0001 C CNN "Distributor"
-F 5 "WM9219-ND" H 7100 3200 50  0001 C CNN "Distributor PN"
-F 6 "Molex" H 7100 3200 50  0001 C CNN "Manufacturer"
-F 7 "0702461001" H 7100 3200 50  0001 C CNN "Manufacturer PN"
-F 8 "https://www.digikey.com/products/en?keywords=70246-1001" H 7100 3200 50  0001 C CNN "URL"
-F 9 "1.70" H 7100 3200 50  0001 C CNN "Unit Price"
-	1    7100 3200
-	-1   0    0    -1  
+P 7000 3100
+F 0 "J2" H 7050 3517 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 7050 3426 50  0000 C CNN
+F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70246-1001_2x05_P2.54mm_Vertical" H 7000 3100 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/702461001_sd.pdf" H 7000 3100 50  0001 C CNN
+F 4 "Digikey" H 7000 3100 50  0001 C CNN "Distributor"
+F 5 "WM9219-ND" H 7000 3100 50  0001 C CNN "Distributor PN"
+F 6 "Molex" H 7000 3100 50  0001 C CNN "Manufacturer"
+F 7 "0702461001" H 7000 3100 50  0001 C CNN "Manufacturer PN"
+F 8 "https://www.digikey.com/products/en?keywords=70246-1001" H 7000 3100 50  0001 C CNN "URL"
+F 9 "1.70" H 7000 3100 50  0001 C CNN "Unit Price"
+	1    7000 3100
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_SPDT SW2
@@ -499,4 +468,34 @@ F 9 "0.12" H 3700 3400 50  0001 C CNN "Unit Price"
 	1    3700 3400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7300 4050 7500 4050
+Wire Wire Line
+	7300 3950 7500 3950
+Wire Wire Line
+	7300 3850 7500 3850
+Wire Wire Line
+	7300 3750 7500 3750
+Wire Wire Line
+	7300 3300 7500 3300
+Wire Wire Line
+	7300 3200 7500 3200
+Wire Wire Line
+	7300 3100 7500 3100
+Wire Wire Line
+	7300 3000 7500 3000
+Wire Wire Line
+	7500 3300 7500 3650
+Wire Wire Line
+	7500 4050 7500 4300
+Wire Wire Line
+	7300 3650 7500 3650
+Connection ~ 7500 3650
+Wire Wire Line
+	7500 3650 7500 3750
+Wire Wire Line
+	7300 2900 7500 2900
+Wire Wire Line
+	7500 2900 7500 3000
+Connection ~ 7500 3000
 $EndSCHEMATC
