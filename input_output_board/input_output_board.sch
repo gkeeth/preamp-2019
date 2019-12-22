@@ -658,13 +658,13 @@ P 8850 4500
 F 0 "J6" H 8900 4917 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 8900 4826 50  0000 C CNN
 F 2 "Connector_Molex_C-Grid:Molex_C-Grid_70247-10xx_2x05_P2.54mm_Horizontal" H 8850 4500 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/702461001_sd.pdf" H 8850 4500 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/702471051_sd.pdf" H 8850 4500 50  0001 C CNN
 F 4 "Digikey" H 8850 4500 50  0001 C CNN "Distributor"
-F 5 "WM9219-ND" H 8850 4500 50  0001 C CNN "Distributor PN"
+F 5 "WM4634-ND" H 8850 4500 50  0001 C CNN "Distributor PN"
 F 6 "Molex" H 8850 4500 50  0001 C CNN "Manufacturer"
-F 7 "0702461001" H 8850 4500 50  0001 C CNN "Manufacturer PN"
+F 7 "702461001" H 8850 4500 50  0001 C CNN "Manufacturer PN"
 F 8 "https://www.digikey.com/products/en?keywords=70246-1001" H 8850 4500 50  0001 C CNN "URL"
-F 9 "1.70" H 8850 4500 50  0001 C CNN "Unit Price"
+F 9 "" H 8850 4500 50  0001 C CNN "Unit Price"
 	1    8850 4500
 	-1   0    0    -1  
 $EndComp
